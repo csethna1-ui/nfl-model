@@ -1,0 +1,11 @@
+{
+  "w_elo": 0.4,
+  "w_epa": 0.5,
+  "w_gbm": 0.1,
+  "w_epa_t": 0.8,
+  "w_gbm_t": 0.2,
+  "val_mae": 11.08,
+  "op_spread_thresh": 3.0,
+  "op_total_thresh": null,
+  "note": "v2: +QB EPA/play ratings + wind; totals still not played"
+}

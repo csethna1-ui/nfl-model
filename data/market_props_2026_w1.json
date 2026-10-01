@@ -1,0 +1,185 @@
+[
+ {
+  "player": "Josh Allen",
+  "market": "pass_yards",
+  "line": 224.5
+ },
+ {
+  "player": "Lamar Jackson",
+  "market": "pass_yards",
+  "line": 219.5
+ },
+ {
+  "player": "Patrick Mahomes",
+  "market": "pass_yards",
+  "line": 231.5
+ },
+ {
+  "player": "Joe Burrow",
+  "market": "pass_yards",
+  "line": 268.5
+ },
+ {
+  "player": "Jordan Love",
+  "market": "pass_yards",
+  "line": 235.5
+ },
+ {
+  "player": "Jared Goff",
+  "market": "pass_yards",
+  "line": 261.5
+ },
+ {
+  "player": "C.J. Stroud",
+  "market": "pass_yards",
+  "line": 221.5
+ },
+ {
+  "player": "Bo Nix",
+  "market": "pass_yards",
+  "line": 225.5
+ },
+ {
+  "player": "Baker Mayfield",
+  "market": "pass_yards",
+  "line": 229.5
+ },
+ {
+  "player": "Daniel Jones",
+  "market": "pass_yards",
+  "line": 230.5
+ },
+ {
+  "player": "Saquon Barkley",
+  "market": "rush_yards",
+  "line": 78.5
+ },
+ {
+  "player": "Jahmyr Gibbs",
+  "market": "rush_yards",
+  "line": 79.5
+ },
+ {
+  "player": "James Cook III",
+  "market": "rush_yards",
+  "line": 77.5
+ },
+ {
+  "player": "Jonathan Taylor",
+  "market": "rush_yards",
+  "line": 75.5
+ },
+ {
+  "player": "De'Von Achane",
+  "market": "rush_yards",
+  "line": 65.5
+ },
+ {
+  "player": "Omarion Hampton",
+  "market": "rush_yards",
+  "line": 65.5
+ },
+ {
+  "player": "Breece Hall",
+  "market": "rush_yards",
+  "line": 63.5
+ },
+ {
+  "player": "D'Andre Swift",
+  "market": "rush_yards",
+  "line": 62.5
+ },
+ {
+  "player": "Kenneth Walker",
+  "market": "rush_yards",
+  "line": 60.5,
+  "team": "KC"
+ },
+ {
+  "player": "Bucky Irving",
+  "market": "rush_yards",
+  "line": 57.5
+ },
+ {
+  "player": "Chase Brown",
+  "market": "rush_yards",
+  "line": 61.5
+ },
+ {
+  "player": "Ashton Jeanty",
+  "market": "rush_yards",
+  "line": 57.5
+ },
+ {
+  "player": "Ja'Marr Chase",
+  "market": "receiving_yards",
+  "line": 83.5
+ },
+ {
+  "player": "Justin Jefferson",
+  "market": "receiving_yards",
+  "line": 74.5
+ },
+ {
+  "player": "DeVonta Smith",
+  "market": "receiving_yards",
+  "line": 67.5
+ },
+ {
+  "player": "Nico Collins",
+  "market": "receiving_yards",
+  "line": 66.5
+ },
+ {
+  "player": "Zay Flowers",
+  "market": "receiving_yards",
+  "line": 65.5
+ },
+ {
+  "player": "Christian Watson",
+  "market": "receiving_yards",
+  "line": 54.5
+ },
+ {
+  "player": "Jaylen Waddle",
+  "market": "receiving_yards",
+  "line": 50.5,
+  "team": "DEN"
+ },
+ {
+  "player": "Terry McLaurin",
+  "market": "receiving_yards",
+  "line": 49.5
+ },
+ {
+  "player": "Alec Pierce",
+  "market": "receiving_yards",
+  "line": 49.5
+ },
+ {
+  "player": "Tyler Warren",
+  "market": "receiving_yards",
+  "line": 45.5
+ },
+ {
+  "player": "Michael Pittman Jr.",
+  "market": "receiving_yards",
+  "line": 41.5,
+  "team": "PIT"
+ },
+ {
+  "player": "Dallas Goedert",
+  "market": "receiving_yards",
+  "line": 36.5
+ },
+ {
+  "player": "Dalton Kincaid",
+  "market": "receiving_yards",
+  "line": 36.5
+ },
+ {
+  "player": "Mark Andrews",
+  "market": "receiving_yards",
+  "line": 35.5
+ }
+]

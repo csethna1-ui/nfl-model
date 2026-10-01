@@ -1,0 +1,10 @@
+{
+ "label": "Current Ratings - Pre-Game Week 3 (phase3 as-of reconstruction)",
+ "season": 2026,
+ "week": 3,
+ "method": "byte-verified reproduction of the ratings_current_2026_w4 code path: 03_ratings.run_elo + 07_update_weekly.run_epa_current; W4 reconstruction matches the shipped w4 file exactly",
+ "played_games": 2259,
+ "latest_game_included": "2026_02_NYG_LA",
+ "regressed_priors_applied": false,
+ "n_teams": 33
+}

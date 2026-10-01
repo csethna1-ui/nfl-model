@@ -1,0 +1,119 @@
+{
+ "n_train": 1270,
+ "n_dev": 986,
+ "M0": {
+  "mae": 8.298592751189341
+ },
+ "M1": {
+  "mae": 7.265521414960621,
+  "a_alpha": 100.0,
+  "b_params": {
+   "learning_rate": 0.05,
+   "max_depth": 3,
+   "max_iter": 200
+  },
+  "feats": [
+   "pace_team_plays",
+   "pace_combined",
+   "pace_neutral_pass_rate",
+   "ctx_elo_adv",
+   "trail_pass_att_ewma",
+   "qb_changed",
+   "exp_rookie",
+   "exp_second_year",
+   "exp_career_games",
+   "trail_games"
+  ]
+ },
+ "M2": {
+  "mae": 7.2075299511258555,
+  "a_alpha": 100.0,
+  "b_params": {
+   "learning_rate": 0.05,
+   "max_depth": 3,
+   "max_iter": 200
+  },
+  "feats": [
+   "pace_team_plays",
+   "pace_combined",
+   "pace_neutral_pass_rate",
+   "ctx_elo_adv",
+   "trail_pass_att_ewma",
+   "qb_changed",
+   "exp_rookie",
+   "exp_second_year",
+   "exp_career_games",
+   "trail_games",
+   "ngs_ttt_trail",
+   "ngs_aggro_trail",
+   "ngs_iay_trail",
+   "ngs_ayts_trail",
+   "ngs_xcomp_trail",
+   "ngs_cpoe_trail"
+  ]
+ },
+ "M3": {
+  "mae": 7.185633931197742,
+  "a_alpha": 100.0,
+  "b_params": {
+   "learning_rate": 0.05,
+   "max_depth": 3,
+   "max_iter": 200
+  },
+  "feats": [
+   "pace_team_plays",
+   "pace_combined",
+   "pace_neutral_pass_rate",
+   "ctx_elo_adv",
+   "trail_pass_att_ewma",
+   "qb_changed",
+   "exp_rookie",
+   "exp_second_year",
+   "exp_career_games",
+   "trail_games",
+   "ctx_team_off_epa",
+   "ctx_team_off_pass_epa",
+   "ctx_team_off_rush_epa",
+   "ctx_team_off_sr",
+   "oppd_def_epa",
+   "oppd_def_pass_epa",
+   "oppd_def_rush_epa",
+   "oppd_def_sr",
+   "envs_dome",
+   "envs_team_pts_trail",
+   "envs_opp_pts_allowed_trail",
+   "envf_days_rest",
+   "envf_rest_diff",
+   "envf_short_week",
+   "envf_long_rest",
+   "envf_div_game",
+   "inj_player_status",
+   "inj_team_out_share",
+   "inj_ol_out",
+   "qb_epa_trail",
+   "qb_cpoe_trail",
+   "qb_adot_trail",
+   "qb_pressure_trail"
+  ]
+ },
+ "C0": {
+  "mae": 5.082017081937328
+ },
+ "C1": {
+  "mae": 5.0398061408560855,
+  "a_alpha": 100.0,
+  "b_params": {
+   "learning_rate": 0.05,
+   "max_depth": 3,
+   "max_iter": 200
+  },
+  "feats": [
+   "ngs_xcomp_trail",
+   "ngs_cpoe_trail",
+   "ngs_aggro_trail",
+   "qb_adot_trail",
+   "qb_pressure_trail"
+  ]
+ },
+ "elapsed_s": 477.9
+}

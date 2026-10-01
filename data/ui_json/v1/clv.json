@@ -1,0 +1,122 @@
+{
+ "model_version": "V1",
+ "aggregate": {
+  "n": 14,
+  "avg_clv_pts": 0.32,
+  "hit_rate": 0.5
+ },
+ "picks": [
+  {
+   "season": 2026,
+   "week": 1,
+   "game": "ARI @ LAC",
+   "pick": "ARI +9.5",
+   "result": "win",
+   "clv_pts": 1.0
+  },
+  {
+   "season": 2026,
+   "week": 1,
+   "game": "DAL @ NYG",
+   "pick": "NYG +2.5",
+   "result": "win",
+   "clv_pts": -0.5
+  },
+  {
+   "season": 2026,
+   "week": 1,
+   "game": "DEN @ KC",
+   "pick": "DEN +2.5",
+   "result": "loss",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 1,
+   "game": "MIA @ LV",
+   "pick": "MIA +3.5",
+   "result": "loss",
+   "clv_pts": 0.5
+  },
+  {
+   "season": 2026,
+   "week": 1,
+   "game": "NO @ DET",
+   "pick": "NO +6.5",
+   "result": "win",
+   "clv_pts": -0.5
+  },
+  {
+   "season": 2026,
+   "week": 2,
+   "game": "CLE @ TB",
+   "pick": "CLE +8.5",
+   "result": "win",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 2,
+   "game": "JAX @ DEN",
+   "pick": "JAX +2.5",
+   "result": "loss",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 2,
+   "game": "LV @ LAC",
+   "pick": "LV +7.5",
+   "result": "win",
+   "clv_pts": 1.0
+  },
+  {
+   "season": 2026,
+   "week": 2,
+   "game": "MIA @ SF",
+   "pick": "MIA +13.0",
+   "result": "loss",
+   "clv_pts": 0.5
+  },
+  {
+   "season": 2026,
+   "week": 2,
+   "game": "MIN @ CHI",
+   "pick": "MIN +5.5",
+   "result": "win",
+   "clv_pts": 1.0
+  },
+  {
+   "season": 2026,
+   "week": 2,
+   "game": "NYG @ LA",
+   "pick": "NYG +7.5",
+   "result": "loss",
+   "clv_pts": 1.0
+  },
+  {
+   "season": 2026,
+   "week": 2,
+   "game": "WAS @ DAL",
+   "pick": "WAS +3.5",
+   "result": "loss",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 3,
+   "game": "KC @ MIA",
+   "pick": "MIA +10.5",
+   "result": "loss",
+   "clv_pts": 0.5
+  },
+  {
+   "season": 2026,
+   "week": 3,
+   "game": "LAC @ BUF",
+   "pick": "BUF -7.0",
+   "result": "win",
+   "clv_pts": 0.0
+  }
+ ]
+}

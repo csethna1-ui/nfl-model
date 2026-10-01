@@ -1,0 +1,147 @@
+# Update model data and the public data layer (MANUAL TRIGGER ONLY).
+#
+# This workflow runs the fully-automated parts of the weekly pipeline inside
+# GitHub Actions, mirroring the Friday cron order documented in
+# docs/DEPLOYMENT_AUDIT.md and docs/INJURY_PIPELINE_RUNBOOK.md.
+# It is intentionally NOT scheduled: the Friday flow has manual inputs
+# (researched market lines, QB-news checks) that a human must commit first.
+# Trigger it from the Actions tab after those inputs are in place.
+#
+# Preconditions (fail-loud if missing):
+#   - data/market_2026_w{N}.json   (human-researched Friday game lines;
+#     {"AWAY_HOME": [spread, total], ...}, home-spread convention)
+#
+# Pipeline:
+#   29 (QB expectations) -> 27 --freeze-friday (injury cutoff) ->
+#   07 (game predictions) -> 11 (injury/QB overlay) -> 28 (injury audit) ->
+#   16/17/19 --refresh + predict (props: Model D yards, 003B rush attempts,
+#     003A receptions — experimental, additive) ->
+#   30 (Friday prop lines, Bovada keyless) ->
+#   15 --week N -> 18 --week N (UI JSON exporters)
+# Then: validate outputs, sync canonical UI JSON -> dashboard/data/,
+#       commit and push. The deploy.yml workflow picks up the push and
+#       redeploys the site.
+#
+# Safety: any step failing stops the workflow; nothing is committed unless
+# every validation passes. The workflow never edits model code, weights,
+# experiments, or research conclusions. Projection -> line -> lean stay
+# separate (no edge claims are generated anywhere in this pipeline).
+#
+# Cost: $0 (Actions free tier). Dependency install dominates runtime.
+
+name: Update Model Data (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      season:
+        description: 'Season year (e.g. 2026)'
+        required: true
+        default: '2026'
+        type: string
+      week:
+        description: 'NFL week number to generate (e.g. 5)'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    name: Run weekly pipeline
+    runs-on: ubuntu-latest
+    env:
+      SEASON: ${{ inputs.season }}
+      WEEK: ${{ inputs.week }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check manual Friday inputs exist
+        run: |
+          test -f "data/market_${SEASON}_w${WEEK}.json" \
+            || (echo "BLOCKED: data/market_${SEASON}_w${WEEK}.json missing — commit the human-researched Friday game lines first (see docs/LOCAL_DEVELOPMENT.md)." && exit 1)
+          echo "OK: manual market lines present for ${SEASON} week ${WEEK}."
+
+      - name: QB expectations + Friday injury freeze
+        run: |
+          python scripts/29_qb_expectation.py --season "${SEASON}" --week "${WEEK}"
+          python scripts/27_injury_diff.py --freeze-friday --season "${SEASON}" --week "${WEEK}"
+
+      - name: Game predictions + injury overlay + audit
+        run: |
+          python scripts/07_update_weekly.py --season "${SEASON}" --week "${WEEK}" \
+            --market-json "data/market_${SEASON}_w${WEEK}.json"
+          python scripts/11_injury_adjust.py --season "${SEASON}" --week "${WEEK}" \
+            --predictions-csv "data/predictions_${SEASON}_w${WEEK}.csv" \
+            --market-json "data/market_${SEASON}_w${WEEK}.json" \
+            --injury-state "data/injuries/availability_friday_${SEASON}_w${WEEK}.json" \
+            --expected-qb "data/qb_expectations/qb_expected_${SEASON}_w${WEEK}.parquet"
+          python scripts/28_injury_audit.py --season "${SEASON}" --week "${WEEK}"
+
+      - name: Player props (Model D + 003A/003B experimental)
+        run: |
+          python scripts/16_prod_player_projection.py --refresh
+          python scripts/16_prod_player_projection.py --season "${SEASON}" --week "${WEEK}"
+          python scripts/17_prod_rush_attempts.py --season "${SEASON}" --week "${WEEK}"
+          python scripts/19_prod_receptions.py --season "${SEASON}" --week "${WEEK}"
+          python scripts/30_pull_prop_lines.py --season "${SEASON}" --week "${WEEK}"
+
+      - name: Export UI JSON
+        run: |
+          python scripts/15_export_ui_json.py --week "${WEEK}"
+          python scripts/18_export_experimental_markets.py --week "${WEEK}"
+
+      - name: Validate outputs (fail-loud)
+        run: |
+          python3 - <<'EOF'
+          import json, os, sys
+          from pathlib import Path
+          ui = Path("data/ui_json/v1")
+          errors = []
+          for p in sorted(ui.glob("*.json")):
+              raw = p.read_text()
+              # Same gate as scripts/15_export_ui_json.py: no non-finite literals
+              for token in ("NaN", "Infinity", "-Infinity"):
+                  if token in raw:
+                      errors.append(f"NON-FINITE literal '{token}' in {p.name}")
+              try:
+                  json.loads(raw)
+              except json.JSONDecodeError as e:
+                  errors.append(f"INVALID JSON {p.name}: {e}")
+          for name in ("predictions", "props", "meta", "record", "teams",
+                       "experimental_markets"):
+              if not (ui / f"{name}.json").exists():
+                  errors.append(f"MISSING data/ui_json/v1/{name}.json")
+          if errors:
+              print("OUTPUT VALIDATION FAILED:")
+              for e in errors:
+                  print(" -", e)
+              sys.exit(1)
+          print(f"OK: {os.environ['SEASON']} week {os.environ['WEEK']} UI JSON valid, finite, complete.")
+          EOF
+
+      - name: Sync canonical UI JSON to public data layer
+        run: |
+          cp data/ui_json/v1/*.json dashboard/data/v1/
+          cp data/ui_json/versions.json dashboard/data/versions.json
+          echo "Synced $(ls dashboard/data/v1/*.json | wc -l) files to dashboard/data/."
+
+      - name: Commit and push
+        run: |
+          git config user.name "nfl-model-bot"
+          git config user.email "nfl-model-bot@users.noreply.github.com"
+          git add "data/" "dashboard/data/"
+          git diff --cached --quiet && echo "No changes to commit." && exit 0
+          git commit -m "Week ${WEEK} ${SEASON} data update (automated pipeline)"
+          git push

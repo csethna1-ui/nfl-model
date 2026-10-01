@@ -1,0 +1,19 @@
+{
+ "q_share": 0.0020358325378691693,
+ "q_eff": 7.471633260653485,
+ "r": 0.19272996438450665,
+ "prior_share": 0.37092584624165387,
+ "prior_eff": 4.152300598459355,
+ "V0_share": 1.0,
+ "V0_eff": 100.0,
+ "dev_loglik": -3075.0145994483455,
+ "market_def": {
+  "pos": [
+   "RB"
+  ],
+  "share": "rush_share_g",
+  "eff_num": "rush_yards",
+  "eff_den": "rush_att",
+  "n": "rush_att"
+ }
+}

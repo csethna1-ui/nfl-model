@@ -1,0 +1,23 @@
+# DEPLOYMENT BASELINE CHECKSUMS — public dashboard data layer
+# Recorded 2026-10-01 (Thu) ~15:45 CDT, BEFORE any migration change.
+# Files: data/ui_json/v1/* + data/ui_json/versions.json
+# These are the canonical dashboard artifacts the Phase 3/4/6/9 regression
+# checks must reproduce byte-for-byte (parsed values) after any deployment
+# adapter. Same parsed values = pass; any diff = STOP, do not "fix" by
+# changing the model. See docs/DEPLOYMENT_SAFETY_RULES.md.
+
+7076000b3b7bae817101cdfb820338bd78c3bea1920e6ec46bf228de1a7561d1  data/ui_json/v1/backtest.json
+60cb03eef8b150471125b4ec1065887ae8620aa676cb5c0e69742129cfd8f447  data/ui_json/v1/clv.json
+ccbf9df84944fea84446477ac7fb14793d60a4beb799cae9cc099e10dcb84709  data/ui_json/v1/experimental_markets.json
+369ab684900e140370ebb40f171237fd6237d35768e098dc187e56e38186993d  data/ui_json/v1/injuries.json
+045c0f7da26632523c3355a57cc650767e8f9f2545bb633621bbe5d82c672683  data/ui_json/v1/meta.json
+54969c35cd723a623e45343b37d9e0b507847fa1025398b2e1eeccb579cec665  data/ui_json/v1/model_facts.json
+4694e58f855c62ce0eb2474cbf29341f686a91832710beaa00835c97d310b7ab  data/ui_json/v1/predictions.json
+bf197d492c8bd5acb700328646573b311a9369833e1a47c19ec1656fe95f537d  data/ui_json/v1/props.json
+9162acfe734dd28ceb772adaee03c26e361c37dfdaec2f720ec490d57e57539f  data/ui_json/v1/record.json
+1e9f5f8d0483246f893dba886139a0b4dce2bfbeccbba10b6a8c629f830fb523  data/ui_json/v1/teams.json
+a08a0e0cae988384127d06505bdc77d28b6803bfa307bfd7a3fe90591c518316  data/ui_json/versions.json
+
+# Note: file mtimes at recording: v1/*.json generated Oct 1 19:15–19:17 UTC
+# (dashboard publish 2026-10-01). experimental_markets.json 19:15, props.json
+# 19:17, predictions.json 19:17, record.json 19:17, meta.json 19:17.

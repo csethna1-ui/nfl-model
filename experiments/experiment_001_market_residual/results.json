@@ -1,0 +1,173 @@
+{
+ "generated_at": "2026-09-29 20:35 UTC",
+ "alpha": 1.0,
+ "features": [
+  "elo_diff",
+  "off_epa_diff",
+  "def_epa_diff",
+  "off_pass_diff",
+  "off_rush_diff",
+  "def_pass_diff",
+  "def_rush_diff",
+  "sr_off_diff",
+  "sr_def_diff",
+  "rest_diff",
+  "div_game",
+  "week"
+ ],
+ "validation_2021_2022": {
+  "A_fixed_2018_2020": {
+   "n": 569,
+   "resid_mae": 9.761,
+   "resid_rmse": 12.597,
+   "margin_mae_adj": 9.761,
+   "margin_mae_market": 9.727,
+   "corr_adj_actual": 0.437,
+   "margin_mae_v1": 10.042,
+   "calibration": {
+    "slope": 0.652,
+    "intercept": 0.896
+   },
+   "ats_adj_at_3": {
+    "n": 53,
+    "w": 25,
+    "l": 28,
+    "win_pct": 0.472
+   },
+   "ats_v1_at_3": {
+    "n": 191,
+    "w": 103,
+    "l": 88,
+    "win_pct": 0.539
+   }
+  },
+  "B_expanding": {
+   "n": 569,
+   "resid_mae": 9.783,
+   "resid_rmse": 12.601,
+   "margin_mae_adj": 9.783,
+   "margin_mae_market": 9.727,
+   "corr_adj_actual": 0.433,
+   "margin_mae_v1": 10.042,
+   "calibration": {
+    "slope": 0.486,
+    "intercept": 0.576
+   },
+   "ats_adj_at_3": {
+    "n": 52,
+    "w": 27,
+    "l": 25,
+    "win_pct": 0.519
+   },
+   "ats_v1_at_3": {
+    "n": 191,
+    "w": 103,
+    "l": 88,
+    "win_pct": 0.539
+   }
+  },
+  "C_recency_weighted_lambda_0.0025": {
+   "n": 569,
+   "resid_mae": 9.798,
+   "resid_rmse": 12.61,
+   "margin_mae_adj": 9.798,
+   "margin_mae_market": 9.727,
+   "corr_adj_actual": 0.432,
+   "margin_mae_v1": 10.042,
+   "calibration": {
+    "slope": 0.441,
+    "intercept": 0.524
+   },
+   "ats_adj_at_3": {
+    "n": 60,
+    "w": 30,
+    "l": 30,
+    "win_pct": 0.5
+   },
+   "ats_v1_at_3": {
+    "n": 191,
+    "w": 103,
+    "l": 88,
+    "win_pct": 0.539
+   }
+  },
+  "lambda_grid_resid_mae": {
+   "0.0025": 9.798,
+   "0.005": 9.814,
+   "0.01": 9.844,
+   "0.02": 9.896,
+   "0.04": 10.046
+  },
+  "market_only": {
+   "n": 569,
+   "resid_mae": 9.727,
+   "resid_rmse": 12.562,
+   "margin_mae_adj": 9.727,
+   "margin_mae_market": 9.727,
+   "corr_adj_actual": 0.432,
+   "margin_mae_v1": 10.042,
+   "calibration": {
+    "slope": null,
+    "intercept": null,
+    "note": "no variance in predictions"
+   },
+   "ats_adj_at_3": {
+    "n": 0,
+    "w": 0,
+    "l": 0,
+    "win_pct": null
+   },
+   "ats_v1_at_3": {
+    "n": 191,
+    "w": 103,
+    "l": 88,
+    "win_pct": 0.539
+   }
+  },
+  "A_season_2021": {
+   "resid_mae": 10.606,
+   "margin_mae_adj": 10.606,
+   "margin_mae_market": 10.667,
+   "n": 285
+  },
+  "A_season_2022": {
+   "resid_mae": 8.913,
+   "margin_mae_adj": 8.913,
+   "margin_mae_market": 8.783,
+   "n": 284
+  },
+  "B_season_2021": {
+   "resid_mae": 10.638,
+   "margin_mae_adj": 10.638,
+   "margin_mae_market": 10.667,
+   "n": 285
+  },
+  "B_season_2022": {
+   "resid_mae": 8.926,
+   "margin_mae_adj": 8.926,
+   "margin_mae_market": 8.783,
+   "n": 284
+  },
+  "C_season_2021": {
+   "resid_mae": 10.648,
+   "margin_mae_adj": 10.648,
+   "margin_mae_market": 10.667,
+   "n": 285
+  },
+  "C_season_2022": {
+   "resid_mae": 8.945,
+   "margin_mae_adj": 8.945,
+   "margin_mae_market": 8.783,
+   "n": 284
+  }
+ },
+ "decision": {
+  "rule": "winner = lowest validation residual MAE; vault run only if winner's validation margin MAE (market+pred_resid) < market-only margin MAE",
+  "winner": "A",
+  "winner_resid_mae": 9.761,
+  "winner_margin_mae_adj": 9.761,
+  "market_margin_mae": 9.727,
+  "vault_eligible": false
+ },
+ "vault_2023_2025": null
+}

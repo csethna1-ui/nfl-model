@@ -1,0 +1,22 @@
+{
+ "season": 2026,
+ "pulled_at": "2026-09-30T10:54:59.862809-05:00",
+ "aux": {
+  "snap_counts": {
+   "status": "ok",
+   "rows": 4488,
+   "file": "prod_aux_snap_counts.parquet"
+  },
+  "injuries": {
+   "status": "ok",
+   "rows": 744,
+   "file": "prod_aux_injuries.parquet"
+  },
+  "depth_charts": {
+   "status": "ok",
+   "rows": 585690,
+   "file": "prod_aux_depth_charts.parquet"
+  }
+ },
+ "note": "Aux data are context only; the frozen models use exactly the 44 experiment columns."
+}

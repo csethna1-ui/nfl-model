@@ -1,0 +1,112 @@
+{
+ "baselines": [
+  "market-only (predict market_spread)",
+  "frozen V1 (v1_margin)",
+  "V1 + non-QB availability (candidate)"
+ ],
+ "data_sources": {
+  "games": "data/experiments/games_features.parquet (2227 rows, 2018-2025; v1_margin, actual_margin, market_spread, gameday)",
+  "injuries": "nflverse import_injuries() (nfl_data_py 0.3.3), seasons 2018-2022 pulled 2026-09-29",
+  "kickoff": "data/schedules_2018_2025.parquet gametime (ET) + gameday"
+ },
+ "diagnostics_descriptive_only": [
+  "position group",
+  "designation",
+  "season",
+  "season phase (1-4/5-9/10-14/15-18)",
+  "home/away",
+  "division/non-division",
+  "edge bucket"
+ ],
+ "experiment": "experiment_005_player_availability",
+ "gate": {
+  "A": "candidate materially beats frozen V1 validation MAE",
+  "B": "candidate beats market-only by >= 0.15 MAE",
+  "C": "improvement holds in 2021 AND 2022 individually",
+  "D": "calibration slope in [0.8, 1.2]",
+  "E": "candidate-V1 error correlation < 0.95 (genuinely different information)",
+  "rule": "ALL must pass. No single bucket may satisfy the gate. Any failure => CLOSE, vault untouched."
+ },
+ "hypothesis": "Frozen V1's effective information state is ~Tuesday morning of game week. Later-arriving non-QB player-availability information (through Friday 12:00 ET) is a fundamentally different information category ('who is playing' vs 'how the team performed') that V1's ratings cannot price. Test whether adding it improves margin prediction.",
+ "injury_feature_spec": {
+  "aggregation": "per game, per team: count of qualifying players per (position_group x designation). Features signed from home perspective: X = away_team_counts - home_team_counts (positive = away more injured => favors home margin). 5 groups x 3 designations = 15 features per team side, 30 total.",
+  "cutoff_rule": "keep rows with date_modified < min(kickoff, Friday 12:00 America/New_York of game week). Rows at/after cutoff are dropped. Strictly pregame by construction.",
+  "dedup": "nflverse provides one row per player-week with a single final report_status (verified 2026-09-29); no within-week transitions to resolve.",
+  "designation_encoding": "separate count feature per designation (no assumed severity ordering). Questionable is INCLUDED as its own count feature (preregistered treatment: include, not dropped, not fractional). Rows with null report_status (practice-only entries) are excluded.",
+  "designations": [
+   "Out",
+   "Doubtful",
+   "Questionable"
+  ],
+  "missing_data": "team-game with no qualifying injury rows => all zeros. No imputation.",
+  "position_groups": {
+   "DB": [
+    "CB",
+    "S"
+   ],
+   "FRONT7": [
+    "DE",
+    "DT",
+    "LB"
+   ],
+   "OL": [
+    "C",
+    "G",
+    "T"
+   ],
+   "SKILL": [
+    "RB",
+    "WR",
+    "TE",
+    "FB"
+   ],
+   "ST": [
+    "K",
+    "P",
+    "LS"
+   ]
+  },
+  "positions_excluded": [
+   "QB"
+  ],
+  "positions_included": "all non-QB positions",
+  "mapping_note": "FB (fullback) appears in 2021-2022 injury data (73 rows) but not 2018-2020; assigned to SKILL group before any validation evaluation. No validation numbers seen at mapping time."
+ },
+ "model": {
+  "architecture": "candidate_margin = v1_margin + ridge_pred, where ridge_pred predicts (actual_margin - v1_margin) from the 30 signed injury-count features. V1 margin itself is frozen and untouched.",
+  "estimator": "Ridge regression",
+  "feature_scaling": "none (count features already comparable; preregistered)",
+  "hyperparameters": {
+   "alpha": 1.0,
+   "fit_intercept": true
+  },
+  "training_window": "two-fold season cross-fit within 2021-2022 (fit on one season's V1 residuals, predict the other)",
+  "validation_window": "2021-2022 (569 games)",
+  "vault": "2023-2025 LOCKED \u2014 zero evaluations unless every gate passes",
+  "training_n_per_fold": "284-285 games"
+ },
+ "preregistered_at_utc": "2026-09-29",
+ "primary_metrics": [
+  "MAE",
+  "RMSE",
+  "calibration slope (actual_margin ~ predicted_margin)"
+ ],
+ "safeguards": [
+  "No ATS tuning, no threshold tuning, no division/late-season/edge-bucket corrections",
+  "No weather, line movement, roster changes, coaching, or additional features",
+  "No feature shopping or config changes after seeing validation performance",
+  "Historical market lines remain the unverified single-snapshot benchmark (Exp 004); 2026 CLV kept separate",
+  "Nothing earns a V2 label from validation alone"
+ ],
+ "status": "PREREGISTERED \u2014 locked before any 2021-2022 validation evaluation",
+ "timing_documentation": {
+  "injury_information_state": "designations with date_modified < Friday 12:00 ET of game week (strictly pregame; min(kickoff, Friday noon))",
+  "note": "This timing difference is INTENTIONAL and is the hypothesis under test. The candidate is NOT 'V1 plus injuries' as a representation tweak \u2014 it is V1's Tuesday information set augmented with Friday availability information.",
+  "v1_information_state": "Tuesday morning of game week (weekly-batched ELO/EPA/GBM through previous week's games; no within-week updates)"
+ },
+ "preregistration_amendment": {
+  "amended_at_utc": "2026-09-29 21:02 UTC",
+  "reason": "Frozen-V1 margins (ens_margin) do not exist for 2018-2020 in games_with_preds.parquet (all 803 null) \u2014 V1 predictions begin 2021 because the weekly GBM refits require pre-2018 training history. Reconstructing 2018-2020 V1 margins would not be frozen V1 (linear components were fit in-sample on 2018-2020). No validation numbers had been seen when this amendment was made (build script crashed on NaN target before fitting).",
+  "change": "model.training_window: 2018-2020 -> two-fold season cross-fit within 2021-2022: for each season S in {2021, 2022}, fit ridge on the OTHER season's V1 residuals and predict S. Every validation prediction remains out-of-sample with respect to the injury layer; V1 stays frozen. Gate C (holds in both seasons) is evaluated on these out-of-sample predictions."
+ }
+}

@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets / environment
+.env
+.env.local
+
+# macOS
+.DS_Store
+
+# Large retired/backup data (not part of the canonical dataset)
+data/backups/
+data/retired/
+
+# SQLite databases — including the ~92MB pft_sitemap.db PFT harvest cache.
+# The PFT research record is preserved in Git via the harvest scripts,
+# the corpus reports (pft_corpus/PFT_CORPUS_PILOT_REPORT.md), and derived
+# results; the raw 92MB database is a regenerable build artifact that would
+# bloat every clone and sits near GitHub's 100MB per-file limit.
+*.db
+
+# NOTE: data/injuries/logs/ and data/qb_expectations/logs/ are committed
+# operational data and are intentionally NOT ignored.

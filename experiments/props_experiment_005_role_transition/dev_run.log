@@ -1,0 +1,26 @@
+  stint walk: dropped 52 phantom player-week rows (name collisions)
+  stint walk: dropped 129 phantom player-week rows (name collisions)
+  stint walk: dropped 390 phantom player-week rows (name collisions)
+[pass_yards] M0 reproduced bit-identical (dev MAE 57.7740), n=986
+[pass_yards] M1: dev MAE 35.7870 (M0 57.7740) | struct={'w': 0.5} class=gbm hyper={'learning_rate': 0.1, 'max_depth': 5, 'max_iter': 500}
+[pass_yards] M1: CV MAE 63.5571 (in-sample 35.7870)
+[pass_yards] M2: dev MAE 35.4914 (M0 57.7740) | struct={'w': 0.75, 'lam': 0.5} class=gbm hyper={'learning_rate': 0.1, 'max_depth': 5, 'max_iter': 500}
+[pass_yards] M2: CV MAE 63.9786 (in-sample 35.4914)
+[pass_yards] M3: dev MAE 26.3341 (M0 57.7740) | struct={'w': 1.0, 'v': 0.5} class=gbm hyper={'learning_rate': 0.1, 'max_depth': 5, 'max_iter': 500}
+[pass_yards] M3: CV MAE 63.8440 (in-sample 26.3341)
+[rush_yards] M0 reproduced bit-identical (dev MAE 25.1478), n=1500
+[rush_yards] M1: dev MAE 17.4843 (M0 25.1478) | struct={'w': 0.5} class=gbm hyper={'learning_rate': 0.1, 'max_depth': 5, 'max_iter': 500}
+[rush_yards] M1: CV MAE 27.9044 (in-sample 17.4843)
+[rush_yards] M2: dev MAE 17.1588 (M0 25.1478) | struct={'w': 0.25, 'lam': 2.0} class=gbm hyper={'learning_rate': 0.1, 'max_depth': 5, 'max_iter': 500}
+[rush_yards] M2: CV MAE 28.0341 (in-sample 17.1588)
+[rush_yards] M3: dev MAE 13.5131 (M0 25.1478) | struct={'w': 0.5, 'v': 1.0} class=gbm hyper={'learning_rate': 0.1, 'max_depth': 5, 'max_iter': 500}
+[rush_yards] M3: CV MAE 27.8657 (in-sample 13.5131)
+[receiving_yards] M0 reproduced bit-identical (dev MAE 23.9767), n=3689
+[receiving_yards] M1: dev MAE 18.9050 (M0 23.9767) | struct={'w': 1.0} class=gbm hyper={'learning_rate': 0.1, 'max_depth': 5, 'max_iter': 500}
+[receiving_yards] M1: CV MAE 25.8429 (in-sample 18.9050)
+[receiving_yards] M2: dev MAE 18.8889 (M0 23.9767) | struct={'w': 0.5, 'lam': 0.5} class=gbm hyper={'learning_rate': 0.1, 'max_depth': 5, 'max_iter': 500}
+[receiving_yards] M2: CV MAE 25.8302 (in-sample 18.8889)
+[receiving_yards] M3: dev MAE 16.4868 (M0 23.9767) | struct={'w': 0.5, 'v': 0.5} class=gbm hyper={'learning_rate': 0.1, 'max_depth': 5, 'max_iter': 500}
+[receiving_yards] M3: CV MAE 25.6868 (in-sample 16.4868)
+dev predictions + locked params written (684s)
+EXIT:0

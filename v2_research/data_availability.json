@@ -1,0 +1,64 @@
+{
+ "note": "All sources free/keyless. PFR data via nflverse nflverse-data releases (MIT). FTN not used.",
+ "sources": [
+  {
+   "source": "nflverse PBP (local parquets 2018-2026)",
+   "seasons": "1999+ (built 2018-2026)",
+   "cadence": "nightly in-season",
+   "families": [
+    "possession",
+    "explosiveness",
+    "pressure_pbp",
+    "special_teams"
+   ],
+   "status": "FULLY FEASIBLE -- local, 372 cols verified"
+  },
+  {
+   "source": "nflverse pfr_advstats (weekly, player-grain)",
+   "seasons": "2018+",
+   "cadence": "daily in-season (box-score lag ~1d)",
+   "families": [
+    "pressure_pfr"
+   ],
+   "status": "FEASIBLE -- pulled 2018-2026 to data/v2/raw/; binding constraint on history (2018+)"
+  },
+  {
+   "source": "nflverse snap_counts",
+   "seasons": "2012+",
+   "cadence": "weekly in-season",
+   "families": [
+    "player_continuity",
+    "player_availability(value proxy)"
+   ],
+   "status": "FEASIBLE -- pulled 2018-2026"
+  },
+  {
+   "source": "nflverse schedules",
+   "seasons": "1999+",
+   "cadence": "live in-season",
+   "families": [
+    "player_qb (names)",
+    "environment"
+   ],
+   "status": "FEASIBLE"
+  },
+  {
+   "source": "nflverse injuries",
+   "seasons": "2009+ (2026 verify on pull)",
+   "cadence": "weekly",
+   "families": [
+    "player_availability"
+   ],
+   "status": "PARTIAL -- pulled 2018-2026; name-matching fuzzy; date_modified discipline required (highest leakage risk)"
+  },
+  {
+   "source": "data/qb_point_values.json (2026 oddsmaker poll)",
+   "seasons": "2026-anchored",
+   "cadence": "static",
+   "families": [
+    "player_qb (qb_value_poll)"
+   ],
+   "status": "LIMITED -- anachronistic for 2018-2025; structural placeholder only; per-season QB values unsourced"
+  }
+ ]
+}

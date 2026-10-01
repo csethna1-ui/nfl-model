@@ -1,0 +1,101 @@
+{
+ "generated_at": "2026-09-29 21:03 UTC",
+ "baseline_comparison": {
+  "market_only": {
+   "n": 569,
+   "mae": 9.727,
+   "rmse": 12.562,
+   "calib_slope": 0.939,
+   "season_2021": {
+    "n": 285,
+    "mae": 10.667,
+    "rmse": 13.549,
+    "calib_slope": 1.025
+   },
+   "season_2022": {
+    "n": 284,
+    "mae": 8.783,
+    "rmse": 11.487,
+    "calib_slope": 0.818
+   }
+  },
+  "frozen_v1": {
+   "n": 569,
+   "mae": 10.042,
+   "rmse": 12.937,
+   "calib_slope": 0.941,
+   "season_2021": {
+    "n": 285,
+    "mae": 11.082,
+    "rmse": 13.998,
+    "calib_slope": 1.06
+   },
+   "season_2022": {
+    "n": 284,
+    "mae": 8.999,
+    "rmse": 11.778,
+    "calib_slope": 0.794
+   }
+  },
+  "candidate": {
+   "n": 569,
+   "mae": 10.077,
+   "rmse": 12.975,
+   "calib_slope": 0.835,
+   "season_2021": {
+    "n": 285,
+    "mae": 11.079,
+    "rmse": 13.922,
+    "calib_slope": 1.02
+   },
+   "season_2022": {
+    "n": 284,
+    "mae": 9.071,
+    "rmse": 11.95,
+    "calib_slope": 0.646
+   }
+  }
+ },
+ "fold_coefficients": {
+  "2021": {
+   "intercept": 1.4011,
+   "coefs": {
+    "OL_Out": 4.7506,
+    "OL_Doubtful": 10.4373,
+    "OL_Questionable": -0.6007,
+    "SKILL_Out": -1.3689,
+    "SKILL_Doubtful": 0.0898,
+    "SKILL_Questionable": -0.3035,
+    "FRONT7_Out": -3.6291,
+    "FRONT7_Doubtful": -3.9872,
+    "FRONT7_Questionable": 4.3731,
+    "DB_Out": 1.171,
+    "DB_Doubtful": 4.4366,
+    "DB_Questionable": -0.8485,
+    "ST_Out": 1.037,
+    "ST_Doubtful": 0.0,
+    "ST_Questionable": -0.0928
+   }
+  },
+  "2022": {
+   "intercept": 1.167,
+   "coefs": {
+    "OL_Out": 2.5577,
+    "OL_Doubtful": 0.0,
+    "OL_Questionable": 5.6421,
+    "SKILL_Out": 5.4686,
+    "SKILL_Doubtful": 4.655,
+    "SKILL_Questionable": -0.2007,
+    "FRONT7_Out": -0.7181,
+    "FRONT7_Doubtful": 0.095,
+    "FRONT7_Questionable": 3.3674,
+    "DB_Out": -1.3017,
+    "DB_Doubtful": 0.0,
+    "DB_Questionable": -2.6761,
+    "ST_Out": 0.0,
+    "ST_Doubtful": 0.0,
+    "ST_Questionable": -0.8395
+   }
+  }
+ }
+}

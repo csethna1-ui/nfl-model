@@ -1,0 +1,9 @@
+{
+  "experiment": "experiment_002_v1_error_analysis",
+  "phase1": "Diagnostic decomposition of frozen V1 margin error on 2021-2022 validation (n=569). No fitting, no selection. Metrics: MAE, RMSE, calibration, V1 vs market. Script: scripts/18_experiment_002_phase1.py -> phase1_decomposition.json",
+  "phase2_candidate": "opponent-adjusted EPA: one-step adjustment of the 8 EPA/SR linear-model inputs using pre-week opponent ratings (last 16 games faced, league-centered). ELO component, GBM component, and ensemble weights (0.4/0.5/0.1) unchanged. Linear refit on 2018-2020 only. Script: scripts/19_experiment_002_phase2.py -> phase2_candidate.json",
+  "validation": "2021-2022 only",
+  "vault": "2023-2025 locked. Single evaluation only if gate passes: (a) beats market MAE by >=0.15, (b) beats V1 MAE, (c) beats market in 2021 AND 2022 individually, (d) calibration slope in [0.8, 1.2].",
+  "line_provenance": "nflverse_proxy_open on all historical rows; residual target bakes in line movement toward close; live 2026 CLV is the separate prospective arbiter",
+  "rules": ["no V2 label", "V1 code frozen (scripts 01-15 unmodified)", "no ATS threshold optimization", "diagnosis is not filter-hunting"]
+}

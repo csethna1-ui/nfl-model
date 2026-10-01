@@ -1,0 +1,23 @@
+PROPS EXPERIMENT 003A (RECEPTIONS) — TEST GATE
+
+Date: 2026-10-01
+Preregistration: PREREGISTRATION.md (FROZEN, approved by Cale 2026-10-01 12:25 CDT).
+Shared discipline: MARKET_EXPANSION_PROTOCOL.md (FROZEN, approved by Cale
+2026-10-01 12:25 CDT).
+
+This marker gates the locked-test evaluation (--phase test).
+The target (receptions), population (receiving market, eligible_hist=1 &
+played_role=1, trailing targets > 0), feature audit, fixed ladder
+(M0/M1/M2/M3), hyperparameter procedure (Ridge alpha {0.1,1,10,100}
+dev-selected per rung; GBM 8-combo grid dev-selected per rung; quantile
+hyperparams fixed a priori; seeds 1337), win bar (>=5% pooled 2023-2024
+relative MAE reduction vs M0; >=2% in 2023 AND 2024; 95% paired bootstrap
+CI excludes zero), and decision rules are frozen. No changes after this point.
+
+Dev phase (--phase dev) completed: fit on train (2018-2020, n=4975),
+hyperparameters selected on dev (2021-2022, n=3689). Test slice (2023-2024)
+was not loaded during dev.
+
+Test phase (--phase test): single locked-test evaluation only. Fit once.
+The locked test is touched exactly once, for this experiment's
+preregistered evaluation only.

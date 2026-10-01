@@ -1,0 +1,15 @@
+season,week,game,pick,result,clv_pts
+2026,1,ARI @ LAC,ARI +9.5,win,1.0
+2026,1,DAL @ NYG,NYG +2.5,win,-0.5
+2026,1,DEN @ KC,DEN +2.5,loss,0.0
+2026,1,MIA @ LV,MIA +3.5,loss,0.5
+2026,1,NO @ DET,NO +6.5,win,-0.5
+2026,2,CLE @ TB,CLE +8.5,win,0.0
+2026,2,JAX @ DEN,JAX +2.5,loss,0.0
+2026,2,LV @ LAC,LV +7.5,win,1.0
+2026,2,MIA @ SF,MIA +13.0,loss,0.5
+2026,2,MIN @ CHI,MIN +5.5,win,1.0
+2026,2,NYG @ LA,NYG +7.5,loss,1.0
+2026,2,WAS @ DAL,WAS +3.5,loss,0.0
+2026,3,KC @ MIA,MIA +10.5,loss,0.5
+2026,3,LAC @ BUF,BUF -7.0,win,0.0

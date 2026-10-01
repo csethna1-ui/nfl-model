@@ -1,0 +1,15 @@
+[M0] dev D MAE: pass_yards=57.77 rush_yards=25.15 receiving_yards=23.98
+[M1] dev D MAE: pass_yards=56.59 rush_yards=25.15 receiving_yards=23.89
+[M2] dev D MAE: pass_yards=57.41 rush_yards=25.32 receiving_yards=23.93
+[M3] dev D MAE: pass_yards=57.29 rush_yards=25.15 receiving_yards=23.91
+[M4] dev D MAE: pass_yards=57.20 rush_yards=25.08 receiving_yards=23.93
+[M5] dev D MAE: pass_yards=57.81 rush_yards=25.07 receiving_yards=23.94
+[M6] dev D MAE: pass_yards=57.86 rush_yards=25.07 receiving_yards=23.90
+[M7] dev D MAE: pass_yards=57.78 rush_yards=25.07 receiving_yards=23.95
+[M8] dev D MAE: pass_yards=57.45 rush_yards=25.17 receiving_yards=23.95
+[M9] dev D MAE: pass_yards=57.66 rush_yards=25.09 receiving_yards=23.96
+[M10] dev D MAE: pass_yards=57.57 rush_yards=25.15 receiving_yards=23.94
+M11 selection: {"pass_yards": ["B", "E"], "rush_yards": [], "receiving_yards": []}
+[M11] dev D MAE: pass_yards=56.30 rush_yards=25.15 receiving_yards=23.98
+[M12] dev MAE: pass_yards=56.74 rush_yards=25.41 receiving_yards=24.67 | gate=FAIL
+DEV PHASE COMPLETE — test slice untouched.

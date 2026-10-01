@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<link rel="icon" href="data:," />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<title>NFL Model Dashboard</title>
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <span class="word">NFL<em>&nbsp;MODEL</em></span>
+        <span class="vst" id="vstStamp" title="Active model version" hidden><span class="dot" id="vstDot" aria-hidden="true"></span><span id="vstText">—</span></span>
+      </div>
+      <div class="sel-ctx">
+        <label hidden for="weekSel">Week</label>
+        <select id="weekSel" class="hd-select week" aria-label="Week"></select>
+        <label hidden for="verSel">Model version</label>
+        <select id="verSel" class="hd-select ver" aria-label="Model version" hidden></select>
+      </div>
+      <nav class="pnav" id="navP" aria-label="Primary"></nav>
+      <nav class="snav" id="navS" aria-label="Secondary"></nav>
+      <div class="morewrap" id="moreWrap">
+        <button type="button" class="morebtn" id="moreBtn" aria-haspopup="true" aria-expanded="false">More <span class="caret">▾</span></button>
+        <div class="more-menu" id="moreMenu" hidden></div>
+      </div>
+      <span class="edge-badge" title="This system has no verified betting edge"><span class="sq" aria-hidden="true"></span>No verified betting edge</span>
+    </div>
+  </header>
+  <main id="app"><div class="loading">Loading verified model snapshot&hellip;</div></main>
+  <nav class="tabbar" id="tabBar" aria-label="Mobile navigation"></nav>
+  <div id="ovl" aria-hidden="true"></div>
+  <footer class="footer-note" id="pageFooter"></footer>
+</div>
+<!-- Model data ships as standalone JSON files under data/ (data/versions.json + data/v1/*.json). The dashboard fetches them at load; no data is embedded in this file. -->
+<script src="js/app.js"></script>
+</body>
+</html>

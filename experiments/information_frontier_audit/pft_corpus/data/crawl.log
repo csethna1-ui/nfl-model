@@ -1,0 +1,1985 @@
+relevant todo this run=12794 | overall pending=12794 | already done=0
+  5 fetched this session (run total 5) | 9.3s/article | elapsed 0.0h
+  10 fetched this session (run total 10) | 10.3s/article | elapsed 0.0h
+  15 fetched this session (run total 15) | 10.6s/article | elapsed 0.0h
+  20 fetched this session (run total 20) | 10.9s/article | elapsed 0.1h
+  25 fetched this session (run total 25) | 11.0s/article | elapsed 0.1h
+  30 fetched this session (run total 30) | 11.0s/article | elapsed 0.1h
+  35 fetched this session (run total 35) | 11.1s/article | elapsed 0.1h
+  40 fetched this session (run total 40) | 11.1s/article | elapsed 0.1h
+  45 fetched this session (run total 45) | 11.1s/article | elapsed 0.1h
+  50 fetched this session (run total 50) | 11.2s/article | elapsed 0.2h
+Traceback (most recent call last):
+  File "/home/hatch/workspace/nfl-model/experiments/information_frontier_audit/pft_corpus/scripts/03_crawl_articles.py", line 175, in <module>
+    main()
+  File "/home/hatch/workspace/nfl-model/experiments/information_frontier_audit/pft_corpus/scripts/03_crawl_articles.py", line 149, in main
+    con.execute("""INSERT OR REPLACE INTO articles VALUES
+sqlite3.OperationalError: table articles has 22 columns but 19 values were supplied
+relevant todo this run=12741 | overall pending=12741 | already done=53
+  58 fetched this session (run total 5) | 9.5s/article | elapsed 0.0h
+  63 fetched this session (run total 10) | 10.4s/article | elapsed 0.0h
+  68 fetched this session (run total 15) | 10.7s/article | elapsed 0.0h
+  73 fetched this session (run total 20) | 10.9s/article | elapsed 0.1h
+  78 fetched this session (run total 25) | 11.0s/article | elapsed 0.1h
+  83 fetched this session (run total 30) | 11.0s/article | elapsed 0.1h
+  88 fetched this session (run total 35) | 11.1s/article | elapsed 0.1h
+  93 fetched this session (run total 40) | 11.1s/article | elapsed 0.1h
+  98 fetched this session (run total 45) | 11.1s/article | elapsed 0.1h
+  103 fetched this session (run total 50) | 11.1s/article | elapsed 0.2h
+  108 fetched this session (run total 55) | 11.2s/article | elapsed 0.2h
+  113 fetched this session (run total 60) | 11.2s/article | elapsed 0.2h
+  118 fetched this session (run total 65) | 11.2s/article | elapsed 0.2h
+  123 fetched this session (run total 70) | 11.2s/article | elapsed 0.2h
+  128 fetched this session (run total 75) | 11.2s/article | elapsed 0.2h
+  133 fetched this session (run total 80) | 11.2s/article | elapsed 0.2h
+  138 fetched this session (run total 85) | 11.2s/article | elapsed 0.3h
+  143 fetched this session (run total 90) | 11.2s/article | elapsed 0.3h
+  148 fetched this session (run total 95) | 11.2s/article | elapsed 0.3h
+  153 fetched this session (run total 100) | 11.2s/article | elapsed 0.3h
+  158 fetched this session (run total 105) | 11.2s/article | elapsed 0.3h
+  163 fetched this session (run total 110) | 11.2s/article | elapsed 0.3h
+  168 fetched this session (run total 115) | 11.3s/article | elapsed 0.4h
+  173 fetched this session (run total 120) | 11.2s/article | elapsed 0.4h
+  178 fetched this session (run total 125) | 11.3s/article | elapsed 0.4h
+  183 fetched this session (run total 130) | 11.3s/article | elapsed 0.4h
+  188 fetched this session (run total 135) | 11.3s/article | elapsed 0.4h
+  193 fetched this session (run total 140) | 11.3s/article | elapsed 0.4h
+  198 fetched this session (run total 145) | 11.3s/article | elapsed 0.5h
+  203 fetched this session (run total 150) | 11.3s/article | elapsed 0.5h
+  208 fetched this session (run total 155) | 11.3s/article | elapsed 0.5h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/report-matt-kalil-to-visit-dr-james-andrews-about-his-knee (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Read timed out. (read timeout=45) -> backoff 120s (attempt 2)
+  213 fetched this session (run total 160) | 12.9s/article | elapsed 0.6h
+  218 fetched this session (run total 165) | 12.9s/article | elapsed 0.6h
+  223 fetched this session (run total 170) | 12.8s/article | elapsed 0.6h
+  228 fetched this session (run total 175) | 12.7s/article | elapsed 0.6h
+  233 fetched this session (run total 180) | 12.7s/article | elapsed 0.6h
+  238 fetched this session (run total 185) | 12.6s/article | elapsed 0.6h
+  243 fetched this session (run total 190) | 12.6s/article | elapsed 0.7h
+  248 fetched this session (run total 195) | 12.5s/article | elapsed 0.7h
+  253 fetched this session (run total 200) | 12.5s/article | elapsed 0.7h
+  258 fetched this session (run total 205) | 12.4s/article | elapsed 0.7h
+  263 fetched this session (run total 210) | 12.4s/article | elapsed 0.7h
+  268 fetched this session (run total 215) | 12.3s/article | elapsed 0.7h
+  273 fetched this session (run total 220) | 12.3s/article | elapsed 0.8h
+  278 fetched this session (run total 225) | 12.3s/article | elapsed 0.8h
+  283 fetched this session (run total 230) | 12.2s/article | elapsed 0.8h
+  288 fetched this session (run total 235) | 12.2s/article | elapsed 0.8h
+  293 fetched this session (run total 240) | 12.2s/article | elapsed 0.8h
+  298 fetched this session (run total 245) | 12.1s/article | elapsed 0.8h
+  303 fetched this session (run total 250) | 12.1s/article | elapsed 0.8h
+  308 fetched this session (run total 255) | 12.1s/article | elapsed 0.9h
+  313 fetched this session (run total 260) | 12.0s/article | elapsed 0.9h
+  318 fetched this session (run total 265) | 12.0s/article | elapsed 0.9h
+  323 fetched this session (run total 270) | 12.0s/article | elapsed 0.9h
+  328 fetched this session (run total 275) | 12.0s/article | elapsed 0.9h
+  333 fetched this session (run total 280) | 11.9s/article | elapsed 0.9h
+  338 fetched this session (run total 285) | 11.9s/article | elapsed 0.9h
+  343 fetched this session (run total 290) | 11.9s/article | elapsed 1.0h
+  348 fetched this session (run total 295) | 11.9s/article | elapsed 1.0h
+  353 fetched this session (run total 300) | 11.9s/article | elapsed 1.0h
+  358 fetched this session (run total 305) | 11.8s/article | elapsed 1.0h
+  363 fetched this session (run total 310) | 11.8s/article | elapsed 1.0h
+  368 fetched this session (run total 315) | 11.8s/article | elapsed 1.0h
+  373 fetched this session (run total 320) | 11.8s/article | elapsed 1.0h
+  378 fetched this session (run total 325) | 11.8s/article | elapsed 1.1h
+  383 fetched this session (run total 330) | 11.7s/article | elapsed 1.1h
+  388 fetched this session (run total 335) | 11.7s/article | elapsed 1.1h
+  393 fetched this session (run total 340) | 11.7s/article | elapsed 1.1h
+  398 fetched this session (run total 345) | 11.7s/article | elapsed 1.1h
+  403 fetched this session (run total 350) | 11.7s/article | elapsed 1.1h
+  408 fetched this session (run total 355) | 11.7s/article | elapsed 1.2h
+  413 fetched this session (run total 360) | 11.6s/article | elapsed 1.2h
+  418 fetched this session (run total 365) | 11.6s/article | elapsed 1.2h
+  423 fetched this session (run total 370) | 11.6s/article | elapsed 1.2h
+  428 fetched this session (run total 375) | 11.6s/article | elapsed 1.2h
+  433 fetched this session (run total 380) | 11.6s/article | elapsed 1.2h
+  438 fetched this session (run total 385) | 11.6s/article | elapsed 1.2h
+  443 fetched this session (run total 390) | 11.6s/article | elapsed 1.3h
+  448 fetched this session (run total 395) | 11.6s/article | elapsed 1.3h
+  453 fetched this session (run total 400) | 11.5s/article | elapsed 1.3h
+  458 fetched this session (run total 405) | 11.5s/article | elapsed 1.3h
+  463 fetched this session (run total 410) | 11.5s/article | elapsed 1.3h
+  468 fetched this session (run total 415) | 11.5s/article | elapsed 1.3h
+  473 fetched this session (run total 420) | 11.5s/article | elapsed 1.3h
+  478 fetched this session (run total 425) | 11.5s/article | elapsed 1.4h
+  483 fetched this session (run total 430) | 11.5s/article | elapsed 1.4h
+  488 fetched this session (run total 435) | 11.5s/article | elapsed 1.4h
+  493 fetched this session (run total 440) | 11.5s/article | elapsed 1.4h
+  498 fetched this session (run total 445) | 11.5s/article | elapsed 1.4h
+  503 fetched this session (run total 450) | 11.4s/article | elapsed 1.4h
+  508 fetched this session (run total 455) | 11.4s/article | elapsed 1.4h
+  513 fetched this session (run total 460) | 11.4s/article | elapsed 1.5h
+  518 fetched this session (run total 465) | 11.4s/article | elapsed 1.5h
+  523 fetched this session (run total 470) | 11.4s/article | elapsed 1.5h
+  528 fetched this session (run total 475) | 11.4s/article | elapsed 1.5h
+  533 fetched this session (run total 480) | 11.4s/article | elapsed 1.5h
+  538 fetched this session (run total 485) | 11.4s/article | elapsed 1.5h
+  543 fetched this session (run total 490) | 11.4s/article | elapsed 1.5h
+  548 fetched this session (run total 495) | 11.4s/article | elapsed 1.6h
+  553 fetched this session (run total 500) | 11.4s/article | elapsed 1.6h
+  558 fetched this session (run total 505) | 11.4s/article | elapsed 1.6h
+  563 fetched this session (run total 510) | 11.3s/article | elapsed 1.6h
+  568 fetched this session (run total 515) | 11.3s/article | elapsed 1.6h
+  573 fetched this session (run total 520) | 11.3s/article | elapsed 1.6h
+  578 fetched this session (run total 525) | 11.3s/article | elapsed 1.7h
+  583 fetched this session (run total 530) | 11.3s/article | elapsed 1.7h
+  588 fetched this session (run total 535) | 11.3s/article | elapsed 1.7h
+  593 fetched this session (run total 540) | 11.3s/article | elapsed 1.7h
+  598 fetched this session (run total 545) | 11.3s/article | elapsed 1.7h
+  603 fetched this session (run total 550) | 11.3s/article | elapsed 1.7h
+  608 fetched this session (run total 555) | 11.3s/article | elapsed 1.7h
+  613 fetched this session (run total 560) | 11.3s/article | elapsed 1.8h
+  618 fetched this session (run total 565) | 11.3s/article | elapsed 1.8h
+  623 fetched this session (run total 570) | 11.3s/article | elapsed 1.8h
+  628 fetched this session (run total 575) | 11.3s/article | elapsed 1.8h
+  633 fetched this session (run total 580) | 11.3s/article | elapsed 1.8h
+  638 fetched this session (run total 585) | 11.3s/article | elapsed 1.8h
+  643 fetched this session (run total 590) | 11.3s/article | elapsed 1.8h
+  648 fetched this session (run total 595) | 11.2s/article | elapsed 1.9h
+  653 fetched this session (run total 600) | 11.2s/article | elapsed 1.9h
+  658 fetched this session (run total 605) | 11.2s/article | elapsed 1.9h
+  663 fetched this session (run total 610) | 11.2s/article | elapsed 1.9h
+  668 fetched this session (run total 615) | 11.2s/article | elapsed 1.9h
+  673 fetched this session (run total 620) | 11.2s/article | elapsed 1.9h
+  678 fetched this session (run total 625) | 11.2s/article | elapsed 1.9h
+  683 fetched this session (run total 630) | 11.2s/article | elapsed 2.0h
+  688 fetched this session (run total 635) | 11.2s/article | elapsed 2.0h
+  693 fetched this session (run total 640) | 11.2s/article | elapsed 2.0h
+  698 fetched this session (run total 645) | 11.2s/article | elapsed 2.0h
+  703 fetched this session (run total 650) | 11.2s/article | elapsed 2.0h
+  708 fetched this session (run total 655) | 11.2s/article | elapsed 2.0h
+  713 fetched this session (run total 660) | 11.2s/article | elapsed 2.1h
+  718 fetched this session (run total 665) | 11.2s/article | elapsed 2.1h
+  723 fetched this session (run total 670) | 11.2s/article | elapsed 2.1h
+  728 fetched this session (run total 675) | 11.2s/article | elapsed 2.1h
+  733 fetched this session (run total 680) | 11.2s/article | elapsed 2.1h
+  738 fetched this session (run total 685) | 11.2s/article | elapsed 2.1h
+  743 fetched this session (run total 690) | 11.2s/article | elapsed 2.1h
+  748 fetched this session (run total 695) | 11.2s/article | elapsed 2.2h
+  753 fetched this session (run total 700) | 11.2s/article | elapsed 2.2h
+  758 fetched this session (run total 705) | 11.1s/article | elapsed 2.2h
+  763 fetched this session (run total 710) | 11.1s/article | elapsed 2.2h
+  768 fetched this session (run total 715) | 11.1s/article | elapsed 2.2h
+  773 fetched this session (run total 720) | 11.1s/article | elapsed 2.2h
+  778 fetched this session (run total 725) | 11.1s/article | elapsed 2.2h
+  783 fetched this session (run total 730) | 11.1s/article | elapsed 2.3h
+  788 fetched this session (run total 735) | 11.1s/article | elapsed 2.3h
+  793 fetched this session (run total 740) | 11.1s/article | elapsed 2.3h
+  798 fetched this session (run total 745) | 11.1s/article | elapsed 2.3h
+  803 fetched this session (run total 750) | 11.1s/article | elapsed 2.3h
+  808 fetched this session (run total 755) | 11.1s/article | elapsed 2.3h
+  813 fetched this session (run total 760) | 11.1s/article | elapsed 2.3h
+  818 fetched this session (run total 765) | 11.1s/article | elapsed 2.4h
+  823 fetched this session (run total 770) | 11.1s/article | elapsed 2.4h
+  828 fetched this session (run total 775) | 11.1s/article | elapsed 2.4h
+  833 fetched this session (run total 780) | 11.1s/article | elapsed 2.4h
+  838 fetched this session (run total 785) | 11.1s/article | elapsed 2.4h
+  843 fetched this session (run total 790) | 11.1s/article | elapsed 2.4h
+  848 fetched this session (run total 795) | 11.1s/article | elapsed 2.4h
+  853 fetched this session (run total 800) | 11.1s/article | elapsed 2.5h
+  858 fetched this session (run total 805) | 11.1s/article | elapsed 2.5h
+  863 fetched this session (run total 810) | 11.1s/article | elapsed 2.5h
+  868 fetched this session (run total 815) | 11.1s/article | elapsed 2.5h
+  873 fetched this session (run total 820) | 11.1s/article | elapsed 2.5h
+  878 fetched this session (run total 825) | 11.1s/article | elapsed 2.5h
+  883 fetched this session (run total 830) | 11.1s/article | elapsed 2.6h
+  888 fetched this session (run total 835) | 11.1s/article | elapsed 2.6h
+  893 fetched this session (run total 840) | 11.1s/article | elapsed 2.6h
+  898 fetched this session (run total 845) | 11.1s/article | elapsed 2.6h
+  903 fetched this session (run total 850) | 11.1s/article | elapsed 2.6h
+  908 fetched this session (run total 855) | 11.1s/article | elapsed 2.6h
+  913 fetched this session (run total 860) | 11.0s/article | elapsed 2.6h
+  918 fetched this session (run total 865) | 11.0s/article | elapsed 2.7h
+  923 fetched this session (run total 870) | 11.0s/article | elapsed 2.7h
+  928 fetched this session (run total 875) | 11.0s/article | elapsed 2.7h
+  933 fetched this session (run total 880) | 11.0s/article | elapsed 2.7h
+  938 fetched this session (run total 885) | 11.0s/article | elapsed 2.7h
+  943 fetched this session (run total 890) | 11.0s/article | elapsed 2.7h
+  948 fetched this session (run total 895) | 11.0s/article | elapsed 2.7h
+  953 fetched this session (run total 900) | 11.0s/article | elapsed 2.8h
+  958 fetched this session (run total 905) | 11.0s/article | elapsed 2.8h
+  963 fetched this session (run total 910) | 11.0s/article | elapsed 2.8h
+  968 fetched this session (run total 915) | 11.0s/article | elapsed 2.8h
+  973 fetched this session (run total 920) | 11.0s/article | elapsed 2.8h
+  978 fetched this session (run total 925) | 11.0s/article | elapsed 2.8h
+  983 fetched this session (run total 930) | 11.0s/article | elapsed 2.8h
+  988 fetched this session (run total 935) | 11.0s/article | elapsed 2.9h
+  993 fetched this session (run total 940) | 11.0s/article | elapsed 2.9h
+  998 fetched this session (run total 945) | 11.0s/article | elapsed 2.9h
+  1003 fetched this session (run total 950) | 11.0s/article | elapsed 2.9h
+  1008 fetched this session (run total 955) | 11.0s/article | elapsed 2.9h
+  1013 fetched this session (run total 960) | 11.0s/article | elapsed 2.9h
+  1018 fetched this session (run total 965) | 11.0s/article | elapsed 2.9h
+  1023 fetched this session (run total 970) | 11.0s/article | elapsed 3.0h
+  1028 fetched this session (run total 975) | 11.0s/article | elapsed 3.0h
+  1033 fetched this session (run total 980) | 11.0s/article | elapsed 3.0h
+  1038 fetched this session (run total 985) | 11.0s/article | elapsed 3.0h
+  1043 fetched this session (run total 990) | 11.0s/article | elapsed 3.0h
+  1048 fetched this session (run total 995) | 11.0s/article | elapsed 3.0h
+  1053 fetched this session (run total 1000) | 11.0s/article | elapsed 3.1h
+  1058 fetched this session (run total 1005) | 11.0s/article | elapsed 3.1h
+  1063 fetched this session (run total 1010) | 11.0s/article | elapsed 3.1h
+  1068 fetched this session (run total 1015) | 11.0s/article | elapsed 3.1h
+  1073 fetched this session (run total 1020) | 11.0s/article | elapsed 3.1h
+  1078 fetched this session (run total 1025) | 11.0s/article | elapsed 3.1h
+  1083 fetched this session (run total 1030) | 11.0s/article | elapsed 3.1h
+  1088 fetched this session (run total 1035) | 11.0s/article | elapsed 3.2h
+  1093 fetched this session (run total 1040) | 11.0s/article | elapsed 3.2h
+  1098 fetched this session (run total 1045) | 11.0s/article | elapsed 3.2h
+  1103 fetched this session (run total 1050) | 11.0s/article | elapsed 3.2h
+  1108 fetched this session (run total 1055) | 11.0s/article | elapsed 3.2h
+  1113 fetched this session (run total 1060) | 11.0s/article | elapsed 3.2h
+  1118 fetched this session (run total 1065) | 11.0s/article | elapsed 3.2h
+  1123 fetched this session (run total 1070) | 11.0s/article | elapsed 3.3h
+  1128 fetched this session (run total 1075) | 11.0s/article | elapsed 3.3h
+  1133 fetched this session (run total 1080) | 11.0s/article | elapsed 3.3h
+  1138 fetched this session (run total 1085) | 11.0s/article | elapsed 3.3h
+  1143 fetched this session (run total 1090) | 11.0s/article | elapsed 3.3h
+  1148 fetched this session (run total 1095) | 11.0s/article | elapsed 3.3h
+  1153 fetched this session (run total 1100) | 10.9s/article | elapsed 3.3h
+  1158 fetched this session (run total 1105) | 10.9s/article | elapsed 3.4h
+  1163 fetched this session (run total 1110) | 10.9s/article | elapsed 3.4h
+  1168 fetched this session (run total 1115) | 10.9s/article | elapsed 3.4h
+  1173 fetched this session (run total 1120) | 10.9s/article | elapsed 3.4h
+  1178 fetched this session (run total 1125) | 10.9s/article | elapsed 3.4h
+  1183 fetched this session (run total 1130) | 10.9s/article | elapsed 3.4h
+  1188 fetched this session (run total 1135) | 10.9s/article | elapsed 3.4h
+  1193 fetched this session (run total 1140) | 10.9s/article | elapsed 3.5h
+  1198 fetched this session (run total 1145) | 10.9s/article | elapsed 3.5h
+  1203 fetched this session (run total 1150) | 10.9s/article | elapsed 3.5h
+  1208 fetched this session (run total 1155) | 10.9s/article | elapsed 3.5h
+  1213 fetched this session (run total 1160) | 10.9s/article | elapsed 3.5h
+  1218 fetched this session (run total 1165) | 10.9s/article | elapsed 3.5h
+  1223 fetched this session (run total 1170) | 10.9s/article | elapsed 3.6h
+  1228 fetched this session (run total 1175) | 10.9s/article | elapsed 3.6h
+  1233 fetched this session (run total 1180) | 10.9s/article | elapsed 3.6h
+  1238 fetched this session (run total 1185) | 10.9s/article | elapsed 3.6h
+  1243 fetched this session (run total 1190) | 10.9s/article | elapsed 3.6h
+  1248 fetched this session (run total 1195) | 10.9s/article | elapsed 3.6h
+  1253 fetched this session (run total 1200) | 10.9s/article | elapsed 3.6h
+  1258 fetched this session (run total 1205) | 10.9s/article | elapsed 3.7h
+  1263 fetched this session (run total 1210) | 10.9s/article | elapsed 3.7h
+  1268 fetched this session (run total 1215) | 10.9s/article | elapsed 3.7h
+  1273 fetched this session (run total 1220) | 10.9s/article | elapsed 3.7h
+  1278 fetched this session (run total 1225) | 10.9s/article | elapsed 3.7h
+  1283 fetched this session (run total 1230) | 10.9s/article | elapsed 3.7h
+  1288 fetched this session (run total 1235) | 10.9s/article | elapsed 3.7h
+  1293 fetched this session (run total 1240) | 10.9s/article | elapsed 3.8h
+  1298 fetched this session (run total 1245) | 10.9s/article | elapsed 3.8h
+  1303 fetched this session (run total 1250) | 10.9s/article | elapsed 3.8h
+  1308 fetched this session (run total 1255) | 10.9s/article | elapsed 3.8h
+  1313 fetched this session (run total 1260) | 10.9s/article | elapsed 3.8h
+  1318 fetched this session (run total 1265) | 10.9s/article | elapsed 3.8h
+  1323 fetched this session (run total 1270) | 10.9s/article | elapsed 3.8h
+  1328 fetched this session (run total 1275) | 10.9s/article | elapsed 3.9h
+  1333 fetched this session (run total 1280) | 10.9s/article | elapsed 3.9h
+  1338 fetched this session (run total 1285) | 10.9s/article | elapsed 3.9h
+  1343 fetched this session (run total 1290) | 10.9s/article | elapsed 3.9h
+  1348 fetched this session (run total 1295) | 10.9s/article | elapsed 3.9h
+  1353 fetched this session (run total 1300) | 10.9s/article | elapsed 3.9h
+  1358 fetched this session (run total 1305) | 10.9s/article | elapsed 3.9h
+  1363 fetched this session (run total 1310) | 10.9s/article | elapsed 4.0h
+  1368 fetched this session (run total 1315) | 10.9s/article | elapsed 4.0h
+  1373 fetched this session (run total 1320) | 10.9s/article | elapsed 4.0h
+  1378 fetched this session (run total 1325) | 10.9s/article | elapsed 4.0h
+  1383 fetched this session (run total 1330) | 10.9s/article | elapsed 4.0h
+  1388 fetched this session (run total 1335) | 10.9s/article | elapsed 4.0h
+  1393 fetched this session (run total 1340) | 10.9s/article | elapsed 4.1h
+  1398 fetched this session (run total 1345) | 10.9s/article | elapsed 4.1h
+  1403 fetched this session (run total 1350) | 10.9s/article | elapsed 4.1h
+  1408 fetched this session (run total 1355) | 10.9s/article | elapsed 4.1h
+  1413 fetched this session (run total 1360) | 10.9s/article | elapsed 4.1h
+  1418 fetched this session (run total 1365) | 10.9s/article | elapsed 4.1h
+  1423 fetched this session (run total 1370) | 10.9s/article | elapsed 4.1h
+  1428 fetched this session (run total 1375) | 10.9s/article | elapsed 4.2h
+  1433 fetched this session (run total 1380) | 10.9s/article | elapsed 4.2h
+  1438 fetched this session (run total 1385) | 10.9s/article | elapsed 4.2h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/cardinals-and-49ers-duking-it-out-for-top-spot-in-2019-nfl-draft (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+  1443 fetched this session (run total 1390) | 10.9s/article | elapsed 4.2h
+  1448 fetched this session (run total 1395) | 10.9s/article | elapsed 4.2h
+  1453 fetched this session (run total 1400) | 10.9s/article | elapsed 4.2h
+  1458 fetched this session (run total 1405) | 10.9s/article | elapsed 4.3h
+  1463 fetched this session (run total 1410) | 10.9s/article | elapsed 4.3h
+  1468 fetched this session (run total 1415) | 10.9s/article | elapsed 4.3h
+  1473 fetched this session (run total 1420) | 10.9s/article | elapsed 4.3h
+  1478 fetched this session (run total 1425) | 10.9s/article | elapsed 4.3h
+  1483 fetched this session (run total 1430) | 10.9s/article | elapsed 4.3h
+  1488 fetched this session (run total 1435) | 10.9s/article | elapsed 4.3h
+  1493 fetched this session (run total 1440) | 10.9s/article | elapsed 4.4h
+  1498 fetched this session (run total 1445) | 10.9s/article | elapsed 4.4h
+  1503 fetched this session (run total 1450) | 10.9s/article | elapsed 4.4h
+  1508 fetched this session (run total 1455) | 10.9s/article | elapsed 4.4h
+  1513 fetched this session (run total 1460) | 10.9s/article | elapsed 4.4h
+  1518 fetched this session (run total 1465) | 10.9s/article | elapsed 4.4h
+  1523 fetched this session (run total 1470) | 10.9s/article | elapsed 4.5h
+  1528 fetched this session (run total 1475) | 10.9s/article | elapsed 4.5h
+  1533 fetched this session (run total 1480) | 10.9s/article | elapsed 4.5h
+  1538 fetched this session (run total 1485) | 10.9s/article | elapsed 4.5h
+  1543 fetched this session (run total 1490) | 10.9s/article | elapsed 4.5h
+  1548 fetched this session (run total 1495) | 10.9s/article | elapsed 4.5h
+  1553 fetched this session (run total 1500) | 10.9s/article | elapsed 4.5h
+  1558 fetched this session (run total 1505) | 10.9s/article | elapsed 4.6h
+  1563 fetched this session (run total 1510) | 10.9s/article | elapsed 4.6h
+  1568 fetched this session (run total 1515) | 10.9s/article | elapsed 4.6h
+  1573 fetched this session (run total 1520) | 10.9s/article | elapsed 4.6h
+  1578 fetched this session (run total 1525) | 10.9s/article | elapsed 4.6h
+  1583 fetched this session (run total 1530) | 10.9s/article | elapsed 4.6h
+  1588 fetched this session (run total 1535) | 10.9s/article | elapsed 4.6h
+  1593 fetched this session (run total 1540) | 10.9s/article | elapsed 4.7h
+  1598 fetched this session (run total 1545) | 10.9s/article | elapsed 4.7h
+  1603 fetched this session (run total 1550) | 10.9s/article | elapsed 4.7h
+  1608 fetched this session (run total 1555) | 10.9s/article | elapsed 4.7h
+  1613 fetched this session (run total 1560) | 10.9s/article | elapsed 4.7h
+  1618 fetched this session (run total 1565) | 10.9s/article | elapsed 4.7h
+  1623 fetched this session (run total 1570) | 10.9s/article | elapsed 4.7h
+  1628 fetched this session (run total 1575) | 10.9s/article | elapsed 4.8h
+  1633 fetched this session (run total 1580) | 10.9s/article | elapsed 4.8h
+  1638 fetched this session (run total 1585) | 10.9s/article | elapsed 4.8h
+  1643 fetched this session (run total 1590) | 10.9s/article | elapsed 4.8h
+  1648 fetched this session (run total 1595) | 10.9s/article | elapsed 4.8h
+  1653 fetched this session (run total 1600) | 10.9s/article | elapsed 4.8h
+  1658 fetched this session (run total 1605) | 10.9s/article | elapsed 4.9h
+  1663 fetched this session (run total 1610) | 10.9s/article | elapsed 4.9h
+  1668 fetched this session (run total 1615) | 10.9s/article | elapsed 4.9h
+  1673 fetched this session (run total 1620) | 10.9s/article | elapsed 4.9h
+  1678 fetched this session (run total 1625) | 10.9s/article | elapsed 4.9h
+  1683 fetched this session (run total 1630) | 10.9s/article | elapsed 4.9h
+  1688 fetched this session (run total 1635) | 10.9s/article | elapsed 4.9h
+  1693 fetched this session (run total 1640) | 10.9s/article | elapsed 5.0h
+  1698 fetched this session (run total 1645) | 10.9s/article | elapsed 5.0h
+  1703 fetched this session (run total 1650) | 10.9s/article | elapsed 5.0h
+  1708 fetched this session (run total 1655) | 10.9s/article | elapsed 5.0h
+  1713 fetched this session (run total 1660) | 10.9s/article | elapsed 5.0h
+  1718 fetched this session (run total 1665) | 10.9s/article | elapsed 5.0h
+  1723 fetched this session (run total 1670) | 10.9s/article | elapsed 5.0h
+  1728 fetched this session (run total 1675) | 10.9s/article | elapsed 5.1h
+  1733 fetched this session (run total 1680) | 10.9s/article | elapsed 5.1h
+  1738 fetched this session (run total 1685) | 10.9s/article | elapsed 5.1h
+  1743 fetched this session (run total 1690) | 10.9s/article | elapsed 5.1h
+  1748 fetched this session (run total 1695) | 10.9s/article | elapsed 5.1h
+  1753 fetched this session (run total 1700) | 10.9s/article | elapsed 5.1h
+  1758 fetched this session (run total 1705) | 10.9s/article | elapsed 5.1h
+  1763 fetched this session (run total 1710) | 10.9s/article | elapsed 5.2h
+  1768 fetched this session (run total 1715) | 10.9s/article | elapsed 5.2h
+  1773 fetched this session (run total 1720) | 10.9s/article | elapsed 5.2h
+  1778 fetched this session (run total 1725) | 10.9s/article | elapsed 5.2h
+  1783 fetched this session (run total 1730) | 10.9s/article | elapsed 5.2h
+  1788 fetched this session (run total 1735) | 10.9s/article | elapsed 5.2h
+  1793 fetched this session (run total 1740) | 10.9s/article | elapsed 5.2h
+  1798 fetched this session (run total 1745) | 10.9s/article | elapsed 5.3h
+  1803 fetched this session (run total 1750) | 10.9s/article | elapsed 5.3h
+  1808 fetched this session (run total 1755) | 10.9s/article | elapsed 5.3h
+  1813 fetched this session (run total 1760) | 10.9s/article | elapsed 5.3h
+  1818 fetched this session (run total 1765) | 10.9s/article | elapsed 5.3h
+  1823 fetched this session (run total 1770) | 10.9s/article | elapsed 5.3h
+  1828 fetched this session (run total 1775) | 10.9s/article | elapsed 5.4h
+  1833 fetched this session (run total 1780) | 10.9s/article | elapsed 5.4h
+  1838 fetched this session (run total 1785) | 10.9s/article | elapsed 5.4h
+  1843 fetched this session (run total 1790) | 10.9s/article | elapsed 5.4h
+  1848 fetched this session (run total 1795) | 10.9s/article | elapsed 5.4h
+  1853 fetched this session (run total 1800) | 10.9s/article | elapsed 5.4h
+  1858 fetched this session (run total 1805) | 10.9s/article | elapsed 5.4h
+  1863 fetched this session (run total 1810) | 10.9s/article | elapsed 5.5h
+  1868 fetched this session (run total 1815) | 10.9s/article | elapsed 5.5h
+  1873 fetched this session (run total 1820) | 10.9s/article | elapsed 5.5h
+  1878 fetched this session (run total 1825) | 10.9s/article | elapsed 5.5h
+  1883 fetched this session (run total 1830) | 10.8s/article | elapsed 5.5h
+  1888 fetched this session (run total 1835) | 10.8s/article | elapsed 5.5h
+  1893 fetched this session (run total 1840) | 10.8s/article | elapsed 5.5h
+  1898 fetched this session (run total 1845) | 10.8s/article | elapsed 5.6h
+  1903 fetched this session (run total 1850) | 10.8s/article | elapsed 5.6h
+  1908 fetched this session (run total 1855) | 10.8s/article | elapsed 5.6h
+  1913 fetched this session (run total 1860) | 10.8s/article | elapsed 5.6h
+  1918 fetched this session (run total 1865) | 10.8s/article | elapsed 5.6h
+  1923 fetched this session (run total 1870) | 10.8s/article | elapsed 5.6h
+  1928 fetched this session (run total 1875) | 10.8s/article | elapsed 5.6h
+  1933 fetched this session (run total 1880) | 10.8s/article | elapsed 5.7h
+  1938 fetched this session (run total 1885) | 10.8s/article | elapsed 5.7h
+  1943 fetched this session (run total 1890) | 10.8s/article | elapsed 5.7h
+  1948 fetched this session (run total 1895) | 10.8s/article | elapsed 5.7h
+  1953 fetched this session (run total 1900) | 10.8s/article | elapsed 5.7h
+  1958 fetched this session (run total 1905) | 10.8s/article | elapsed 5.7h
+  1963 fetched this session (run total 1910) | 10.8s/article | elapsed 5.8h
+  1968 fetched this session (run total 1915) | 10.8s/article | elapsed 5.8h
+  1973 fetched this session (run total 1920) | 10.8s/article | elapsed 5.8h
+  1978 fetched this session (run total 1925) | 10.8s/article | elapsed 5.8h
+  1983 fetched this session (run total 1930) | 10.8s/article | elapsed 5.8h
+  1988 fetched this session (run total 1935) | 10.8s/article | elapsed 5.8h
+  1993 fetched this session (run total 1940) | 10.8s/article | elapsed 5.8h
+  1998 fetched this session (run total 1945) | 10.8s/article | elapsed 5.9h
+  2003 fetched this session (run total 1950) | 10.8s/article | elapsed 5.9h
+  2008 fetched this session (run total 1955) | 10.8s/article | elapsed 5.9h
+  2013 fetched this session (run total 1960) | 10.8s/article | elapsed 5.9h
+  2018 fetched this session (run total 1965) | 10.8s/article | elapsed 5.9h
+  2023 fetched this session (run total 1970) | 10.8s/article | elapsed 5.9h
+  2028 fetched this session (run total 1975) | 10.8s/article | elapsed 5.9h
+  2033 fetched this session (run total 1980) | 10.8s/article | elapsed 6.0h
+  2038 fetched this session (run total 1985) | 10.8s/article | elapsed 6.0h
+  2043 fetched this session (run total 1990) | 10.8s/article | elapsed 6.0h
+  2048 fetched this session (run total 1995) | 10.8s/article | elapsed 6.0h
+  2053 fetched this session (run total 2000) | 10.8s/article | elapsed 6.0h
+  2058 fetched this session (run total 2005) | 10.8s/article | elapsed 6.0h
+  2063 fetched this session (run total 2010) | 10.8s/article | elapsed 6.0h
+  2068 fetched this session (run total 2015) | 10.8s/article | elapsed 6.1h
+  2073 fetched this session (run total 2020) | 10.8s/article | elapsed 6.1h
+  2078 fetched this session (run total 2025) | 10.8s/article | elapsed 6.1h
+  2083 fetched this session (run total 2030) | 10.8s/article | elapsed 6.1h
+  2088 fetched this session (run total 2035) | 10.8s/article | elapsed 6.1h
+  2093 fetched this session (run total 2040) | 10.8s/article | elapsed 6.1h
+  2098 fetched this session (run total 2045) | 10.8s/article | elapsed 6.2h
+  2103 fetched this session (run total 2050) | 10.8s/article | elapsed 6.2h
+  2108 fetched this session (run total 2055) | 10.8s/article | elapsed 6.2h
+  2113 fetched this session (run total 2060) | 10.8s/article | elapsed 6.2h
+  2118 fetched this session (run total 2065) | 10.8s/article | elapsed 6.2h
+  2123 fetched this session (run total 2070) | 10.8s/article | elapsed 6.2h
+  2128 fetched this session (run total 2075) | 10.8s/article | elapsed 6.2h
+  2133 fetched this session (run total 2080) | 10.8s/article | elapsed 6.3h
+  2138 fetched this session (run total 2085) | 10.8s/article | elapsed 6.3h
+  2143 fetched this session (run total 2090) | 10.8s/article | elapsed 6.3h
+  2148 fetched this session (run total 2095) | 10.8s/article | elapsed 6.3h
+  2153 fetched this session (run total 2100) | 10.8s/article | elapsed 6.3h
+  2158 fetched this session (run total 2105) | 10.8s/article | elapsed 6.3h
+  2163 fetched this session (run total 2110) | 10.8s/article | elapsed 6.3h
+  2168 fetched this session (run total 2115) | 10.8s/article | elapsed 6.4h
+  2173 fetched this session (run total 2120) | 10.8s/article | elapsed 6.4h
+  2178 fetched this session (run total 2125) | 10.8s/article | elapsed 6.4h
+  2183 fetched this session (run total 2130) | 10.8s/article | elapsed 6.4h
+  2188 fetched this session (run total 2135) | 10.8s/article | elapsed 6.4h
+  2193 fetched this session (run total 2140) | 10.8s/article | elapsed 6.4h
+  2198 fetched this session (run total 2145) | 10.8s/article | elapsed 6.4h
+  2203 fetched this session (run total 2150) | 10.8s/article | elapsed 6.5h
+  2208 fetched this session (run total 2155) | 10.8s/article | elapsed 6.5h
+  2213 fetched this session (run total 2160) | 10.8s/article | elapsed 6.5h
+  2218 fetched this session (run total 2165) | 10.8s/article | elapsed 6.5h
+  2223 fetched this session (run total 2170) | 10.8s/article | elapsed 6.5h
+  2228 fetched this session (run total 2175) | 10.8s/article | elapsed 6.5h
+  2233 fetched this session (run total 2180) | 10.8s/article | elapsed 6.6h
+  2238 fetched this session (run total 2185) | 10.8s/article | elapsed 6.6h
+  2243 fetched this session (run total 2190) | 10.8s/article | elapsed 6.6h
+  2248 fetched this session (run total 2195) | 10.8s/article | elapsed 6.6h
+  2253 fetched this session (run total 2200) | 10.8s/article | elapsed 6.6h
+  2258 fetched this session (run total 2205) | 10.8s/article | elapsed 6.6h
+  2263 fetched this session (run total 2210) | 10.8s/article | elapsed 6.6h
+  2268 fetched this session (run total 2215) | 10.8s/article | elapsed 6.7h
+  2273 fetched this session (run total 2220) | 10.8s/article | elapsed 6.7h
+  2278 fetched this session (run total 2225) | 10.8s/article | elapsed 6.7h
+  2283 fetched this session (run total 2230) | 10.8s/article | elapsed 6.7h
+  2288 fetched this session (run total 2235) | 10.8s/article | elapsed 6.7h
+  2293 fetched this session (run total 2240) | 10.8s/article | elapsed 6.7h
+  2298 fetched this session (run total 2245) | 10.8s/article | elapsed 6.7h
+  2303 fetched this session (run total 2250) | 10.8s/article | elapsed 6.8h
+  2308 fetched this session (run total 2255) | 10.8s/article | elapsed 6.8h
+  2313 fetched this session (run total 2260) | 10.8s/article | elapsed 6.8h
+  2318 fetched this session (run total 2265) | 10.8s/article | elapsed 6.8h
+  2323 fetched this session (run total 2270) | 10.8s/article | elapsed 6.8h
+  2328 fetched this session (run total 2275) | 10.8s/article | elapsed 6.8h
+  2333 fetched this session (run total 2280) | 10.8s/article | elapsed 6.8h
+  2338 fetched this session (run total 2285) | 10.8s/article | elapsed 6.9h
+  2343 fetched this session (run total 2290) | 10.8s/article | elapsed 6.9h
+  2348 fetched this session (run total 2295) | 10.8s/article | elapsed 6.9h
+  2353 fetched this session (run total 2300) | 10.8s/article | elapsed 6.9h
+  2358 fetched this session (run total 2305) | 10.8s/article | elapsed 6.9h
+  2363 fetched this session (run total 2310) | 10.8s/article | elapsed 6.9h
+  2368 fetched this session (run total 2315) | 10.8s/article | elapsed 6.9h
+  2373 fetched this session (run total 2320) | 10.8s/article | elapsed 7.0h
+  2378 fetched this session (run total 2325) | 10.8s/article | elapsed 7.0h
+  2383 fetched this session (run total 2330) | 10.8s/article | elapsed 7.0h
+  2388 fetched this session (run total 2335) | 10.8s/article | elapsed 7.0h
+  2393 fetched this session (run total 2340) | 10.8s/article | elapsed 7.0h
+  2398 fetched this session (run total 2345) | 10.8s/article | elapsed 7.0h
+  2403 fetched this session (run total 2350) | 10.8s/article | elapsed 7.1h
+  2408 fetched this session (run total 2355) | 10.8s/article | elapsed 7.1h
+  2413 fetched this session (run total 2360) | 10.8s/article | elapsed 7.1h
+  2418 fetched this session (run total 2365) | 10.8s/article | elapsed 7.1h
+  2423 fetched this session (run total 2370) | 10.8s/article | elapsed 7.1h
+  2428 fetched this session (run total 2375) | 10.8s/article | elapsed 7.1h
+  2433 fetched this session (run total 2380) | 10.8s/article | elapsed 7.1h
+  2438 fetched this session (run total 2385) | 10.8s/article | elapsed 7.2h
+  2443 fetched this session (run total 2390) | 10.8s/article | elapsed 7.2h
+  2448 fetched this session (run total 2395) | 10.8s/article | elapsed 7.2h
+  2453 fetched this session (run total 2400) | 10.8s/article | elapsed 7.2h
+  2458 fetched this session (run total 2405) | 10.8s/article | elapsed 7.2h
+  2463 fetched this session (run total 2410) | 10.8s/article | elapsed 7.2h
+  2468 fetched this session (run total 2415) | 10.8s/article | elapsed 7.2h
+  2473 fetched this session (run total 2420) | 10.8s/article | elapsed 7.3h
+  2478 fetched this session (run total 2425) | 10.8s/article | elapsed 7.3h
+  2483 fetched this session (run total 2430) | 10.8s/article | elapsed 7.3h
+  2488 fetched this session (run total 2435) | 10.8s/article | elapsed 7.3h
+  2493 fetched this session (run total 2440) | 10.8s/article | elapsed 7.3h
+  2498 fetched this session (run total 2445) | 10.8s/article | elapsed 7.3h
+  2503 fetched this session (run total 2450) | 10.8s/article | elapsed 7.3h
+  2508 fetched this session (run total 2455) | 10.8s/article | elapsed 7.4h
+  2513 fetched this session (run total 2460) | 10.8s/article | elapsed 7.4h
+  2518 fetched this session (run total 2465) | 10.8s/article | elapsed 7.4h
+  2523 fetched this session (run total 2470) | 10.8s/article | elapsed 7.4h
+  2528 fetched this session (run total 2475) | 10.8s/article | elapsed 7.4h
+  2533 fetched this session (run total 2480) | 10.8s/article | elapsed 7.4h
+  2538 fetched this session (run total 2485) | 10.8s/article | elapsed 7.5h
+  2543 fetched this session (run total 2490) | 10.8s/article | elapsed 7.5h
+  2548 fetched this session (run total 2495) | 10.8s/article | elapsed 7.5h
+  2553 fetched this session (run total 2500) | 10.8s/article | elapsed 7.5h
+  2558 fetched this session (run total 2505) | 10.8s/article | elapsed 7.5h
+  2563 fetched this session (run total 2510) | 10.8s/article | elapsed 7.5h
+  2568 fetched this session (run total 2515) | 10.8s/article | elapsed 7.5h
+  2573 fetched this session (run total 2520) | 10.8s/article | elapsed 7.6h
+  2578 fetched this session (run total 2525) | 10.8s/article | elapsed 7.6h
+  2583 fetched this session (run total 2530) | 10.8s/article | elapsed 7.6h
+  2588 fetched this session (run total 2535) | 10.8s/article | elapsed 7.6h
+  2593 fetched this session (run total 2540) | 10.8s/article | elapsed 7.6h
+  2598 fetched this session (run total 2545) | 10.8s/article | elapsed 7.6h
+  2603 fetched this session (run total 2550) | 10.8s/article | elapsed 7.6h
+  2608 fetched this session (run total 2555) | 10.8s/article | elapsed 7.7h
+  2613 fetched this session (run total 2560) | 10.8s/article | elapsed 7.7h
+  2618 fetched this session (run total 2565) | 10.8s/article | elapsed 7.7h
+relevant todo this run=10176 | overall pending=10176 | already done=2618
+  2623 fetched this session (run total 5) | 9.2s/article | elapsed 0.0h
+  2628 fetched this session (run total 10) | 10.2s/article | elapsed 0.0h
+  2633 fetched this session (run total 15) | 10.5s/article | elapsed 0.0h
+  2638 fetched this session (run total 20) | 10.7s/article | elapsed 0.1h
+  2643 fetched this session (run total 25) | 10.8s/article | elapsed 0.1h
+  2648 fetched this session (run total 30) | 10.8s/article | elapsed 0.1h
+  2653 fetched this session (run total 35) | 10.9s/article | elapsed 0.1h
+  2658 fetched this session (run total 40) | 10.9s/article | elapsed 0.1h
+  2663 fetched this session (run total 45) | 10.9s/article | elapsed 0.1h
+  2668 fetched this session (run total 50) | 11.0s/article | elapsed 0.2h
+  2673 fetched this session (run total 55) | 11.0s/article | elapsed 0.2h
+  2678 fetched this session (run total 60) | 11.0s/article | elapsed 0.2h
+  2683 fetched this session (run total 65) | 11.0s/article | elapsed 0.2h
+  2688 fetched this session (run total 70) | 11.0s/article | elapsed 0.2h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/case-keenum-out-with-concussion-dwayne-haskins-playing (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+  2693 fetched this session (run total 75) | 11.8s/article | elapsed 0.2h
+  2698 fetched this session (run total 80) | 11.8s/article | elapsed 0.3h
+  2703 fetched this session (run total 85) | 11.7s/article | elapsed 0.3h
+  2708 fetched this session (run total 90) | 11.7s/article | elapsed 0.3h
+  2713 fetched this session (run total 95) | 11.6s/article | elapsed 0.3h
+  2718 fetched this session (run total 100) | 11.6s/article | elapsed 0.3h
+  2723 fetched this session (run total 105) | 11.6s/article | elapsed 0.3h
+  2728 fetched this session (run total 110) | 11.6s/article | elapsed 0.4h
+  2733 fetched this session (run total 115) | 11.5s/article | elapsed 0.4h
+  2738 fetched this session (run total 120) | 11.5s/article | elapsed 0.4h
+  2743 fetched this session (run total 125) | 11.5s/article | elapsed 0.4h
+  2748 fetched this session (run total 130) | 11.5s/article | elapsed 0.4h
+  2753 fetched this session (run total 135) | 11.5s/article | elapsed 0.4h
+  2758 fetched this session (run total 140) | 11.5s/article | elapsed 0.4h
+  2763 fetched this session (run total 145) | 11.5s/article | elapsed 0.5h
+  2768 fetched this session (run total 150) | 11.4s/article | elapsed 0.5h
+  2773 fetched this session (run total 155) | 11.4s/article | elapsed 0.5h
+  2778 fetched this session (run total 160) | 11.4s/article | elapsed 0.5h
+  2783 fetched this session (run total 165) | 11.4s/article | elapsed 0.5h
+  2788 fetched this session (run total 170) | 11.4s/article | elapsed 0.5h
+  2793 fetched this session (run total 175) | 11.4s/article | elapsed 0.6h
+  2798 fetched this session (run total 180) | 11.3s/article | elapsed 0.6h
+  2803 fetched this session (run total 185) | 11.3s/article | elapsed 0.6h
+  2808 fetched this session (run total 190) | 11.3s/article | elapsed 0.6h
+  2813 fetched this session (run total 195) | 11.3s/article | elapsed 0.6h
+  2818 fetched this session (run total 200) | 11.3s/article | elapsed 0.6h
+  2823 fetched this session (run total 205) | 11.2s/article | elapsed 0.6h
+  2828 fetched this session (run total 210) | 11.2s/article | elapsed 0.7h
+  2833 fetched this session (run total 215) | 11.2s/article | elapsed 0.7h
+  2838 fetched this session (run total 220) | 11.2s/article | elapsed 0.7h
+  2843 fetched this session (run total 225) | 11.2s/article | elapsed 0.7h
+  2848 fetched this session (run total 230) | 11.2s/article | elapsed 0.7h
+  2853 fetched this session (run total 235) | 11.2s/article | elapsed 0.7h
+  2858 fetched this session (run total 240) | 11.2s/article | elapsed 0.7h
+  2863 fetched this session (run total 245) | 11.1s/article | elapsed 0.8h
+  2868 fetched this session (run total 250) | 11.1s/article | elapsed 0.8h
+  2873 fetched this session (run total 255) | 11.1s/article | elapsed 0.8h
+  2878 fetched this session (run total 260) | 11.1s/article | elapsed 0.8h
+  2883 fetched this session (run total 265) | 11.1s/article | elapsed 0.8h
+  2888 fetched this session (run total 270) | 11.1s/article | elapsed 0.8h
+  2893 fetched this session (run total 275) | 11.1s/article | elapsed 0.8h
+  2898 fetched this session (run total 280) | 11.1s/article | elapsed 0.9h
+  2903 fetched this session (run total 285) | 11.1s/article | elapsed 0.9h
+  2908 fetched this session (run total 290) | 11.1s/article | elapsed 0.9h
+  2913 fetched this session (run total 295) | 11.1s/article | elapsed 0.9h
+  2918 fetched this session (run total 300) | 11.1s/article | elapsed 0.9h
+  2923 fetched this session (run total 305) | 11.0s/article | elapsed 0.9h
+  2928 fetched this session (run total 310) | 11.0s/article | elapsed 1.0h
+  2933 fetched this session (run total 315) | 11.0s/article | elapsed 1.0h
+  2938 fetched this session (run total 320) | 11.0s/article | elapsed 1.0h
+  2943 fetched this session (run total 325) | 11.0s/article | elapsed 1.0h
+  2948 fetched this session (run total 330) | 11.0s/article | elapsed 1.0h
+  2953 fetched this session (run total 335) | 11.0s/article | elapsed 1.0h
+  2958 fetched this session (run total 340) | 11.0s/article | elapsed 1.0h
+  2963 fetched this session (run total 345) | 11.0s/article | elapsed 1.1h
+  2968 fetched this session (run total 350) | 11.0s/article | elapsed 1.1h
+  2973 fetched this session (run total 355) | 11.0s/article | elapsed 1.1h
+  2978 fetched this session (run total 360) | 11.0s/article | elapsed 1.1h
+  2983 fetched this session (run total 365) | 11.0s/article | elapsed 1.1h
+  2988 fetched this session (run total 370) | 11.0s/article | elapsed 1.1h
+  2993 fetched this session (run total 375) | 11.0s/article | elapsed 1.1h
+  2998 fetched this session (run total 380) | 11.0s/article | elapsed 1.2h
+  3003 fetched this session (run total 385) | 11.0s/article | elapsed 1.2h
+  3008 fetched this session (run total 390) | 11.0s/article | elapsed 1.2h
+  3013 fetched this session (run total 395) | 11.0s/article | elapsed 1.2h
+  3018 fetched this session (run total 400) | 10.9s/article | elapsed 1.2h
+  3023 fetched this session (run total 405) | 10.9s/article | elapsed 1.2h
+  3028 fetched this session (run total 410) | 10.9s/article | elapsed 1.2h
+  3033 fetched this session (run total 415) | 10.9s/article | elapsed 1.3h
+  3038 fetched this session (run total 420) | 10.9s/article | elapsed 1.3h
+  3043 fetched this session (run total 425) | 10.9s/article | elapsed 1.3h
+  3048 fetched this session (run total 430) | 10.9s/article | elapsed 1.3h
+  3053 fetched this session (run total 435) | 10.9s/article | elapsed 1.3h
+  3058 fetched this session (run total 440) | 10.9s/article | elapsed 1.3h
+  3063 fetched this session (run total 445) | 10.9s/article | elapsed 1.4h
+  3068 fetched this session (run total 450) | 10.9s/article | elapsed 1.4h
+  3073 fetched this session (run total 455) | 10.9s/article | elapsed 1.4h
+  3078 fetched this session (run total 460) | 10.9s/article | elapsed 1.4h
+  3083 fetched this session (run total 465) | 10.9s/article | elapsed 1.4h
+  3088 fetched this session (run total 470) | 10.9s/article | elapsed 1.4h
+  3093 fetched this session (run total 475) | 10.9s/article | elapsed 1.4h
+  3098 fetched this session (run total 480) | 10.9s/article | elapsed 1.5h
+  3103 fetched this session (run total 485) | 10.9s/article | elapsed 1.5h
+  3108 fetched this session (run total 490) | 10.9s/article | elapsed 1.5h
+  3113 fetched this session (run total 495) | 10.9s/article | elapsed 1.5h
+  3118 fetched this session (run total 500) | 10.9s/article | elapsed 1.5h
+  3123 fetched this session (run total 505) | 10.9s/article | elapsed 1.5h
+  3128 fetched this session (run total 510) | 10.9s/article | elapsed 1.5h
+  3133 fetched this session (run total 515) | 10.9s/article | elapsed 1.6h
+  3138 fetched this session (run total 520) | 10.9s/article | elapsed 1.6h
+  3143 fetched this session (run total 525) | 10.9s/article | elapsed 1.6h
+  3148 fetched this session (run total 530) | 10.9s/article | elapsed 1.6h
+  3153 fetched this session (run total 535) | 10.9s/article | elapsed 1.6h
+  3158 fetched this session (run total 540) | 10.9s/article | elapsed 1.6h
+  3163 fetched this session (run total 545) | 10.9s/article | elapsed 1.6h
+  3168 fetched this session (run total 550) | 10.9s/article | elapsed 1.7h
+  3173 fetched this session (run total 555) | 10.9s/article | elapsed 1.7h
+  3178 fetched this session (run total 560) | 10.9s/article | elapsed 1.7h
+  3183 fetched this session (run total 565) | 10.9s/article | elapsed 1.7h
+  3188 fetched this session (run total 570) | 10.9s/article | elapsed 1.7h
+  3193 fetched this session (run total 575) | 10.9s/article | elapsed 1.7h
+  3198 fetched this session (run total 580) | 10.9s/article | elapsed 1.8h
+  3203 fetched this session (run total 585) | 10.9s/article | elapsed 1.8h
+  3208 fetched this session (run total 590) | 10.9s/article | elapsed 1.8h
+  3213 fetched this session (run total 595) | 10.9s/article | elapsed 1.8h
+  3218 fetched this session (run total 600) | 10.9s/article | elapsed 1.8h
+  3223 fetched this session (run total 605) | 10.9s/article | elapsed 1.8h
+  3228 fetched this session (run total 610) | 10.9s/article | elapsed 1.8h
+  3233 fetched this session (run total 615) | 10.9s/article | elapsed 1.9h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/jets-activate-nathan-shepherd-place-trenton-cannon-on-ir (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+  3238 fetched this session (run total 620) | 11.0s/article | elapsed 1.9h
+  3243 fetched this session (run total 625) | 10.9s/article | elapsed 1.9h
+  3248 fetched this session (run total 630) | 10.9s/article | elapsed 1.9h
+  3253 fetched this session (run total 635) | 10.9s/article | elapsed 1.9h
+  3258 fetched this session (run total 640) | 10.9s/article | elapsed 1.9h
+  3263 fetched this session (run total 645) | 10.9s/article | elapsed 2.0h
+  3268 fetched this session (run total 650) | 10.9s/article | elapsed 2.0h
+  3273 fetched this session (run total 655) | 10.9s/article | elapsed 2.0h
+  3278 fetched this session (run total 660) | 10.9s/article | elapsed 2.0h
+  3283 fetched this session (run total 665) | 10.9s/article | elapsed 2.0h
+  3288 fetched this session (run total 670) | 10.9s/article | elapsed 2.0h
+  3293 fetched this session (run total 675) | 10.9s/article | elapsed 2.0h
+  3298 fetched this session (run total 680) | 10.9s/article | elapsed 2.1h
+  3303 fetched this session (run total 685) | 10.9s/article | elapsed 2.1h
+  3308 fetched this session (run total 690) | 10.9s/article | elapsed 2.1h
+  3313 fetched this session (run total 695) | 10.9s/article | elapsed 2.1h
+  3318 fetched this session (run total 700) | 10.9s/article | elapsed 2.1h
+  3323 fetched this session (run total 705) | 10.9s/article | elapsed 2.1h
+  3328 fetched this session (run total 710) | 10.9s/article | elapsed 2.2h
+  3333 fetched this session (run total 715) | 10.9s/article | elapsed 2.2h
+  3338 fetched this session (run total 720) | 10.9s/article | elapsed 2.2h
+  3343 fetched this session (run total 725) | 10.9s/article | elapsed 2.2h
+  3348 fetched this session (run total 730) | 10.9s/article | elapsed 2.2h
+  3353 fetched this session (run total 735) | 10.9s/article | elapsed 2.2h
+  3358 fetched this session (run total 740) | 10.9s/article | elapsed 2.2h
+  3363 fetched this session (run total 745) | 10.9s/article | elapsed 2.3h
+  3368 fetched this session (run total 750) | 10.9s/article | elapsed 2.3h
+  3373 fetched this session (run total 755) | 10.9s/article | elapsed 2.3h
+  3378 fetched this session (run total 760) | 10.9s/article | elapsed 2.3h
+  3383 fetched this session (run total 765) | 10.9s/article | elapsed 2.3h
+  3388 fetched this session (run total 770) | 10.9s/article | elapsed 2.3h
+  3393 fetched this session (run total 775) | 10.9s/article | elapsed 2.3h
+  3398 fetched this session (run total 780) | 10.9s/article | elapsed 2.4h
+  3403 fetched this session (run total 785) | 10.9s/article | elapsed 2.4h
+  3408 fetched this session (run total 790) | 10.9s/article | elapsed 2.4h
+  3413 fetched this session (run total 795) | 10.9s/article | elapsed 2.4h
+  3418 fetched this session (run total 800) | 10.9s/article | elapsed 2.4h
+  3423 fetched this session (run total 805) | 10.9s/article | elapsed 2.4h
+  3428 fetched this session (run total 810) | 10.9s/article | elapsed 2.4h
+  3433 fetched this session (run total 815) | 10.9s/article | elapsed 2.5h
+  3438 fetched this session (run total 820) | 10.9s/article | elapsed 2.5h
+  3443 fetched this session (run total 825) | 10.9s/article | elapsed 2.5h
+  3448 fetched this session (run total 830) | 10.9s/article | elapsed 2.5h
+  3453 fetched this session (run total 835) | 10.9s/article | elapsed 2.5h
+  3458 fetched this session (run total 840) | 10.9s/article | elapsed 2.5h
+  3463 fetched this session (run total 845) | 10.9s/article | elapsed 2.6h
+  3468 fetched this session (run total 850) | 10.9s/article | elapsed 2.6h
+  3473 fetched this session (run total 855) | 10.9s/article | elapsed 2.6h
+  3478 fetched this session (run total 860) | 10.9s/article | elapsed 2.6h
+  3483 fetched this session (run total 865) | 10.9s/article | elapsed 2.6h
+  3488 fetched this session (run total 870) | 10.9s/article | elapsed 2.6h
+  3493 fetched this session (run total 875) | 10.9s/article | elapsed 2.6h
+  3498 fetched this session (run total 880) | 10.9s/article | elapsed 2.7h
+  3503 fetched this session (run total 885) | 10.9s/article | elapsed 2.7h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/broncos-put-adam-gotsis-on-ir-add-a-tackle (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='hatch-egress-proxy', port=3128): Failed to establish a new connection: [Errno 111] Connection refused"))) -> backoff 60s (attempt 1)
+2026-09-30 19:15:32: proactivity restart after host reboot (uptime reboot ~16:57 UTC)
+relevant todo this run=9291 | overall pending=9291 | already done=3503
+  3508 fetched this session (run total 5) | 9.1s/article | elapsed 0.0h
+  3513 fetched this session (run total 10) | 10.2s/article | elapsed 0.0h
+  3518 fetched this session (run total 15) | 10.5s/article | elapsed 0.0h
+  3523 fetched this session (run total 20) | 10.6s/article | elapsed 0.1h
+  3528 fetched this session (run total 25) | 10.7s/article | elapsed 0.1h
+  3533 fetched this session (run total 30) | 10.8s/article | elapsed 0.1h
+relevant todo this run=9261 | overall pending=9261 | already done=3533
+  3538 fetched this session (run total 5) | 9.0s/article | elapsed 0.0h
+  3543 fetched this session (run total 10) | 10.0s/article | elapsed 0.0h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/dak-prescott-cant-put-a-finger-on-why-offense-slows-down (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+relevant todo this run=9251 | overall pending=9251 | already done=3543
+  3548 fetched this session (run total 5) | 9.1s/article | elapsed 0.0h
+  3553 fetched this session (run total 10) | 10.2s/article | elapsed 0.0h
+  3558 fetched this session (run total 15) | 10.5s/article | elapsed 0.0h
+  3563 fetched this session (run total 20) | 10.6s/article | elapsed 0.1h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/daniel-jones-likely-to-miss-2-4-weeks (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+  3568 fetched this session (run total 25) | 13.2s/article | elapsed 0.1h
+  3573 fetched this session (run total 30) | 12.8s/article | elapsed 0.1h
+  3578 fetched this session (run total 35) | 12.6s/article | elapsed 0.1h
+  3583 fetched this session (run total 40) | 12.4s/article | elapsed 0.1h
+  3588 fetched this session (run total 45) | 12.2s/article | elapsed 0.2h
+  3593 fetched this session (run total 50) | 12.1s/article | elapsed 0.2h
+  3598 fetched this session (run total 55) | 12.0s/article | elapsed 0.2h
+  3603 fetched this session (run total 60) | 12.0s/article | elapsed 0.2h
+  3608 fetched this session (run total 65) | 11.9s/article | elapsed 0.2h
+  3613 fetched this session (run total 70) | 11.8s/article | elapsed 0.2h
+  3618 fetched this session (run total 75) | 11.8s/article | elapsed 0.2h
+  3623 fetched this session (run total 80) | 11.8s/article | elapsed 0.3h
+  3628 fetched this session (run total 85) | 11.7s/article | elapsed 0.3h
+  3633 fetched this session (run total 90) | 11.7s/article | elapsed 0.3h
+  3638 fetched this session (run total 95) | 11.6s/article | elapsed 0.3h
+  3643 fetched this session (run total 100) | 11.6s/article | elapsed 0.3h
+  3648 fetched this session (run total 105) | 11.6s/article | elapsed 0.3h
+  3653 fetched this session (run total 110) | 11.6s/article | elapsed 0.4h
+  3658 fetched this session (run total 115) | 11.6s/article | elapsed 0.4h
+  3663 fetched this session (run total 120) | 11.5s/article | elapsed 0.4h
+  3668 fetched this session (run total 125) | 11.5s/article | elapsed 0.4h
+  3673 fetched this session (run total 130) | 11.5s/article | elapsed 0.4h
+  3678 fetched this session (run total 135) | 11.5s/article | elapsed 0.4h
+  3683 fetched this session (run total 140) | 11.5s/article | elapsed 0.4h
+  3688 fetched this session (run total 145) | 11.5s/article | elapsed 0.5h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/juju-smith-schuster-up-to-full-practice-thursday (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='hatch-egress-proxy', port=3128): Failed to establish a new connection: [Errno 111] Connection refused"))) -> backoff 60s (attempt 1)
+relevant todo this run=9106 | overall pending=9106 | already done=3688
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/julian-edelman-among-the-seven-patriots-who-are-limited-tuesday (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+  3693 fetched this session (run total 5) | 21.2s/article | elapsed 0.0h
+  3698 fetched this session (run total 10) | 16.2s/article | elapsed 0.0h
+  3703 fetched this session (run total 15) | 14.5s/article | elapsed 0.1h
+  3708 fetched this session (run total 20) | 13.6s/article | elapsed 0.1h
+  3713 fetched this session (run total 25) | 13.1s/article | elapsed 0.1h
+  3718 fetched this session (run total 30) | 12.8s/article | elapsed 0.1h
+  3723 fetched this session (run total 35) | 12.5s/article | elapsed 0.1h
+  3728 fetched this session (run total 40) | 12.3s/article | elapsed 0.1h
+  3733 fetched this session (run total 45) | 12.2s/article | elapsed 0.2h
+  3738 fetched this session (run total 50) | 12.1s/article | elapsed 0.2h
+  3743 fetched this session (run total 55) | 12.0s/article | elapsed 0.2h
+  3748 fetched this session (run total 60) | 11.9s/article | elapsed 0.2h
+  3753 fetched this session (run total 65) | 11.9s/article | elapsed 0.2h
+  3758 fetched this session (run total 70) | 11.8s/article | elapsed 0.2h
+  3763 fetched this session (run total 75) | 11.8s/article | elapsed 0.2h
+  3768 fetched this session (run total 80) | 11.7s/article | elapsed 0.3h
+  3773 fetched this session (run total 85) | 11.7s/article | elapsed 0.3h
+  3778 fetched this session (run total 90) | 11.7s/article | elapsed 0.3h
+  3783 fetched this session (run total 95) | 11.6s/article | elapsed 0.3h
+  3788 fetched this session (run total 100) | 11.6s/article | elapsed 0.3h
+  3793 fetched this session (run total 105) | 11.6s/article | elapsed 0.3h
+  3798 fetched this session (run total 110) | 11.6s/article | elapsed 0.4h
+  3803 fetched this session (run total 115) | 11.6s/article | elapsed 0.4h
+  3808 fetched this session (run total 120) | 11.5s/article | elapsed 0.4h
+  3813 fetched this session (run total 125) | 11.5s/article | elapsed 0.4h
+  3818 fetched this session (run total 130) | 11.5s/article | elapsed 0.4h
+  3823 fetched this session (run total 135) | 11.5s/article | elapsed 0.4h
+  3828 fetched this session (run total 140) | 11.5s/article | elapsed 0.4h
+  3833 fetched this session (run total 145) | 11.5s/article | elapsed 0.5h
+Terminated
+2026-09-30 23:34:33: crawler exited rc=143 (run 1/20)
+2026-09-30 23:34:34: remaining=8961
+relevant todo this run=7942 | overall pending=7942 | already done=4852
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/maxx-crosby-off-covid-19-list-on-field-for-raiders (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+  4857 fetched this session (run total 5) | 21.6s/article | elapsed 0.0h
+  4862 fetched this session (run total 10) | 17.1s/article | elapsed 0.0h
+  4867 fetched this session (run total 15) | 15.2s/article | elapsed 0.1h
+  4872 fetched this session (run total 20) | 14.3s/article | elapsed 0.1h
+  4877 fetched this session (run total 25) | 13.8s/article | elapsed 0.1h
+  4882 fetched this session (run total 30) | 13.5s/article | elapsed 0.1h
+  4887 fetched this session (run total 35) | 13.2s/article | elapsed 0.1h
+  4892 fetched this session (run total 40) | 13.0s/article | elapsed 0.1h
+  4897 fetched this session (run total 45) | 12.8s/article | elapsed 0.2h
+  4902 fetched this session (run total 50) | 12.7s/article | elapsed 0.2h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/report-vic-beasley-not-expected-to-play-against-jaguars (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+  4907 fetched this session (run total 55) | 13.7s/article | elapsed 0.2h
+  4912 fetched this session (run total 60) | 13.5s/article | elapsed 0.2h
+  4917 fetched this session (run total 65) | 13.4s/article | elapsed 0.2h
+  4922 fetched this session (run total 70) | 13.3s/article | elapsed 0.3h
+  4927 fetched this session (run total 75) | 13.1s/article | elapsed 0.3h
+  4932 fetched this session (run total 80) | 13.1s/article | elapsed 0.3h
+  4937 fetched this session (run total 85) | 13.0s/article | elapsed 0.3h
+  4942 fetched this session (run total 90) | 12.9s/article | elapsed 0.3h
+  4947 fetched this session (run total 95) | 12.8s/article | elapsed 0.3h
+  4952 fetched this session (run total 100) | 12.8s/article | elapsed 0.4h
+  4957 fetched this session (run total 105) | 12.7s/article | elapsed 0.4h
+  4962 fetched this session (run total 110) | 12.7s/article | elapsed 0.4h
+  4967 fetched this session (run total 115) | 12.7s/article | elapsed 0.4h
+  4972 fetched this session (run total 120) | 12.6s/article | elapsed 0.4h
+  4977 fetched this session (run total 125) | 12.5s/article | elapsed 0.4h
+  4982 fetched this session (run total 130) | 12.5s/article | elapsed 0.5h
+  4987 fetched this session (run total 135) | 12.5s/article | elapsed 0.5h
+  4992 fetched this session (run total 140) | 12.4s/article | elapsed 0.5h
+  4997 fetched this session (run total 145) | 12.4s/article | elapsed 0.5h
+  5002 fetched this session (run total 150) | 12.4s/article | elapsed 0.5h
+  5007 fetched this session (run total 155) | 12.3s/article | elapsed 0.5h
+  5012 fetched this session (run total 160) | 12.3s/article | elapsed 0.5h
+  5017 fetched this session (run total 165) | 12.3s/article | elapsed 0.6h
+  5022 fetched this session (run total 170) | 12.2s/article | elapsed 0.6h
+  5027 fetched this session (run total 175) | 12.2s/article | elapsed 0.6h
+  5032 fetched this session (run total 180) | 12.2s/article | elapsed 0.6h
+  5037 fetched this session (run total 185) | 12.1s/article | elapsed 0.6h
+  5042 fetched this session (run total 190) | 12.1s/article | elapsed 0.6h
+  5047 fetched this session (run total 195) | 12.1s/article | elapsed 0.7h
+  5052 fetched this session (run total 200) | 12.1s/article | elapsed 0.7h
+  5057 fetched this session (run total 205) | 12.0s/article | elapsed 0.7h
+  5062 fetched this session (run total 210) | 12.0s/article | elapsed 0.7h
+  5067 fetched this session (run total 215) | 12.0s/article | elapsed 0.7h
+  5072 fetched this session (run total 220) | 12.0s/article | elapsed 0.7h
+  5077 fetched this session (run total 225) | 11.9s/article | elapsed 0.7h
+  5082 fetched this session (run total 230) | 11.9s/article | elapsed 0.8h
+  5087 fetched this session (run total 235) | 11.9s/article | elapsed 0.8h
+  5092 fetched this session (run total 240) | 11.9s/article | elapsed 0.8h
+  5097 fetched this session (run total 245) | 11.9s/article | elapsed 0.8h
+  5102 fetched this session (run total 250) | 11.9s/article | elapsed 0.8h
+  5107 fetched this session (run total 255) | 11.8s/article | elapsed 0.8h
+  5112 fetched this session (run total 260) | 11.8s/article | elapsed 0.9h
+  5117 fetched this session (run total 265) | 11.8s/article | elapsed 0.9h
+  5122 fetched this session (run total 270) | 11.8s/article | elapsed 0.9h
+  5127 fetched this session (run total 275) | 11.8s/article | elapsed 0.9h
+  5132 fetched this session (run total 280) | 11.8s/article | elapsed 0.9h
+  5137 fetched this session (run total 285) | 11.8s/article | elapsed 0.9h
+  5142 fetched this session (run total 290) | 11.8s/article | elapsed 0.9h
+  5147 fetched this session (run total 295) | 11.7s/article | elapsed 1.0h
+  5152 fetched this session (run total 300) | 11.7s/article | elapsed 1.0h
+  5157 fetched this session (run total 305) | 11.7s/article | elapsed 1.0h
+  5162 fetched this session (run total 310) | 11.7s/article | elapsed 1.0h
+  5167 fetched this session (run total 315) | 11.7s/article | elapsed 1.0h
+  5172 fetched this session (run total 320) | 11.7s/article | elapsed 1.0h
+  5177 fetched this session (run total 325) | 11.7s/article | elapsed 1.1h
+  5182 fetched this session (run total 330) | 11.7s/article | elapsed 1.1h
+  5187 fetched this session (run total 335) | 11.7s/article | elapsed 1.1h
+  5192 fetched this session (run total 340) | 11.7s/article | elapsed 1.1h
+  5197 fetched this session (run total 345) | 11.7s/article | elapsed 1.1h
+  5202 fetched this session (run total 350) | 11.6s/article | elapsed 1.1h
+  5207 fetched this session (run total 355) | 11.6s/article | elapsed 1.1h
+  5212 fetched this session (run total 360) | 11.6s/article | elapsed 1.2h
+  5217 fetched this session (run total 365) | 11.6s/article | elapsed 1.2h
+  5222 fetched this session (run total 370) | 11.6s/article | elapsed 1.2h
+  5227 fetched this session (run total 375) | 11.6s/article | elapsed 1.2h
+  5232 fetched this session (run total 380) | 11.6s/article | elapsed 1.2h
+  5237 fetched this session (run total 385) | 11.6s/article | elapsed 1.2h
+  5242 fetched this session (run total 390) | 11.6s/article | elapsed 1.3h
+  5247 fetched this session (run total 395) | 11.6s/article | elapsed 1.3h
+  5252 fetched this session (run total 400) | 11.6s/article | elapsed 1.3h
+  5257 fetched this session (run total 405) | 11.6s/article | elapsed 1.3h
+  5262 fetched this session (run total 410) | 11.6s/article | elapsed 1.3h
+  5267 fetched this session (run total 415) | 11.6s/article | elapsed 1.3h
+  5272 fetched this session (run total 420) | 11.6s/article | elapsed 1.3h
+  5277 fetched this session (run total 425) | 11.5s/article | elapsed 1.4h
+  5282 fetched this session (run total 430) | 11.5s/article | elapsed 1.4h
+  5287 fetched this session (run total 435) | 11.5s/article | elapsed 1.4h
+  5292 fetched this session (run total 440) | 11.5s/article | elapsed 1.4h
+  5297 fetched this session (run total 445) | 11.5s/article | elapsed 1.4h
+  5302 fetched this session (run total 450) | 11.5s/article | elapsed 1.4h
+  5307 fetched this session (run total 455) | 11.5s/article | elapsed 1.5h
+  5312 fetched this session (run total 460) | 11.5s/article | elapsed 1.5h
+  5317 fetched this session (run total 465) | 11.5s/article | elapsed 1.5h
+  5322 fetched this session (run total 470) | 11.5s/article | elapsed 1.5h
+  5327 fetched this session (run total 475) | 11.5s/article | elapsed 1.5h
+  5332 fetched this session (run total 480) | 11.5s/article | elapsed 1.5h
+  5337 fetched this session (run total 485) | 11.5s/article | elapsed 1.5h
+  5342 fetched this session (run total 490) | 11.5s/article | elapsed 1.6h
+  5347 fetched this session (run total 495) | 11.5s/article | elapsed 1.6h
+  5352 fetched this session (run total 500) | 11.5s/article | elapsed 1.6h
+  5357 fetched this session (run total 505) | 11.5s/article | elapsed 1.6h
+  5362 fetched this session (run total 510) | 11.5s/article | elapsed 1.6h
+  5367 fetched this session (run total 515) | 11.5s/article | elapsed 1.6h
+  5372 fetched this session (run total 520) | 11.5s/article | elapsed 1.7h
+  5377 fetched this session (run total 525) | 11.5s/article | elapsed 1.7h
+  5382 fetched this session (run total 530) | 11.5s/article | elapsed 1.7h
+  5387 fetched this session (run total 535) | 11.5s/article | elapsed 1.7h
+  5392 fetched this session (run total 540) | 11.4s/article | elapsed 1.7h
+  5397 fetched this session (run total 545) | 11.4s/article | elapsed 1.7h
+  5402 fetched this session (run total 550) | 11.4s/article | elapsed 1.7h
+  5407 fetched this session (run total 555) | 11.4s/article | elapsed 1.8h
+  5412 fetched this session (run total 560) | 11.4s/article | elapsed 1.8h
+  5417 fetched this session (run total 565) | 11.4s/article | elapsed 1.8h
+  5422 fetched this session (run total 570) | 11.4s/article | elapsed 1.8h
+  5427 fetched this session (run total 575) | 11.4s/article | elapsed 1.8h
+  5432 fetched this session (run total 580) | 11.4s/article | elapsed 1.8h
+  5437 fetched this session (run total 585) | 11.4s/article | elapsed 1.9h
+  5442 fetched this session (run total 590) | 11.4s/article | elapsed 1.9h
+  5447 fetched this session (run total 595) | 11.4s/article | elapsed 1.9h
+  5452 fetched this session (run total 600) | 11.4s/article | elapsed 1.9h
+  5457 fetched this session (run total 605) | 11.4s/article | elapsed 1.9h
+  5462 fetched this session (run total 610) | 11.4s/article | elapsed 1.9h
+  5467 fetched this session (run total 615) | 11.4s/article | elapsed 1.9h
+  5472 fetched this session (run total 620) | 11.4s/article | elapsed 2.0h
+  5477 fetched this session (run total 625) | 11.4s/article | elapsed 2.0h
+  5482 fetched this session (run total 630) | 11.4s/article | elapsed 2.0h
+  5487 fetched this session (run total 635) | 11.4s/article | elapsed 2.0h
+  5492 fetched this session (run total 640) | 11.4s/article | elapsed 2.0h
+  5497 fetched this session (run total 645) | 11.4s/article | elapsed 2.0h
+  5502 fetched this session (run total 650) | 11.4s/article | elapsed 2.1h
+  5507 fetched this session (run total 655) | 11.4s/article | elapsed 2.1h
+  5512 fetched this session (run total 660) | 11.4s/article | elapsed 2.1h
+  5517 fetched this session (run total 665) | 11.4s/article | elapsed 2.1h
+  5522 fetched this session (run total 670) | 11.4s/article | elapsed 2.1h
+  5527 fetched this session (run total 675) | 11.4s/article | elapsed 2.1h
+  5532 fetched this session (run total 680) | 11.4s/article | elapsed 2.1h
+  5537 fetched this session (run total 685) | 11.4s/article | elapsed 2.2h
+  5542 fetched this session (run total 690) | 11.4s/article | elapsed 2.2h
+  5547 fetched this session (run total 695) | 11.4s/article | elapsed 2.2h
+  5552 fetched this session (run total 700) | 11.4s/article | elapsed 2.2h
+  5557 fetched this session (run total 705) | 11.4s/article | elapsed 2.2h
+  5562 fetched this session (run total 710) | 11.4s/article | elapsed 2.2h
+  5567 fetched this session (run total 715) | 11.4s/article | elapsed 2.3h
+  5572 fetched this session (run total 720) | 11.4s/article | elapsed 2.3h
+  5577 fetched this session (run total 725) | 11.4s/article | elapsed 2.3h
+  5582 fetched this session (run total 730) | 11.4s/article | elapsed 2.3h
+  5587 fetched this session (run total 735) | 11.4s/article | elapsed 2.3h
+  5592 fetched this session (run total 740) | 11.3s/article | elapsed 2.3h
+  5597 fetched this session (run total 745) | 11.3s/article | elapsed 2.3h
+  5602 fetched this session (run total 750) | 11.3s/article | elapsed 2.4h
+  5607 fetched this session (run total 755) | 11.3s/article | elapsed 2.4h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/browns-place-sione-takitaki-on-covid-19-list (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='hatch-egress-proxy', port=3128): Failed to establish a new connection: [Errno 111] Connection refused"))) -> backoff 60s (attempt 1)
+relevant todo this run=7187 | overall pending=7187 | already done=5607
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/browns-place-sione-takitaki-on-covid-19-list (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+  5612 fetched this session (run total 5) | 21.2s/article | elapsed 0.0h
+  5617 fetched this session (run total 10) | 16.2s/article | elapsed 0.0h
+  5622 fetched this session (run total 15) | 14.5s/article | elapsed 0.1h
+  5627 fetched this session (run total 20) | 13.7s/article | elapsed 0.1h
+  5632 fetched this session (run total 25) | 13.2s/article | elapsed 0.1h
+  5637 fetched this session (run total 30) | 12.9s/article | elapsed 0.1h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/cardinals-place-deionte-thompson-on-covid-19-list (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+  5642 fetched this session (run total 35) | 14.3s/article | elapsed 0.1h
+  5647 fetched this session (run total 40) | 13.9s/article | elapsed 0.2h
+  5652 fetched this session (run total 45) | 13.6s/article | elapsed 0.2h
+  5657 fetched this session (run total 50) | 13.4s/article | elapsed 0.2h
+  5662 fetched this session (run total 55) | 13.2s/article | elapsed 0.2h
+  5667 fetched this session (run total 60) | 13.0s/article | elapsed 0.2h
+  5672 fetched this session (run total 65) | 12.9s/article | elapsed 0.2h
+  5677 fetched this session (run total 70) | 12.7s/article | elapsed 0.2h
+  5682 fetched this session (run total 75) | 12.6s/article | elapsed 0.3h
+  5687 fetched this session (run total 80) | 12.5s/article | elapsed 0.3h
+  5692 fetched this session (run total 85) | 12.4s/article | elapsed 0.3h
+  5697 fetched this session (run total 90) | 12.4s/article | elapsed 0.3h
+  5702 fetched this session (run total 95) | 12.3s/article | elapsed 0.3h
+  5707 fetched this session (run total 100) | 12.3s/article | elapsed 0.3h
+  5712 fetched this session (run total 105) | 12.2s/article | elapsed 0.4h
+  5717 fetched this session (run total 110) | 12.1s/article | elapsed 0.4h
+  5722 fetched this session (run total 115) | 12.1s/article | elapsed 0.4h
+  5727 fetched this session (run total 120) | 12.1s/article | elapsed 0.4h
+  5732 fetched this session (run total 125) | 12.0s/article | elapsed 0.4h
+  5737 fetched this session (run total 130) | 12.0s/article | elapsed 0.4h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/eagles-announce-player-tested-positive-for-covid-19 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+  5742 fetched this session (run total 135) | 12.4s/article | elapsed 0.5h
+  5747 fetched this session (run total 140) | 12.4s/article | elapsed 0.5h
+  5752 fetched this session (run total 145) | 12.3s/article | elapsed 0.5h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/fifteen-nfl-teams-currently-have-covid-19-issues (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+  5757 fetched this session (run total 150) | 12.7s/article | elapsed 0.5h
+  5762 fetched this session (run total 155) | 12.6s/article | elapsed 0.5h
+  5767 fetched this session (run total 160) | 12.5s/article | elapsed 0.6h
+  5772 fetched this session (run total 165) | 12.5s/article | elapsed 0.6h
+  5777 fetched this session (run total 170) | 12.4s/article | elapsed 0.6h
+  5782 fetched this session (run total 175) | 12.4s/article | elapsed 0.6h
+  5787 fetched this session (run total 180) | 12.3s/article | elapsed 0.6h
+  5792 fetched this session (run total 185) | 12.3s/article | elapsed 0.6h
+  5797 fetched this session (run total 190) | 12.2s/article | elapsed 0.6h
+  5802 fetched this session (run total 195) | 12.2s/article | elapsed 0.7h
+  5807 fetched this session (run total 200) | 12.2s/article | elapsed 0.7h
+  5812 fetched this session (run total 205) | 12.1s/article | elapsed 0.7h
+  5817 fetched this session (run total 210) | 12.1s/article | elapsed 0.7h
+  5822 fetched this session (run total 215) | 12.1s/article | elapsed 0.7h
+  5827 fetched this session (run total 220) | 12.0s/article | elapsed 0.7h
+  5832 fetched this session (run total 225) | 12.0s/article | elapsed 0.7h
+  5837 fetched this session (run total 230) | 12.0s/article | elapsed 0.8h
+  5842 fetched this session (run total 235) | 11.9s/article | elapsed 0.8h
+  5847 fetched this session (run total 240) | 11.9s/article | elapsed 0.8h
+  5852 fetched this session (run total 245) | 11.9s/article | elapsed 0.8h
+  5857 fetched this session (run total 250) | 11.9s/article | elapsed 0.8h
+  5862 fetched this session (run total 255) | 11.8s/article | elapsed 0.8h
+  5867 fetched this session (run total 260) | 11.8s/article | elapsed 0.9h
+  5872 fetched this session (run total 265) | 11.8s/article | elapsed 0.9h
+  5877 fetched this session (run total 270) | 11.8s/article | elapsed 0.9h
+  5882 fetched this session (run total 275) | 11.7s/article | elapsed 0.9h
+  5887 fetched this session (run total 280) | 11.7s/article | elapsed 0.9h
+  5892 fetched this session (run total 285) | 11.7s/article | elapsed 0.9h
+  5897 fetched this session (run total 290) | 11.7s/article | elapsed 0.9h
+  5902 fetched this session (run total 295) | 11.7s/article | elapsed 1.0h
+  5907 fetched this session (run total 300) | 11.7s/article | elapsed 1.0h
+  5912 fetched this session (run total 305) | 11.6s/article | elapsed 1.0h
+  5917 fetched this session (run total 310) | 11.6s/article | elapsed 1.0h
+  5922 fetched this session (run total 315) | 11.6s/article | elapsed 1.0h
+  5927 fetched this session (run total 320) | 11.6s/article | elapsed 1.0h
+  5932 fetched this session (run total 325) | 11.6s/article | elapsed 1.0h
+  5937 fetched this session (run total 330) | 11.6s/article | elapsed 1.1h
+  5942 fetched this session (run total 335) | 11.6s/article | elapsed 1.1h
+  5947 fetched this session (run total 340) | 11.5s/article | elapsed 1.1h
+  5952 fetched this session (run total 345) | 11.5s/article | elapsed 1.1h
+  5957 fetched this session (run total 350) | 11.5s/article | elapsed 1.1h
+  5962 fetched this session (run total 355) | 11.5s/article | elapsed 1.1h
+  5967 fetched this session (run total 360) | 11.5s/article | elapsed 1.1h
+  5972 fetched this session (run total 365) | 11.5s/article | elapsed 1.2h
+  5977 fetched this session (run total 370) | 11.5s/article | elapsed 1.2h
+  5982 fetched this session (run total 375) | 11.5s/article | elapsed 1.2h
+  5987 fetched this session (run total 380) | 11.4s/article | elapsed 1.2h
+  5992 fetched this session (run total 385) | 11.4s/article | elapsed 1.2h
+  5997 fetched this session (run total 390) | 11.4s/article | elapsed 1.2h
+  6002 fetched this session (run total 395) | 11.4s/article | elapsed 1.3h
+  6007 fetched this session (run total 400) | 11.4s/article | elapsed 1.3h
+  6012 fetched this session (run total 405) | 11.4s/article | elapsed 1.3h
+  6017 fetched this session (run total 410) | 11.4s/article | elapsed 1.3h
+  6022 fetched this session (run total 415) | 11.4s/article | elapsed 1.3h
+  6027 fetched this session (run total 420) | 11.4s/article | elapsed 1.3h
+  6032 fetched this session (run total 425) | 11.4s/article | elapsed 1.3h
+  6037 fetched this session (run total 430) | 11.4s/article | elapsed 1.4h
+  6042 fetched this session (run total 435) | 11.3s/article | elapsed 1.4h
+  6047 fetched this session (run total 440) | 11.3s/article | elapsed 1.4h
+  6052 fetched this session (run total 445) | 11.3s/article | elapsed 1.4h
+  6057 fetched this session (run total 450) | 11.3s/article | elapsed 1.4h
+  6062 fetched this session (run total 455) | 11.3s/article | elapsed 1.4h
+  6067 fetched this session (run total 460) | 11.3s/article | elapsed 1.4h
+  6072 fetched this session (run total 465) | 11.3s/article | elapsed 1.5h
+  6077 fetched this session (run total 470) | 11.3s/article | elapsed 1.5h
+  6082 fetched this session (run total 475) | 11.3s/article | elapsed 1.5h
+  6087 fetched this session (run total 480) | 11.3s/article | elapsed 1.5h
+  6092 fetched this session (run total 485) | 11.3s/article | elapsed 1.5h
+  6097 fetched this session (run total 490) | 11.3s/article | elapsed 1.5h
+  6102 fetched this session (run total 495) | 11.3s/article | elapsed 1.5h
+  6107 fetched this session (run total 500) | 11.3s/article | elapsed 1.6h
+  6112 fetched this session (run total 505) | 11.2s/article | elapsed 1.6h
+  6117 fetched this session (run total 510) | 11.2s/article | elapsed 1.6h
+  6122 fetched this session (run total 515) | 11.2s/article | elapsed 1.6h
+  6127 fetched this session (run total 520) | 11.2s/article | elapsed 1.6h
+  6132 fetched this session (run total 525) | 11.2s/article | elapsed 1.6h
+  6137 fetched this session (run total 530) | 11.2s/article | elapsed 1.7h
+  6142 fetched this session (run total 535) | 11.2s/article | elapsed 1.7h
+  6147 fetched this session (run total 540) | 11.2s/article | elapsed 1.7h
+  6152 fetched this session (run total 545) | 11.2s/article | elapsed 1.7h
+  6157 fetched this session (run total 550) | 11.2s/article | elapsed 1.7h
+  6162 fetched this session (run total 555) | 11.2s/article | elapsed 1.7h
+  6167 fetched this session (run total 560) | 11.2s/article | elapsed 1.7h
+  6172 fetched this session (run total 565) | 11.2s/article | elapsed 1.8h
+  6177 fetched this session (run total 570) | 11.2s/article | elapsed 1.8h
+  6182 fetched this session (run total 575) | 11.2s/article | elapsed 1.8h
+  6187 fetched this session (run total 580) | 11.2s/article | elapsed 1.8h
+  6192 fetched this session (run total 585) | 11.2s/article | elapsed 1.8h
+  6197 fetched this session (run total 590) | 11.2s/article | elapsed 1.8h
+  6202 fetched this session (run total 595) | 11.2s/article | elapsed 1.8h
+  6207 fetched this session (run total 600) | 11.1s/article | elapsed 1.9h
+  6212 fetched this session (run total 605) | 11.1s/article | elapsed 1.9h
+  6217 fetched this session (run total 610) | 11.1s/article | elapsed 1.9h
+  6222 fetched this session (run total 615) | 11.1s/article | elapsed 1.9h
+  6227 fetched this session (run total 620) | 11.1s/article | elapsed 1.9h
+  6232 fetched this session (run total 625) | 11.1s/article | elapsed 1.9h
+  6237 fetched this session (run total 630) | 11.1s/article | elapsed 1.9h
+  6242 fetched this session (run total 635) | 11.1s/article | elapsed 2.0h
+  6247 fetched this session (run total 640) | 11.1s/article | elapsed 2.0h
+  6252 fetched this session (run total 645) | 11.1s/article | elapsed 2.0h
+  6257 fetched this session (run total 650) | 11.1s/article | elapsed 2.0h
+  6262 fetched this session (run total 655) | 11.1s/article | elapsed 2.0h
+  6267 fetched this session (run total 660) | 11.1s/article | elapsed 2.0h
+  6272 fetched this session (run total 665) | 11.1s/article | elapsed 2.1h
+  6277 fetched this session (run total 670) | 11.1s/article | elapsed 2.1h
+  6282 fetched this session (run total 675) | 11.1s/article | elapsed 2.1h
+  6287 fetched this session (run total 680) | 11.1s/article | elapsed 2.1h
+  6292 fetched this session (run total 685) | 11.1s/article | elapsed 2.1h
+  6297 fetched this session (run total 690) | 11.1s/article | elapsed 2.1h
+  6302 fetched this session (run total 695) | 11.1s/article | elapsed 2.1h
+  6307 fetched this session (run total 700) | 11.1s/article | elapsed 2.2h
+  6312 fetched this session (run total 705) | 11.1s/article | elapsed 2.2h
+  6317 fetched this session (run total 710) | 11.1s/article | elapsed 2.2h
+  6322 fetched this session (run total 715) | 11.1s/article | elapsed 2.2h
+relevant todo this run=6472 | overall pending=6472 | already done=6322
+  6327 fetched this session (run total 5) | 9.1s/article | elapsed 0.0h
+  6332 fetched this session (run total 10) | 10.1s/article | elapsed 0.0h
+  6337 fetched this session (run total 15) | 10.5s/article | elapsed 0.0h
+  6342 fetched this session (run total 20) | 10.6s/article | elapsed 0.1h
+  6347 fetched this session (run total 25) | 10.7s/article | elapsed 0.1h
+  6352 fetched this session (run total 30) | 10.8s/article | elapsed 0.1h
+  6357 fetched this session (run total 35) | 10.9s/article | elapsed 0.1h
+  6362 fetched this session (run total 40) | 10.9s/article | elapsed 0.1h
+  6367 fetched this session (run total 45) | 10.9s/article | elapsed 0.1h
+  6372 fetched this session (run total 50) | 10.9s/article | elapsed 0.2h
+  6377 fetched this session (run total 55) | 11.0s/article | elapsed 0.2h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/drew-brees-misses-on-first-four-attempts-throws-interception (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+  6382 fetched this session (run total 60) | 12.0s/article | elapsed 0.2h
+  6387 fetched this session (run total 65) | 11.9s/article | elapsed 0.2h
+  6392 fetched this session (run total 70) | 11.9s/article | elapsed 0.2h
+  6397 fetched this session (run total 75) | 11.8s/article | elapsed 0.2h
+  6402 fetched this session (run total 80) | 11.8s/article | elapsed 0.3h
+  6407 fetched this session (run total 85) | 11.7s/article | elapsed 0.3h
+  6412 fetched this session (run total 90) | 11.7s/article | elapsed 0.3h
+  6417 fetched this session (run total 95) | 11.7s/article | elapsed 0.3h
+  6422 fetched this session (run total 100) | 11.6s/article | elapsed 0.3h
+  6427 fetched this session (run total 105) | 11.6s/article | elapsed 0.3h
+  6432 fetched this session (run total 110) | 11.6s/article | elapsed 0.4h
+  6437 fetched this session (run total 115) | 11.6s/article | elapsed 0.4h
+  6442 fetched this session (run total 120) | 11.5s/article | elapsed 0.4h
+  6447 fetched this session (run total 125) | 11.5s/article | elapsed 0.4h
+  6452 fetched this session (run total 130) | 11.5s/article | elapsed 0.4h
+  6457 fetched this session (run total 135) | 11.5s/article | elapsed 0.4h
+  6462 fetched this session (run total 140) | 11.5s/article | elapsed 0.4h
+  6467 fetched this session (run total 145) | 11.5s/article | elapsed 0.5h
+  6472 fetched this session (run total 150) | 11.5s/article | elapsed 0.5h
+  6477 fetched this session (run total 155) | 11.4s/article | elapsed 0.5h
+  6482 fetched this session (run total 160) | 11.4s/article | elapsed 0.5h
+  6487 fetched this session (run total 165) | 11.4s/article | elapsed 0.5h
+  6492 fetched this session (run total 170) | 11.4s/article | elapsed 0.5h
+  6497 fetched this session (run total 175) | 11.4s/article | elapsed 0.6h
+  6502 fetched this session (run total 180) | 11.4s/article | elapsed 0.6h
+  6507 fetched this session (run total 185) | 11.3s/article | elapsed 0.6h
+  6512 fetched this session (run total 190) | 11.3s/article | elapsed 0.6h
+  6517 fetched this session (run total 195) | 11.3s/article | elapsed 0.6h
+  6522 fetched this session (run total 200) | 11.3s/article | elapsed 0.6h
+  6527 fetched this session (run total 205) | 11.3s/article | elapsed 0.6h
+  6532 fetched this session (run total 210) | 11.3s/article | elapsed 0.7h
+  6537 fetched this session (run total 215) | 11.2s/article | elapsed 0.7h
+  6542 fetched this session (run total 220) | 11.2s/article | elapsed 0.7h
+  6547 fetched this session (run total 225) | 11.2s/article | elapsed 0.7h
+  6552 fetched this session (run total 230) | 11.2s/article | elapsed 0.7h
+  6557 fetched this session (run total 235) | 11.2s/article | elapsed 0.7h
+  6562 fetched this session (run total 240) | 11.2s/article | elapsed 0.7h
+  6567 fetched this session (run total 245) | 11.2s/article | elapsed 0.8h
+  6572 fetched this session (run total 250) | 11.2s/article | elapsed 0.8h
+  6577 fetched this session (run total 255) | 11.2s/article | elapsed 0.8h
+  6582 fetched this session (run total 260) | 11.2s/article | elapsed 0.8h
+  6587 fetched this session (run total 265) | 11.1s/article | elapsed 0.8h
+  6592 fetched this session (run total 270) | 11.1s/article | elapsed 0.8h
+  6597 fetched this session (run total 275) | 11.1s/article | elapsed 0.9h
+  6602 fetched this session (run total 280) | 11.1s/article | elapsed 0.9h
+  6607 fetched this session (run total 285) | 11.1s/article | elapsed 0.9h
+  6612 fetched this session (run total 290) | 11.1s/article | elapsed 0.9h
+  6617 fetched this session (run total 295) | 11.1s/article | elapsed 0.9h
+  6622 fetched this session (run total 300) | 11.1s/article | elapsed 0.9h
+  6627 fetched this session (run total 305) | 11.1s/article | elapsed 0.9h
+  6632 fetched this session (run total 310) | 11.1s/article | elapsed 1.0h
+  6637 fetched this session (run total 315) | 11.1s/article | elapsed 1.0h
+  6642 fetched this session (run total 320) | 11.1s/article | elapsed 1.0h
+  6647 fetched this session (run total 325) | 11.1s/article | elapsed 1.0h
+  6652 fetched this session (run total 330) | 11.1s/article | elapsed 1.0h
+  6657 fetched this session (run total 335) | 11.1s/article | elapsed 1.0h
+  6662 fetched this session (run total 340) | 11.1s/article | elapsed 1.0h
+  6667 fetched this session (run total 345) | 11.0s/article | elapsed 1.1h
+  6672 fetched this session (run total 350) | 11.0s/article | elapsed 1.1h
+  6677 fetched this session (run total 355) | 11.0s/article | elapsed 1.1h
+  6682 fetched this session (run total 360) | 11.0s/article | elapsed 1.1h
+  6687 fetched this session (run total 365) | 11.0s/article | elapsed 1.1h
+  6692 fetched this session (run total 370) | 11.0s/article | elapsed 1.1h
+  6697 fetched this session (run total 375) | 11.0s/article | elapsed 1.1h
+  6702 fetched this session (run total 380) | 11.0s/article | elapsed 1.2h
+  6707 fetched this session (run total 385) | 11.0s/article | elapsed 1.2h
+  6712 fetched this session (run total 390) | 11.0s/article | elapsed 1.2h
+  6717 fetched this session (run total 395) | 11.0s/article | elapsed 1.2h
+  6722 fetched this session (run total 400) | 11.0s/article | elapsed 1.2h
+  6727 fetched this session (run total 405) | 11.0s/article | elapsed 1.2h
+  6732 fetched this session (run total 410) | 11.0s/article | elapsed 1.3h
+  6737 fetched this session (run total 415) | 11.0s/article | elapsed 1.3h
+  6742 fetched this session (run total 420) | 11.0s/article | elapsed 1.3h
+  6747 fetched this session (run total 425) | 11.0s/article | elapsed 1.3h
+  6752 fetched this session (run total 430) | 11.0s/article | elapsed 1.3h
+  6757 fetched this session (run total 435) | 11.0s/article | elapsed 1.3h
+  6762 fetched this session (run total 440) | 11.0s/article | elapsed 1.3h
+  6767 fetched this session (run total 445) | 11.0s/article | elapsed 1.4h
+  6772 fetched this session (run total 450) | 11.0s/article | elapsed 1.4h
+  6777 fetched this session (run total 455) | 11.0s/article | elapsed 1.4h
+  6782 fetched this session (run total 460) | 11.0s/article | elapsed 1.4h
+  6787 fetched this session (run total 465) | 11.0s/article | elapsed 1.4h
+  6792 fetched this session (run total 470) | 11.0s/article | elapsed 1.4h
+  6797 fetched this session (run total 475) | 11.0s/article | elapsed 1.4h
+  6802 fetched this session (run total 480) | 10.9s/article | elapsed 1.5h
+  6807 fetched this session (run total 485) | 10.9s/article | elapsed 1.5h
+  6812 fetched this session (run total 490) | 10.9s/article | elapsed 1.5h
+  6817 fetched this session (run total 495) | 10.9s/article | elapsed 1.5h
+  6822 fetched this session (run total 500) | 10.9s/article | elapsed 1.5h
+  6827 fetched this session (run total 505) | 10.9s/article | elapsed 1.5h
+  6832 fetched this session (run total 510) | 10.9s/article | elapsed 1.5h
+  6837 fetched this session (run total 515) | 10.9s/article | elapsed 1.6h
+  6842 fetched this session (run total 520) | 10.9s/article | elapsed 1.6h
+  6847 fetched this session (run total 525) | 10.9s/article | elapsed 1.6h
+  6852 fetched this session (run total 530) | 10.9s/article | elapsed 1.6h
+  6857 fetched this session (run total 535) | 10.9s/article | elapsed 1.6h
+  6862 fetched this session (run total 540) | 10.9s/article | elapsed 1.6h
+  6867 fetched this session (run total 545) | 10.9s/article | elapsed 1.7h
+  6872 fetched this session (run total 550) | 10.9s/article | elapsed 1.7h
+  6877 fetched this session (run total 555) | 10.9s/article | elapsed 1.7h
+  6882 fetched this session (run total 560) | 10.9s/article | elapsed 1.7h
+  6887 fetched this session (run total 565) | 10.9s/article | elapsed 1.7h
+  6892 fetched this session (run total 570) | 10.9s/article | elapsed 1.7h
+  6897 fetched this session (run total 575) | 10.9s/article | elapsed 1.7h
+  6902 fetched this session (run total 580) | 10.9s/article | elapsed 1.8h
+  6907 fetched this session (run total 585) | 10.9s/article | elapsed 1.8h
+  6912 fetched this session (run total 590) | 10.9s/article | elapsed 1.8h
+  6917 fetched this session (run total 595) | 10.9s/article | elapsed 1.8h
+  6922 fetched this session (run total 600) | 10.9s/article | elapsed 1.8h
+  6927 fetched this session (run total 605) | 10.9s/article | elapsed 1.8h
+  6932 fetched this session (run total 610) | 10.9s/article | elapsed 1.8h
+  6937 fetched this session (run total 615) | 10.9s/article | elapsed 1.9h
+  6942 fetched this session (run total 620) | 10.9s/article | elapsed 1.9h
+  6947 fetched this session (run total 625) | 10.9s/article | elapsed 1.9h
+  6952 fetched this session (run total 630) | 10.9s/article | elapsed 1.9h
+  6957 fetched this session (run total 635) | 10.9s/article | elapsed 1.9h
+  6962 fetched this session (run total 640) | 10.9s/article | elapsed 1.9h
+  6967 fetched this session (run total 645) | 10.9s/article | elapsed 2.0h
+  6972 fetched this session (run total 650) | 10.9s/article | elapsed 2.0h
+  6977 fetched this session (run total 655) | 10.9s/article | elapsed 2.0h
+  6982 fetched this session (run total 660) | 10.9s/article | elapsed 2.0h
+  6987 fetched this session (run total 665) | 10.9s/article | elapsed 2.0h
+  6992 fetched this session (run total 670) | 10.9s/article | elapsed 2.0h
+  6997 fetched this session (run total 675) | 10.9s/article | elapsed 2.0h
+  7002 fetched this session (run total 680) | 10.9s/article | elapsed 2.1h
+  7007 fetched this session (run total 685) | 10.9s/article | elapsed 2.1h
+  7012 fetched this session (run total 690) | 10.9s/article | elapsed 2.1h
+  7017 fetched this session (run total 695) | 10.9s/article | elapsed 2.1h
+  7022 fetched this session (run total 700) | 10.9s/article | elapsed 2.1h
+  7027 fetched this session (run total 705) | 10.9s/article | elapsed 2.1h
+  7032 fetched this session (run total 710) | 10.9s/article | elapsed 2.1h
+  7037 fetched this session (run total 715) | 10.9s/article | elapsed 2.2h
+  7042 fetched this session (run total 720) | 10.9s/article | elapsed 2.2h
+  7047 fetched this session (run total 725) | 10.9s/article | elapsed 2.2h
+  7052 fetched this session (run total 730) | 10.9s/article | elapsed 2.2h
+  7057 fetched this session (run total 735) | 10.9s/article | elapsed 2.2h
+  7062 fetched this session (run total 740) | 10.9s/article | elapsed 2.2h
+  7067 fetched this session (run total 745) | 10.9s/article | elapsed 2.2h
+  7072 fetched this session (run total 750) | 10.9s/article | elapsed 2.3h
+  7077 fetched this session (run total 755) | 10.9s/article | elapsed 2.3h
+  7082 fetched this session (run total 760) | 10.9s/article | elapsed 2.3h
+  7087 fetched this session (run total 765) | 10.9s/article | elapsed 2.3h
+  7092 fetched this session (run total 770) | 10.9s/article | elapsed 2.3h
+  7097 fetched this session (run total 775) | 10.9s/article | elapsed 2.3h
+  7102 fetched this session (run total 780) | 10.9s/article | elapsed 2.4h
+  7107 fetched this session (run total 785) | 10.9s/article | elapsed 2.4h
+  7112 fetched this session (run total 790) | 10.9s/article | elapsed 2.4h
+  7117 fetched this session (run total 795) | 10.9s/article | elapsed 2.4h
+  7122 fetched this session (run total 800) | 10.8s/article | elapsed 2.4h
+  7127 fetched this session (run total 805) | 10.8s/article | elapsed 2.4h
+  7132 fetched this session (run total 810) | 10.8s/article | elapsed 2.4h
+  7137 fetched this session (run total 815) | 10.8s/article | elapsed 2.5h
+  7142 fetched this session (run total 820) | 10.8s/article | elapsed 2.5h
+  7147 fetched this session (run total 825) | 10.8s/article | elapsed 2.5h
+  7152 fetched this session (run total 830) | 10.8s/article | elapsed 2.5h
+  7157 fetched this session (run total 835) | 10.8s/article | elapsed 2.5h
+  7162 fetched this session (run total 840) | 10.8s/article | elapsed 2.5h
+  7167 fetched this session (run total 845) | 10.8s/article | elapsed 2.5h
+  7172 fetched this session (run total 850) | 10.8s/article | elapsed 2.6h
+  7177 fetched this session (run total 855) | 10.8s/article | elapsed 2.6h
+  7182 fetched this session (run total 860) | 10.8s/article | elapsed 2.6h
+  7187 fetched this session (run total 865) | 10.8s/article | elapsed 2.6h
+  7192 fetched this session (run total 870) | 10.8s/article | elapsed 2.6h
+  7197 fetched this session (run total 875) | 10.8s/article | elapsed 2.6h
+  7202 fetched this session (run total 880) | 10.8s/article | elapsed 2.6h
+  7207 fetched this session (run total 885) | 10.8s/article | elapsed 2.7h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/falcons-make-josh-rosen-signing-aj-mccarron-move-to-injured-reserve-official (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='hatch-egress-proxy', port=3128): Failed to establish a new connection: [Errno 111] Connection refused"))) -> backoff 60s (attempt 1)
+relevant todo this run=5587 | overall pending=5587 | already done=7207
+  7212 fetched this session (run total 5) | 9.6s/article | elapsed 0.0h
+  7217 fetched this session (run total 10) | 10.7s/article | elapsed 0.0h
+  7222 fetched this session (run total 15) | 11.0s/article | elapsed 0.0h
+  7227 fetched this session (run total 20) | 11.1s/article | elapsed 0.1h
+  7232 fetched this session (run total 25) | 11.2s/article | elapsed 0.1h
+  7237 fetched this session (run total 30) | 11.3s/article | elapsed 0.1h
+  7242 fetched this session (run total 35) | 11.4s/article | elapsed 0.1h
+  7247 fetched this session (run total 40) | 11.4s/article | elapsed 0.1h
+  7252 fetched this session (run total 45) | 11.5s/article | elapsed 0.1h
+  7257 fetched this session (run total 50) | 11.5s/article | elapsed 0.2h
+  7262 fetched this session (run total 55) | 11.5s/article | elapsed 0.2h
+  7267 fetched this session (run total 60) | 11.4s/article | elapsed 0.2h
+  7272 fetched this session (run total 65) | 11.5s/article | elapsed 0.2h
+  7277 fetched this session (run total 70) | 11.5s/article | elapsed 0.2h
+  7282 fetched this session (run total 75) | 11.5s/article | elapsed 0.2h
+  7287 fetched this session (run total 80) | 11.5s/article | elapsed 0.3h
+  7292 fetched this session (run total 85) | 11.5s/article | elapsed 0.3h
+  7297 fetched this session (run total 90) | 11.5s/article | elapsed 0.3h
+  7302 fetched this session (run total 95) | 11.5s/article | elapsed 0.3h
+  7307 fetched this session (run total 100) | 11.5s/article | elapsed 0.3h
+  7312 fetched this session (run total 105) | 11.5s/article | elapsed 0.3h
+  7317 fetched this session (run total 110) | 11.5s/article | elapsed 0.4h
+  7322 fetched this session (run total 115) | 11.5s/article | elapsed 0.4h
+  7327 fetched this session (run total 120) | 11.5s/article | elapsed 0.4h
+  7332 fetched this session (run total 125) | 11.5s/article | elapsed 0.4h
+  7337 fetched this session (run total 130) | 11.5s/article | elapsed 0.4h
+  7342 fetched this session (run total 135) | 11.5s/article | elapsed 0.4h
+  7347 fetched this session (run total 140) | 11.5s/article | elapsed 0.4h
+  7352 fetched this session (run total 145) | 11.5s/article | elapsed 0.5h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/raiders-place-daniel-carlson-on-covid-19-list-re-sign-dominik-eberle (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+  7357 fetched this session (run total 150) | 11.9s/article | elapsed 0.5h
+  7362 fetched this session (run total 155) | 11.9s/article | elapsed 0.5h
+  7367 fetched this session (run total 160) | 11.9s/article | elapsed 0.5h
+  7372 fetched this session (run total 165) | 11.8s/article | elapsed 0.5h
+  7377 fetched this session (run total 170) | 11.8s/article | elapsed 0.6h
+  7382 fetched this session (run total 175) | 11.8s/article | elapsed 0.6h
+  7387 fetched this session (run total 180) | 11.7s/article | elapsed 0.6h
+  7392 fetched this session (run total 185) | 11.7s/article | elapsed 0.6h
+  7397 fetched this session (run total 190) | 11.7s/article | elapsed 0.6h
+  7402 fetched this session (run total 195) | 11.7s/article | elapsed 0.6h
+  7407 fetched this session (run total 200) | 11.6s/article | elapsed 0.6h
+  7412 fetched this session (run total 205) | 11.6s/article | elapsed 0.7h
+  7417 fetched this session (run total 210) | 11.6s/article | elapsed 0.7h
+  7422 fetched this session (run total 215) | 11.6s/article | elapsed 0.7h
+  7427 fetched this session (run total 220) | 11.5s/article | elapsed 0.7h
+  7432 fetched this session (run total 225) | 11.5s/article | elapsed 0.7h
+  7437 fetched this session (run total 230) | 11.5s/article | elapsed 0.7h
+  7442 fetched this session (run total 235) | 11.5s/article | elapsed 0.8h
+  7447 fetched this session (run total 240) | 11.5s/article | elapsed 0.8h
+  7452 fetched this session (run total 245) | 11.5s/article | elapsed 0.8h
+  7457 fetched this session (run total 250) | 11.5s/article | elapsed 0.8h
+  7462 fetched this session (run total 255) | 11.4s/article | elapsed 0.8h
+  7467 fetched this session (run total 260) | 11.4s/article | elapsed 0.8h
+  7472 fetched this session (run total 265) | 11.4s/article | elapsed 0.8h
+  7477 fetched this session (run total 270) | 11.4s/article | elapsed 0.9h
+  7482 fetched this session (run total 275) | 11.4s/article | elapsed 0.9h
+  7487 fetched this session (run total 280) | 11.4s/article | elapsed 0.9h
+  7492 fetched this session (run total 285) | 11.4s/article | elapsed 0.9h
+  7497 fetched this session (run total 290) | 11.3s/article | elapsed 0.9h
+  7502 fetched this session (run total 295) | 11.3s/article | elapsed 0.9h
+  7507 fetched this session (run total 300) | 11.3s/article | elapsed 0.9h
+  7512 fetched this session (run total 305) | 11.3s/article | elapsed 1.0h
+  7517 fetched this session (run total 310) | 11.3s/article | elapsed 1.0h
+  7522 fetched this session (run total 315) | 11.3s/article | elapsed 1.0h
+  7527 fetched this session (run total 320) | 11.3s/article | elapsed 1.0h
+  7532 fetched this session (run total 325) | 11.3s/article | elapsed 1.0h
+  7537 fetched this session (run total 330) | 11.3s/article | elapsed 1.0h
+  7542 fetched this session (run total 335) | 11.3s/article | elapsed 1.0h
+  7547 fetched this session (run total 340) | 11.3s/article | elapsed 1.1h
+  7552 fetched this session (run total 345) | 11.2s/article | elapsed 1.1h
+  7557 fetched this session (run total 350) | 11.2s/article | elapsed 1.1h
+  7562 fetched this session (run total 355) | 11.2s/article | elapsed 1.1h
+  7567 fetched this session (run total 360) | 11.2s/article | elapsed 1.1h
+  7572 fetched this session (run total 365) | 11.2s/article | elapsed 1.1h
+  7577 fetched this session (run total 370) | 11.2s/article | elapsed 1.2h
+  7582 fetched this session (run total 375) | 11.2s/article | elapsed 1.2h
+  7587 fetched this session (run total 380) | 11.2s/article | elapsed 1.2h
+  7592 fetched this session (run total 385) | 11.2s/article | elapsed 1.2h
+  7597 fetched this session (run total 390) | 11.2s/article | elapsed 1.2h
+  7602 fetched this session (run total 395) | 11.2s/article | elapsed 1.2h
+  7607 fetched this session (run total 400) | 11.2s/article | elapsed 1.2h
+  7612 fetched this session (run total 405) | 11.2s/article | elapsed 1.3h
+  7617 fetched this session (run total 410) | 11.2s/article | elapsed 1.3h
+  7622 fetched this session (run total 415) | 11.2s/article | elapsed 1.3h
+  7627 fetched this session (run total 420) | 11.2s/article | elapsed 1.3h
+  7632 fetched this session (run total 425) | 11.1s/article | elapsed 1.3h
+  7637 fetched this session (run total 430) | 11.1s/article | elapsed 1.3h
+  7642 fetched this session (run total 435) | 11.1s/article | elapsed 1.3h
+  7647 fetched this session (run total 440) | 11.1s/article | elapsed 1.4h
+  7652 fetched this session (run total 445) | 11.1s/article | elapsed 1.4h
+  7657 fetched this session (run total 450) | 11.1s/article | elapsed 1.4h
+  7662 fetched this session (run total 455) | 11.1s/article | elapsed 1.4h
+  7667 fetched this session (run total 460) | 11.1s/article | elapsed 1.4h
+  7672 fetched this session (run total 465) | 11.1s/article | elapsed 1.4h
+  7677 fetched this session (run total 470) | 11.1s/article | elapsed 1.5h
+  7682 fetched this session (run total 475) | 11.1s/article | elapsed 1.5h
+  7687 fetched this session (run total 480) | 11.1s/article | elapsed 1.5h
+  7692 fetched this session (run total 485) | 11.1s/article | elapsed 1.5h
+  7697 fetched this session (run total 490) | 11.1s/article | elapsed 1.5h
+  7702 fetched this session (run total 495) | 11.1s/article | elapsed 1.5h
+  7707 fetched this session (run total 500) | 11.1s/article | elapsed 1.5h
+  7712 fetched this session (run total 505) | 11.1s/article | elapsed 1.6h
+  7717 fetched this session (run total 510) | 11.1s/article | elapsed 1.6h
+  7722 fetched this session (run total 515) | 11.1s/article | elapsed 1.6h
+  7727 fetched this session (run total 520) | 11.1s/article | elapsed 1.6h
+  7732 fetched this session (run total 525) | 11.1s/article | elapsed 1.6h
+  7737 fetched this session (run total 530) | 11.1s/article | elapsed 1.6h
+  7742 fetched this session (run total 535) | 11.1s/article | elapsed 1.6h
+  7747 fetched this session (run total 540) | 11.1s/article | elapsed 1.7h
+  7752 fetched this session (run total 545) | 11.1s/article | elapsed 1.7h
+  7757 fetched this session (run total 550) | 11.0s/article | elapsed 1.7h
+  7762 fetched this session (run total 555) | 11.0s/article | elapsed 1.7h
+  7767 fetched this session (run total 560) | 11.0s/article | elapsed 1.7h
+  7772 fetched this session (run total 565) | 11.0s/article | elapsed 1.7h
+  7777 fetched this session (run total 570) | 11.0s/article | elapsed 1.7h
+  7782 fetched this session (run total 575) | 11.0s/article | elapsed 1.8h
+  7787 fetched this session (run total 580) | 11.0s/article | elapsed 1.8h
+  7792 fetched this session (run total 585) | 11.0s/article | elapsed 1.8h
+  7797 fetched this session (run total 590) | 11.0s/article | elapsed 1.8h
+  7802 fetched this session (run total 595) | 11.0s/article | elapsed 1.8h
+  7807 fetched this session (run total 600) | 11.0s/article | elapsed 1.8h
+  7812 fetched this session (run total 605) | 11.0s/article | elapsed 1.9h
+  7817 fetched this session (run total 610) | 11.0s/article | elapsed 1.9h
+  7822 fetched this session (run total 615) | 11.0s/article | elapsed 1.9h
+  7827 fetched this session (run total 620) | 11.0s/article | elapsed 1.9h
+  7832 fetched this session (run total 625) | 11.0s/article | elapsed 1.9h
+  7837 fetched this session (run total 630) | 11.0s/article | elapsed 1.9h
+  7842 fetched this session (run total 635) | 11.0s/article | elapsed 1.9h
+  7847 fetched this session (run total 640) | 11.0s/article | elapsed 2.0h
+  7852 fetched this session (run total 645) | 11.0s/article | elapsed 2.0h
+  7857 fetched this session (run total 650) | 11.0s/article | elapsed 2.0h
+  7862 fetched this session (run total 655) | 11.0s/article | elapsed 2.0h
+  7867 fetched this session (run total 660) | 11.0s/article | elapsed 2.0h
+  7872 fetched this session (run total 665) | 11.0s/article | elapsed 2.0h
+  7877 fetched this session (run total 670) | 11.0s/article | elapsed 2.0h
+  7882 fetched this session (run total 675) | 11.0s/article | elapsed 2.1h
+  7887 fetched this session (run total 680) | 11.0s/article | elapsed 2.1h
+  7892 fetched this session (run total 685) | 11.0s/article | elapsed 2.1h
+  7897 fetched this session (run total 690) | 11.0s/article | elapsed 2.1h
+  7902 fetched this session (run total 695) | 11.0s/article | elapsed 2.1h
+  7907 fetched this session (run total 700) | 11.0s/article | elapsed 2.1h
+  7912 fetched this session (run total 705) | 11.0s/article | elapsed 2.1h
+  7917 fetched this session (run total 710) | 11.0s/article | elapsed 2.2h
+  7922 fetched this session (run total 715) | 11.0s/article | elapsed 2.2h
+  7927 fetched this session (run total 720) | 11.0s/article | elapsed 2.2h
+  7932 fetched this session (run total 725) | 11.0s/article | elapsed 2.2h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/sammy-watkins-back-at-practice-rashod-bateman-and-miles-boykin-to-ir (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+relevant todo this run=4862 | overall pending=4862 | already done=7932
+  7937 fetched this session (run total 5) | 9.2s/article | elapsed 0.0h
+  7942 fetched this session (run total 10) | 10.1s/article | elapsed 0.0h
+  7947 fetched this session (run total 15) | 10.4s/article | elapsed 0.0h
+  7952 fetched this session (run total 20) | 10.6s/article | elapsed 0.1h
+  7957 fetched this session (run total 25) | 10.7s/article | elapsed 0.1h
+  7962 fetched this session (run total 30) | 10.8s/article | elapsed 0.1h
+  7967 fetched this session (run total 35) | 10.8s/article | elapsed 0.1h
+  7972 fetched this session (run total 40) | 10.9s/article | elapsed 0.1h
+  7977 fetched this session (run total 45) | 10.9s/article | elapsed 0.1h
+  7982 fetched this session (run total 50) | 10.9s/article | elapsed 0.2h
+  7987 fetched this session (run total 55) | 11.0s/article | elapsed 0.2h
+  7992 fetched this session (run total 60) | 11.0s/article | elapsed 0.2h
+  7997 fetched this session (run total 65) | 11.0s/article | elapsed 0.2h
+  8002 fetched this session (run total 70) | 11.0s/article | elapsed 0.2h
+  8007 fetched this session (run total 75) | 11.0s/article | elapsed 0.2h
+  8012 fetched this session (run total 80) | 11.0s/article | elapsed 0.2h
+  8017 fetched this session (run total 85) | 11.0s/article | elapsed 0.3h
+  8022 fetched this session (run total 90) | 11.0s/article | elapsed 0.3h
+  8027 fetched this session (run total 95) | 11.0s/article | elapsed 0.3h
+  8032 fetched this session (run total 100) | 11.0s/article | elapsed 0.3h
+  8037 fetched this session (run total 105) | 11.0s/article | elapsed 0.3h
+  8042 fetched this session (run total 110) | 11.0s/article | elapsed 0.3h
+  8047 fetched this session (run total 115) | 11.0s/article | elapsed 0.4h
+  8052 fetched this session (run total 120) | 11.0s/article | elapsed 0.4h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/bears-place-caleb-johnson-on-covid-19-reserve-list (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+  8057 fetched this session (run total 125) | 11.5s/article | elapsed 0.4h
+  8062 fetched this session (run total 130) | 11.5s/article | elapsed 0.4h
+  8067 fetched this session (run total 135) | 11.5s/article | elapsed 0.4h
+  8072 fetched this session (run total 140) | 11.5s/article | elapsed 0.4h
+  8077 fetched this session (run total 145) | 11.5s/article | elapsed 0.5h
+  8082 fetched this session (run total 150) | 11.5s/article | elapsed 0.5h
+  8087 fetched this session (run total 155) | 11.4s/article | elapsed 0.5h
+  8092 fetched this session (run total 160) | 11.4s/article | elapsed 0.5h
+  8097 fetched this session (run total 165) | 11.4s/article | elapsed 0.5h
+  8102 fetched this session (run total 170) | 11.4s/article | elapsed 0.5h
+  8107 fetched this session (run total 175) | 11.4s/article | elapsed 0.6h
+  8112 fetched this session (run total 180) | 11.3s/article | elapsed 0.6h
+  8117 fetched this session (run total 185) | 11.3s/article | elapsed 0.6h
+  8122 fetched this session (run total 190) | 11.3s/article | elapsed 0.6h
+Terminated
+2026-10-01 12:57:52: crawler exited rc=143 (run 1/20)
+2026-10-01 12:57:53: remaining=4672
+relevant todo this run=4533 | overall pending=4533 | already done=8261
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/darrell-henderson-still-limited-in-practice-with-injured-ribs: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-put-jabrill-peppers-on-ir-waive-josh-jackson-and-david-sills: database is locked
+    DB ERROR recording failure: database is locked
+  8266 fetched this session (run total 5) | 9.0s/article | elapsed 0.0h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/javon-kinlaw-to-have-knee-surgery-miss-remainder-of-the-season: database is locked
+  8271 fetched this session (run total 10) | 10.0s/article | elapsed 0.0h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-place-hamsah-nasirildeen-on-ir-promote-isaiah-williams: database is locked
+  8276 fetched this session (run total 15) | 10.3s/article | elapsed 0.0h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jimmy-garoppolo-remains-out-of-practice-friday: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jimmy-graham-placed-on-covid-19-list-tashaun-gipson-out-for-bears-bucs: database is locked
+    DB ERROR recording failure: database is locked
+  8281 fetched this session (run total 20) | 10.5s/article | elapsed 0.1h
+  8286 fetched this session (run total 25) | 10.6s/article | elapsed 0.1h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-has-a-full-practice-thursday: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-norman-pretty-doubtful-for-sunday: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/juju-smith-schuster-on-learning-hes-out-for-season-i-cried-all-night-i-love-football-so-much: database is locked
+    DB ERROR recording failure: database is locked
+  8291 fetched this session (run total 30) | 10.6s/article | elapsed 0.1h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/julio-jones-returns-to-limited-practice-a-j-brown-remains-out: database is locked
+  8296 fetched this session (run total 35) | 10.7s/article | elapsed 0.1h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kadarius-toney-has-an-ankle-injury: database is locked
+    DB ERROR recording failure: database is locked
+  8301 fetched this session (run total 40) | 10.7s/article | elapsed 0.1h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kevin-king-out-for-packers: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kevin-king-preston-smith-listed-as-limited-practice-participants: database is locked
+  8306 fetched this session (run total 45) | 10.7s/article | elapsed 0.1h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/khalil-mack-officially-out-for-sunday: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/khalil-mack-questionable-aikem-hicks-doubtful-for-sunday: database is locked
+  8311 fetched this session (run total 50) | 10.7s/article | elapsed 0.1h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kliff-kingsbury-tests-positive-for-covid-wont-coach-this-weekend: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/knee-soreness-not-elbow-injury-kept-jadeveon-clowney-out-on-sunday: database is locked
+    DB ERROR recording failure: database is locked
+  8316 fetched this session (run total 55) | 10.8s/article | elapsed 0.2h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyler-murray-still-limited-deandre-hopkins-still-out-at-cardinals-practice: database is locked
+    DB ERROR recording failure: database is locked
+  8321 fetched this session (run total 60) | 10.8s/article | elapsed 0.2h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/latavius-murray-sammy-watkins-miss-another-practice: database is locked
+  8326 fetched this session (run total 65) | 10.8s/article | elapsed 0.2h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-center-frank-ragnow-out-for-season: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-designate-taylor-decker-kevin-strong-to-return-from-ir: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-fear-romeo-okwara-ruptured-his-achilles: database is locked
+  8331 fetched this session (run total 70) | 10.8s/article | elapsed 0.2h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-place-frank-ragnow-on-injured-reserve: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-place-logan-stenberg-on-injured-reserve: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-place-romeo-okwara-on-injured-reserve: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-st-coordinator-dave-fipp-tested-positive-for-covid-19: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/logan-thomas-out-with-hamstring-injury: database is locked
+    DB ERROR recording failure: database is locked
+  8336 fetched this session (run total 75) | 10.9s/article | elapsed 0.2h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/marcus-cannon-out-for-year-after-back-surgery: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/marcus-cannon-placed-on-injured-reserve: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/marcus-mariota-off-ir-back-on-raiders-active-roster: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/marquez-valdes-scantling-out-elgton-jenkins-doubtful-for-packers: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/marquise-blair-suffered-fractured-kneecap: database is locked
+    DB ERROR recording failure: database is locked
+  8341 fetched this session (run total 80) | 10.9s/article | elapsed 0.2h
+  8346 fetched this session (run total 85) | 10.8s/article | elapsed 0.3h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-stafford-has-injury-to-right-index-finger: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/maxx-williams-believed-to-have-season-ending-knee-injury: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/melvin-gordon-returns-to-limited-practice-thursday: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/michael-badgley-brett-maher-joey-slye-among-kickers-working-out-for-49ers: database is locked
+  8351 fetched this session (run total 90) | 10.8s/article | elapsed 0.3h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/michael-pierce-doubtful-to-return-with-elbow-injury: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-mccarthy-dak-prescott-sore-decision-about-more-than-one-game: database is locked
+    DB ERROR recording failure: database is locked
+  8356 fetched this session (run total 95) | 10.8s/article | elapsed 0.3h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/miles-sanders-remains-out-of-practice: database is locked
+  8361 fetched this session (run total 100) | 10.8s/article | elapsed 0.3h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mri-shows-calf-strain-for-dak-prescott-optimistic-for-week-eight: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/myles-garrett-jadeveon-clowney-return-to-browns-practice: database is locked
+  8366 fetched this session (run total 105) | 10.8s/article | elapsed 0.3h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-week-eight-injury-report-roundup-rob-gronkowski-richard-sherman-questionable-for-bucs: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-week-five-early-inactives-christian-mccaffrey-out-again-this-week: database is locked
+    DB ERROR recording failure: database is locked
+  8371 fetched this session (run total 110) | 10.9s/article | elapsed 0.3h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-week-seven-early-inactives-preston-smith-out-whitney-mercilus-active-for-packers: database is locked
+    DB ERROR recording failure: database is locked
+  8376 fetched this session (run total 115) | 10.9s/article | elapsed 0.3h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-chubb-out-for-thursday-baker-mayfield-will-be-limited-in-tuesday-practice: database is locked
+    DB ERROR recording failure: database is locked
+  8381 fetched this session (run total 120) | 10.9s/article | elapsed 0.4h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nothing-has-changed-for-cardinals-prep-work-with-kliff-kingsbury-still-on-covid-19-list: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/o-j-howard-limited-in-return-to-practice-on-thursday: database is locked
+    DB ERROR recording failure: database is locked
+  8386 fetched this session (run total 125) | 10.9s/article | elapsed 0.4h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/off-injury-report-lamar-jackson-says-hes-101-percent: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/one-year-after-his-season-ending-injury-dak-prescott-blessed-and-grateful: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-activate-dominique-dafney-from-ir-call-up-ben-braden-from-practice-squad: database is locked
+  8391 fetched this session (run total 130) | 10.9s/article | elapsed 0.4h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-list-preston-smith-kevin-king-darnell-savage-as-questionable: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-officially-add-jaylon-smith-place-chauncey-rivers-on-injured-reserve: database is locked
+    DB ERROR recording failure: database is locked
+  8396 fetched this session (run total 135) | 10.9s/article | elapsed 0.4h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-put-davante-adams-on-covid-19-reserve-list: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-zadarius-smith-says-he-feels-like-a-new-man-after-back-surgery: database is locked
+    DB ERROR recording failure: database is locked
+  8401 fetched this session (run total 140) | 10.9s/article | elapsed 0.4h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-expect-christian-mccaffrey-to-test-hamstring-wednesday: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-place-john-miller-on-ir-waive-ryan-winslow: database is locked
+  8406 fetched this session (run total 145) | 10.9s/article | elapsed 0.4h
+  8411 fetched this session (run total 150) | 10.9s/article | elapsed 0.5h
+  8416 fetched this session (run total 155) | 10.9s/article | elapsed 0.5h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/pittsburghs-chris-boswell-out-with-a-concussion-browns-take-10-3-lead: database is locked
+    DB ERROR recording failure: database is locked
+  8421 fetched this session (run total 160) | 10.9s/article | elapsed 0.5h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-place-darious-williams-on-ir: database is locked
+  8426 fetched this session (run total 165) | 10.9s/article | elapsed 0.5h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rashaad-penny-raring-to-go-in-return-from-injured-reserve: database is locked
+    DB ERROR recording failure: database is locked
+  8431 fetched this session (run total 170) | 10.9s/article | elapsed 0.5h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-elevate-leveon-bell-from-practice-squad-place-derek-wolfe-on-ir: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-hand-broncos-their-first-loss-23-7: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-list-lamar-jackson-as-questionable-after-full-friday-practice: database is locked
+    DB ERROR recording failure: database is locked
+  8436 fetched this session (run total 175) | 10.9s/article | elapsed 0.5h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-allen-lazard-on-covid-list-as-close-contact-out-for-thursday: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-baker-mayfield-likely-to-need-surgery-hopes-to-wait-until-after-season: database is locked
+    DB ERROR recording failure: database is locked
+  8441 fetched this session (run total 180) | 10.9s/article | elapsed 0.5h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-chauncey-rivers-likely-heading-to-ir-after-suffering-non-contact-injury-in-practice: database is locked
+    DB ERROR recording failure: database is locked
+  8446 fetched this session (run total 185) | 10.9s/article | elapsed 0.6h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-david-montgomery-is-expected-to-miss-4-5-weeks-with-knee-sprain: database is locked
+  8451 fetched this session (run total 190) | 10.9s/article | elapsed 0.6h
+  8456 fetched this session (run total 195) | 10.9s/article | elapsed 0.6h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jordan-evans-will-miss-the-rest-of-the-season-with-torn-acl: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-josh-jacobs-avoided-serious-chest-injury: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-juju-smith-schuster-out-for-season-after-shoulder-surgery: database is locked
+  8461 fetched this session (run total 200) | 10.9s/article | elapsed 0.6h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-kyler-murray-has-a-1-3-week-sprained-ankle: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-kylin-hill-suffered-a-season-ending-knee-injury: database is locked
+    DB ERROR recording failure: database is locked
+  8466 fetched this session (run total 205) | 10.9s/article | elapsed 0.6h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-patrick-mekari-suffered-high-ankle-sprain-against-bengals: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-russell-wilson-to-have-mri-consultation-with-hand-specialist-in-l-a-on-friday: database is locked
+    DB ERROR recording failure: database is locked
+  8471 fetched this session (run total 210) | 10.9s/article | elapsed 0.6h
+  8476 fetched this session (run total 215) | 10.9s/article | elapsed 0.7h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/richard-sherman-ruled-out-with-hamstring-injury: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rob-gronkowski-not-at-bucs-walkthrough-antoine-winfield-jr-still-in-concussion-protocol: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rob-gronkowski-wont-travel-out-for-sundays-game-against-new-england: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/robbie-gould-out-mitch-wishnowsky-misses-fg-for-49ers: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/robbie-gould-will-miss-3-5-weeks-but-trent-williams-is-day-to-day: database is locked
+    DB ERROR recording failure: database is locked
+  8481 fetched this session (run total 220) | 10.9s/article | elapsed 0.7h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-saleh-doesnt-see-zach-wilsons-injury-as-a-setback-to-his-development: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-tonyan-questionable-for-packers-with-knee-injury-kingsley-keke-out-with-concussion: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-tonyan-tore-his-acl-thursday-night: database is locked
+  8486 fetched this session (run total 225) | 10.9s/article | elapsed 0.7h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rodrigo-blankenship-has-hip-injury-misses-pat-as-colts-take-16-3-lead: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ron-rivera-calls-curtis-samuel-week-to-week-with-groin-injury: database is locked
+  8491 fetched this session (run total 230) | 10.9s/article | elapsed 0.7h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/russell-wilson-listed-as-limited-participant-chris-carson-dk-metcalf-sit-out: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/russell-wilson-out-several-weeks-after-surgery-on-injured-finger: database is locked
+  8496 fetched this session (run total 235) | 10.9s/article | elapsed 0.7h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ryan-fitzpatricks-hip-injury-taking-longer-than-expected-to-heal: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ryan-succop-misses-36-yard-field-goal-after-mac-jones-interception: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-designate-kwon-alexander-marcus-davenport-trequan-smith-for-return-from-ir: database is locked
+    DB ERROR recording failure: database is locked
+  8501 fetched this session (run total 240) | 10.9s/article | elapsed 0.7h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-place-ken-crawley-liljordan-humphrey-on-the-covid-19-list: database is locked
+    DB ERROR recording failure: database is locked
+  8506 fetched this session (run total 245) | 10.9s/article | elapsed 0.7h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-work-out-running-backs-with-tony-jones-jr-set-to-miss-time: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sants-designate-wil-lutz-to-return-from-injured-reserve: database is locked
+    DB ERROR recording failure: database is locked
+  8511 fetched this session (run total 250) | 10.9s/article | elapsed 0.8h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkley-injured-giants-wideouts-at-practice-wednesday: database is locked
+    DB ERROR recording failure: database is locked
+  8516 fetched this session (run total 255) | 10.9s/article | elapsed 0.8h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-center-ethan-pocic-returns-to-practice-from-injured-reserve: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-cornerback-tre-brown-returning-to-practice-from-injured-reserve: database is locked
+    DB ERROR recording failure: database is locked
+  8521 fetched this session (run total 260) | 10.9s/article | elapsed 0.8h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-will-place-russell-wilson-on-injured-reserve: database is locked
+  8526 fetched this session (run total 265) | 10.9s/article | elapsed 0.8h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-activate-anthony-mcfarland-off-ir: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-designate-anthony-mcfarland-to-return-from-ir: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-chris-jones-matt-milano-are-inactive: database is locked
+  8531 fetched this session (run total 270) | 10.9s/article | elapsed 0.8h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-zach-banner-inactive-for-steelers: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/t-j-hockenson-dandre-swift-penei-sewell-questionable-for-lions-vikings: database is locked
+    DB ERROR recording failure: database is locked
+  8536 fetched this session (run total 275) | 10.9s/article | elapsed 0.8h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/t-y-hilton-returns-to-a-limited-practice: database is locked
+  8541 fetched this session (run total 280) | 10.9s/article | elapsed 0.8h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/teddy-bridgewater-i-point-the-thumb-at-myself-after-losing-to-raiders: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/teddy-bridgewater-in-locker-room-being-evaluated-for-a-concussion: database is locked
+  8546 fetched this session (run total 285) | 10.9s/article | elapsed 0.9h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/terry-mclaurin-doesnt-practice-listed-as-questionable-for-washington: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-activate-kevin-pierre-louis-from-injured-reserve: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-activate-zach-cunningham-from-covid-19-list: database is locked
+  8551 fetched this session (run total 290) | 10.9s/article | elapsed 0.9h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-place-terrence-brooks-on-injured-reserve: database is locked
+  8556 fetched this session (run total 295) | 10.9s/article | elapsed 0.9h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-place-darrynton-evans-on-season-ending-injured-reserve: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-place-jayon-brown-racey-mcmath-aaron-brewer-tommy-hudson-on-ir: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-place-ty-sambrailo-on-retired-list-brett-kern-on-covid-19-list: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-put-caleb-farley-cameron-batson-on-injured-reserve: database is locked
+    DB ERROR recording failure: database is locked
+  8561 fetched this session (run total 300) | 10.9s/article | elapsed 0.9h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-senior-defensive-assistant-jim-schwartz-out-sunday-due-to-covid-protocols: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-up-3-0-ben-jones-to-locker-room-with-shoulder-injury: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/to-overcome-damaged-vocal-cords-steve-berg-had-a-speak-on-his-shoulder-pads: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tom-brady-again-listed-as-limited-with-thumb-injury: database is locked
+  8566 fetched this session (run total 305) | 10.9s/article | elapsed 0.9h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tom-brady-listed-as-limited-on-monday-but-should-be-ok-for-thursdays-game: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tom-brady-on-thumb-ive-certainly-had-worse-injuries: database is locked
+    DB ERROR recording failure: database is locked
+  8571 fetched this session (run total 310) | 10.9s/article | elapsed 0.9h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tom-bradys-thumb-felt-great-thursday-night: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/trayvon-mullen-foot-is-doubtful-to-return-peyton-barber-foot-is-questionable: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/trent-brown-shaq-mason-ruled-out-for-patriots: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/trent-williams-day-to-day-with-ankle-sprain: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/trevon-diggs-sat-out-in-fourth-quarter-with-back-tightness: database is locked
+    DB ERROR recording failure: database is locked
+  8576 fetched this session (run total 315) | 10.9s/article | elapsed 1.0h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/trevon-diggs-sat-out-wednesdays-practice-while-ezekiel-elliott-was-limited: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/trey-flowers-questionable-to-return-with-knee-injury: database is locked
+    DB ERROR recording failure: database is locked
+  8581 fetched this session (run total 320) | 10.9s/article | elapsed 1.0h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/troy-aikman-dak-prescott-can-manage-even-if-his-calf-isnt-100-percent: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tua-tagovailoa-activated-questionable-for-sunday: database is locked
+  8586 fetched this session (run total 325) | 10.9s/article | elapsed 1.0h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyreek-hill-exits-with-quadriceps-injury: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyreek-hill-remains-out-of-practice-travis-kelce-chris-jones-limited-again: database is locked
+    DB ERROR recording failure: database is locked
+  8591 fetched this session (run total 330) | 10.9s/article | elapsed 1.0h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/urban-meyer-says-dj-chark-will-miss-the-rest-of-the-season: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vance-joseph-on-cardinals-covid-issues-i-think-everyone-is-nervous: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vic-fangio-says-teddy-bridgewater-might-return-to-practice-on-thursday: database is locked
+    DB ERROR recording failure: database is locked
+  8596 fetched this session (run total 335) | 10.9s/article | elapsed 1.0h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-place-ben-ellefson-on-injured-reserve: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-place-cameron-dantzler-on-covid-19-list-2: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-place-harrison-hand-on-covid-19-list: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-put-patrick-peterson-on-ir: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/von-miller-day-to-day-with-ankle-injury: database is locked
+  8601 fetched this session (run total 340) | 10.9s/article | elapsed 1.0h
+  8606 fetched this session (run total 345) | 10.9s/article | elapsed 1.0h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/washington-loses-brandon-scherff-to-knee-injury: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/washington-places-jared-norris-on-injured-reserve: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/washington-signing-jace-sternberger-off-seattle-practice-squad-logan-thomas-to-ir: database is locked
+  8611 fetched this session (run total 350) | 10.9s/article | elapsed 1.1h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/wil-lutz-out-for-season-after-suffering-setback: database is locked
+  8616 fetched this session (run total 355) | 10.9s/article | elapsed 1.1h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/xavier-rhodes-andrew-sendejo-in-concussion-protocol: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/zac-taylor-says-joe-mixon-has-minor-ankle-injury: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/zach-banner-says-hes-ready-to-play-after-ir-stint: database is locked
+  8621 fetched this session (run total 360) | 10.9s/article | elapsed 1.1h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/zach-wilson-thinks-he-has-a-pcl-injury-says-knee-feels-loose: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/zadarius-smith-had-back-surgery: database is locked
+  8626 fetched this session (run total 365) | 10.9s/article | elapsed 1.1h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-will-make-game-time-call-on-elijah-mitchell: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/79-nfl-players-tested-positive-for-covid-19-in-november: database is locked
+  8631 fetched this session (run total 370) | 10.9s/article | elapsed 1.1h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-jones-is-expected-to-miss-1-2-weeks-with-mcl-sprain: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-claims-he-was-told-by-nfl-doctor-that-vaccinated-people-cant-catch-or-spread-covid: database is locked
+  8636 fetched this session (run total 375) | 10.9s/article | elapsed 1.1h
+  8641 fetched this session (run total 380) | 10.9s/article | elapsed 1.2h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-still-out-of-practice-will-play-sunday: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-tests-positive-for-covid-wont-play-sunday: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-to-decide-on-possible-toe-surgery-in-the-morning: database is locked
+  8646 fetched this session (run total 385) | 10.9s/article | elapsed 1.2h
+  8651 fetched this session (run total 390) | 10.9s/article | elapsed 1.2h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/alvin-kamara-limited-in-saints-practice-monday: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/alvin-kamara-out-mark-ingram-questionable-for-thanksgiving: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/alvin-kamara-remains-out-at-saints-practice: database is locked
+  8656 fetched this session (run total 395) | 10.9s/article | elapsed 1.2h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/another-limited-practice-for-alvin-kamara-thursday: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/antonio-brown-ruled-out-for-buccaneers-colts: database is locked
+    DB ERROR recording failure: database is locked
+  8661 fetched this session (run total 400) | 10.9s/article | elapsed 1.2h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-upgraded-to-full-participant-in-thursday-practice: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-activate-jimmy-graham-off-covid-19-list: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-designate-david-montgomery-for-return-from-ir: database is locked
+  8666 fetched this session (run total 405) | 10.9s/article | elapsed 1.2h
+  8671 fetched this session (run total 410) | 10.9s/article | elapsed 1.2h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-roethlisberger-shoulder-injury-occurred-against-raiders-or-bengals-earlier-this-season: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-activate-chidobe-awuzie-from-covid-19-reserve-list: database is locked
+  8676 fetched this session (run total 415) | 10.9s/article | elapsed 1.3h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-place-chidobe-awuzie-on-covid-19-list: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-sign-michael-thomas-from-practice-squad-place-mitchell-wilcox-on-covid: database is locked
+  8681 fetched this session (run total 420) | 10.9s/article | elapsed 1.3h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-add-jordan-poyer-to-thursday-injury-report-with-shoulder-injury: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-dont-issue-any-injury-designations-for-thursdays-game: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-place-jake-kumerow-on-covid-19-list: database is locked
+  8686 fetched this session (run total 425) | 10.9s/article | elapsed 1.3h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-put-star-lotulelei-on-covid-19-list: database is locked
+    DB ERROR recording failure: database is locked
+  8691 fetched this session (run total 430) | 10.9s/article | elapsed 1.3h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brett-favre-misses-deadline-to-repay-outstanding-interest-to-mississippi: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-burns-hurt-after-stripping-mac-jones-panthers-up-3-0: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-burns-questionable-for-panthers-this-weekend: database is locked
+  8696 fetched this session (run total 435) | 10.9s/article | elapsed 1.3h
+  8701 fetched this session (run total 440) | 10.9s/article | elapsed 1.3h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-placing-bryce-callahan-on-injured-reserve: database is locked
+  8706 fetched this session (run total 445) | 10.9s/article | elapsed 1.3h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-designate-andy-janovich-to-return-from-ir-waive-johnny-stanton: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-designate-jeremiah-owusu-koramoah-to-return-place-nick-harris-on-covid-19-list: database is locked
+    DB ERROR recording failure: database is locked
+  8711 fetched this session (run total 450) | 10.9s/article | elapsed 1.4h
+  8716 fetched this session (run total 455) | 10.9s/article | elapsed 1.4h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-designate-scotty-miller-sean-murphy-bunting-to-return-from-ir: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-downgrade-ali-marpet-to-out-for-sunday: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-lose-another-cornerback-jamel-dean-suffers-shoulder-injury: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-place-rashard-robinson-on-injured-reserve: database is locked
+  8721 fetched this session (run total 460) | 10.9s/article | elapsed 1.4h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/calais-campbell-remains-out-of-practice-with-a-concussion: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-newton-active-kyler-murray-and-deandre-hopkins-inactive: database is locked
+    DB ERROR recording failure: database is locked
+  8726 fetched this session (run total 465) | 10.9s/article | elapsed 1.4h
+  8731 fetched this session (run total 470) | 10.9s/article | elapsed 1.4h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/carlton-davis-set-to-return-to-practice-for-bucs: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/carson-wentz-limited-in-practice-with-illness: database is locked
+  8736 fetched this session (run total 475) | 10.9s/article | elapsed 1.4h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ceedee-lamb-limited-after-ankle-injury-at-practice-dak-prescott-still-trending-to-play: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ceedee-lamb-officially-inactive: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ceedee-lamb-questionable-no-injury-designation-for-tyron-smith: database is locked
+    DB ERROR recording failure: database is locked
+  8741 fetched this session (run total 480) | 10.9s/article | elapsed 1.5h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-put-joey-bosa-jerry-tillery-on-covid-19-reserve-list: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-sign-breiden-fehoko-to-active-roster-place-christian-covington-on-covid-list: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-take-early-7-0-lead-avonte-maddox-questinoable-to-return-with-knee-injury: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chase-claypool-getting-mri-on-toe: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chase-claypool-remains-out-of-practice-najee-harris-limited-with-foot-injury: database is locked
+    DB ERROR recording failure: database is locked
+  8746 fetched this session (run total 485) | 10.9s/article | elapsed 1.5h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chase-claypools-toe-injury-will-not-end-his-season: database is locked
+  8751 fetched this session (run total 490) | 10.9s/article | elapsed 1.5h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-activate-kyle-long-put-jerick-mckinnon-on-injured-reserve: database is locked
+    DB ERROR recording failure: database is locked
+  8756 fetched this session (run total 495) | 10.9s/article | elapsed 1.5h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-godwin-is-expected-to-play-sunday: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-godwin-remains-out-of-practice: database is locked
+  8761 fetched this session (run total 500) | 10.9s/article | elapsed 1.5h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-mccaffrey-will-miss-the-rest-of-the-season: database is locked
+    DB ERROR recording failure: database is locked
+  8766 fetched this session (run total 505) | 10.9s/article | elapsed 1.5h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-activate-dezmon-patmon-from-ir-call-up-jahleel-addae-for-thursday-night: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-activate-t-j-carrie-from-injured-reserve-waive-bopete-keyes: database is locked
+  8771 fetched this session (run total 510) | 10.9s/article | elapsed 1.5h
+  8776 fetched this session (run total 515) | 10.9s/article | elapsed 1.6h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cordarrelle-patterson-will-be-a-game-time-decision: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/corey-davis-hip-feels-good-well-see-about-thursday: database is locked
+  8781 fetched this session (run total 520) | 10.9s/article | elapsed 1.6h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-coach-mike-mccarthy-tests-positive-for-covid-19: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-cut-bardlee-anae-place-jabril-cox-on-injured-reserve: database is locked
+    DB ERROR recording failure: database is locked
+  8786 fetched this session (run total 525) | 10.9s/article | elapsed 1.6h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-place-amari-cooper-on-covid-19-reserve-list: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-place-blake-jarwin-on-covid-19-reserve-list: database is locked
+    DB ERROR recording failure: database is locked
+  8791 fetched this session (run total 530) | 10.9s/article | elapsed 1.6h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-put-blake-jarwin-on-injured-reserve: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-put-nahshon-wright-on-covid-19-reserve-list: database is locked
+    DB ERROR recording failure: database is locked
+  8796 fetched this session (run total 535) | 10.9s/article | elapsed 1.6h
+  8801 fetched this session (run total 540) | 10.9s/article | elapsed 1.6h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dakota-dozier-released-from-hospital-after-treatment-for-covid-19: database is locked
+    DB ERROR recording failure: database is locked
+  8806 fetched this session (run total 545) | 10.9s/article | elapsed 1.7h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/damien-harris-rhamondre-stevenson-listed-as-questionable-for-patriots: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/damien-harris-rhamondre-stevenson-questionable-to-return-with-head-injuries: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/damien-williams-downgraded-to-doubtful-with-calf-injury: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-penei-sewell-wont-miss-a-beat-moving-to-right-tackle: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dandre-swift-considered-day-to-day-with-shoulder-injury: database is locked
+    DB ERROR recording failure: database is locked
+  8811 fetched this session (run total 550) | 10.9s/article | elapsed 1.7h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dandre-swift-has-a-sprained-shoulder: database is locked
+  8816 fetched this session (run total 555) | 10.9s/article | elapsed 1.7h
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/darius-leonard-listed-as-questionable-for-sunday: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/darius-leonard-quenton-nelson-not-practicing-wednesday: database is locked
+    DB ERROR recording failure: database is locked
+    ARTICLE ERROR https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/darius-slay-clears-concussion-protocol: database is locked
+    DB ERROR recording failure: database is locked
+  8821 fetched this session (run total 560) | 10.9s/article | elapsed 1.7h
+relevant todo this run=31 | overall pending=31 | already done=12763
+  12768 fetched this session (run total 5) | 9.2s/article | elapsed 0.0h
+  12773 fetched this session (run total 10) | 10.2s/article | elapsed 0.0h
+  12778 fetched this session (run total 15) | 10.5s/article | elapsed 0.0h
+  12783 fetched this session (run total 20) | 10.7s/article | elapsed 0.1h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/nfl-2022-week-10-injury-report-roundup-ryan-tannehill-officially-listed-as-questionable (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+  12788 fetched this session (run total 25) | 13.2s/article | elapsed 0.1h
+  12793 fetched this session (run total 30) | 12.8s/article | elapsed 0.1h
+crawl run finished: 31 attempted
+relevant todo this run=48 | overall pending=48 | already done=12746
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/julio-jones-returns-to-limited-practice-a-j-brown-remains-out (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+  12751 fetched this session (run total 5) | 21.3s/article | elapsed 0.0h
+  12756 fetched this session (run total 10) | 16.2s/article | elapsed 0.0h
+  12761 fetched this session (run total 15) | 14.5s/article | elapsed 0.1h
+  12766 fetched this session (run total 20) | 13.7s/article | elapsed 0.1h
+  12771 fetched this session (run total 25) | 13.2s/article | elapsed 0.1h
+  12776 fetched this session (run total 30) | 12.8s/article | elapsed 0.1h
+  12781 fetched this session (run total 35) | 12.6s/article | elapsed 0.1h
+  12786 fetched this session (run total 40) | 12.4s/article | elapsed 0.1h
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/carson-wentz-limited-in-practice-with-illness (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+    req error HTTPSConnectionPool(host='www.nbcsports.com', port=443): Max retries exceeded with url: /nfl/profootballtalk/rumor-mill/news/chris-godwin-remains-out-of-practice (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) -> backoff 60s (attempt 1)
+  12791 fetched this session (run total 45) | 15.0s/article | elapsed 0.2h
+crawl run finished: 48 attempted

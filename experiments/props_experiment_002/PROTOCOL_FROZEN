@@ -1,0 +1,14 @@
+PROPS EXPERIMENT 002 — PROTOCOL FROZEN
+
+Date: 2026-09-30
+Protocol: experiment_002_protocol.md (frozen 2026-09-30, before any fitting)
+
+This marker gates the locked-test evaluation (--phase test).
+The protocol, feature definitions, model ladder, win bar, and decision rules
+are frozen. No changes to the protocol after this point.
+
+Dev phase (--phase dev) may proceed: fit on train (2018-2020), select on dev
+(2021-2022). Test slice (2023-2024) must not be loaded during dev.
+
+Test phase (--phase test) requires this marker AND dev outputs. Single
+locked-test evaluation only.

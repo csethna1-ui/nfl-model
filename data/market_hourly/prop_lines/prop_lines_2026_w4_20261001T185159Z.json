@@ -1,0 +1,22 @@
+{
+ "season": 2026,
+ "week": 4,
+ "captured_at": "2026-10-01T18:51:16.989071+00:00",
+ "status": "throttled",
+ "source": "bovada",
+ "error": "bovada fetch failed after 3 tries: empty events (throttled?)",
+ "n_lines": 0,
+ "n_matched": 0,
+ "markets_offered": [],
+ "markets_not_offered": [
+  "anytime_td",
+  "completions",
+  "pass_attempts",
+  "pass_yards",
+  "receiving_yards",
+  "receptions",
+  "rush_attempts",
+  "rush_yards"
+ ],
+ "lines": []
+}

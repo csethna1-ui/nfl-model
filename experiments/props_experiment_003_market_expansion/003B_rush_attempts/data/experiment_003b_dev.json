@@ -1,0 +1,109 @@
+{
+ "dev": {
+  "M1": {
+   "n_train": 1679,
+   "n_dev": 1323,
+   "train_M0_MAE": 4.04874841213226,
+   "dev_M0_MAE": 4.354721912385808,
+   "dev_A": 4.2014017873473595,
+   "dev_B": 4.290611176610573,
+   "dev_C": 4.346984040227761,
+   "dev_D": 4.241559938743027,
+   "dev_D_rel_vs_M0": 0.02598603904440448,
+   "a_alpha": 0.1,
+   "b_params": {
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "max_iter": 200
+   },
+   "n_feats": 7
+  },
+  "M2": {
+   "n_train": 1679,
+   "n_dev": 1323,
+   "train_M0_MAE": 4.04874841213226,
+   "dev_M0_MAE": 4.354721912385808,
+   "dev_A": 2.989509391697005,
+   "dev_B": 2.987148581913678,
+   "dev_C": 2.97746010152129,
+   "dev_D": 2.9422814684947225,
+   "dev_D_rel_vs_M0": 0.32434687502634496,
+   "a_alpha": 0.1,
+   "b_params": {
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "max_iter": 200
+   },
+   "n_feats": 13
+  },
+  "M3": {
+   "n_train": 1679,
+   "n_dev": 1323,
+   "train_M0_MAE": 4.04874841213226,
+   "dev_M0_MAE": 4.354721912385808,
+   "dev_A": 4.2105663347235405,
+   "dev_B": 4.288275139311754,
+   "dev_C": 4.345391332124984,
+   "dev_D": 4.234708252468341,
+   "dev_D_rel_vs_M0": 0.02755943142456965,
+   "a_alpha": 100.0,
+   "b_params": {
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "max_iter": 200
+   },
+   "n_feats": 22
+  }
+ },
+ "rung_features": {
+  "M1": [
+   "pace_team_plays",
+   "trail_rush_share_ewma",
+   "opp2_snap_pct",
+   "neut_rush_rate",
+   "ctx_elo_adv",
+   "trail_rz_carries_ewma",
+   "trail_games"
+  ],
+  "M2": [
+   "pace_team_plays",
+   "trail_rush_share_ewma",
+   "opp2_snap_pct",
+   "neut_rush_rate",
+   "ctx_elo_adv",
+   "trail_rz_carries_ewma",
+   "trail_games",
+   "ngs_eff",
+   "ngs_xrush",
+   "ngs_ryoe",
+   "ngs_ryoe_pct",
+   "ngs_8box",
+   "ngs_ttl"
+  ],
+  "M3": [
+   "pace_team_plays",
+   "trail_rush_share_ewma",
+   "opp2_snap_pct",
+   "neut_rush_rate",
+   "ctx_elo_adv",
+   "trail_rz_carries_ewma",
+   "trail_games",
+   "ctx_team_off_epa",
+   "ctx_team_off_pass_epa",
+   "ctx_team_off_rush_epa",
+   "ctx_team_off_sr",
+   "oppd_def_rush_epa",
+   "envs_dome",
+   "envs_team_pts_trail",
+   "envs_opp_pts_allowed_trail",
+   "envf_days_rest",
+   "envf_rest_diff",
+   "envf_short_week",
+   "envf_long_rest",
+   "envf_div_game",
+   "pace_combined",
+   "pace_neutral_pass_rate"
+  ]
+ },
+ "elapsed_s": 305.8
+}

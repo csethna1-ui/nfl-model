@@ -1,0 +1,16 @@
+season,week,game,pick,market_spread,edge,final,result,void,void_reason,clv_pts
+2026,1,ARI @ LAC,ARI +9.5,9.5,-4.7,26-14,win,False,,1.0
+2026,1,DAL @ NYG,NYG +2.5,-2.5,3.7,20-28,win,False,,-0.5
+2026,1,DEN @ KC,DEN +2.5,2.5,-5.7,10-31,loss,False,,0.0
+2026,1,MIA @ LV,MIA +3.5,3.5,-6.5,13-27,loss,False,,0.5
+2026,1,NO @ DET,NO +6.5,6.5,-4.4,30-31,win,False,,-0.5
+2026,2,CLE @ TB,CLE +8.5,8.5,-3.3,23-19,win,False,,0.0
+2026,2,JAX @ DEN,JAX +2.5,2.5,-6.3,13-20,loss,False,,0.0
+2026,2,LV @ LAC,LV +7.5,7.5,-4.4,26-14,win,False,,1.0
+2026,2,MIA @ SF,MIA +13.0,13.0,-4.8,13-35,loss,False,,0.5
+2026,2,MIN @ CHI,MIN +5.5,5.5,-4.6,9-3,win,False,,1.0
+2026,2,NYG @ LA,NYG +7.5,7.5,-5.6,6-28,loss,False,,1.0
+2026,2,WAS @ DAL,WAS +3.5,3.5,-3.8,20-37,loss,False,,0.0
+2026,3,KC @ MIA,MIA +10.5,-10.5,3.5,24-10,loss,False,,0.5
+2026,3,LAC @ BUF,BUF -7.0,7.0,3.8,16-24,win,False,,0.0
+2026,3,PHI @ CHI,CHI +4.5,-4.5,1.2,,void,True,VOID — QB out: Caleb Williams -> Case Keenum (edge +5.2 -> +1.2),

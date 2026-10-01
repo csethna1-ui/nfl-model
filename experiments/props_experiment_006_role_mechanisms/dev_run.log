@@ -1,0 +1,46 @@
+HARD RULE OK: train+dev only, no 2023-2024 rows
+building per-game history (train+dev)...
+  snap merge rate: 0.9411
+  history: dropped 658 phantom player-week rows (name collisions)
+computing contrast features...
+[pass_yards] feature join rate: 1.0000 (n=986)
+[rush_yards] feature join rate: 1.0000 (n=1500)
+[receiving_yards] feature join rate: 1.0000 (n=3689)
+
+===== pass_yards (n=986) =====
+[pass_yards] M0 reproduced bit-identical (dev MAE 57.7740)
+[pass_yards] M1 Ridge alpha=0.1: dev MAE 56.7783
+[pass_yards] M1 Ridge alpha=1.0: dev MAE 56.7779
+[pass_yards] M1 Ridge alpha=10.0: dev MAE 56.7749
+[pass_yards] M1 Ridge alpha=100.0: dev MAE 56.7608
+[pass_yards] M1 locked alpha=100.0 in-sample 56.7608 | 5-fold CV 57.1444 (M0 57.7740)
+[pass_yards] positional priors: share=0.9085 eff=6.8281
+[pass_yards] walking 78 players...
+[pass_yards] M2 locked: q_share=0.000006 q_eff=7.960397 r=0.300373 (LL=-1622.8)
+[pass_yards] M2 in-sample dev MAE 75.7710 | player-5fold CV 77.0210 (M0 57.7740)
+
+===== rush_yards (n=1500) =====
+[rush_yards] M0 reproduced bit-identical (dev MAE 25.1478)
+[rush_yards] M1 Ridge alpha=0.1: dev MAE 25.0537
+[rush_yards] M1 Ridge alpha=1.0: dev MAE 25.0539
+[rush_yards] M1 Ridge alpha=10.0: dev MAE 25.0558
+[rush_yards] M1 Ridge alpha=100.0: dev MAE 25.0790
+[rush_yards] M1 locked alpha=0.1 in-sample 25.0537 | 5-fold CV 25.2563 (M0 25.1478)
+[rush_yards] positional priors: share=0.3709 eff=4.1523
+[rush_yards] walking 132 players...
+[rush_yards] M2 locked: q_share=0.002036 q_eff=7.471633 r=0.192730 (LL=-3075.0)
+[rush_yards] M2 in-sample dev MAE 31.0712 | player-5fold CV 30.9137 (M0 25.1478)
+
+===== receiving_yards (n=3689) =====
+[receiving_yards] M0 reproduced bit-identical (dev MAE 23.9767)
+[receiving_yards] M1 Ridge alpha=0.1: dev MAE 24.0158
+[receiving_yards] M1 Ridge alpha=1.0: dev MAE 24.0158
+[receiving_yards] M1 Ridge alpha=10.0: dev MAE 24.0161
+[receiving_yards] M1 Ridge alpha=100.0: dev MAE 24.0207
+[receiving_yards] M1 locked alpha=0.1 in-sample 24.0158 | 5-fold CV 24.1212 (M0 23.9767)
+[receiving_yards] positional priors: share=0.1246 eff=7.2571
+[receiving_yards] walking 331 players...
+[receiving_yards] M2 locked: q_share=0.000185 q_eff=20.085537 r=0.027564 (LL=-9703.9)
+[receiving_yards] M2 in-sample dev MAE 32.4238 | player-5fold CV 32.2922 (M0 23.9767)
+
+dev predictions + locked params written (77s)

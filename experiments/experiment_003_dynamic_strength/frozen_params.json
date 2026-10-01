@@ -1,0 +1,14 @@
+{
+ "L_league_avg_pts_per_team_game": 23.627,
+ "Hf_home_field_pts": 0.7833,
+ "K_update_rate": 0.08,
+ "K_grid_mae_2019_2020": {
+  "0.03": 10.4117,
+  "0.05": 10.2347,
+  "0.08": 10.1883,
+  "0.12": 10.3213,
+  "0.18": 10.6078
+ },
+ "offseason_regression_r": 0.3333,
+ "selected_on": "2019-2020 training only; 2018 burn-in; frozen BEFORE validation evaluation"
+}

@@ -1,0 +1,72 @@
+{
+ "ARI_SF": [
+  8.5,
+  47.5
+ ],
+ "BAL_DAL": [
+  -3.5,
+  53.5
+ ],
+ "CAR_CLE": [
+  -2.5,
+  42.5
+ ],
+ "CIN_PIT": [
+  -3.5,
+  42.5
+ ],
+ "HOU_IND": [
+  -1.5,
+  42.5
+ ],
+ "KC_MIA": [
+  -10.5,
+  45.5
+ ],
+ "LAC_BUF": [
+  7.0,
+  50.5
+ ],
+ "LA_DEN": [
+  -2.5,
+  44.5
+ ],
+ "LV_NO": [
+  3.0,
+  43.5
+ ],
+ "MIN_TB": [
+  -1.5,
+  42.5
+ ],
+ "NE_JAX": [
+  3.0,
+  45.5
+ ],
+ "NYJ_DET": [
+  6.5,
+  47.5
+ ],
+ "PHI_CHI": [
+  -4.5,
+  41.5
+ ],
+ "SEA_WAS": [
+  -7.5,
+  40.5
+ ],
+ "TEN_NYG": [
+  2.5,
+  38.5
+ ],
+ "qb_news": {
+  "PHI_CHI": {
+   "home": {
+    "status": "out",
+    "starter": "Caleb Williams",
+    "backup": "Case Keenum",
+    "note": "hamstring, week-to-week, not expected to play; Tyson Bagent (QB2) in concussion protocol"
+   }
+  }
+ }
+}

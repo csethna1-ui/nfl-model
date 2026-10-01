@@ -1,0 +1,5 @@
+{
+  "n": 543,
+  "alpha_half_life_games": 8,
+  "model": "OLS home_score~home_off+away_def; away_score~away_off+home_def; weekly expanding refit from 2018 REG; single chronological pass (bug-fix 2026-09-29)"
+}

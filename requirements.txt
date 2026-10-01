@@ -1,0 +1,26 @@
+# NFL Model — Python dependencies
+# Python 3.12
+#
+# Pins are exact on purpose:
+# - scikit-learn is pinned because frozen model outputs (V1, Props Model D,
+#   Experiment 003A/003B artifacts) are version-sensitive; a different
+#   sklearn build can change serialized model behavior.
+# - nfl_data_py 0.3.3 is PyPI-installable (it was previously installed from
+#   a local wheel file in the original workspace; the PyPI release is the
+#   same version).
+#
+# Install:  python3.12 -m venv venv && venv/bin/pip install -r requirements.txt
+
+scikit-learn==1.9.1
+pandas==3.0.5
+numpy==2.5.3
+pyarrow==25.0.1
+polars==1.44.2
+requests==2.34.2
+openpyxl==3.1.5
+statsmodels==0.15.0
+scipy==1.18.1
+nfl_data_py==0.3.3
+joblib==1.6.0
+python-dateutil==2.9.0.post0
+tzdata==2026.4

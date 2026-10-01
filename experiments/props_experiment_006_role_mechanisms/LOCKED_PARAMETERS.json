@@ -1,0 +1,68 @@
+{
+ "pass_yards": {
+  "M1": {
+   "alpha": 100.0,
+   "order": [
+    "m0",
+    "contrast_snap",
+    "contrast_carries",
+    "contrast_tshare",
+    "contrast_rush1",
+    "contrast_tgt1",
+    "stint_games",
+    "transfer_ind"
+   ]
+  },
+  "M2": {
+   "q_share": 6.14421235332821e-06,
+   "q_eff": 7.960396630193813,
+   "r": 0.30037265483574255,
+   "prior_share": 0.9084769016770969,
+   "prior_eff": 6.828121356496842
+  }
+ },
+ "rush_yards": {
+  "M1": {
+   "alpha": 0.1,
+   "order": [
+    "m0",
+    "contrast_snap",
+    "contrast_carries",
+    "contrast_tshare",
+    "contrast_rush1",
+    "contrast_tgt1",
+    "stint_games",
+    "transfer_ind"
+   ]
+  },
+  "M2": {
+   "q_share": 0.0020358325378691693,
+   "q_eff": 7.471633260653485,
+   "r": 0.19272996438450665,
+   "prior_share": 0.37092584624165387,
+   "prior_eff": 4.152300598459355
+  }
+ },
+ "receiving_yards": {
+  "M1": {
+   "alpha": 0.1,
+   "order": [
+    "m0",
+    "contrast_snap",
+    "contrast_carries",
+    "contrast_tshare",
+    "contrast_rush1",
+    "contrast_tgt1",
+    "stint_games",
+    "transfer_ind"
+   ]
+  },
+  "M2": {
+   "q_share": 0.00018536339266859514,
+   "q_eff": 20.085536923187668,
+   "r": 0.027563629977217497,
+   "prior_share": 0.12460056933763917,
+   "prior_eff": 7.257129405533247
+  }
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "A_material_v1_improvement": false,
+ "B_market_bar_minus_0_15": false,
+ "C_both_seasons": false,
+ "D_calibrated_0_8_1_2": true,
+ "E_diversified_from_v1": false,
+ "detail": {
+  "candidate_mae": 10.1051,
+  "v1_mae": 10.0425,
+  "market_mae": 9.7267,
+  "candidate_mae_2021": 11.0723,
+  "market_mae_2021": 10.6667,
+  "candidate_mae_2022": 9.1346,
+  "market_mae_2022": 8.7835,
+  "candidate_calib_slope": 0.8569,
+  "v1_vs_candidate_err_corr": 0.9851
+ },
+ "ALL_PASS": false,
+ "vault": "UNTOUCHED"
+}

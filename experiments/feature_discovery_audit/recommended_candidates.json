@@ -1,0 +1,61 @@
+{
+ "tier_definitions": {
+  "TIER_1": "genuinely different information + feasible with current data + timestampable + testable under current validation discipline",
+  "TIER_2": "potentially useful but data/timing/evidence limitations",
+  "TIER_3": "redundant with V1 or convergent external/internal evidence of no gain vs the line"
+ },
+ "tiers": {
+  "TIER_1": [
+   {
+    "family": "Offensive strategy: PROE + early-down behavior + pace",
+    "why": "The most structurally absent dimension in V1. V1 knows how efficient a team is per play; it knows nothing about play-calling tendencies (pass rate over expected, early-down/neutral pass rate, pace). xpass/pass_oe ship inside nflfastR PBP (verified locally); everything computable 1999+, weekly, keyless, pregame-safe.",
+    "leakage": "Low \u2014 weekly aggregates of prior games; xpass is a precomputed model, no future info."
+   },
+   {
+    "family": "Explosiveness + EPA distribution shape",
+    "why": "V1 sees the mean (EPA) and a threshold (success rate) but nothing about the tails: explosive pass/run rates, EPA volatility, aDOT. Multiple public models use explosive-play rate as a core column; it is computable from local PBP today (yards_gained, air_yards, epa all present).",
+    "leakage": "Low \u2014 weekly aggregates of prior games."
+   },
+   {
+    "family": "Trench pressure: allowed/created (PFR advstats)",
+    "why": "A genuinely different channel \u2014 process (how often the QB is pressured) vs outcome (pass EPA). Weekly team data 2018+, in-season updating, keyless. wadefuller found pressure rate carried real signal (rank 41) but substituted for starter_pass_epa in his model; V1 has no QB-EPA features to displace, so the net-addition case is cleaner here than in his setup.",
+    "leakage": "Low \u2014 weekly team aggregates, batch pre-week."
+   }
+  ],
+  "TIER_2": [
+   "QB starter continuity/familiarity (small, clean; howlscastle97 kept it for injury work)",
+   "Special-teams EPA (Wharton method exists; dgrifka found observability + kickoff-rule breaks)",
+   "Drive/field-position (computable; likely partially redundant with EPA)",
+   "OL/skill continuity via snap counts (feasible; thin evidence)",
+   "FTN charting: motion/play-action/blitz (2022+ only \u2014 breaks train window)",
+   "Participation time_to_throw/was_pressure/coverage (post-season only 2023+ \u2014 no live use)",
+   "NGS weekly aggregates (marginal uniqueness at team grain)",
+   "aDOT standalone (fold into explosiveness family)"
+  ],
+  "TIER_3": [
+   "QB EPA/dropback form, QB CPOE form, recent QB form (convergent nulls: our v2 + howlscastle97 + colemason6524 + wadefuller)",
+   "Matchup interactions (representation, not information; Exp 002 null)",
+   "Turnover luck features (dgrifka: luck-stripping gave no OOS gain)",
+   "Travel/time-zone (wadefuller: 0/4 metrics, reverted)",
+   "Roof/surface/primetime for spreads (small, likely priced; wind precedent null)"
+  ]
+ },
+ "recommended_for_investigation": [
+  {
+   "rank": 1,
+   "family": "Offensive strategy: PROE + early-down behavior + pace",
+   "justification": "Uniqueness: highest \u2014 no play-calling information exists anywhere in V1 (ELO/EPA/GBM are all outcome-based). Feasibility: xpass/pass_oe verified in local PBP; early-down splits and pace are simple PBP aggregations over 1999+; weekly cadence; strictly pregame; no paid APIs; timestampable for the 2026 timing study. Leakage: low with weekly batching. This is the single largest structurally-missing dimension, and unlike QB form it has no convergent external null against it."
+  },
+  {
+   "rank": 2,
+   "family": "Explosiveness + EPA distribution shape",
+   "justification": "Uniqueness: high \u2014 V1's EPA linear model and success rate see central tendency, not tails; explosive-play rate and EPA volatility describe a different property of the offense (ceiling/variance). Feasibility: fully computable from local 372-col PBP today (yards_gained, air_yards, epa), 1999+, weekly, pregame-safe. Leakage: low. Caveat: explosiveness is high-variance itself, so stability across the 2021-22 validation must be demonstrated, not assumed."
+  },
+  {
+   "rank": 3,
+   "family": "Trench pressure allowed/created (PFR advstats)",
+   "justification": "Uniqueness: high \u2014 V1 has no process-level line-play signal; pressure rate separates protection quality from QB decision-making (cf. the TTT-vs-pressure decomposition in public analysis). Feasibility: advstats_week_pass verified 2018+ with 2026 in-season updates, keyless; team-week aggregation is straightforward. Leakage: low with pre-week batching. Caveat: wadefuller's ablation found pressure substituted for rather than added to QB-EPA features \u2014 but V1 contains no QB-EPA features, so the displacement concern is weaker here; still, the candidate must show diversification (error corr <0.95), not just a good story."
+  }
+ ],
+ "explicitly_not_recommended": "QB EPA/CPOE/recent-form features: three independent public ablations plus our own v2 converge on 'no gain vs the close'. Do not re-run this family as Experiment 007."
+}

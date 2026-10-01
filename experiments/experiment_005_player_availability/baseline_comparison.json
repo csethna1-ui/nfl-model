@@ -1,0 +1,56 @@
+{
+ "market_only": {
+  "n": 569,
+  "mae": 9.727,
+  "rmse": 12.562,
+  "calib_slope": 0.939,
+  "season_2021": {
+   "n": 285,
+   "mae": 10.667,
+   "rmse": 13.549,
+   "calib_slope": 1.025
+  },
+  "season_2022": {
+   "n": 284,
+   "mae": 8.783,
+   "rmse": 11.487,
+   "calib_slope": 0.818
+  }
+ },
+ "frozen_v1": {
+  "n": 569,
+  "mae": 10.042,
+  "rmse": 12.937,
+  "calib_slope": 0.941,
+  "season_2021": {
+   "n": 285,
+   "mae": 11.082,
+   "rmse": 13.998,
+   "calib_slope": 1.06
+  },
+  "season_2022": {
+   "n": 284,
+   "mae": 8.999,
+   "rmse": 11.778,
+   "calib_slope": 0.794
+  }
+ },
+ "candidate": {
+  "n": 569,
+  "mae": 10.077,
+  "rmse": 12.975,
+  "calib_slope": 0.835,
+  "season_2021": {
+   "n": 285,
+   "mae": 11.079,
+   "rmse": 13.922,
+   "calib_slope": 1.02
+  },
+  "season_2022": {
+   "n": 284,
+   "mae": 9.071,
+   "rmse": 11.95,
+   "calib_slope": 0.646
+  }
+ }
+}

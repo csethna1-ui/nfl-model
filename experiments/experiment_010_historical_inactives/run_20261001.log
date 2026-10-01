@@ -1,0 +1,65 @@
+== loading games ==
+== pulling nflverse rosters / snaps / injuries ==
+rosters (221313, 37) snaps (150352, 16) injuries (29151, 17)
+snap rows bridged to GSIS: 0.8260
+INA rows total: 16825
+position values: ['DB', 'DL', 'K', 'LB', 'LS', 'OL', 'P', 'QB', 'RB', 'TE', 'WR']
+DEV INA rows: 6573, linked to snap data (GSIS or name): 0.9162
+DEV INA rows with zero in-season snap presence: 551 (0.0838)
+unlinked rows resembling a snap-data name (possible variant miss): 42
+effective coverage (computable share): 0.9936
+COVERAGE GATE PASSED
+non-excluded team-games with zero INA rows: 0 []
+games excluded (missing INA team-game): 2
+dev n=542 test n=815
+BURDEN descriptives (dev): {'mean': -0.0024346760269020745, 'std': 0.1080412019553345, 'min': -0.5209419538095659, 'max': 0.31471801837994323}
+DEV FIT: alpha=1.2143 beta=18.1420 se(beta)=5.0714 R2=0.0232
+TEST: n=815 MAE(V1)=10.1878 MAE(adj)=10.1190 dMAE=0.0689 95%CI=(-0.0618,0.1995)
+VERDICT: NULL (bar: dMAE>=0.15 and CI excludes 0)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/zoneinfo/_common.py", line 12, in load_tzdata
+    return resources.files(package_name).joinpath(resource_name).open("rb")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/resources/_common.py", line 46, in wrapper
+    return func(anchor)
+           ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/resources/_common.py", line 56, in files
+    return from_package(resolve(anchor))
+                        ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/functools.py", line 909, in wrapper
+    return dispatch(args[0].__class__)(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/resources/_common.py", line 82, in _
+    return importlib.import_module(cand)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'tzdata'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hatch/workspace/nfl-model/experiments/experiment_010_historical_inactives/run_experiment_010.py", line 218, in <module>
+    cutoff_map[(int(r_.season), int(r_.week), t_)] = final_report_cutoff(gd, r_.weekday)
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/nfl-model/experiments/experiment_010_historical_inactives/run_experiment_010.py", line 209, in final_report_cutoff
+    friday = (gd - pd.Timedelta(days=delta)).tz_localize("US/Eastern")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/tslibs/timestamps.pyx", line 3209, in pandas._libs.tslibs.timestamps.Timestamp.tz_localize
+  File "pandas/_libs/tslibs/timezones.pyx", line 159, in pandas._libs.tslibs.timezones.maybe_get_tz
+  File "/usr/lib/python3.12/zoneinfo/_common.py", line 24, in load_tzdata
+    raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key US/Eastern'
+EXIT:1

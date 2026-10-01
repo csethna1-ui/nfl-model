@@ -1,0 +1,134 @@
+# Validate and deploy the dashboard to GitHub Pages.
+#
+# What this does:
+#   1. Validates the committed public data layer (dashboard/data/**):
+#      - every JSON file parses
+#      - no NaN / Infinity / -Infinity literals (fail-loud, same gate as scripts/15)
+#      - required files are present and the manifest is consistent
+#   2. Deploys ONLY the dashboard/ directory to GitHub Pages.
+#
+# What this does NOT do:
+#   - It never runs the model, never regenerates predictions, never touches data/.
+#   - Data updates are a separate, human-gated process (see update-data.yml
+#     and docs/LOCAL_DEVELOPMENT.md). This workflow only ships what was committed.
+#
+# Triggers: pushes that touch the dashboard or the canonical UI JSON,
+#           or manual dispatch.
+# Cost: $0 (GitHub Pages + Actions free tier).
+
+name: Validate and Deploy Dashboard
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dashboard/**'
+      - 'data/ui_json/**'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate public data layer
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate dashboard data JSON
+        run: |
+          python3 - <<'EOF'
+          import json, math, sys
+          from pathlib import Path
+
+          root = Path("dashboard/data")
+          required = [
+              "versions.json",
+              "v1/meta.json",
+              "v1/predictions.json",
+              "v1/props.json",
+              "v1/teams.json",
+              "v1/record.json",
+              "v1/clv.json",
+              "v1/backtest.json",
+              "v1/injuries.json",
+              "v1/model_facts.json",
+              "v1/experimental_markets.json",
+          ]
+          errors = []
+          for rel in required:
+              p = root / rel
+              if not p.exists():
+                  errors.append(f"MISSING: {rel}")
+                  continue
+              raw = p.read_text()
+              # Fail-loud on non-finite literals (same gate as scripts/15_export_ui_json.py)
+              for token in ("NaN", "Infinity", "-Infinity"):
+                  if token in raw:
+                      errors.append(f"NON-FINITE literal '{token}' in {rel}")
+              try:
+                  json.loads(raw)
+              except json.JSONDecodeError as e:
+                  errors.append(f"INVALID JSON in {rel}: {e}")
+
+          # Manifest consistency: versions.json default version dir must exist.
+          # Note: the exporter writes "default": "V1" (the version LABEL,
+          # uppercase) while the data directory is lowercase "v1" — the
+          # dashboard resolves this case-insensitively, so the check does too.
+          try:
+              versions = json.loads((root / "versions.json").read_text())
+              default = versions.get("default")
+              labels = [str(x.get("version", "")).lower()
+                        for x in versions.get("versions", [])]
+              dirs = [p.name.lower() for p in root.iterdir() if p.is_dir()]
+              if default and str(default).lower() not in labels + dirs:
+                  errors.append(f"versions.json default '{default}' matches no version label or data dir")
+          except Exception as e:
+              errors.append(f"versions.json unreadable: {e}")
+
+          if errors:
+              print("DATA VALIDATION FAILED:")
+              for e in errors:
+                  print(" -", e)
+              sys.exit(1)
+          print(f"OK: {len(required)} required data files present, parse clean, no non-finite literals.")
+          EOF
+
+      - name: Check dashboard entry point
+        run: |
+          test -f dashboard/index.html || (echo "MISSING: dashboard/index.html" && exit 1)
+          test -f dashboard/js/app.js || (echo "MISSING: dashboard/js/app.js" && exit 1)
+          test -f dashboard/css/styles.css || (echo "MISSING: dashboard/css/styles.css" && exit 1)
+          echo "OK: dashboard entry point and assets present."
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: validate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dashboard as Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard/
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

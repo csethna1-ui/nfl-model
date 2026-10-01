@@ -1,0 +1,148 @@
+{
+ "note": "All sources keyless/free. License: nflverse MIT; FTN-sourced releases (participation 2023+, FTN charting) CC-BY-SA 4.0 with attribution required.",
+ "sources": [
+  {
+   "source": "nflverse PBP (play_by_play_*.csv.gz)",
+   "seasons": "1999+",
+   "cols_local": 372,
+   "cadence": "nightly in-season",
+   "key_fields": [
+    "epa",
+    "success",
+    "cpoe",
+    "air_yards",
+    "xpass",
+    "pass_oe",
+    "qb_hit",
+    "sack",
+    "fumble_*",
+    "interception",
+    "punt_*",
+    "kickoff_*",
+    "fixed_drive",
+    "drive_start_yard_line",
+    "series_success",
+    "passer_player_name"
+   ],
+   "in_season_2026": true,
+   "pregame_safe": true,
+   "notes": "Core. xpass/pass_oe added nflfastR 4.0+. Local per-season files full; combined parquet trimmed to 13 cols."
+  },
+  {
+   "source": "nflverse schedules",
+   "seasons": "1999+",
+   "cadence": "live in-season",
+   "key_fields": [
+    "home_rest",
+    "away_rest",
+    "div_game",
+    "roof",
+    "surface",
+    "temp",
+    "wind",
+    "stadium",
+    "home_qb_name",
+    "away_qb_name",
+    "spread_line (undated proxy)"
+   ],
+   "in_season_2026": true,
+   "pregame_safe": true,
+   "notes": "QB names 100% coverage. spread_line is the undated single snapshot (Exp 004)."
+  },
+  {
+   "source": "PFR advstats (advstats_week_*)",
+   "seasons": "2018+",
+   "cadence": "weekly in-season (2026 file updating)",
+   "key_fields": [
+    "times_pressured_pct",
+    "times_blitzed/hurried/hit",
+    "def_times_blitzed/hurried/hitqb",
+    "passing_drops",
+    "passing_bad_throws"
+   ],
+   "in_season_2026": true,
+   "pregame_safe": true,
+   "notes": "The pressure source. Player-grain; aggregate to team-week."
+  },
+  {
+   "source": "nflverse snap counts",
+   "seasons": "2012+",
+   "cadence": "weekly in-season (2026 file updating)",
+   "key_fields": [
+    "snaps by player/week"
+   ],
+   "in_season_2026": true,
+   "pregame_safe": true,
+   "notes": "OL/skill continuity source."
+  },
+  {
+   "source": "nflverse rosters",
+   "seasons": "1999+",
+   "cadence": "weekly in-season",
+   "key_fields": [
+    "position",
+    "depth_chart_position*"
+   ],
+   "in_season_2026": true,
+   "pregame_safe": true,
+   "notes": "*depth fields verify on pull"
+  },
+  {
+   "source": "nflverse injuries (load_injuries)",
+   "seasons": "2009-2025 (2025 verify on pull; source reported ending after 2024)",
+   "cadence": "weekly in-season",
+   "key_fields": [
+    "report_status",
+    "date_modified"
+   ],
+   "in_season_2026": "verify",
+   "pregame_safe": true,
+   "notes": "Exp 004/005 verified 2021-22: 11,269 rows, timestamped, 99.86% pregame."
+  },
+  {
+   "source": "FTN charting",
+   "seasons": "2022+ ONLY",
+   "cadence": "weekly in-season (2026 file live, date_pulled present)",
+   "key_fields": [
+    "is_motion",
+    "is_play_action",
+    "n_blitzers",
+    "is_contested_ball",
+    "is_drop",
+    "is_no_huddle",
+    "is_rpo",
+    "date_pulled"
+   ],
+   "in_season_2026": true,
+   "pregame_safe": "yes, with date_pulled discipline",
+   "notes": "CC-BY-SA 4.0. No 2018-2021 coverage \u2014 incompatible with current train window."
+  },
+  {
+   "source": "participation (pbp_participation_*)",
+   "seasons": "2016+; 2023+ POST-SEASON ONLY (FTN), pre-2023 NGS",
+   "cadence": "post-season for 2023+",
+   "key_fields": [
+    "time_to_throw",
+    "was_pressure",
+    "defense_man_zone_type",
+    "defense_coverage_type"
+   ],
+   "in_season_2026": false,
+   "pregame_safe": "historical only",
+   "notes": "CC-BY-SA 4.0 (2023+). Unusable for live pipeline or 2023+ walk-forward; OK through 2022."
+  },
+  {
+   "source": "Next Gen Stats (ngs_*)",
+   "seasons": "2016+",
+   "cadence": "weekly in-season",
+   "key_fields": [
+    "time_to_throw",
+    "avg_separation",
+    "expected YAC+"
+   ],
+   "in_season_2026": true,
+   "pregame_safe": "verify release timing",
+   "notes": "Player-grain weekly aggregates; team aggregation \u2248 PBP fields."
+  }
+ ]
+}

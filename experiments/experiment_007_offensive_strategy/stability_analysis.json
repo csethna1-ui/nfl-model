@@ -1,0 +1,48 @@
+{
+  "preregistered_stability_rule": "F(i): all 3 coefficient signs identical across folds; F(ii): each leave-one-feature-out ablation still beats V1 overall MAE",
+  "fold_coefficients": {
+    "2021": {
+      "coef": {
+        "proe_diff": 0.3060626492361574,
+        "ed_diff": 0.928372084801131,
+        "pace_diff": 0.6720736230243743
+      },
+      "intercept": 1.1913682802535919,
+      "n_train": 285
+    },
+    "2022": {
+      "coef": {
+        "proe_diff": -0.3816958118450562,
+        "ed_diff": -0.4757466646192796,
+        "pace_diff": -1.0819708842256233
+      },
+      "intercept": 1.3043498539741072,
+      "n_train": 284
+    }
+  },
+  "sign_consistency": {
+    "proe_diff": false,
+    "ed_diff": false,
+    "pace_diff": false
+  },
+  "all_signs_consistent": false,
+  "feature_residual_correlation_full_sample": {
+    "proe_diff": 0.011061225576689562,
+    "ed_diff": 0.021008789111391847,
+    "pace_diff": -0.011976053164198497
+  },
+  "ablation_mae": {
+    "drop_proe_diff": {
+      "mae": 10.148154648916947
+    },
+    "drop_ed_diff": {
+      "mae": 10.150535277600175
+    },
+    "drop_pace_diff": {
+      "mae": 10.087381272791985
+    }
+  },
+  "v1_mae": 10.042450573771763,
+  "all_ablations_beat_v1": false,
+  "interpretation": "All three coefficients flip sign across folds (proe +0.31 -> -0.38; ed +0.93 -> -0.48; pace +0.67 -> -1.08). Full-sample feature-residual correlations are |r| <= 0.021. The strategy layer fit noise on ~285-game folds and added it out-of-sample."
+}

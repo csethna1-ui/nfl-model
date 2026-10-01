@@ -1,0 +1,216 @@
+{
+ "scope": "descriptive only; 2021-2022, n=569 games; no predictive evaluation",
+ "family_score_method": "mean of z-scored (home-away) differentials per family; matchup uses game-level mx_* interactions; z-scored across the 2021-2022 sample (descriptive, not predictive)",
+ "core_columns": [
+  "ens_margin",
+  "pred_elo",
+  "pred_epa_m",
+  "matchup",
+  "possession",
+  "explosiveness",
+  "pressure",
+  "player_qb"
+ ],
+ "core_labels": {
+  "ens_margin": "V1",
+  "pred_elo": "ELO",
+  "pred_epa_m": "EPA",
+  "matchup": "Matchup",
+  "possession": "Possession",
+  "explosiveness": "Explosive",
+  "pressure": "Pressure",
+  "player_qb": "QB"
+ },
+ "correlation_matrix": {
+  "V1": {
+   "V1": 1.0,
+   "ELO": 0.932,
+   "EPA": 0.942,
+   "Matchup": 0.514,
+   "Possession": 0.438,
+   "Explosive": 0.423,
+   "Pressure": -0.096,
+   "QB": 0.064
+  },
+  "ELO": {
+   "V1": 0.932,
+   "ELO": 1.0,
+   "EPA": 0.763,
+   "Matchup": 0.55,
+   "Possession": 0.487,
+   "Explosive": 0.454,
+   "Pressure": -0.094,
+   "QB": 0.045
+  },
+  "EPA": {
+   "V1": 0.942,
+   "ELO": 0.763,
+   "EPA": 1.0,
+   "Matchup": 0.413,
+   "Possession": 0.337,
+   "Explosive": 0.337,
+   "Pressure": -0.094,
+   "QB": 0.069
+  },
+  "Matchup": {
+   "V1": 0.514,
+   "ELO": 0.55,
+   "EPA": 0.413,
+   "Matchup": 1.0,
+   "Possession": 0.625,
+   "Explosive": 0.796,
+   "Pressure": -0.106,
+   "QB": -0.085
+  },
+  "Possession": {
+   "V1": 0.438,
+   "ELO": 0.487,
+   "EPA": 0.337,
+   "Matchup": 0.625,
+   "Possession": 1.0,
+   "Explosive": 0.731,
+   "Pressure": -0.055,
+   "QB": 0.129
+  },
+  "Explosive": {
+   "V1": 0.423,
+   "ELO": 0.454,
+   "EPA": 0.337,
+   "Matchup": 0.796,
+   "Possession": 0.731,
+   "Explosive": 1.0,
+   "Pressure": 0.035,
+   "QB": -0.017
+  },
+  "Pressure": {
+   "V1": -0.096,
+   "ELO": -0.094,
+   "EPA": -0.094,
+   "Matchup": -0.106,
+   "Possession": -0.055,
+   "Explosive": 0.035,
+   "Pressure": 1.0,
+   "QB": 0.081
+  },
+  "QB": {
+   "V1": 0.064,
+   "ELO": 0.045,
+   "EPA": 0.069,
+   "Matchup": -0.085,
+   "Possession": 0.129,
+   "Explosive": -0.017,
+   "Pressure": 0.081,
+   "QB": 1.0
+  }
+ },
+ "family_corr_with_v1_elo_epa": {
+  "environment": {
+   "ens_margin": -0.056,
+   "pred_elo": -0.045,
+   "pred_epa_m": -0.063
+  },
+  "explosiveness": {
+   "ens_margin": 0.423,
+   "pred_elo": 0.454,
+   "pred_epa_m": 0.337
+  },
+  "matchup": {
+   "ens_margin": 0.514,
+   "pred_elo": 0.55,
+   "pred_epa_m": 0.413
+  },
+  "player_availability": {
+   "ens_margin": -0.118,
+   "pred_elo": -0.145,
+   "pred_epa_m": -0.076
+  },
+  "player_continuity": {
+   "ens_margin": 0.376,
+   "pred_elo": 0.462,
+   "pred_epa_m": 0.249
+  },
+  "player_qb": {
+   "ens_margin": 0.064,
+   "pred_elo": 0.045,
+   "pred_epa_m": 0.069
+  },
+  "possession": {
+   "ens_margin": 0.438,
+   "pred_elo": 0.487,
+   "pred_epa_m": 0.337
+  },
+  "pressure_pbp": {
+   "ens_margin": -0.061,
+   "pred_elo": -0.029,
+   "pred_epa_m": -0.089
+  },
+  "pressure_pfr": {
+   "ens_margin": -0.124,
+   "pred_elo": -0.163,
+   "pred_epa_m": -0.08
+  },
+  "special_teams": {
+   "ens_margin": 0.031,
+   "pred_elo": 0.037,
+   "pred_epa_m": 0.022
+  },
+  "pressure": {
+   "ens_margin": -0.096,
+   "pred_elo": -0.094,
+   "pred_epa_m": -0.094
+  }
+ },
+ "coverage": {
+  "environment": {
+   "features_used": 14,
+   "features_total": 14,
+   "median_nonan_frac": 1.0
+  },
+  "explosiveness": {
+   "features_used": 15,
+   "features_total": 15,
+   "median_nonan_frac": 1.0
+  },
+  "matchup": {
+   "features_used": 32,
+   "features_total": 32,
+   "median_nonan_frac": 1.0
+  },
+  "player_availability": {
+   "features_used": 2,
+   "features_total": 2,
+   "median_nonan_frac": 1.0
+  },
+  "player_continuity": {
+   "features_used": 3,
+   "features_total": 3,
+   "median_nonan_frac": 1.0
+  },
+  "player_qb": {
+   "features_used": 18,
+   "features_total": 26,
+   "median_nonan_frac": 1.0
+  },
+  "possession": {
+   "features_used": 17,
+   "features_total": 17,
+   "median_nonan_frac": 1.0
+  },
+  "pressure_pbp": {
+   "features_used": 9,
+   "features_total": 9,
+   "median_nonan_frac": 1.0
+  },
+  "pressure_pfr": {
+   "features_used": 17,
+   "features_total": 17,
+   "median_nonan_frac": 1.0
+  },
+  "special_teams": {
+   "features_used": 9,
+   "features_total": 9,
+   "median_nonan_frac": 1.0
+  }
+ },
+ "n_games": 569
+}

@@ -1,0 +1,11 @@
+{
+  "n": 543,
+  "features": [
+    "ens_total",
+    "ens_margin_abs",
+    "pace_sum",
+    "explos_sum"
+  ],
+  "model": "mean=frozen V1 ens_margin; log(sigma^2) OLS on log(resid^2), walk-forward within 2021-2022",
+  "question": "B only"
+}

@@ -1,0 +1,23 @@
+M0 reproduced read-only (train fit only)
+[pass_yards] M0 bit-identical vs 001 test predictions (max diff 0.00e+00, n=1010)
+[rush_yards] M0 bit-identical vs 001 test predictions (max diff 0.00e+00, n=1528)
+[receiving_yards] M0 bit-identical vs 001 test predictions (max diff 0.00e+00, n=3625)
+LOCKED CONFIGS VERIFIED: all artifacts equal LOCKED_PARAMETERS.json
+building per-game history (2018-2024)...
+  snap merge rate: 0.9450
+  history: dropped 834 phantom player-week rows (name collisions)
+computing contrast features...
+[pass_yards] feature join rate: 1.0000 (n=1010)
+[pass_yards] evaluated n=1010
+[pass_yards] walking 80 players (locked Kalman)...
+[pass_yards] M0 60.6220 | M1 60.4202 (+0.33%) | M2 77.6046 (-28.01%)
+[rush_yards] feature join rate: 1.0000 (n=1528)
+[rush_yards] evaluated n=1528
+[rush_yards] walking 126 players (locked Kalman)...
+[rush_yards] M0 24.8311 | M1 25.2468 (-1.67%) | M2 29.7486 (-19.80%)
+[receiving_yards] feature join rate: 1.0000 (n=3625)
+[receiving_yards] evaluated n=3625
+[receiving_yards] walking 315 players (locked Kalman)...
+[receiving_yards] M0 24.1309 | M1 24.2138 (-0.34%) | M2 32.0754 (-32.92%)
+
+locked test complete (17s). NO fitting was performed.

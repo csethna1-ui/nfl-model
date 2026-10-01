@@ -1,0 +1,21 @@
+== loading games ==
+== pulling nflverse ==
+reproducibility check: recomputed dMAE=0.068859 vs logged 0.0689 (4dp)
+reproducibility check PASSED
+S1: test INA rows Out on final report: 0.1486 (1523/10252)
+S1: final-report status mix of test INA rows: {'not_on_report': 0.752, 'Out': 0.1486, 'Questionable': 0.0728, 'Doubtful': 0.0266}
+S1 known_friday_out: slope=14.0714 se=6.8244 corr=+0.0721 mean|.|=0.0403
+S1 new_after_friday: slope=12.5175 se=4.7226 corr=+0.0926 mean|.|=0.0680
+S1 total: slope=14.6569 se=4.1034 corr=+0.1243 mean|.|=0.0833
+S2: test games with nonzero new-after-Friday burden: 0.9951
+S2 BURDEN distribution (test): {'mean': 0.0002, 'std': 0.1112, 'min': -0.5943, '25%': -0.0692, '50%': 0.0021, '75%': 0.0624, 'max': 0.4891}
+S3 QB: n=803 total_share=9.010 mean_share=0.0112
+S3 OL: n=2105 total_share=41.482 mean_share=0.0197
+S3 SKILL: n=2533 total_share=43.069 mean_share=0.0170
+S3 FRONT7: n=2848 total_share=45.764 mean_share=0.0161
+S3 DB: n=1891 total_share=46.159 mean_share=0.0244
+S3 ST: n=72 total_share=0.000 mean_share=0.0000
+S4: MAE(V1)=10.1878 MAE(adj)=10.1190 MAE(market, undated)=9.7454
+S4: V1-vs-market gap=0.4424 -> 0.3736; share plausibly explained: 0.156 (SUGGESTIVE ONLY)
+wrote results.json
+EXIT:0

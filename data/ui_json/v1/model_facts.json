@@ -1,0 +1,93 @@
+{
+ "model_version": "V1",
+ "note": "Static methodology facts for the dashboard's 'how it works' levels. Sourced from backtest_report.md and saved model files; see sources per section.",
+ "identity": {
+  "name": "V1",
+  "built": "2026-09-11",
+  "data": "nflverse 2018-2025 (2,229 games)",
+  "method": "walk-forward, no lookahead",
+  "source": "backtest_report.md"
+ },
+ "architecture": {
+  "description": "Ensemble of three margin components predicting home-team margin.",
+  "components": [
+   {
+    "name": "ELO",
+    "weight": 0.4,
+    "what": "Strength rating from game results; beating stronger opponents moves it more. Linear regression maps ELO differential to margin."
+   },
+   {
+    "name": "EPA-linear",
+    "weight": 0.5,
+    "what": "Linear regression on 8 EPA/success-rate differentials (offense, defense, pass/rush splits)."
+   },
+   {
+    "name": "GBM",
+    "weight": 0.1,
+    "what": "Gradient boosting on ELO diff, EPA differentials, rest-day differential, division-game flag, week; captures nonlinear matchup patterns. Refit weekly on the expanding window."
+   }
+  ],
+  "weights_selected": "tuned by MAE on the 2021-2022 validation window",
+  "pick_rule": "paper pick when |predicted margin - market spread| >= 3.0",
+  "source": "backtest_report.md"
+ },
+ "training_periods": {
+  "linear_components": "fit 2018-2020",
+  "ensemble_weights_and_threshold": "tuned on 2021-2022 validation",
+  "gbm": "walk-forward, retrained weekly on expanding window (each prediction used only games already played)",
+  "locked_test": "2023-2025 (never used for any selection decision)",
+  "source": "backtest_report.md"
+ },
+ "features": {
+  "elo_diff": "home ELO minus away ELO",
+  "epa_differentials": [
+   "off_epa_diff: offensive EPA/play, home minus away",
+   "def_epa_diff: defensive EPA/play allowed, home minus away",
+   "off_pass_diff / off_rush_diff: pass/rush EPA/play splits",
+   "def_pass_diff / def_rush_diff: pass/rush EPA allowed splits",
+   "sr_off_diff / sr_def_diff: offensive/defensive success-rate differential"
+  ],
+  "gbm_extra": [
+   "rest_diff: rest-day differential",
+   "div_game: division-game flag",
+   "week: week number"
+  ],
+  "source": "scripts/model_lib.py"
+ },
+ "elo_methodology": {
+  "K": 20.0,
+  "home_field_advantage_elo": 55.0,
+  "offseason_regression": "1/3 toward 1500 at each week 1",
+  "update": "weekly batching (all games in a week use pre-week ratings); win/loss outcome scaled by a margin-of-victory multiplier",
+  "source": "scripts/03_ratings.py"
+ },
+ "epa_methodology": {
+  "plays": "nflverse play-by-play, pass/run plays with non-null EPA",
+  "weekly_update": "EWMA with alpha=0.25 on the new week's per-team means",
+  "offseason": "35% regression toward league average (0.0) at week 1",
+  "metrics": [
+   "off_epa",
+   "off_pass_epa",
+   "off_rush_epa",
+   "off_sr",
+   "def_epa",
+   "def_pass_epa",
+   "def_rush_epa",
+   "def_sr"
+  ],
+  "source": "scripts/07_update_weekly.py run_epa_current"
+ },
+ "validation": {
+  "method": "walk-forward: linears fit 2018-2020, GBM retrained weekly, weights/threshold tuned on 2021-2022 validation, final verdict on locked 2023-2025 test",
+  "locked_test_2023_2025": {
+   "ats_record": "140-125 (52.8%, n=265)",
+   "roi": "+0.9% at -110 (inside statistical noise; breakeven 52.4% within +/-3.1pp SE)",
+   "mae_model": 10.22,
+   "mae_market": 9.79,
+   "totals": "not bettable: negative ROI at every threshold"
+  },
+  "honest_verdict": "No verified edge. The market's spread predicts final margins better than the model (9.79 vs 10.22 MAE). V1 is the ceiling given this information set.",
+  "research_status": "frozen 2026-09-29 (RESEARCH_PROGRAM_FREEZE.md)",
+  "source": "backtest_report.md"
+ }
+}

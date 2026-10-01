@@ -1,0 +1,902 @@
+{
+ "season": 2026,
+ "week": 4,
+ "source": "bovada",
+ "source_note": "Bovada public unauthenticated JSON coupon API; main Over/Under total only (2W-OU), alternates excluded.",
+ "captured_at": "2026-09-30T22:00:00.854128+00:00",
+ "n_bovada_lines": 99,
+ "n_matched": 59,
+ "lines": [
+  {
+   "player": null,
+   "bovada_player": "Aaron Rodgers",
+   "team": "PIT",
+   "market": "pass_yards",
+   "line": 210.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Deshaun Watson",
+   "team": "CLE",
+   "market": "pass_yards",
+   "line": 186.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Aaron Rodgers",
+   "team": "PIT",
+   "market": "rush_yards",
+   "line": 1.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Deshaun Watson",
+   "team": "CLE",
+   "market": "rush_yards",
+   "line": 29.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Jaylen Warren",
+   "team": "PIT",
+   "market": "rush_yards",
+   "line": 72.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Quinshon Judkins",
+   "team": "CLE",
+   "market": "rush_yards",
+   "line": 55.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Darnell Washington",
+   "team": "PIT",
+   "market": "receiving_yards",
+   "line": 17.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Denzel Boston",
+   "team": "CLE",
+   "market": "receiving_yards",
+   "line": 37.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "DK Metcalf",
+   "team": "PIT",
+   "market": "receiving_yards",
+   "line": 44.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Harold Fannin Jr.",
+   "team": "CLE",
+   "market": "receiving_yards",
+   "line": 40.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Jaylen Warren",
+   "team": "PIT",
+   "market": "receiving_yards",
+   "line": 25.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Jerry Jeudy",
+   "team": "CLE",
+   "market": "receiving_yards",
+   "line": 13.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "KC Concepcion",
+   "team": "CLE",
+   "market": "receiving_yards",
+   "line": 34.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Michael Pittman",
+   "team": "PIT",
+   "market": "receiving_yards",
+   "line": 32.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Pat Freiermuth",
+   "team": "PIT",
+   "market": "receiving_yards",
+   "line": 28.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Quinshon Judkins",
+   "team": "CLE",
+   "market": "receiving_yards",
+   "line": 12.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Raheim Sanders",
+   "team": "CLE",
+   "market": "receiving_yards",
+   "line": 11.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Roman Wilson",
+   "team": "PIT",
+   "market": "receiving_yards",
+   "line": 19.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "D.Jones",
+   "bovada_player": "Daniel Jones",
+   "team": "IND",
+   "market": "pass_yards",
+   "line": 226.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "M.Mariota",
+   "bovada_player": "Marcus Mariota",
+   "team": "WAS",
+   "market": "pass_yards",
+   "line": 211.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Daniel Jones",
+   "team": "IND",
+   "market": "rush_yards",
+   "line": 11.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "J.Croskey-Merritt",
+   "bovada_player": "Jacory Croskey-Merritt",
+   "team": "WAS",
+   "market": "rush_yards",
+   "line": 54.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "J.Taylor",
+   "bovada_player": "Jonathan Taylor",
+   "team": "IND",
+   "market": "rush_yards",
+   "line": 89.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Marcus Mariota",
+   "team": "WAS",
+   "market": "rush_yards",
+   "line": 26.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Jonathan Taylor",
+   "team": "IND",
+   "market": "receiving_yards",
+   "line": 19.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "J.Downs",
+   "bovada_player": "Josh Downs",
+   "team": "IND",
+   "market": "receiving_yards",
+   "line": 64.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "K.Allen",
+   "bovada_player": "Keenan Allen",
+   "team": "IND",
+   "market": "receiving_yards",
+   "line": 34.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "S.Diggs",
+   "bovada_player": "Stefon Diggs",
+   "team": "WAS",
+   "market": "receiving_yards",
+   "line": 42.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "T.McLaurin",
+   "bovada_player": "Terry McLaurin",
+   "team": "WAS",
+   "market": "receiving_yards",
+   "line": 53.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "T.Warren",
+   "bovada_player": "Tyler Warren",
+   "team": "IND",
+   "market": "receiving_yards",
+   "line": 48.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "C.Stroud",
+   "bovada_player": "C.J. Stroud",
+   "team": "HOU",
+   "market": "pass_yards",
+   "line": 245.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "D.Prescott",
+   "bovada_player": "Dak Prescott",
+   "team": "DAL",
+   "market": "pass_yards",
+   "line": 270.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "C.J. Stroud",
+   "team": "HOU",
+   "market": "rush_yards",
+   "line": 11.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Dak Prescott",
+   "team": "DAL",
+   "market": "rush_yards",
+   "line": 11.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "D.Montgomery",
+   "bovada_player": "David Montgomery",
+   "team": "HOU",
+   "market": "rush_yards",
+   "line": 45.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Javonte Williams",
+   "team": "DAL",
+   "market": "rush_yards",
+   "line": 60.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "W.Marks",
+   "bovada_player": "Woody Marks",
+   "team": "HOU",
+   "market": "rush_yards",
+   "line": 37.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "C.Lamb",
+   "bovada_player": "CeeDee Lamb",
+   "team": "DAL",
+   "market": "receiving_yards",
+   "line": 75.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "D.Schultz",
+   "bovada_player": "Dalton Schultz",
+   "team": "HOU",
+   "market": "receiving_yards",
+   "line": 46.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "David Montgomery",
+   "team": "HOU",
+   "market": "receiving_yards",
+   "line": 10.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "G.Pickens",
+   "bovada_player": "George Pickens",
+   "team": "DAL",
+   "market": "receiving_yards",
+   "line": 67.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "J.Ferguson",
+   "bovada_player": "Jake Ferguson",
+   "team": "DAL",
+   "market": "receiving_yards",
+   "line": 24.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Javonte Williams",
+   "team": "DAL",
+   "market": "receiving_yards",
+   "line": 13.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "N.Collins",
+   "bovada_player": "Nico Collins",
+   "team": "HOU",
+   "market": "receiving_yards",
+   "line": 75.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "R.Flournoy",
+   "bovada_player": "Ryan Flournoy",
+   "team": "DAL",
+   "market": "receiving_yards",
+   "line": 31.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Woody Marks",
+   "team": "HOU",
+   "market": "receiving_yards",
+   "line": 10.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "J.Burrow",
+   "bovada_player": "Joe Burrow",
+   "team": "CIN",
+   "market": "pass_yards",
+   "line": 263.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "T.Lawrence",
+   "bovada_player": "Trevor Lawrence",
+   "team": "JAX",
+   "market": "pass_yards",
+   "line": 263.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "B.Tuten",
+   "bovada_player": "Bhayshul Tuten",
+   "team": "JAX",
+   "market": "rush_yards",
+   "line": 55.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "C.Brown",
+   "bovada_player": "Chase Brown",
+   "team": "CIN",
+   "market": "rush_yards",
+   "line": 64.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "J.Chase",
+   "bovada_player": "Ja'Marr Chase",
+   "team": "CIN",
+   "market": "receiving_yards",
+   "line": 77.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "J.Meyers",
+   "bovada_player": "Jakobi Meyers",
+   "team": "JAX",
+   "market": "receiving_yards",
+   "line": 40.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "P.Washington",
+   "bovada_player": "Parker Washington",
+   "team": "JAX",
+   "market": "receiving_yards",
+   "line": 72.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "T.Higgins",
+   "bovada_player": "Tee Higgins",
+   "team": "CIN",
+   "market": "receiving_yards",
+   "line": 60.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "D.Maye",
+   "bovada_player": "Drake Maye",
+   "team": "NE",
+   "market": "pass_yards",
+   "line": 231.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "J.Allen",
+   "bovada_player": "Josh Allen",
+   "team": "BUF",
+   "market": "pass_yards",
+   "line": 240.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Drake Maye",
+   "team": "NE",
+   "market": "rush_yards",
+   "line": 27.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "J.Cook",
+   "bovada_player": "James Cook",
+   "team": "BUF",
+   "market": "rush_yards",
+   "line": 88.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Josh Allen",
+   "team": "BUF",
+   "market": "rush_yards",
+   "line": 31.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "R.Stevenson",
+   "bovada_player": "Rhamondre Stevenson",
+   "team": "NE",
+   "market": "rush_yards",
+   "line": 31.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "T.Henderson",
+   "bovada_player": "TreVeyon Henderson",
+   "team": "NE",
+   "market": "rush_yards",
+   "line": 41.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "DJ Moore",
+   "team": "BUF",
+   "market": "receiving_yards",
+   "line": 49.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "D.Kincaid",
+   "bovada_player": "Dalton Kincaid",
+   "team": "BUF",
+   "market": "receiving_yards",
+   "line": 52.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "D.Douglas",
+   "bovada_player": "Demario Douglas",
+   "team": "NE",
+   "market": "receiving_yards",
+   "line": 26.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "H.Henry",
+   "bovada_player": "Hunter Henry",
+   "team": "NE",
+   "market": "receiving_yards",
+   "line": 31.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "James Cook",
+   "team": "BUF",
+   "market": "receiving_yards",
+   "line": 6.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Keon Coleman",
+   "team": "BUF",
+   "market": "receiving_yards",
+   "line": 13.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "K.Shakir",
+   "bovada_player": "Khalil Shakir",
+   "team": "BUF",
+   "market": "receiving_yards",
+   "line": 37.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "M.Hollins",
+   "bovada_player": "Mack Hollins",
+   "team": "NE",
+   "market": "receiving_yards",
+   "line": 43.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Rhamondre Stevenson",
+   "team": "NE",
+   "market": "receiving_yards",
+   "line": 18.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "R.Doubs",
+   "bovada_player": "Romeo Doubs",
+   "team": "NE",
+   "market": "receiving_yards",
+   "line": 40.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "TreVeyon Henderson",
+   "team": "NE",
+   "market": "receiving_yards",
+   "line": 7.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Ty Johnson",
+   "team": "BUF",
+   "market": "receiving_yards",
+   "line": 12.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "K.Cousins",
+   "bovada_player": "Kirk Cousins",
+   "team": "LV",
+   "market": "pass_yards",
+   "line": 226.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "P.Mahomes",
+   "bovada_player": "Patrick Mahomes",
+   "team": "KC",
+   "market": "pass_yards",
+   "line": 240.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "A.Jeanty",
+   "bovada_player": "Ashton Jeanty",
+   "team": "LV",
+   "market": "rush_yards",
+   "line": 60.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "K.Walker",
+   "bovada_player": "Kenneth Walker",
+   "team": "KC",
+   "market": "rush_yards",
+   "line": 87.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "J.Herbert",
+   "bovada_player": "Justin Herbert",
+   "team": "LAC",
+   "market": "pass_yards",
+   "line": 197.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "S.Darnold",
+   "bovada_player": "Sam Darnold",
+   "team": "SEA",
+   "market": "pass_yards",
+   "line": 232.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "E.Wilson",
+   "bovada_player": "Emanuel Wilson",
+   "team": "SEA",
+   "market": "rush_yards",
+   "line": 39.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "J.Price",
+   "bovada_player": "Jadarian Price",
+   "team": "SEA",
+   "market": "rush_yards",
+   "line": 41.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "O.Hampton",
+   "bovada_player": "Omarion Hampton",
+   "team": "LAC",
+   "market": "rush_yards",
+   "line": 46.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "A.Barner",
+   "bovada_player": "AJ Barner",
+   "team": "SEA",
+   "market": "receiving_yards",
+   "line": 30.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "C.Kupp",
+   "bovada_player": "Cooper Kupp",
+   "team": "SEA",
+   "market": "receiving_yards",
+   "line": 24.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "J.Smith-Njigba",
+   "bovada_player": "Jaxon Smith-Njigba",
+   "team": "SEA",
+   "market": "receiving_yards",
+   "line": 92.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "L.McConkey",
+   "bovada_player": "Ladd McConkey",
+   "team": "LAC",
+   "market": "receiving_yards",
+   "line": 45.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "Q.Johnston",
+   "bovada_player": "Quentin Johnston",
+   "team": "LAC",
+   "market": "receiving_yards",
+   "line": 34.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "B.Young",
+   "bovada_player": "Bryce Young",
+   "team": "CAR",
+   "market": "pass_yards",
+   "line": 249.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "J.Goff",
+   "bovada_player": "Jared Goff",
+   "team": "DET",
+   "market": "pass_yards",
+   "line": 263.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Bryce Young",
+   "team": "CAR",
+   "market": "rush_yards",
+   "line": 11.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "C.Hubbard",
+   "bovada_player": "Chuba Hubbard",
+   "team": "CAR",
+   "market": "rush_yards",
+   "line": 66.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "J.Gibbs",
+   "bovada_player": "Jahmyr Gibbs",
+   "team": "DET",
+   "market": "rush_yards",
+   "line": 97.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Amon-Ra St. Brown",
+   "team": "DET",
+   "market": "receiving_yards",
+   "line": 77.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Chuba Hubbard",
+   "team": "CAR",
+   "market": "receiving_yards",
+   "line": 18.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "I.TeSlaa",
+   "bovada_player": "Isaac TeSlaa",
+   "team": "DET",
+   "market": "receiving_yards",
+   "line": 17.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Jahmyr Gibbs",
+   "team": "DET",
+   "market": "receiving_yards",
+   "line": 35.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": null,
+   "bovada_player": "Jameson Williams",
+   "team": "DET",
+   "market": "receiving_yards",
+   "line": 51.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "S.LaPorta",
+   "bovada_player": "Sam LaPorta",
+   "team": "DET",
+   "market": "receiving_yards",
+   "line": 47.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  },
+  {
+   "player": "T.McMillan",
+   "bovada_player": "Tetairoa McMillan",
+   "team": "CAR",
+   "market": "receiving_yards",
+   "line": 70.5,
+   "source": "bovada",
+   "captured_at": "2026-09-30T22:00:00.854128+00:00"
+  }
+ ]
+}

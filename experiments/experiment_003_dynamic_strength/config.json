@@ -1,0 +1,106 @@
+{
+ "experiment": "experiment_003_dynamic_strength",
+ "status": "PREREGISTERED \u2014 design frozen before any validation evaluation",
+ "preregistered_at": "2026-09-29",
+ "hypothesis": "V1's ELO/EPA ratings update too crudely as teams evolve within a season. A strictly-pregame dynamic offensive/defensive strength representation with weekly updating and recency weighting may capture evolving team strength better than V1's ensemble.",
+ "frozen_upstream": [
+  "V1 model code and scripts 01-17 unmodified",
+  "experiments 001 and 002 CLOSED, not reopened",
+  "2023-2025 vault LOCKED"
+ ],
+ "data_scope": {
+  "games": "all 2227 games in data/experiments/games_features.parquet (2018-2025, REG + playoffs)",
+  "training": "2018-2020 (parameter selection on 2019-2020; 2018 is rating burn-in)",
+  "validation": "2021-2022 ONLY (n=569)",
+  "vault": "2023-2025 \u2014 never touched unless full gate passes"
+ },
+ "rating_representation": {
+  "off": "team offensive strength: expected points scored above league average vs a league-average defense (0 = average)",
+  "def": "team defensive strength: expected points allowed above league average vs a league-average offense (0 = average; higher = worse defense)",
+  "initialization": "off=0, def=0 for all 32 teams at start of 2018 season",
+  "scope_decision": "total offense/defense only \u2014 NO pass/rush subcomponent split (preregistered; one conceptual change)"
+ },
+ "update_equations": {
+  "prediction_home_pts": "pred_home_pts = L + off[home] + def[away] + Hf/2",
+  "prediction_away_pts": "pred_away_pts = L + off[away] + def[home] - Hf/2",
+  "margin_formula": "candidate_margin = pred_home_pts - pred_away_pts = off[home] - off[away] + def[away] - def[home] + Hf",
+  "weekly_batch_update": "all games of week W are predicted with pre-week-W ratings; updates applied after the week",
+  "update_rule": [
+   "e_h = home_score - pred_home_pts; e_a = away_score - pred_away_pts",
+   "off[home] += K * e_h",
+   "def[away] += K * e_h",
+   "off[away] += K * e_a",
+   "def[home] += K * e_a"
+  ],
+  "offseason_regression": "before week 1 of each season 2019-2025: off *= (1 - r), def *= (1 - r), with r = 1/3 (matches V1 ELO convention; fixed, not tuned)",
+  "post_fit_calibration": "NONE \u2014 ratings are point-denominated by construction; calibration slope is a gate criterion, not a fitting target"
+ },
+ "frozen_parameter_rules": {
+  "L_league_avg_pts": "mean points per team-game over 2018-2020 (training only)",
+  "Hf_home_field_pts": "mean home margin over 2018-2020 (training only)",
+  "K_update_rate": "grid {0.03, 0.05, 0.08, 0.12, 0.18}; select K minimizing MAE on 2019-2020 training predictions (2018 excluded as burn-in); ties broken toward smaller K",
+  "note": "chosen values recorded in frozen_params.json by the build script BEFORE any validation metric is computed"
+ },
+ "prohibited": [
+  "market spread as feature",
+  "closing line",
+  "future results",
+  "postgame information",
+  "injury information",
+  "any feature derived from validation results",
+  "division-specific correction",
+  "late-season correction",
+  "large-edge shrinkage",
+  "ATS tuning",
+  "edge-threshold tuning",
+  "feature shopping after seeing results"
+ ],
+ "baselines": [
+  "1. market-only (market_spread)",
+  "2. frozen V1 (v1_margin)",
+  "3. dynamic-strength candidate (candidate_margin)"
+ ],
+ "primary_metrics": [
+  "MAE vs actual_margin",
+  "RMSE vs actual_margin",
+  "calibration slope of actual_margin ~ predicted_margin"
+ ],
+ "secondary_diagnostics": [
+  "2021 vs 2022",
+  "season phase 1-4/5-9/10-14/15-18",
+  "division vs non-division",
+  "home vs away (bet direction)",
+  "model disagreement buckets",
+  "edge buckets",
+  "NOTE: diagnostics only \u2014 no filters or corrections built from them"
+ ],
+ "error_correlation_analysis": "correlation of prediction errors (actual - predicted) among V1, candidate, and market; tests whether candidate carries genuinely different information (criterion E)",
+ "preregistered_gate": {
+  "A_material_v1_improvement": "candidate validation MAE materially below V1 validation MAE",
+  "B_market_bar": "candidate validation MAE <= market-only validation MAE - 0.15 (same bar as Experiment 002)",
+  "C_stability": "improvement over market holds in 2021 AND 2022 individually (not one-season concentrated)",
+  "D_calibration": "validation calibration slope in [0.8, 1.2]",
+  "E_diversification": "candidate error correlation with V1 error meaningfully below ~0.95 (not V1 plus noise)",
+  "consequence": "ALL five required for vault. If ANY fails: CLOSE experiment, vault untouched, report null."
+ },
+ "outputs": [
+  "config.json (this file, preregistered)",
+  "frozen_params.json",
+  "methodology.md",
+  "leakage_audit.md",
+  "validation_metrics.json",
+  "error_correlation.json",
+  "diagnostics.json",
+  "gate_decision.json",
+  "REPORT.md"
+ ],
+ "corrections_log": [
+  {
+   "at": "2026-09-29, after first validation run, BEFORE any gate decision was reported",
+   "what": "sign error in prediction equations: def terms were subtracted, contradicting the preregistered convention 'def = points allowed above average; higher = worse defense'",
+   "evidence": "first run produced validation calibration slope -0.011 (ratings carried no signal); synthetic check: a team with def=+7 (terrible defense) was predicted to HOLD opponents to fewer points",
+   "fix": "def terms now added in both prediction equations, matching the stated convention; update rule unchanged",
+   "preregistration_impact": "none on design choices (K grid/rule, r, L/Hf rules, gate, baselines all unchanged); the corrected code is the first faithful implementation of the preregistered hypothesis. The buggy run's numbers are discarded as a non-test of the hypothesis."
+  }
+ ]
+}

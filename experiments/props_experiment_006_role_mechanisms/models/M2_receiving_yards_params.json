@@ -1,0 +1,20 @@
+{
+ "q_share": 0.00018536339266859514,
+ "q_eff": 20.085536923187668,
+ "r": 0.027563629977217497,
+ "prior_share": 0.12460056933763917,
+ "prior_eff": 7.257129405533247,
+ "V0_share": 1.0,
+ "V0_eff": 100.0,
+ "dev_loglik": -9703.929866358916,
+ "market_def": {
+  "pos": [
+   "RB",
+   "WRTE"
+  ],
+  "share": "target_share_g",
+  "eff_num": "receiving_yards",
+  "eff_den": "targets",
+  "n": "targets"
+ }
+}

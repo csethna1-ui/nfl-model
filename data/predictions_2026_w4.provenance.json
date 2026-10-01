@@ -1,0 +1,31 @@
+{
+  "model_version": "v1",
+  "season": 2026,
+  "week": 4,
+  "generated_at": "2026-09-30T18:53:08.085336+00:00",
+  "data_as_of": "2026-09-28 00:00:00",
+  "ratings_as_of": "2026-09-28 00:00:00",
+  "ratings_as_of_note": "ELO and EPA ratings are recomputed from scratch by 07 on every run from the scored games above; there is no cached ratings file, so ratings_as_of == data_as_of by construction.",
+  "latest_game_included": "2026_03_TEN_NYG",
+  "season_games_included": {
+    "2026": {
+      "weeks": [
+        1,
+        2,
+        3
+      ],
+      "n_games": 48
+    }
+  },
+  "ratings_window": "2018 through 2026 week 3 (2275 scored games)",
+  "elo_source": "03_ratings.run_elo recomputed from scratch on all scored games with week < W (no cached/stale ratings)",
+  "epa_source": "run_epa_current recomputed from scratch on pbp for all scored games with week < W (no cached ratings)",
+  "gbm_train_through": "2026_03_TEN_NYG",
+  "gbm_n_train": 2275,
+  "gbm_backend": "sklearn-hgbr",
+  "weights": {
+    "elo": 0.4,
+    "epa": 0.5,
+    "gbm": 0.1
+  }
+}

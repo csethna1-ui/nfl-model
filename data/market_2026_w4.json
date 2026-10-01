@@ -1,0 +1,92 @@
+{
+ "ARI_NYG": [
+  2.5,
+  43.5
+ ],
+ "ATL_NO": [
+  3.5,
+  45.5
+ ],
+ "DAL_HOU": [
+  2.5,
+  47.5
+ ],
+ "DEN_SF": [
+  3.5,
+  46.5
+ ],
+ "DET_CAR": [
+  -2.5,
+  49.5
+ ],
+ "GB_TB": [
+  -3.5,
+  45.5
+ ],
+ "IND_WAS": [
+  -4.5,
+  46.5
+ ],
+ "JAX_CIN": [
+  2.5,
+  50.5
+ ],
+ "KC_LV": [
+  -5.5,
+  45.5
+ ],
+ "LAC_SEA": [
+  6.5,
+  43.5
+ ],
+ "LA_PHI": [
+  -3.0,
+  46.5
+ ],
+ "MIA_MIN": [
+  10.5,
+  43.5
+ ],
+ "NE_BUF": [
+  5.5,
+  50.5
+ ],
+ "NYJ_CHI": [
+  3.0,
+  43.5
+ ],
+ "PIT_CLE": [
+  -2.5,
+  37.5
+ ],
+ "TEN_BAL": [
+  10.5,
+  44.5
+ ],
+ "qb_news": {
+  "ARI_NYG": {
+   "home": {
+    "backup": "Jameis Winston",
+    "note": "knee injury suffered Sept 21 vs Rams; season-ending surgery on Sept 25",
+    "starter": "Jaxson Dart",
+    "status": "out"
+   }
+  },
+  "IND_WAS": {
+   "home": {
+    "backup": "Marcus Mariota",
+    "note": "dislocated left elbow in Week 2 (Sept 20); week-to-week, no surgery, not on IR",
+    "starter": "Jayden Daniels",
+    "status": "doubtful"
+   }
+  },
+  "GB_TB": {
+   "home": {
+    "status": "out",
+    "starter": "Baker Mayfield",
+    "backup": "Jalon Daniels",
+    "note": "dislocated thumb (throwing hand) late in Week 3 vs MIN; out min 3 weeks, Bowles confirmed 2026-09-28 (Reuters). Market line updated 2026-09-30 post-Friday: GB -1.5 -> -3.5 (DraftKings per SI)."
+   }
+  }
+ }
+}

@@ -1,0 +1,18 @@
+{
+  "n": 543,
+  "taus": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9
+  ],
+  "features": [
+    "pred_epa_m",
+    "elo_diff",
+    "off_epa_diff",
+    "def_epa_diff",
+    "rest_diff"
+  ],
+  "model": "statsmodels QuantReg, weekly expanding refit from 2018 REG, walk-forward standardization"
+}

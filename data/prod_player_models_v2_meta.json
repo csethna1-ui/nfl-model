@@ -1,0 +1,104 @@
+{
+ "model": "Player Projection v2 \u2014 Experimental Production",
+ "fit_procedure": "Experiment 001 reproduced exactly: fit on train 2018-2020, select on dev 2021-2022. Test slice never touched.",
+ "fit_at": "2026-09-30T10:54:29.022326-05:00",
+ "selection": {
+  "pass_yards": {
+   "a_alpha": 10.0,
+   "b_params": {
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "max_iter": 200
+   }
+  },
+  "rush_yards": {
+   "a_alpha": 10.0,
+   "b_params": {
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "max_iter": 200
+   }
+  },
+  "receiving_yards": {
+   "a_alpha": 10.0,
+   "b_params": {
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "max_iter": 200
+   }
+  }
+ },
+ "dev_mae_reproduced": {
+  "pass_yards": {
+   "baseline": 65.75350963219506,
+   "A": 58.6889755116848,
+   "B": 58.518486207764994,
+   "C": 59.260235974002896,
+   "D": 57.774014152193786,
+   "n": 986
+  },
+  "rush_yards": {
+   "baseline": 26.818454024784756,
+   "A": 25.324827422782274,
+   "B": 25.776385459547242,
+   "C": 25.37499310052498,
+   "D": 25.14778096197956,
+   "n": 1500
+  },
+  "receiving_yards": {
+   "baseline": 25.013953183933207,
+   "A": 24.427184786816753,
+   "B": 24.232802883501453,
+   "C": 23.980054049920277,
+   "D": 23.976700644236963,
+   "n": 3689
+  }
+ },
+ "dev_mae_published": {
+  "pass_yards": {
+   "baseline": 65.75,
+   "A": 58.69,
+   "B": 58.52,
+   "C": 59.26,
+   "D": 57.77
+  },
+  "rush_yards": {
+   "baseline": 26.82,
+   "A": 25.32,
+   "B": 25.78,
+   "C": 25.37,
+   "D": 25.15
+  },
+  "receiving_yards": {
+   "baseline": 25.01,
+   "A": 24.43,
+   "B": 24.23,
+   "C": 23.98,
+   "D": 23.98
+  }
+ },
+ "uncertainty_calibration": {
+  "rule": "uncertainty_flag = (p75-p25)/max(median,1) > market p90 of dev relative widths; confidence = High/Medium/Low by dev p33/p67 cutoffs.",
+  "per_market": {
+   "pass_yards": {
+    "p33": 0.3213663337689633,
+    "p67": 0.40271766527824243,
+    "p90": 0.5119879354153323,
+    "n": 986
+   },
+   "rush_yards": {
+    "p33": 0.6527734481438695,
+    "p67": 0.8308272354771303,
+    "p90": 1.0300571933671674,
+    "n": 1500
+   },
+   "receiving_yards": {
+    "p33": 0.8053712822301661,
+    "p67": 0.9841660130261343,
+    "p90": 1.1728110189979581,
+    "n": 3689
+   }
+  }
+ },
+ "provenance": "experiments/player_props_projection/PREREGISTRATION.md + RESULTS.md (frozen 2026-09-30)"
+}

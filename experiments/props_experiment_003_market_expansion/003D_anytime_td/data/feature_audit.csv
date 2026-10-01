@@ -1,0 +1,23 @@
+feature,rung,coverage_train_dev,mean_train_dev,as_of,leakage_note
+trail_td_binary_ewma,M0,0.9494715371778231,0.2345430834286356,trailing strictly-prior (Friday 18:00 CT safe),
+pos_base,M0,1.0,0.3221310130200284,trailing strictly-prior (Friday 18:00 CT safe),
+trail_rz_targets_ewma,M1,1.0,0.4990683162048515,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+trail_rz_carries_ewma,M1,1.0,0.4176116637197488,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+ruq_goal_line_carries,M1,1.0,0.15241523221111625,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+trail_inside10_carries_ewma,M1,1.0,0.21939536464811152,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+trail_inside10_targets_ewma,M1,1.0,0.2318292487010863,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+trail_endzone_targets_ewma,M1,1.0,0.24117395333721497,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+trail_target_share_ewma,M1,1.0,0.109009483516635,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+trail_rush_share_ewma,M1,1.0,0.09784811014990351,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+trail_air_share_ewma,M1,1.0,0.10595866748378428,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+opp2_snap_pct,M1,1.0,0.49577902153966863,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+envs_team_pts_trail,M1,1.0,22.766032500299772,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+envs_opp_pts_allowed_trail,M1,1.0,22.71249992979304,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+opp_rz_td_rate_allowed_trail,M1,1.0,0.13966707048357602,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+ctx_elo_adv,M1,1.0,1.262568796690221,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+trail_games,M1,1.0,11.273409975894678,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+rq_ngs_separation,M2,1.0,1.5724748476686718,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+rq_ngs_cushion,M2,1.0,3.1098530701493035,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+rq_ngs_intended_air_yards,M2,1.0,5.2292764256485205,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+ruq_ngs_efficiency,M2,1.0,0.9408677360037175,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only
+ruq_ngs_ryoe_per_att,M2,1.0,0.02060045321817584,trailing strictly-prior (Friday 18:00 CT safe),spread/total/implied excluded everywhere; NGS trailing only

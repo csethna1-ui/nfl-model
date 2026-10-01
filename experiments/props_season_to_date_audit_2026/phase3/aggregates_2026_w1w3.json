@@ -1,0 +1,623 @@
+{
+ "locked_test_mae": {
+  "receptions": 1.3496,
+  "rush_attempts": 2.981
+ },
+ "note": "MONITORING ONLY. Descriptive comparison vs locked-test MAE; small samples, no inference. No betting-edge language.",
+ "markets": {
+  "receptions": {
+   "n_total": 610,
+   "n_ambiguous_excluded": 0,
+   "by_week": {
+    "W1": {
+     "n": 190,
+     "mae": 2.4989,
+     "rmse": 2.8357,
+     "bias": 2.0663,
+     "mean_projection": 4.219,
+     "mean_actual": 2.153
+    },
+    "W2": {
+     "n": 211,
+     "mae": 2.6687,
+     "rmse": 3.0585,
+     "bias": 2.1,
+     "mean_projection": 4.218,
+     "mean_actual": 2.118
+    },
+    "W3": {
+     "n": 209,
+     "mae": 2.5919,
+     "rmse": 2.9209,
+     "bias": 1.9459,
+     "mean_projection": 4.228,
+     "mean_actual": 2.282
+    }
+   },
+   "pooled": {
+    "n": 610,
+    "mae": 2.5895,
+    "rmse": 2.9434,
+    "bias": 2.0367,
+    "mean_projection": 4.222,
+    "mean_actual": 2.185,
+    "vs_locked_mae": 1.2399
+   },
+   "cuts": {
+    "ngs_status": {
+     "fallback-or-zero": {
+      "n": 139,
+      "mae": 1.9424,
+      "rmse": 2.0864,
+      "bias": 1.7309,
+      "mean_projection": 2.458,
+      "mean_actual": 0.727
+     },
+     "full": {
+      "n": 289,
+      "mae": 2.6377,
+      "rmse": 3.0697,
+      "bias": 1.7595,
+      "mean_projection": 4.984,
+      "mean_actual": 3.225
+     },
+     "partial": {
+      "n": 182,
+      "mae": 3.0071,
+      "rmse": 3.2786,
+      "bias": 2.7104,
+      "mean_projection": 4.359,
+      "mean_actual": 1.648
+     }
+    },
+    "opportunity_volume_tercile": {
+     "high": {
+      "n": 203,
+      "mae": 2.6172,
+      "rmse": 3.0795,
+      "bias": 1.5059,
+      "mean_projection": 5.2,
+      "mean_actual": 3.695
+     },
+     "low": {
+      "n": 205,
+      "mae": 2.4834,
+      "rmse": 2.7359,
+      "bias": 2.3117,
+      "mean_projection": 3.2,
+      "mean_actual": 0.888
+     },
+     "mid": {
+      "n": 202,
+      "mae": 2.6693,
+      "rmse": 3.0059,
+      "bias": 2.2911,
+      "mean_projection": 4.276,
+      "mean_actual": 1.985
+     }
+    },
+    "projection_size_tercile": {
+     "high": {
+      "n": 180,
+      "mae": 2.765,
+      "rmse": 3.2436,
+      "bias": 1.7117,
+      "mean_projection": 5.389,
+      "mean_actual": 3.678
+     },
+     "low": {
+      "n": 220,
+      "mae": 2.2414,
+      "rmse": 2.4665,
+      "bias": 1.9395,
+      "mean_projection": 3.021,
+      "mean_actual": 1.082
+     },
+     "mid": {
+      "n": 210,
+      "mae": 2.8038,
+      "rmse": 3.1263,
+      "bias": 2.4171,
+      "mean_projection": 4.479,
+      "mean_actual": 2.062
+     }
+    },
+    "position": {
+     "WRTE": {
+      "n": 610,
+      "mae": 2.5895,
+      "rmse": 2.9434,
+      "bias": 2.0367,
+      "mean_projection": 4.222,
+      "mean_actual": 2.185
+     }
+    },
+    "week": {
+     "W1": {
+      "n": 190,
+      "mae": 2.4989,
+      "rmse": 2.8357,
+      "bias": 2.0663,
+      "mean_projection": 4.219,
+      "mean_actual": 2.153
+     },
+     "W2": {
+      "n": 211,
+      "mae": 2.6687,
+      "rmse": 3.0585,
+      "bias": 2.1,
+      "mean_projection": 4.218,
+      "mean_actual": 2.118
+     },
+     "W3": {
+      "n": 209,
+      "mae": 2.5919,
+      "rmse": 2.9209,
+      "bias": 1.9459,
+      "mean_projection": 4.228,
+      "mean_actual": 2.282
+     }
+    },
+    "rookie_vs_established": {
+     "rookie": {
+      "n": 0
+     },
+     "established": {
+      "n": 610,
+      "mae": 2.5895,
+      "rmse": 2.9434,
+      "bias": 2.0367,
+      "mean_projection": 4.222,
+      "mean_actual": 2.185
+     }
+    },
+    "interval_width_tercile": {
+     "high": {
+      "n": 187,
+      "mae": 2.8417,
+      "rmse": 3.2482,
+      "bias": 2.1283,
+      "mean_projection": 5.027,
+      "mean_actual": 2.898
+     },
+     "low": {
+      "n": 213,
+      "mae": 2.3282,
+      "rmse": 2.5847,
+      "bias": 2.0775,
+      "mean_projection": 3.195,
+      "mean_actual": 1.117
+     },
+     "mid": {
+      "n": 210,
+      "mae": 2.63,
+      "rmse": 2.999,
+      "bias": 1.9138,
+      "mean_projection": 4.547,
+      "mean_actual": 2.633
+     }
+    },
+    "ngs_status_by_week": {
+     "W1": {
+      "fallback-or-zero": {
+       "n": 44,
+       "mae": 2.0205,
+       "rmse": 2.1549,
+       "bias": 1.8977,
+       "mean_projection": 2.42,
+       "mean_actual": 0.523
+      },
+      "full": {
+       "n": 90,
+       "mae": 2.3789,
+       "rmse": 2.8256,
+       "bias": 1.8522,
+       "mean_projection": 5.019,
+       "mean_actual": 3.167
+      },
+      "partial": {
+       "n": 56,
+       "mae": 3.0679,
+       "rmse": 3.2868,
+       "bias": 2.5429,
+       "mean_projection": 4.346,
+       "mean_actual": 1.804
+      }
+     },
+     "W2": {
+      "fallback-or-zero": {
+       "n": 49,
+       "mae": 1.8878,
+       "rmse": 2.0858,
+       "bias": 1.5857,
+       "mean_projection": 2.463,
+       "mean_actual": 0.878
+      },
+      "full": {
+       "n": 100,
+       "mae": 2.807,
+       "rmse": 3.2454,
+       "bias": 1.825,
+       "mean_projection": 4.985,
+       "mean_actual": 3.16
+      },
+      "partial": {
+       "n": 62,
+       "mae": 3.0629,
+       "rmse": 3.3777,
+       "bias": 2.95,
+       "mean_projection": 4.369,
+       "mean_actual": 1.419
+      }
+     },
+     "W3": {
+      "fallback-or-zero": {
+       "n": 46,
+       "mae": 1.9261,
+       "rmse": 2.0196,
+       "bias": 1.7261,
+       "mean_projection": 2.487,
+       "mean_actual": 0.761
+      },
+      "full": {
+       "n": 99,
+       "mae": 2.702,
+       "rmse": 3.1002,
+       "bias": 1.6091,
+       "mean_projection": 4.953,
+       "mean_actual": 3.343
+      },
+      "partial": {
+       "n": 64,
+       "mae": 2.9,
+       "rmse": 3.1722,
+       "bias": 2.625,
+       "mean_projection": 4.359,
+       "mean_actual": 1.734
+      }
+     }
+    },
+    "dnp_sensitivity": {
+     "with_dnp": {
+      "n": 610,
+      "mae": 2.5895,
+      "rmse": 2.9434,
+      "bias": 2.0367,
+      "mean_projection": 4.222,
+      "mean_actual": 2.185
+     },
+     "without_dnp": {
+      "n": 472,
+      "mae": 2.2839,
+      "rmse": 2.635,
+      "bias": 1.5695,
+      "mean_projection": 4.394,
+      "mean_actual": 2.824
+     },
+     "n_dnp": 138,
+     "n_team_changed": 4
+    }
+   },
+   "stale_ngs_rows": 0,
+   "fallback_M1_rows": 0,
+   "market_lines_present": 0
+  },
+  "rush_attempts": {
+   "n_total": 141,
+   "n_ambiguous_excluded": 0,
+   "by_week": {
+    "W1": {
+     "n": 44,
+     "mae": 6.6591,
+     "rmse": 7.6889,
+     "bias": 4.1682,
+     "mean_projection": 14.736,
+     "mean_actual": 10.568
+    },
+    "W2": {
+     "n": 47,
+     "mae": 6.383,
+     "rmse": 7.5772,
+     "bias": 4.3149,
+     "mean_projection": 14.783,
+     "mean_actual": 10.468
+    },
+    "W3": {
+     "n": 50,
+     "mae": 6.056,
+     "rmse": 7.6716,
+     "bias": 4.156,
+     "mean_projection": 14.676,
+     "mean_actual": 10.52
+    }
+   },
+   "pooled": {
+    "n": 141,
+    "mae": 6.3532,
+    "rmse": 7.6457,
+    "bias": 4.2128,
+    "mean_projection": 14.73,
+    "mean_actual": 10.518,
+    "vs_locked_mae": 3.3722
+   },
+   "cuts": {
+    "ngs_status": {
+     "fallback-or-zero": {
+      "n": 8,
+      "mae": 4.8125,
+      "rmse": 5.4347,
+      "bias": 4.5375,
+      "mean_projection": 7.037,
+      "mean_actual": 2.5
+     },
+     "full": {
+      "n": 104,
+      "mae": 5.975,
+      "rmse": 7.2935,
+      "bias": 3.3865,
+      "mean_projection": 15.512,
+      "mean_actual": 12.125
+     },
+     "partial": {
+      "n": 29,
+      "mae": 8.1345,
+      "rmse": 9.236,
+      "bias": 7.0862,
+      "mean_projection": 14.052,
+      "mean_actual": 6.966
+     }
+    },
+    "opportunity_volume_tercile": {
+     "high": {
+      "n": 48,
+      "mae": 4.6688,
+      "rmse": 5.9402,
+      "bias": 0.8396,
+      "mean_projection": 16.965,
+      "mean_actual": 16.125
+     },
+     "low": {
+      "n": 48,
+      "mae": 7.8063,
+      "rmse": 9.0172,
+      "bias": 6.7563,
+      "mean_projection": 12.798,
+      "mean_actual": 6.042
+     },
+     "mid": {
+      "n": 45,
+      "mae": 6.6,
+      "rmse": 7.6678,
+      "bias": 5.0978,
+      "mean_projection": 14.409,
+      "mean_actual": 9.311
+     }
+    },
+    "projection_size_tercile": {
+     "high": {
+      "n": 47,
+      "mae": 5.0638,
+      "rmse": 6.6482,
+      "bias": 2.5532,
+      "mean_projection": 17.191,
+      "mean_actual": 14.638
+     },
+     "low": {
+      "n": 51,
+      "mae": 7.9039,
+      "rmse": 8.7342,
+      "bias": 7.1902,
+      "mean_projection": 12.406,
+      "mean_actual": 5.216
+     },
+     "mid": {
+      "n": 43,
+      "mae": 5.9233,
+      "rmse": 7.2729,
+      "bias": 2.4953,
+      "mean_projection": 14.798,
+      "mean_actual": 12.302
+     }
+    },
+    "position": {
+     "RB": {
+      "n": 141,
+      "mae": 6.3532,
+      "rmse": 7.6457,
+      "bias": 4.2128,
+      "mean_projection": 14.73,
+      "mean_actual": 10.518
+     }
+    },
+    "week": {
+     "W1": {
+      "n": 44,
+      "mae": 6.6591,
+      "rmse": 7.6889,
+      "bias": 4.1682,
+      "mean_projection": 14.736,
+      "mean_actual": 10.568
+     },
+     "W2": {
+      "n": 47,
+      "mae": 6.383,
+      "rmse": 7.5772,
+      "bias": 4.3149,
+      "mean_projection": 14.783,
+      "mean_actual": 10.468
+     },
+     "W3": {
+      "n": 50,
+      "mae": 6.056,
+      "rmse": 7.6716,
+      "bias": 4.156,
+      "mean_projection": 14.676,
+      "mean_actual": 10.52
+     }
+    },
+    "rookie_vs_established": {
+     "rookie": {
+      "n": 0
+     },
+     "established": {
+      "n": 141,
+      "mae": 6.3532,
+      "rmse": 7.6457,
+      "bias": 4.2128,
+      "mean_projection": 14.73,
+      "mean_actual": 10.518
+     }
+    },
+    "uncertainty_bucket": {
+     "Medium Uncertainty": {
+      "n": 141,
+      "mae": 6.3532,
+      "rmse": 7.6457,
+      "bias": 4.2128,
+      "mean_projection": 14.73,
+      "mean_actual": 10.518
+     }
+    },
+    "ngs_status_by_week": {
+     "W1": {
+      "fallback-or-zero": {
+       "n": 3,
+       "mae": 5.4333,
+       "rmse": 5.8449,
+       "bias": 5.4333,
+       "mean_projection": 7.1,
+       "mean_actual": 1.667
+      },
+      "full": {
+       "n": 31,
+       "mae": 6.3645,
+       "rmse": 7.4424,
+       "bias": 3.0677,
+       "mean_projection": 15.648,
+       "mean_actual": 12.581
+      },
+      "partial": {
+       "n": 10,
+       "mae": 7.94,
+       "rmse": 8.8413,
+       "bias": 7.2,
+       "mean_projection": 14.2,
+       "mean_actual": 7.0
+      }
+     },
+     "W2": {
+      "fallback-or-zero": {
+       "n": 2,
+       "mae": 3.4,
+       "rmse": 3.8949,
+       "bias": 3.4,
+       "mean_projection": 6.9,
+       "mean_actual": 3.5
+      },
+      "full": {
+       "n": 34,
+       "mae": 6.2088,
+       "rmse": 7.3555,
+       "bias": 3.7029,
+       "mean_projection": 15.497,
+       "mean_actual": 11.794
+      },
+      "partial": {
+       "n": 11,
+       "mae": 7.4636,
+       "rmse": 8.6791,
+       "bias": 6.3727,
+       "mean_projection": 14.009,
+       "mean_actual": 7.636
+      }
+     },
+     "W3": {
+      "fallback-or-zero": {
+       "n": 3,
+       "mae": 5.1333,
+       "rmse": 5.8725,
+       "bias": 4.4,
+       "mean_projection": 7.067,
+       "mean_actual": 2.667
+      },
+      "full": {
+       "n": 39,
+       "mae": 5.4615,
+       "rmse": 7.1175,
+       "bias": 3.3641,
+       "mean_projection": 15.415,
+       "mean_actual": 12.051
+      },
+      "partial": {
+       "n": 8,
+       "mae": 9.3,
+       "rmse": 10.3894,
+       "bias": 7.925,
+       "mean_projection": 13.925,
+       "mean_actual": 6.0
+      }
+     }
+    },
+    "dnp_sensitivity": {
+     "with_dnp": {
+      "n": 141,
+      "mae": 6.3532,
+      "rmse": 7.6457,
+      "bias": 4.2128,
+      "mean_projection": 14.73,
+      "mean_actual": 10.518
+     },
+     "without_dnp": {
+      "n": 129,
+      "mae": 5.7721,
+      "rmse": 6.936,
+      "bias": 3.4326,
+      "mean_projection": 14.929,
+      "mean_actual": 11.496
+     },
+     "n_dnp": 12,
+     "n_team_changed": 0
+    }
+   },
+   "stale_ngs_rows": 0,
+   "fallback_M1_rows": 0,
+   "market_lines_present": 0
+  }
+ },
+ "ngs_availability_diagnostic": {
+  "receptions": {
+   "n_no_dnp": 472,
+   "ols_abs_err_on_projection_plus_ngs_full": {
+    "intercept": 0.773,
+    "projection_coef": 0.3859,
+    "ngs_full_coef": -0.338,
+    "ngs_full_se": 0.1492,
+    "ngs_full_t": -2.266
+   },
+   "relative_mae_by_ngs_status": {
+    "fallback-or-zero": 0.6303,
+    "full": 0.4788,
+    "partial": 0.5901
+   },
+   "raw_corr_ngs_weeks_abs_err": 0.0924,
+   "caveat": "observational; NGS availability correlates with veteran role stability; small samples; descriptive only"
+  },
+  "rush_attempts": {
+   "n_no_dnp": 129,
+   "ols_abs_err_on_projection_plus_ngs_full": {
+    "intercept": 6.8878,
+    "projection_coef": -0.0078,
+    "ngs_full_coef": -1.3152,
+    "ngs_full_se": 0.8931,
+    "ngs_full_t": -1.473
+   },
+   "relative_mae_by_ngs_status": {
+    "fallback-or-zero": 0.4723,
+    "full": 0.3611,
+    "partial": 0.5332
+   },
+   "raw_corr_ngs_weeks_abs_err": -0.1365,
+   "caveat": "observational; NGS availability correlates with veteran role stability; small samples; descriptive only"
+  }
+ }
+}

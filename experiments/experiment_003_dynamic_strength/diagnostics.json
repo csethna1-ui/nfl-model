@@ -1,0 +1,75 @@
+{
+ "phase": {
+  "1-4": {
+   "n": 128,
+   "v1_minus_market_mae": 0.2834,
+   "cand_minus_market_mae": 0.4779
+  },
+  "5-9": {
+   "n": 144,
+   "v1_minus_market_mae": -0.2677,
+   "cand_minus_market_mae": -0.3402
+  },
+  "10-14": {
+   "n": 144,
+   "v1_minus_market_mae": 0.4977,
+   "cand_minus_market_mae": 0.5952
+  },
+  "15+": {
+   "n": 153,
+   "v1_minus_market_mae": 0.7206,
+   "cand_minus_market_mae": 0.7676
+  }
+ },
+ "div": {
+  "0.0": {
+   "n": 370,
+   "v1_minus_market_mae": 0.1517,
+   "cand_minus_market_mae": 0.2642
+  },
+  "1.0": {
+   "n": 199,
+   "v1_minus_market_mae": 0.6207,
+   "cand_minus_market_mae": 0.5908
+  }
+ },
+ "edge": {
+  "0-1": {
+   "n": 117,
+   "v1_minus_market_mae": 0.0193,
+   "cand_minus_market_mae": 0.3887
+  },
+  "1-2": {
+   "n": 137,
+   "v1_minus_market_mae": 0.0742,
+   "cand_minus_market_mae": 0.3568
+  },
+  "2-3": {
+   "n": 119,
+   "v1_minus_market_mae": 0.2959,
+   "cand_minus_market_mae": 0.3284
+  },
+  "3-4": {
+   "n": 76,
+   "v1_minus_market_mae": 0.162,
+   "cand_minus_market_mae": 0.3436
+  },
+  "4+": {
+   "n": 120,
+   "v1_minus_market_mae": 0.9976,
+   "cand_minus_market_mae": 0.4647
+  }
+ },
+ "bet_direction": {
+  "away": {
+   "n": 364,
+   "v1_minus_market_mae": 0.3856,
+   "cand_minus_market_mae": 0.4124
+  },
+  "home": {
+   "n": 205,
+   "v1_minus_market_mae": 0.1917,
+   "cand_minus_market_mae": 0.3182
+  }
+ }
+}

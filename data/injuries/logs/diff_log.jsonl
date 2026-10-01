@@ -1,0 +1,5 @@
+{"event": "diff", "from": null, "to": "2026-09-30", "new_out": 0, "new_doubtful": 0, "new_questionable": 0, "status_change": 0, "qb_flags": [], "ts": "2026-09-30T16:02:35+00:00"}
+{"event": "diff", "from": "2026-09-29", "to": "2026-09-30", "new_out": 1, "new_doubtful": 0, "new_questionable": 0, "status_change": 0, "qb_flags": ["STARTING QB STATUS CHANGE: Jayden Daniels (WAS) Questionable -> Out"], "ts": "2026-09-30T16:02:43+00:00"}
+{"event": "diff", "from": null, "to": "2026-09-30", "new_out": 0, "new_doubtful": 0, "new_questionable": 0, "status_change": 0, "qb_flags": [], "ts": "2026-09-30T16:03:45+00:00"}
+{"event": "friday_freeze", "season": 2026, "week": 4, "dest": "/home/hatch/workspace/nfl-model/data/injuries/availability_friday_2026_w4.json", "ts": "2026-09-30T16:04:35+00:00"}
+{"event": "diff", "from": null, "to": "2026-10-01", "new_out": 0, "new_doubtful": 0, "new_questionable": 0, "status_change": 0, "qb_flags": [], "ts": "2026-10-01T13:20:11+00:00"}

@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-09-30 16:28 UTC",
+  "protocol": "PREREGISTRATION.md frozen 2026-09-30",
+  "deviation": "regression check covers 2021-2022 only; 2023-2025 not read (test isolation). Loop is season-independent.",
+  "timing_audit": {
+    "n_rows": 2935,
+    "null_dm_share": 0.0,
+    "null_dm_by_season": {
+      "2018": 0.0,
+      "2019": 0.0,
+      "2020": 0.0,
+      "2021": 0.0,
+      "2022": 0.0
+    },
+    "matched_to_game": 2650,
+    "post_kickoff_share": 0.0003773584905660377,
+    "post_kickoff_n": 1,
+    "fri_sat_window_share": 0.05849056603773585,
+    "fri_sat_window_n": 155,
+    "excluded_seasons": []
+  },
+  "feature_columns": [
+    "QB_Out",
+    "QB_Doubtful",
+    "QB_Questionable",
+    "OL_Out",
+    "OL_Doubtful",
+    "OL_Questionable",
+    "SKILL_Out",
+    "SKILL_Doubtful",
+    "SKILL_Questionable",
+    "FRONT7_Out",
+    "FRONT7_Doubtful",
+    "FRONT7_Questionable",
+    "DB_Out",
+    "DB_Doubtful",
+    "DB_Questionable",
+    "ST_Out",
+    "ST_Doubtful",
+    "ST_Questionable",
+    "snap_off_Out",
+    "snap_off_Doubtful",
+    "snap_off_Questionable",
+    "snap_def_Out",
+    "snap_def_Doubtful",
+    "snap_def_Questionable",
+    "miss_starter_off",
+    "miss_starter_def",
+    "burden_off",
+    "burden_def"
+  ],
+  "n_train": 480,
+  "n_dev": 506,
+  "leakage_checks": {
+    "8_test_isolation": {
+      "pass": true,
+      "max_season": 2022
+    },
+    "6_no_market_inputs": {
+      "pass": true,
+      "offenders": []
+    },
+    "10_no_practice_status": {
+      "pass": true,
+      "offenders": []
+    },
+    "9_no_qb_point_values": {
+      "pass": true,
+      "actual_loads_found": []
+    },
+    "7_no_pft": {
+      "pass": true,
+      "note": "primary pipeline never imports PFT"
+    },
+    "1_timing_filter": {
+      "pass": true,
+      "note": "enforced at build: qual = rows with date_modified < T(game); game-day inactives (dm >= T) excluded by construction"
+    },
+    "4_no_roster_hindsight": {
+      "pass": true,
+      "note": "trailing_snap_shares masks weeks < w only; starter pools pre-week"
+    },
+    "5_v1_walkforward": {
+      "pass": true,
+      "note": "GBM hist = games strictly before week w; linear models frozen on 2018-2020 per protocol (train-period residuals partially in-sample for linear components \u2014 disclosed, dev/test fully out-of-sample)"
+    },
+    "11_no_silent_promotion": {
+      "pass": true,
+      "note": "outputs confined to /home/hatch/workspace/nfl-model/experiments/injury_adjustment_experiment/data"
+    },
+    "3_timing_audit": {
+      "pass": true,
+      "note": "timing_audit() executed pre-feature-build"
+    }
+  }
+}

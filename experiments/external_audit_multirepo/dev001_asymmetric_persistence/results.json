@@ -1,0 +1,103 @@
+{
+  "betas": {
+    "off_epa": {
+      "beta": 0.2801,
+      "n": 64,
+      "transitions": [
+        "2018->2019",
+        "2019->2020"
+      ]
+    },
+    "off_pass_epa": {
+      "beta": 0.1597,
+      "n": 64,
+      "transitions": [
+        "2018->2019",
+        "2019->2020"
+      ]
+    },
+    "off_rush_epa": {
+      "beta": 0.4064,
+      "n": 64,
+      "transitions": [
+        "2018->2019",
+        "2019->2020"
+      ]
+    },
+    "off_sr": {
+      "beta": 0.1386,
+      "n": 64,
+      "transitions": [
+        "2018->2019",
+        "2019->2020"
+      ]
+    },
+    "def_epa": {
+      "beta": 0.2752,
+      "n": 64,
+      "transitions": [
+        "2018->2019",
+        "2019->2020"
+      ]
+    },
+    "def_pass_epa": {
+      "beta": 0.2801,
+      "n": 64,
+      "transitions": [
+        "2018->2019",
+        "2019->2020"
+      ]
+    },
+    "def_rush_epa": {
+      "beta": 0.0665,
+      "n": 64,
+      "transitions": [
+        "2018->2019",
+        "2019->2020"
+      ]
+    },
+    "def_sr": {
+      "beta": 0.2122,
+      "n": 64,
+      "transitions": [
+        "2018->2019",
+        "2019->2020"
+      ]
+    }
+  },
+  "beta_note": "64 transitions per side (2018->19, 2019->20); 2020->21 excluded (dev endpoint)",
+  "metrics": {
+    "n_games": 569,
+    "v1_mae": 10.0425,
+    "cand_mae": 10.0158,
+    "delta_mae": -0.0267,
+    "rel_change_pct": -0.266,
+    "delta_2021": -0.0047,
+    "delta_2022": -0.0488,
+    "n_2021": 285,
+    "n_2022": 284,
+    "paired_ci95": [
+      -0.0737,
+      0.0203
+    ],
+    "paired_p_two_sided": 0.265,
+    "weeks1_4_delta": -0.0799,
+    "weeks1_4_n": 128,
+    "weeks5_18_delta": -0.0112,
+    "weeks5_18_n": 441,
+    "epa_comp_v1": 10.146,
+    "epa_comp_cand": 10.1614,
+    "epa_comp_delta": 0.0155,
+    "epa_comp_delta_2021": 0.0438,
+    "epa_comp_delta_2022": -0.0129,
+    "epa_comp_delta_wks1_4": -0.0015,
+    "epa_comp_delta_wks5_18": 0.0204,
+    "gbm_comp_v1": 10.4625,
+    "gbm_comp_cand": 10.2729,
+    "gbm_comp_delta": -0.1896,
+    "elo_comp_mae": 10.2031,
+    "market_mae": 9.7267,
+    "cand_minus_market": 0.289,
+    "v1_minus_market": 0.3157
+  }
+}

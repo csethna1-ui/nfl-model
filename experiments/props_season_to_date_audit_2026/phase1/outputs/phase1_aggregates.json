@@ -1,0 +1,552 @@
+{
+ "per_market_week": {
+  "pass_yards": {
+   "w1": {
+    "n": 35,
+    "mae": 77.06,
+    "rmse": 98.92,
+    "bias": 27.03,
+    "n_unscored": 38,
+    "n_projected": 73
+   },
+   "w2": {
+    "n": 37,
+    "mae": 73.37,
+    "rmse": 92.5,
+    "bias": 31.38,
+    "n_unscored": 37,
+    "n_projected": 74
+   },
+   "w3": {
+    "n": 36,
+    "mae": 66.75,
+    "rmse": 90.27,
+    "bias": 16.18,
+    "n_unscored": 38,
+    "n_projected": 74
+   }
+  },
+  "rush_yards": {
+   "w1": {
+    "n": 61,
+    "mae": 28.28,
+    "rmse": 35.18,
+    "bias": 8.17,
+    "n_unscored": 68,
+    "n_projected": 129
+   },
+   "w2": {
+    "n": 65,
+    "mae": 28.28,
+    "rmse": 32.24,
+    "bias": 14.47,
+    "n_unscored": 65,
+    "n_projected": 130
+   },
+   "w3": {
+    "n": 63,
+    "mae": 25.16,
+    "rmse": 30.23,
+    "bias": 14.21,
+    "n_unscored": 68,
+    "n_projected": 131
+   }
+  },
+  "receiving_yards": {
+   "w1": {
+    "n": 166,
+    "mae": 25.72,
+    "rmse": 31.41,
+    "bias": 10.58,
+    "n_unscored": 161,
+    "n_projected": 327
+   },
+   "w2": {
+    "n": 165,
+    "mae": 25.27,
+    "rmse": 32.43,
+    "bias": 7.43,
+    "n_unscored": 164,
+    "n_projected": 329
+   },
+   "w3": {
+    "n": 168,
+    "mae": 24.37,
+    "rmse": 29.67,
+    "bias": 7.45,
+    "n_unscored": 165,
+    "n_projected": 333
+   }
+  }
+ },
+ "pooled": {
+  "pass_yards": {
+   "n": 108,
+   "mae": 72.36,
+   "rmse": 93.91,
+   "bias": 24.9
+  },
+  "rush_yards": {
+   "n": 189,
+   "mae": 27.24,
+   "rmse": 32.58,
+   "bias": 12.35
+  },
+  "receiving_yards": {
+   "n": 499,
+   "mae": 25.12,
+   "rmse": 31.18,
+   "bias": 8.48
+  }
+ },
+ "diagnostics": {
+  "opp_volume_bucket": {
+   "pass_yards": {
+    "high": {
+     "n": 36,
+     "mae": 64.59,
+     "rmse": 82.47,
+     "bias": -8.85
+    },
+    "low": {
+     "n": 36,
+     "mae": 98.21,
+     "rmse": 117.96,
+     "bias": 68.68
+    },
+    "med": {
+     "n": 36,
+     "mae": 54.28,
+     "rmse": 75.77,
+     "bias": 14.87
+    }
+   },
+   "rush_yards": {
+    "high": {
+     "n": 63,
+     "mae": 27.23,
+     "rmse": 35.8,
+     "bias": -0.51
+    },
+    "low": {
+     "n": 63,
+     "mae": 26.04,
+     "rmse": 29.87,
+     "bias": 25.04
+    },
+    "med": {
+     "n": 63,
+     "mae": 28.46,
+     "rmse": 31.78,
+     "bias": 12.52
+    }
+   },
+   "receiving_yards": {
+    "high": {
+     "n": 166,
+     "mae": 29.57,
+     "rmse": 38.39,
+     "bias": 1.68
+    },
+    "low": {
+     "n": 167,
+     "mae": 22.17,
+     "rmse": 25.18,
+     "bias": 14.04
+    },
+    "med": {
+     "n": 166,
+     "mae": 23.63,
+     "rmse": 28.48,
+     "bias": 9.7
+    }
+   }
+  },
+  "proj_size_bucket": {
+   "pass_yards": {
+    "high": {
+     "n": 36,
+     "mae": 56.57,
+     "rmse": 70.75,
+     "bias": 10.83
+    },
+    "low": {
+     "n": 36,
+     "mae": 93.61,
+     "rmse": 118.97,
+     "bias": 60.67
+    },
+    "med": {
+     "n": 36,
+     "mae": 66.9,
+     "rmse": 85.42,
+     "bias": 3.2
+    }
+   },
+   "rush_yards": {
+    "high": {
+     "n": 63,
+     "mae": 29.26,
+     "rmse": 37.98,
+     "bias": 1.18
+    },
+    "low": {
+     "n": 63,
+     "mae": 24.87,
+     "rmse": 27.32,
+     "bias": 22.02
+    },
+    "med": {
+     "n": 63,
+     "mae": 27.59,
+     "rmse": 31.54,
+     "bias": 13.85
+    }
+   },
+   "receiving_yards": {
+    "high": {
+     "n": 166,
+     "mae": 30.12,
+     "rmse": 38.53,
+     "bias": 2.94
+    },
+    "low": {
+     "n": 167,
+     "mae": 21.0,
+     "rmse": 23.81,
+     "bias": 13.16
+    },
+    "med": {
+     "n": 166,
+     "mae": 24.26,
+     "rmse": 29.46,
+     "bias": 9.32
+    }
+   }
+  },
+  "uncertainty": {
+   "pass_yards": {
+    "High": {
+     "n": 35,
+     "mae": 79.72,
+     "rmse": 103.27,
+     "bias": 34.49
+    },
+    "Low": {
+     "n": 47,
+     "mae": 82.58,
+     "rmse": 102.29,
+     "bias": 23.25
+    },
+    "Medium": {
+     "n": 26,
+     "mae": 43.97,
+     "rmse": 57.97,
+     "bias": 14.97
+    }
+   },
+   "rush_yards": {
+    "High": {
+     "n": 90,
+     "mae": 26.15,
+     "rmse": 31.31,
+     "bias": 11.12
+    },
+    "Low": {
+     "n": 41,
+     "mae": 28.87,
+     "rmse": 35.75,
+     "bias": 7.32
+    },
+    "Medium": {
+     "n": 58,
+     "mae": 27.78,
+     "rmse": 32.15,
+     "bias": 17.81
+    }
+   },
+   "receiving_yards": {
+    "High": {
+     "n": 178,
+     "mae": 23.69,
+     "rmse": 28.26,
+     "bias": 11.51
+    },
+    "Low": {
+     "n": 149,
+     "mae": 27.07,
+     "rmse": 34.56,
+     "bias": 7.33
+    },
+    "Medium": {
+     "n": 172,
+     "mae": 24.91,
+     "rmse": 30.98,
+     "bias": 6.35
+    }
+   }
+  },
+  "gap_bucket": {
+   "pass_yards": {
+    "model_low": {
+     "n": 6,
+     "mae": 65.33,
+     "rmse": 93.06,
+     "bias": -64.37
+    },
+    "close": {
+     "n": 4,
+     "mae": 58.7,
+     "rmse": 66.1,
+     "bias": 1.25
+    },
+    "model_high": {
+     "n": 7,
+     "mae": 48.33,
+     "rmse": 55.61,
+     "bias": 41.04
+    }
+   },
+   "rush_yards": {
+    "model_low": {
+     "n": 4,
+     "mae": 47.02,
+     "rmse": 60.11,
+     "bias": -44.27
+    },
+    "close": {
+     "n": 10,
+     "mae": 45.52,
+     "rmse": 55.2,
+     "bias": -16.12
+    },
+    "model_high": {
+     "n": 6,
+     "mae": 16.52,
+     "rmse": 18.7,
+     "bias": 7.22
+    }
+   },
+   "receiving_yards": {
+    "model_low": {
+     "n": 5,
+     "mae": 37.56,
+     "rmse": 50.25,
+     "bias": -35.44
+    },
+    "close": {
+     "n": 9,
+     "mae": 36.2,
+     "rmse": 44.95,
+     "bias": 3.36
+    },
+    "model_high": {
+     "n": 10,
+     "mae": 34.4,
+     "rmse": 43.13,
+     "bias": -19.38
+    }
+   }
+  },
+  "position": {
+   "pass_yards": {
+    "QB": {
+     "n": 108,
+     "mae": 72.36,
+     "rmse": 93.91,
+     "bias": 24.9
+    }
+   },
+   "rush_yards": {
+    "RB": {
+     "n": 189,
+     "mae": 27.24,
+     "rmse": 32.58,
+     "bias": 12.35
+    }
+   },
+   "receiving_yards": {
+    "WRTE": {
+     "n": 499,
+     "mae": 25.12,
+     "rmse": 31.18,
+     "bias": 8.48
+    }
+   }
+  },
+  "week": {
+   "pass_yards": {
+    "1": {
+     "n": 35,
+     "mae": 77.06,
+     "rmse": 98.92,
+     "bias": 27.03
+    },
+    "2": {
+     "n": 37,
+     "mae": 73.37,
+     "rmse": 92.5,
+     "bias": 31.38
+    },
+    "3": {
+     "n": 36,
+     "mae": 66.75,
+     "rmse": 90.27,
+     "bias": 16.18
+    }
+   },
+   "rush_yards": {
+    "1": {
+     "n": 61,
+     "mae": 28.28,
+     "rmse": 35.18,
+     "bias": 8.17
+    },
+    "2": {
+     "n": 65,
+     "mae": 28.28,
+     "rmse": 32.24,
+     "bias": 14.47
+    },
+    "3": {
+     "n": 63,
+     "mae": 25.16,
+     "rmse": 30.23,
+     "bias": 14.21
+    }
+   },
+   "receiving_yards": {
+    "1": {
+     "n": 166,
+     "mae": 25.72,
+     "rmse": 31.41,
+     "bias": 10.58
+    },
+    "2": {
+     "n": 165,
+     "mae": 25.27,
+     "rmse": 32.43,
+     "bias": 7.43
+    },
+    "3": {
+     "n": 168,
+     "mae": 24.37,
+     "rmse": 29.67,
+     "bias": 7.45
+    }
+   }
+  },
+  "rookie": {
+   "pass_yards": {
+    "False": {
+     "n": 108,
+     "mae": 72.36,
+     "rmse": 93.91,
+     "bias": 24.9
+    }
+   },
+   "rush_yards": {
+    "False": {
+     "n": 189,
+     "mae": 27.24,
+     "rmse": 32.58,
+     "bias": 12.35
+    }
+   },
+   "receiving_yards": {
+    "False": {
+     "n": 499,
+     "mae": 25.12,
+     "rmse": 31.18,
+     "bias": 8.48
+    }
+   }
+  },
+  "rich_coverage_bucket": {
+   "pass_yards": {
+    "full": {
+     "n": 108,
+     "mae": 72.36,
+     "rmse": 93.91,
+     "bias": 24.9
+    }
+   },
+   "rush_yards": {
+    "full": {
+     "n": 189,
+     "mae": 27.24,
+     "rmse": 32.58,
+     "bias": 12.35
+    }
+   },
+   "receiving_yards": {
+    "full": {
+     "n": 499,
+     "mae": 25.12,
+     "rmse": 31.18,
+     "bias": 8.48
+    }
+   }
+  }
+ },
+ "data_quality": {
+  "w1": {
+   "n_projected": 529,
+   "n_scored": 262,
+   "n_unscored": 267
+  },
+  "w2": {
+   "n_projected": 533,
+   "n_scored": 267,
+   "n_unscored": 266
+  },
+  "w3": {
+   "n_projected": 538,
+   "n_scored": 267,
+   "n_unscored": 271
+  }
+ },
+ "bucket_cutoffs": {
+  "pass_yards.trail_opp_ewma_tertiles": [
+   30.19824954452303,
+   33.88523799897508
+  ],
+  "pass_yards.projection_tertiles": [
+   212.46666666666667,
+   233.53333333333333
+  ],
+  "rush_yards.trail_opp_ewma_tertiles": [
+   6.364998738948861,
+   12.059409530278346
+  ],
+  "rush_yards.projection_tertiles": [
+   41.06666666666667,
+   55.166666666666664
+  ],
+  "receiving_yards.trail_opp_ewma_tertiles": [
+   2.9993356951143415,
+   5.250363546217252
+  ],
+  "receiving_yards.projection_tertiles": [
+   36.2,
+   46.0
+  ]
+ },
+ "signed_error_convention": "projection - actual (>0 means model projected high)",
+ "uncertainty_convention": "uncertainty = inverted pipeline 'confidence' (High confidence -> Low uncertainty), per dashboard contract",
+ "team_mismatch": {
+  "n": 82,
+  "by_week": {
+   "w1": 57,
+   "w2": 13,
+   "w3": 12
+  },
+  "mae_all_scored": 32.03,
+  "mae_mismatched": 36.38
+ },
+ "duplicate_actual_teams": {
+  "n_scored_with_dup_actual": 22,
+  "rule": "actual attributed to the row whose team == projection team; unscorable when no row matches (counted in unscored reasons)",
+  "unscored_ambiguous": 1
+ }
+}

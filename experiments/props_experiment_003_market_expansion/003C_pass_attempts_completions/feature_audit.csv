@@ -1,0 +1,41 @@
+feature,rungs,source,as_of,missing_rate_population,spread_total_used
+trail_pass_att_ewma,M1+M0,"nflverse player_stats trailing EWMA(hl=3,max16)",as-of OK: strictly prior weeks,0.0,NO — excluded per 002 leakage rule
+pace_team_plays,M1,002 Family E: pbp team plays trailing,as-of OK,0.0,NO — excluded per 002 leakage rule
+pace_combined,M1,002 Family E: pbp combined plays trailing,as-of OK,0.0,NO — excluded per 002 leakage rule
+pace_neutral_pass_rate,M1,002 Family E: neutral-script pass rate,as-of OK,0.0,NO — excluded per 002 leakage rule
+ctx_elo_adv,M1,002 Family B: pre-week ELO differential,as-of OK: pre-week ratings,0.0,NO — excluded per 002 leakage rule
+qb_changed,M1,002 Family QBX: expected-starter change flag,"as-of OK: 002 reconstruction, no post-game info",0.0,NO — excluded per 002 leakage rule
+exp_rookie,M1,002 Family O: rookie flag,as-of OK,0.0,NO — excluded per 002 leakage rule
+exp_second_year,M1,002 Family O: second-year flag,as-of OK,0.0,NO — excluded per 002 leakage rule
+exp_career_games,M1,002 Family O: career games,as-of OK,0.0,NO — excluded per 002 leakage rule
+trail_games,M1,001: trailing games with history,as-of OK,0.0,NO — excluded per 002 leakage rule
+ngs_ttt_trail,M2,"NGS passing avg_time_to_throw, trailing EWMA",as-of OK: strictly prior weeks (NGS releases post-game),0.0,NO — excluded per 002 leakage rule
+ngs_aggro_trail,M2+C1,"NGS passing aggressiveness, trailing EWMA",as-of OK: strictly prior weeks,0.0,NO — excluded per 002 leakage rule
+ngs_iay_trail,M2,"NGS passing avg_intended_air_yards, trailing EWMA",as-of OK: strictly prior weeks,0.0,NO — excluded per 002 leakage rule
+ngs_ayts_trail,M2,"NGS passing avg_air_yards_to_sticks, trailing EWMA",as-of OK: strictly prior weeks,0.0,NO — excluded per 002 leakage rule
+ngs_xcomp_trail,M2+C1,"NGS passing expected_completion_percentage, trailing EWMA",as-of OK: strictly prior weeks,0.0,NO — excluded per 002 leakage rule
+ngs_cpoe_trail,M2+C1,"NGS passing completion_percentage_above_expectation, trailing EWMA",as-of OK: strictly prior weeks,0.0,NO — excluded per 002 leakage rule
+ctx_team_off_epa,M3,002 Family B,as-of OK,0.0,NO — excluded per 002 leakage rule
+ctx_team_off_pass_epa,M3,002 Family B,as-of OK,0.0,NO — excluded per 002 leakage rule
+ctx_team_off_rush_epa,M3,002 Family B,as-of OK,0.0,NO — excluded per 002 leakage rule
+ctx_team_off_sr,M3,002 Family B,as-of OK,0.0,NO — excluded per 002 leakage rule
+oppd_def_epa,M3,002 Family C: pre-week opp defense,as-of OK,0.0,NO — excluded per 002 leakage rule
+oppd_def_pass_epa,M3,002 Family C: pre-week opp pass defense,as-of OK,0.0,NO — excluded per 002 leakage rule
+oppd_def_rush_epa,M3,002 Family C,as-of OK,0.0,NO — excluded per 002 leakage rule
+oppd_def_sr,M3,002 Family C,as-of OK,0.0,NO — excluded per 002 leakage rule
+envs_dome,M3,002 Family D1: schedules roof,as-of OK: pre-known,0.0,NO — excluded per 002 leakage rule
+envs_team_pts_trail,M3,002 Family D1,as-of OK,0.0,NO — excluded per 002 leakage rule
+envs_opp_pts_allowed_trail,M3,002 Family D1,as-of OK,0.0,NO — excluded per 002 leakage rule
+envf_days_rest,M3,002 Family D2,as-of OK: pre-known,0.0,NO — excluded per 002 leakage rule
+envf_rest_diff,M3,002 Family D2,as-of OK,0.0,NO — excluded per 002 leakage rule
+envf_short_week,M3,002 Family D2,as-of OK,0.0,NO — excluded per 002 leakage rule
+envf_long_rest,M3,002 Family D2,as-of OK,0.0,NO — excluded per 002 leakage rule
+envf_div_game,M3,002 Family D2,as-of OK,0.0,NO — excluded per 002 leakage rule
+inj_player_status,M3,002 Family L: as-of injury status,as-of OK: date_modified <= Fri 18:00 CT,0.0,NO — excluded per 002 leakage rule
+inj_team_out_share,M3,002 Family L: team out share,as-of OK,0.0,NO — excluded per 002 leakage rule
+inj_ol_out,M3,002 Family L,as-of OK,0.0,NO — excluded per 002 leakage rule
+qb_epa_trail,M3,002 Family I: QB trailing EPA,as-of OK,0.0,NO — excluded per 002 leakage rule
+qb_cpoe_trail,M3,002 Family I: QB trailing CPOE,as-of OK,0.0,NO — excluded per 002 leakage rule
+qb_adot_trail,M3+C1,002 Family I: QB trailing ADOT,as-of OK,0.0,NO — excluded per 002 leakage rule
+qb_pressure_trail,M3+C1,002 Family QBX: QB trailing pressure,as-of OK,0.0,NO — excluded per 002 leakage rule
+trail_comp_rate_ewma,C0,001: trailing completion rate EWMA,as-of OK,0.0,NO — excluded per 002 leakage rule

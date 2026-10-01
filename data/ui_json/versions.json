@@ -1,0 +1,13 @@
+{
+ "default": "V1",
+ "versions": [
+  {
+   "version": "V1",
+   "dir": "v1",
+   "status": "production",
+   "generated_at": "2026-10-01 19:17 UTC",
+   "season": 2026,
+   "latest_week": 4
+  }
+ ]
+}

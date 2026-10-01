@@ -1,0 +1,24 @@
+[M0] test D MAE: pass_yards=60.62 rush_yards=24.83 receiving_yards=24.13
+[M1] test D MAE: pass_yards=60.47 rush_yards=24.83 receiving_yards=24.15
+[M2] test D MAE: pass_yards=61.64 rush_yards=24.70 receiving_yards=24.21
+[M3] test D MAE: pass_yards=60.59 rush_yards=24.68 receiving_yards=24.11
+[M4] test D MAE: pass_yards=61.01 rush_yards=24.75 receiving_yards=24.12
+[M5] test D MAE: pass_yards=60.81 rush_yards=24.76 receiving_yards=24.15
+[M6] test D MAE: pass_yards=60.66 rush_yards=24.66 receiving_yards=24.12
+[M7] test D MAE: pass_yards=60.67 rush_yards=24.74 receiving_yards=24.12
+[M8] test D MAE: pass_yards=60.84 rush_yards=24.84 receiving_yards=24.16
+[M9] test D MAE: pass_yards=60.73 rush_yards=24.76 receiving_yards=24.17
+[M10] test D MAE: pass_yards=60.91 rush_yards=24.76 receiving_yards=24.20
+[M11] test D MAE: pass_yards=61.42 rush_yards=24.83 receiving_yards=24.13
+TEST EVALUATION COMPLETE (single pass).
+[M1] clears_bar=False winners=[]
+[M2] clears_bar=False winners=[]
+[M3] clears_bar=False winners=[]
+[M4] clears_bar=False winners=[]
+[M5] clears_bar=False winners=[]
+[M6] clears_bar=False winners=[]
+[M7] clears_bar=False winners=[]
+[M8] clears_bar=False winners=[]
+[M9] clears_bar=False winners=[]
+[M10] clears_bar=False winners=[]
+[M11] clears_bar=False winners=[]

@@ -1,0 +1,101 @@
+{
+ "phase": {
+  "1-4": {
+   "n": 128,
+   "v1_mae": 9.49,
+   "cand_mae": 9.516,
+   "mkt_mae": 9.207
+  },
+  "5-9": {
+   "n": 144,
+   "v1_mae": 10.086,
+   "cand_mae": 10.252,
+   "mkt_mae": 10.354
+  },
+  "10-14": {
+   "n": 144,
+   "v1_mae": 10.428,
+   "cand_mae": 10.37,
+   "mkt_mae": 9.931
+  },
+  "15-18": {
+   "n": 153,
+   "v1_mae": 10.1,
+   "cand_mae": 10.105,
+   "mkt_mae": 9.379
+  }
+ },
+ "div_game": {
+  "0.0": {
+   "n": 370,
+   "v1_mae": 9.708,
+   "cand_mae": 9.89,
+   "mkt_mae": 9.557
+  },
+  "1.0": {
+   "n": 199,
+   "v1_mae": 10.663,
+   "cand_mae": 10.425,
+   "mkt_mae": 10.043
+  }
+ },
+ "edge_bucket": {
+  "0-1": {
+   "n": 35,
+   "v1_mae": 0.5,
+   "cand_mae": 1.252,
+   "mkt_mae": 2.686
+  },
+  "1-2": {
+   "n": 46,
+   "v1_mae": 1.346,
+   "cand_mae": 2.18,
+   "mkt_mae": 3.0
+  },
+  "2-3": {
+   "n": 34,
+   "v1_mae": 2.521,
+   "cand_mae": 2.737,
+   "mkt_mae": 3.029
+  },
+  "3-4": {
+   "n": 39,
+   "v1_mae": 3.503,
+   "cand_mae": 3.909,
+   "mkt_mae": 4.192
+  },
+  "4+": {
+   "n": 415,
+   "v1_mae": 13.042,
+   "cand_mae": 12.877,
+   "mkt_mae": 12.135
+  }
+ },
+ "position_group_load": {
+  "OL": {
+   "n_high_load": 569,
+   "v1_mae_high": 10.042,
+   "cand_mae_high": 10.077
+  },
+  "SKILL": {
+   "n_high_load": 569,
+   "v1_mae_high": 10.042,
+   "cand_mae_high": 10.077
+  },
+  "FRONT7": {
+   "n_high_load": 569,
+   "v1_mae_high": 10.042,
+   "cand_mae_high": 10.077
+  },
+  "DB": {
+   "n_high_load": 569,
+   "v1_mae_high": 10.042,
+   "cand_mae_high": 10.077
+  },
+  "ST": {
+   "n_high_load": 569,
+   "v1_mae_high": 10.042,
+   "cand_mae_high": 10.077
+  }
+ }
+}

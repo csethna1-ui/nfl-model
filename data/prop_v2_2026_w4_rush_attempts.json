@@ -1,0 +1,2036 @@
+{
+ "model": "Props Experiment 003B \u2014 rush attempts (experimental head)",
+ "status": "experimental",
+ "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+ "season": 2026,
+ "week": 4,
+ "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+ "generated_at": "2026-10-01T13:03:42.812888-05:00",
+ "disclaimer": "Experimental NFL analytics / paper-tracking system. The 003B rush-attempts head productionizes the frozen Experiment 003B M2 ensemble evaluated once on the locked 2023-2024 test (projection quality only). No verified betting edge. Not betting advice; no real-money recommendations.",
+ "experiment_provenance": {
+  "experiment": "Props Experiment 003B: Rush Attempts",
+  "preregistration": "experiments/props_experiment_003_market_expansion/003B_rush_attempts/PREREGISTRATION.md (approved+frozen 2026-10-01 12:25 CDT)",
+  "results": "experiments/props_experiment_003_market_expansion/003B_rush_attempts/RESULTS.md (M2 MATERIAL WIN on locked 2023-2024 test; projection quality only, no market evaluation; paper tracking only)",
+  "model_artifact": "experiments/props_experiment_003_market_expansion/003B_rush_attempts/models/M2_fitted.pkl deployed directly, no retraining",
+  "features": "13 frozen M2 features: 7 M1 opportunity (pace_team_plays, trail_rush_share_ewma, opp2_snap_pct, neut_rush_rate, ctx_elo_adv, trail_rz_carries_ewma, trail_games) + 6 trailing NGS rushing (ngs_eff, ngs_xrush, ngs_ryoe, ngs_ryoe_pct, ngs_8box, ngs_ttl)",
+  "as_of": "Friday 18:00 America/Chicago; strictly-prior-week trailing; pre-week ELO"
+ },
+ "market": "rush_attempts",
+ "n_projections": 53,
+ "projections": [
+  {
+   "player": "A.Jeanty",
+   "team": "LV",
+   "opp": "KC",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 17.4,
+   "projection_components": {
+    "A_ridge": 17.23,
+    "B_gbm": 17.7,
+    "C_quantile_median": 17.15,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "A.Jones",
+   "team": "MIN",
+   "opp": "MIA",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 17.4,
+   "projection_components": {
+    "A_ridge": 15.96,
+    "B_gbm": 18.38,
+    "C_quantile_median": 17.95,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "A.Kamara",
+   "team": "NO",
+   "opp": "ATL",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 13.0,
+   "projection_components": {
+    "A_ridge": 13.63,
+    "B_gbm": 13.32,
+    "C_quantile_median": 11.91,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "B.Corum",
+   "team": "LA",
+   "opp": "PHI",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 13.6,
+   "projection_components": {
+    "A_ridge": 13.78,
+    "B_gbm": 13.9,
+    "C_quantile_median": 13.14,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 8
+  },
+  {
+   "player": "B.Hall",
+   "team": "NYJ",
+   "opp": "CHI",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 16.4,
+   "projection_components": {
+    "A_ridge": 16.51,
+    "B_gbm": 17.42,
+    "C_quantile_median": 15.41,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "B.Irving",
+   "team": "TB",
+   "opp": "GB",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 15.6,
+   "projection_components": {
+    "A_ridge": 16.26,
+    "B_gbm": 15.83,
+    "C_quantile_median": 14.58,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "B.Tuten",
+   "team": "JAX",
+   "opp": "CIN",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 14.4,
+   "projection_components": {
+    "A_ridge": 14.61,
+    "B_gbm": 14.19,
+    "C_quantile_median": 14.28,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 3
+  },
+  {
+   "player": "Bi.Robinson",
+   "team": "ATL",
+   "opp": "NO",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 17.9,
+   "projection_components": {
+    "A_ridge": 17.61,
+    "B_gbm": 20.25,
+    "C_quantile_median": 15.74,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 3,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "Br.Robinson",
+   "team": "ATL",
+   "opp": "NO",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 15.1,
+   "projection_components": {
+    "A_ridge": 15.19,
+    "B_gbm": 16.43,
+    "C_quantile_median": 13.76,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 3,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "C.Brown",
+   "team": "CIN",
+   "opp": "JAX",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 16.1,
+   "projection_components": {
+    "A_ridge": 16.39,
+    "B_gbm": 16.36,
+    "C_quantile_median": 15.44,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "C.Hubbard",
+   "team": "CAR",
+   "opp": "DET",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 14.8,
+   "projection_components": {
+    "A_ridge": 14.22,
+    "B_gbm": 15.24,
+    "C_quantile_median": 14.81,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "C.McCaffrey",
+   "team": "SF",
+   "opp": "DEN",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 17.0,
+   "projection_components": {
+    "A_ridge": 16.24,
+    "B_gbm": 16.38,
+    "C_quantile_median": 18.3,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "C.Rodriguez",
+   "team": "JAX",
+   "opp": "CIN",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 13.8,
+   "projection_components": {
+    "A_ridge": 13.65,
+    "B_gbm": 13.29,
+    "C_quantile_median": 14.45,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 8
+  },
+  {
+   "player": "C.Skattebo",
+   "team": "NYG",
+   "opp": "ARI",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 15.7,
+   "projection_components": {
+    "A_ridge": 15.49,
+    "B_gbm": 16.29,
+    "C_quantile_median": 15.29,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 11,
+   "ngs_trail_weeks": 8
+  },
+  {
+   "player": "D.Achane",
+   "team": "MIA",
+   "opp": "MIN",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 17.0,
+   "projection_components": {
+    "A_ridge": 16.77,
+    "B_gbm": 17.35,
+    "C_quantile_median": 16.76,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "D.Henry",
+   "team": "BAL",
+   "opp": "TEN",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 22.5,
+   "projection_components": {
+    "A_ridge": 19.74,
+    "B_gbm": 22.94,
+    "C_quantile_median": 24.96,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "D.Montgomery",
+   "team": "HOU",
+   "opp": "DAL",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 13.8,
+   "projection_components": {
+    "A_ridge": 14.51,
+    "B_gbm": 13.91,
+    "C_quantile_median": 12.92,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "D.Singletary",
+   "team": "NYG",
+   "opp": "ARI",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 14.0,
+   "projection_components": {
+    "A_ridge": 14.0,
+    "B_gbm": 14.35,
+    "C_quantile_median": 13.7,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W2",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 7
+  },
+  {
+   "player": "D.Swift",
+   "team": "CHI",
+   "opp": "NYJ",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 15.5,
+   "projection_components": {
+    "A_ridge": 15.85,
+    "B_gbm": 15.78,
+    "C_quantile_median": 15.0,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "E.Johnson",
+   "team": "KC",
+   "opp": "LV",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 7.8,
+   "projection_components": {
+    "A_ridge": 6.01,
+    "B_gbm": 9.44,
+    "C_quantile_median": 7.99,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 3,
+   "ngs_trail_weeks": 0
+  },
+  {
+   "player": "E.Wilson",
+   "team": "SEA",
+   "opp": "LAC",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 13.9,
+   "projection_components": {
+    "A_ridge": 14.56,
+    "B_gbm": 14.15,
+    "C_quantile_median": 12.91,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 8
+  },
+  {
+   "player": "F.Gore",
+   "team": "BUF",
+   "opp": "NE",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 7.0,
+   "projection_components": {
+    "A_ridge": 7.4,
+    "B_gbm": 6.91,
+    "C_quantile_median": 6.79,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W1",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 0
+  },
+  {
+   "player": "J.Cook",
+   "team": "BUF",
+   "opp": "NE",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 17.9,
+   "projection_components": {
+    "A_ridge": 17.9,
+    "B_gbm": 18.19,
+    "C_quantile_median": 17.58,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "J.Croskey-Merritt",
+   "team": "WAS",
+   "opp": "IND",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 14.0,
+   "projection_components": {
+    "A_ridge": 14.85,
+    "B_gbm": 13.91,
+    "C_quantile_median": 13.33,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 11
+  },
+  {
+   "player": "J.Dobbins",
+   "team": "DEN",
+   "opp": "SF",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 15.5,
+   "projection_components": {
+    "A_ridge": 15.99,
+    "B_gbm": 15.81,
+    "C_quantile_median": 14.61,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "J.Gibbs",
+   "team": "DET",
+   "opp": "CAR",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 17.0,
+   "projection_components": {
+    "A_ridge": 17.48,
+    "B_gbm": 16.98,
+    "C_quantile_median": 16.64,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "J.Mason",
+   "team": "MIN",
+   "opp": "MIA",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 15.7,
+   "projection_components": {
+    "A_ridge": 14.84,
+    "B_gbm": 17.18,
+    "C_quantile_median": 15.21,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W1",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "J.Price",
+   "team": "SEA",
+   "opp": "LAC",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 14.4,
+   "projection_components": {
+    "A_ridge": 14.43,
+    "B_gbm": 14.67,
+    "C_quantile_median": 14.0,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 3,
+   "ngs_trail_weeks": 1
+  },
+  {
+   "player": "J.Taylor",
+   "team": "IND",
+   "opp": "WAS",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 17.9,
+   "projection_components": {
+    "A_ridge": 17.6,
+    "B_gbm": 18.42,
+    "C_quantile_median": 17.76,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "J.Williams",
+   "team": "DET",
+   "opp": "CAR",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 12.7,
+   "projection_components": {
+    "A_ridge": 13.07,
+    "B_gbm": 13.46,
+    "C_quantile_median": 11.46,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "J.Wright",
+   "team": "MIA",
+   "opp": "MIN",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 16.4,
+   "projection_components": {
+    "A_ridge": 16.26,
+    "B_gbm": 16.9,
+    "C_quantile_median": 15.9,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W2",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 2
+  },
+  {
+   "player": "K.Black",
+   "team": "SF",
+   "opp": "DEN",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 7.0,
+   "projection_components": {
+    "A_ridge": 6.74,
+    "B_gbm": 7.76,
+    "C_quantile_median": 6.61,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 3,
+   "ngs_trail_weeks": 0
+  },
+  {
+   "player": "K.Miller",
+   "team": "NO",
+   "opp": "ATL",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 12.4,
+   "projection_components": {
+    "A_ridge": 12.79,
+    "B_gbm": 13.2,
+    "C_quantile_median": 11.29,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 2
+  },
+  {
+   "player": "K.Mitchell",
+   "team": "LAC",
+   "opp": "SEA",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 7.1,
+   "projection_components": {
+    "A_ridge": 6.82,
+    "B_gbm": 6.85,
+    "C_quantile_median": 7.59,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 0
+  },
+  {
+   "player": "K.Monangai",
+   "team": "CHI",
+   "opp": "NYJ",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 13.7,
+   "projection_components": {
+    "A_ridge": 14.46,
+    "B_gbm": 14.01,
+    "C_quantile_median": 12.68,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 9
+  },
+  {
+   "player": "K.Walker",
+   "team": "KC",
+   "opp": "LV",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 17.2,
+   "projection_components": {
+    "A_ridge": 18.04,
+    "B_gbm": 17.13,
+    "C_quantile_median": 16.33,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "K.Williams",
+   "team": "NE",
+   "opp": "BUF",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 14.3,
+   "projection_components": {
+    "A_ridge": 14.24,
+    "B_gbm": 14.22,
+    "C_quantile_median": 14.36,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "M.Lloyd",
+   "team": "GB",
+   "opp": "TB",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 7.3,
+   "projection_components": {
+    "A_ridge": 7.46,
+    "B_gbm": 7.56,
+    "C_quantile_median": 6.95,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 4,
+   "ngs_trail_weeks": 0
+  },
+  {
+   "player": "N.Harris",
+   "team": "NYG",
+   "opp": "ARI",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 14.2,
+   "projection_components": {
+    "A_ridge": 14.75,
+    "B_gbm": 14.16,
+    "C_quantile_median": 13.69,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 14
+  },
+  {
+   "player": "O.Gordon",
+   "team": "MIA",
+   "opp": "MIN",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 13.5,
+   "projection_components": {
+    "A_ridge": 12.89,
+    "B_gbm": 13.2,
+    "C_quantile_median": 14.5,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 1
+  },
+  {
+   "player": "O.Hampton",
+   "team": "LAC",
+   "opp": "SEA",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 16.9,
+   "projection_components": {
+    "A_ridge": 16.54,
+    "B_gbm": 17.08,
+    "C_quantile_median": 17.21,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 13,
+   "ngs_trail_weeks": 10
+  },
+  {
+   "player": "R.Stevenson",
+   "team": "NE",
+   "opp": "BUF",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 14.1,
+   "projection_components": {
+    "A_ridge": 13.59,
+    "B_gbm": 14.8,
+    "C_quantile_median": 13.97,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "R.White",
+   "team": "WAS",
+   "opp": "IND",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 12.8,
+   "projection_components": {
+    "A_ridge": 12.91,
+    "B_gbm": 13.49,
+    "C_quantile_median": 11.91,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "S.Barkley",
+   "team": "PHI",
+   "opp": "LA",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 17.6,
+   "projection_components": {
+    "A_ridge": 17.1,
+    "B_gbm": 18.31,
+    "C_quantile_median": 17.49,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "S.Perine",
+   "team": "CIN",
+   "opp": "JAX",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 12.6,
+   "projection_components": {
+    "A_ridge": 12.1,
+    "B_gbm": 12.92,
+    "C_quantile_median": 12.86,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 1
+  },
+  {
+   "player": "T.Allgeier",
+   "team": "ARI",
+   "opp": "NYG",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 12.8,
+   "projection_components": {
+    "A_ridge": 13.12,
+    "B_gbm": 13.82,
+    "C_quantile_median": 11.57,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 14
+  },
+  {
+   "player": "T.Bigsby",
+   "team": "PHI",
+   "opp": "LA",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 14.3,
+   "projection_components": {
+    "A_ridge": 13.65,
+    "B_gbm": 14.54,
+    "C_quantile_median": 14.78,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 11
+  },
+  {
+   "player": "T.Etienne",
+   "team": "NO",
+   "opp": "ATL",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 13.7,
+   "projection_components": {
+    "A_ridge": 14.76,
+    "B_gbm": 13.25,
+    "C_quantile_median": 12.98,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "T.Henderson",
+   "team": "NE",
+   "opp": "BUF",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 15.5,
+   "projection_components": {
+    "A_ridge": 16.01,
+    "B_gbm": 15.35,
+    "C_quantile_median": 15.08,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 10
+  },
+  {
+   "player": "T.Pollard",
+   "team": "TEN",
+   "opp": "BAL",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 17.1,
+   "projection_components": {
+    "A_ridge": 16.88,
+    "B_gbm": 17.57,
+    "C_quantile_median": 16.97,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "T.Tracy",
+   "team": "NYG",
+   "opp": "ARI",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 13.8,
+   "projection_components": {
+    "A_ridge": 14.19,
+    "B_gbm": 14.41,
+    "C_quantile_median": 12.78,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 16
+  },
+  {
+   "player": "W.Marks",
+   "team": "HOU",
+   "opp": "DAL",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 14.0,
+   "projection_components": {
+    "A_ridge": 14.84,
+    "B_gbm": 13.86,
+    "C_quantile_median": 13.27,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W3",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 10
+  },
+  {
+   "player": "Z.Knight",
+   "team": "ARI",
+   "opp": "NYG",
+   "market": "rush_attempts",
+   "status": "experimental",
+   "display_note": "Experimental \u2014 NGS-enhanced projection. Research projection only. No verified betting edge established.",
+   "projection": 6.7,
+   "projection_components": {
+    "A_ridge": 6.73,
+    "B_gbm": 6.76,
+    "C_quantile_median": 6.67,
+    "D": "equal-weight mean of A/B/C, clipped >= 0"
+   },
+   "uncertainty": "Medium Uncertainty",
+   "uncertainty_note": "003B M2 ships a point projection only; no uncertainty interval was calibrated for this head. Label is a placeholder, not a calibrated assessment.",
+   "market_line": null,
+   "prediction_timestamp": "2026-10-02T18:00:00-05:00",
+   "ngs_data_as_of": {
+    "pulled_at": "2026-10-01T13:03:38.692295-05:00",
+    "latest_season_week": [
+     2026,
+     3
+    ],
+    "required_release": [
+     2026,
+     3
+    ],
+    "note": "prior-week NGS release present before cutoff."
+   },
+   "latest_game_included": "2026-W2",
+   "feature_window": "trailing 16 games max, EWMA half-life 3.0, most-recent-first, strictly prior weeks; week==0 NGS aggregate rows excluded",
+   "model_version": "003B-M2-frozen",
+   "stale_ngs_used": false,
+   "fallback_to_M1": false,
+   "trailing_games": 16,
+   "ngs_trail_weeks": 0
+  }
+ ]
+}

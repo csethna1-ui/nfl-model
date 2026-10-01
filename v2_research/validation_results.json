@@ -1,0 +1,256 @@
+{
+ "scope": "2021\u20132022 REG, V2-defined games only (fallback excluded); one run",
+ "n_bootstrap": 10000,
+ "candidates": {
+  "V2-A": {
+   "n_games_all": 543,
+   "n_v2_defined": 543,
+   "n_fallback": 0,
+   "frozen_alpha": null,
+   "mae": 10.5554,
+   "v1_mae": 10.0592,
+   "mae_diff_v1_minus_v2": -0.4962,
+   "bootstrap_ci_95": [
+    -0.8371,
+    -0.1557
+   ],
+   "bootstrap_p": 0.0042,
+   "rmse": 13.5404,
+   "signed_bias": 1.1534,
+   "calibration_intercept": 1.2901,
+   "calibration_slope": 0.8025,
+   "error_sd": 13.5036,
+   "pred_actual_corr": 0.2633,
+   "error_corr_v1": 0.9471,
+   "by_season": {
+    "2021": {
+     "mae": 11.3264,
+     "v1_mae": 11.1393,
+     "n": 272
+    },
+    "2022": {
+     "mae": 9.7817,
+     "v1_mae": 8.9751,
+     "n": 271
+    }
+   },
+   "by_pred_magnitude": {
+    "0-3": {
+     "mae": 10.439,
+     "v1_mae": 9.691,
+     "n": 246
+    },
+    "3-7": {
+     "mae": 10.22,
+     "v1_mae": 9.705,
+     "n": 225
+    },
+    "7-14": {
+     "mae": 12.001,
+     "v1_mae": 12.427,
+     "n": 72
+    }
+   },
+   "missing_pred_frac": 0.0,
+   "gates": {
+    "G1_paired_improvement": false,
+    "G2_both_seasons": false,
+    "G3_calibration": false,
+    "G4_leakage_audit": true,
+    "G5_not_twin": true,
+    "G6_timestamps": true
+   },
+   "all_gates_pass": false
+  },
+  "V2-B": {
+   "n_games_all": 543,
+   "n_v2_defined": 543,
+   "n_fallback": 0,
+   "frozen_alpha": null,
+   "mae": 10.573,
+   "v1_mae": 10.0592,
+   "mae_diff_v1_minus_v2": -0.5138,
+   "bootstrap_ci_95": [
+    -0.8401,
+    -0.1842
+   ],
+   "bootstrap_p": 0.0018,
+   "rmse": 13.5159,
+   "signed_bias": 1.1575,
+   "calibration_intercept": 1.2919,
+   "calibration_slope": 0.8045,
+   "error_sd": 13.4786,
+   "pred_actual_corr": 0.27,
+   "error_corr_v1": 0.9508,
+   "by_season": {
+    "2021": {
+     "mae": 11.3653,
+     "v1_mae": 11.1393,
+     "n": 272
+    },
+    "2022": {
+     "mae": 9.7778,
+     "v1_mae": 8.9751,
+     "n": 271
+    }
+   },
+   "by_pred_magnitude": {
+    "0-3": {
+     "mae": 10.092,
+     "v1_mae": 9.463,
+     "n": 238
+    },
+    "3-7": {
+     "mae": 10.58,
+     "v1_mae": 9.88,
+     "n": 225
+    },
+    "7-14": {
+     "mae": 11.985,
+     "v1_mae": 12.337,
+     "n": 80
+    }
+   },
+   "missing_pred_frac": 0.0,
+   "gates": {
+    "G1_paired_improvement": false,
+    "G2_both_seasons": false,
+    "G3_calibration": false,
+    "G4_leakage_audit": true,
+    "G5_not_twin": true,
+    "G6_timestamps": true
+   },
+   "all_gates_pass": false
+  },
+  "V2-C": {
+   "n_games_all": 543,
+   "n_v2_defined": 543,
+   "n_fallback": 0,
+   "frozen_alpha": null,
+   "mae": 10.3948,
+   "v1_mae": 10.0592,
+   "mae_diff_v1_minus_v2": -0.3356,
+   "bootstrap_ci_95": [
+    -0.6374,
+    -0.044
+   ],
+   "bootstrap_p": 0.0236,
+   "rmse": 13.3565,
+   "signed_bias": 1.2086,
+   "calibration_intercept": 1.2885,
+   "calibration_slope": 0.8746,
+   "error_sd": 13.314,
+   "pred_actual_corr": 0.3051,
+   "error_corr_v1": 0.9594,
+   "by_season": {
+    "2021": {
+     "mae": 11.21,
+     "v1_mae": 11.1393,
+     "n": 272
+    },
+    "2022": {
+     "mae": 9.5765,
+     "v1_mae": 8.9751,
+     "n": 271
+    }
+   },
+   "by_pred_magnitude": {
+    "0-3": {
+     "mae": 9.797,
+     "v1_mae": 9.451,
+     "n": 246
+    },
+    "3-7": {
+     "mae": 10.335,
+     "v1_mae": 9.726,
+     "n": 215
+    },
+    "7-14": {
+     "mae": 12.446,
+     "v1_mae": 12.893,
+     "n": 81
+    },
+    "14+": {
+     "mae": 4.291,
+     "v1_mae": 1.761,
+     "n": 1
+    }
+   },
+   "missing_pred_frac": 0.0,
+   "gates": {
+    "G1_paired_improvement": false,
+    "G2_both_seasons": false,
+    "G3_calibration": false,
+    "G4_leakage_audit": true,
+    "G5_not_twin": true,
+    "G6_timestamps": true
+   },
+   "all_gates_pass": false
+  },
+  "V2-D": {
+   "n_games_all": 543,
+   "n_v2_defined": 543,
+   "n_fallback": 0,
+   "frozen_alpha": null,
+   "mae": 10.6725,
+   "v1_mae": 10.0592,
+   "mae_diff_v1_minus_v2": -0.6133,
+   "bootstrap_ci_95": [
+    -0.9484,
+    -0.2757
+   ],
+   "bootstrap_p": 0.0006,
+   "rmse": 13.6028,
+   "signed_bias": 1.1264,
+   "calibration_intercept": 1.3384,
+   "calibration_slope": 0.7051,
+   "error_sd": 13.5686,
+   "pred_actual_corr": 0.2608,
+   "error_corr_v1": 0.9463,
+   "by_season": {
+    "2021": {
+     "mae": 11.398,
+     "v1_mae": 11.1393,
+     "n": 272
+    },
+    "2022": {
+     "mae": 9.9444,
+     "v1_mae": 8.9751,
+     "n": 271
+    }
+   },
+   "by_pred_magnitude": {
+    "0-3": {
+     "mae": 10.464,
+     "v1_mae": 9.744,
+     "n": 238
+    },
+    "3-7": {
+     "mae": 10.1,
+     "v1_mae": 9.405,
+     "n": 212
+    },
+    "7-14": {
+     "mae": 12.08,
+     "v1_mae": 11.988,
+     "n": 91
+    },
+    "14+": {
+     "mae": 32.154,
+     "v1_mae": 29.22,
+     "n": 2
+    }
+   },
+   "missing_pred_frac": 0.0,
+   "gates": {
+    "G1_paired_improvement": false,
+    "G2_both_seasons": false,
+    "G3_calibration": false,
+    "G4_leakage_audit": true,
+    "G5_not_twin": true,
+    "G6_timestamps": true
+   },
+   "all_gates_pass": false
+  }
+ }
+}

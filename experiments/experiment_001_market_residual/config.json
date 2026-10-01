@@ -1,0 +1,40 @@
+{
+ "experiment": "experiment_001_market_residual",
+ "dataset": "data/experiments/games_features.parquet",
+ "rows": 2227,
+ "seasons": "2018-2025",
+ "target": "residual = actual_margin - market_spread",
+ "features": [
+  "elo_diff",
+  "off_epa_diff",
+  "def_epa_diff",
+  "off_pass_diff",
+  "off_rush_diff",
+  "def_pass_diff",
+  "def_rush_diff",
+  "sr_off_diff",
+  "sr_def_diff",
+  "rest_diff",
+  "div_game",
+  "week"
+ ],
+ "line_provenance": {
+  "value": "nflverse_proxy_open",
+  "meaning": "Historical spread_line is a consensus/opening proxy from nflverse, NOT a verified executable closing line. The residual target therefore bakes in line movement toward close. Residual-prediction skill must NOT be presented as tradable-signal evidence."
+ },
+ "splits": {
+  "train_pool": "2018-2020",
+  "validation": "2021-2022 (ALL model/parameter/window/decay selection happens here)",
+  "vault": "2023-2025 (locked; exactly one evaluation after methodology is locked)"
+ },
+ "baselines": [
+  "market-only (predicted residual = 0)",
+  "V1 (ens_margin)"
+ ],
+ "concepts_tracked_separately": [
+  "1. prediction accuracy: how well actual margin is predicted",
+  "2. market-residual accuracy: how well actual_margin - market_proxy is predicted",
+  "3. tradable-signal evidence: actionable at the line available at prediction time"
+ ],
+ "promotion_bar": "No V2 designation until: beats market MAE and V1 on the vault, stable across 2023/2024/2025 individually, reasonable calibration; ATS only as a secondary metric."
+}

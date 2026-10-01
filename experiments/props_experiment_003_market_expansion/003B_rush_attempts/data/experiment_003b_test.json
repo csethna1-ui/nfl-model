@@ -1,0 +1,216 @@
+{
+ "test": {
+  "M0": {
+   "n": 1323,
+   "n_2023": 678,
+   "n_2024": 645,
+   "MAE": 4.244503682196007,
+   "RMSE": 5.5106281638173,
+   "bias": -0.9412125568729134,
+   "by_season": {
+    "2023": {
+     "MAE": 4.321787690025091,
+     "n": 678
+    },
+    "2024": {
+     "MAE": 4.163265608850088,
+     "n": 645
+    }
+   }
+  },
+  "M1": {
+   "n": 1323,
+   "n_2023": 678,
+   "n_2024": 645,
+   "MAE": 4.138195260261003,
+   "RMSE": 5.230891658189065,
+   "bias": -0.2068492117977286,
+   "A_MAE": 4.121922974534428,
+   "B_MAE": 4.228391163074768,
+   "C_MAE": 4.2126085920460445,
+   "a_alpha": 0.1,
+   "b_params": {
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "max_iter": 200
+   },
+   "by_season": {
+    "2023": {
+     "MAE": 4.166702152247616,
+     "n": 678
+    },
+    "2024": {
+     "MAE": 4.108229876126238,
+     "n": 645
+    }
+   },
+   "bootstrap_ci_M0_minus_rung": [
+    0.0075235147379395795,
+    0.20038786043580248
+   ],
+   "bootstrap_mean_diff": 0.10586292122858365
+  },
+  "M2": {
+   "n": 1323,
+   "n_2023": 678,
+   "n_2024": 645,
+   "MAE": 2.9812565851922646,
+   "RMSE": 4.022907921840757,
+   "bias": -0.2580777409501338,
+   "A_MAE": 2.986616706085769,
+   "B_MAE": 3.069333771095046,
+   "C_MAE": 2.998352351406028,
+   "a_alpha": 0.1,
+   "b_params": {
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "max_iter": 200
+   },
+   "by_season": {
+    "2023": {
+     "MAE": 2.9577984516291673,
+     "n": 678
+    },
+    "2024": {
+     "MAE": 3.0059149023330094,
+     "n": 645
+    }
+   },
+   "bootstrap_ci_M0_minus_rung": [
+    1.1120027309618392,
+    1.4139593284323213
+   ],
+   "bootstrap_mean_diff": 1.26304847629532
+  },
+  "M3": {
+   "n": 1323,
+   "n_2023": 678,
+   "n_2024": 645,
+   "MAE": 4.128908397617465,
+   "RMSE": 5.194369587199542,
+   "bias": -0.052514792969474526,
+   "A_MAE": 4.133706970431571,
+   "B_MAE": 4.180123809383152,
+   "C_MAE": 4.1984419695958595,
+   "a_alpha": 100.0,
+   "b_params": {
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "max_iter": 200
+   },
+   "by_season": {
+    "2023": {
+     "MAE": 4.149391203147146,
+     "n": 678
+    },
+    "2024": {
+     "MAE": 4.1073776345955695,
+     "n": 645
+    }
+   },
+   "bootstrap_ci_M0_minus_rung": [
+    0.016659669187810235,
+    0.21821770587331465
+   ],
+   "bootstrap_mean_diff": 0.11466613664794725
+  }
+ },
+ "win_bar": {
+  "M1": {
+   "rel_improvement": 0.025046137285950724,
+   "s2023": 0.03588458038682005,
+   "s2024": 0.013219366212632989,
+   "conditions": {
+    "pooled_rel_ge_5pct": false,
+    "s2023_rel_ge_2pct": true,
+    "s2024_rel_ge_2pct": false,
+    "ci_excludes_zero": true,
+    "n_ok": true
+   },
+   "verdict": "PARTIAL/SIGNAL"
+  },
+  "M2": {
+   "rel_improvement": 0.2976195078596723,
+   "s2023": 0.3156076457767884,
+   "s2024": 0.27799108086133945,
+   "conditions": {
+    "pooled_rel_ge_5pct": true,
+    "s2023_rel_ge_2pct": true,
+    "s2024_rel_ge_2pct": true,
+    "ci_excludes_zero": true,
+    "n_ok": true
+   },
+   "verdict": "MATERIAL WIN"
+  },
+  "M3": {
+   "rel_improvement": 0.02723411103715562,
+   "s2023": 0.03989008698318176,
+   "s2024": 0.013424071271290975,
+   "conditions": {
+    "pooled_rel_ge_5pct": false,
+    "s2023_rel_ge_2pct": true,
+    "s2024_rel_ge_2pct": false,
+    "ci_excludes_zero": true,
+    "n_ok": true
+   },
+   "verdict": "PARTIAL/SIGNAL"
+  }
+ },
+ "rung_features": {
+  "M1": [
+   "pace_team_plays",
+   "trail_rush_share_ewma",
+   "opp2_snap_pct",
+   "neut_rush_rate",
+   "ctx_elo_adv",
+   "trail_rz_carries_ewma",
+   "trail_games"
+  ],
+  "M2": [
+   "pace_team_plays",
+   "trail_rush_share_ewma",
+   "opp2_snap_pct",
+   "neut_rush_rate",
+   "ctx_elo_adv",
+   "trail_rz_carries_ewma",
+   "trail_games",
+   "ngs_eff",
+   "ngs_xrush",
+   "ngs_ryoe",
+   "ngs_ryoe_pct",
+   "ngs_8box",
+   "ngs_ttl"
+  ],
+  "M3": [
+   "pace_team_plays",
+   "trail_rush_share_ewma",
+   "opp2_snap_pct",
+   "neut_rush_rate",
+   "ctx_elo_adv",
+   "trail_rz_carries_ewma",
+   "trail_games",
+   "ctx_team_off_epa",
+   "ctx_team_off_pass_epa",
+   "ctx_team_off_rush_epa",
+   "ctx_team_off_sr",
+   "oppd_def_rush_epa",
+   "envs_dome",
+   "envs_team_pts_trail",
+   "envs_opp_pts_allowed_trail",
+   "envf_days_rest",
+   "envf_rest_diff",
+   "envf_short_week",
+   "envf_long_rest",
+   "envf_div_game",
+   "pace_combined",
+   "pace_neutral_pass_rate"
+  ]
+ },
+ "bootstrap": {
+  "n_resamples": 2000,
+  "seed": 1337,
+  "paired": true,
+  "stat": "mean(M0_abs_err - rung_abs_err), pooled test"
+ },
+ "elapsed_s": 3.7
+}

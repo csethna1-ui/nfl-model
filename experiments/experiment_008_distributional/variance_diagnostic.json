@@ -1,0 +1,36 @@
+{
+  "n_games": 543,
+  "n_evaluable": 495,
+  "walkforward_corr_pred_vs_actual_abs_resid": 0.05511340183132685,
+  "quintile_mean_abs_resid": {
+    "0": 11.429681776382155,
+    "1": 8.35403960651425,
+    "2": 7.877174965680994,
+    "3": 11.812238053433438,
+    "4": 10.521045447247591
+  },
+  "quintile_counts": {
+    "0": 99,
+    "1": 99,
+    "2": 99,
+    "3": 99,
+    "4": 99
+  },
+  "logscore_const_sigma": -3.9730639059756765,
+  "logscore_pred_sigma": -5.0552692070999266,
+  "logscore_diff_pred_minus_const": -1.0822053011242496,
+  "insample_r2_abs_resid": 0.021123719554883236,
+  "features": [
+    "ens_margin_abs",
+    "ens_total",
+    "elo_diff_abs",
+    "off_epa_diff_abs",
+    "def_epa_diff_abs",
+    "rest_diff",
+    "div_game",
+    "home_plays_per_drive",
+    "away_plays_per_drive"
+  ],
+  "method": "expanding walk-forward within 2021-2022 REG; OLS of |resid| and log(resid^2) on pregame features",
+  "verdict": "WEAK"
+}

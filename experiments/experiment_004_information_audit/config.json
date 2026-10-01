@@ -1,0 +1,25 @@
+{
+  "experiment": "experiment_004_information_audit",
+  "type": "diagnostic — no predictive model fitted",
+  "date": "2026-09-29",
+  "vault": "2023-2025 — NOT touched, zero evaluations",
+  "v1_modified": false,
+  "scope": [
+    "Phase 1: model-side and market-side information timeline audit (2018-2022 window)",
+    "Phase 2: information-gap inventory vs V1 under free/keyless constraint",
+    "Phase 3: verdict on historical-proxy vs live-2026 evaluation substrate"
+  ],
+  "hard_rules": [
+    "No predictive model fitted",
+    "No ATS optimization or threshold tuning",
+    "No vault access under any circumstances",
+    "No V2 label",
+    "Do not infer timestamp alignment where timestamps are unavailable"
+  ],
+  "key_data_probes": [
+    "nflreadpy load_injuries([2021,2022]): 11269 rows, report_status Out/Doubtful/Questionable, date_modified UTC timestamps, 0 nulls",
+    "injury date_modified vs kickoff: median 28.3h pregame, 0.14% at/after kickoff",
+    "games.csv line columns: spread_line, total_line, moneylines, spread odds — one observation per game, no timestamps",
+    "games.csv weather: temp/wind 55.9% coverage (outdoor games), roof 98.3%"
+  ]
+}

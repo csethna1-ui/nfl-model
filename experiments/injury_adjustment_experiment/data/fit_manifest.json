@@ -1,0 +1,294 @@
+{
+  "generated_at": "2026-09-30 16:28 UTC",
+  "protocol": "PREREGISTRATION.md frozen 2026-09-30",
+  "seed": 42,
+  "train": "2018-2020 (predictions from 2019)",
+  "dev": "2021-2022",
+  "target": "r = home_margin - v1_margin",
+  "candidates": {
+    "A": "Ridge(alpha=1.0, fit_intercept=True), 18 position-group x designation counts",
+    "B": "Ridge(alpha=1.0, fit_intercept=True), 6 snap-share-weighted features",
+    "C": "OLS, 2 starter-missing-snap-fraction features",
+    "D": "OLS, 2 aggregate burden features (Out+Doubtful; Questionable excluded)",
+    "E": "equal-weight average of frozen A-D adjustments (primary)",
+    "E_variant": "dev-learned nonneg weights [0.0, 0.0317, 0.1798, 0.0] (reported separately, never replaces E)"
+  },
+  "dev_results": {
+    "A": {
+      "n": 506,
+      "v1_mae": 10.2431,
+      "cand_mae": 10.5053,
+      "delta_mae": 0.2622,
+      "boot_ci_95": [
+        -0.5123,
+        -0.0341
+      ],
+      "seasons": {
+        "2021": {
+          "n": 254,
+          "v1_mae": 11.4064,
+          "cand_mae": 11.5441
+        },
+        "2022": {
+          "n": 252,
+          "v1_mae": 9.0705,
+          "cand_mae": 9.4582
+        }
+      }
+    },
+    "B": {
+      "n": 506,
+      "v1_mae": 10.2431,
+      "cand_mae": 10.3562,
+      "delta_mae": 0.1131,
+      "boot_ci_95": [
+        -0.3044,
+        0.0753
+      ],
+      "seasons": {
+        "2021": {
+          "n": 254,
+          "v1_mae": 11.4064,
+          "cand_mae": 11.4462
+        },
+        "2022": {
+          "n": 252,
+          "v1_mae": 9.0705,
+          "cand_mae": 9.2575
+        }
+      }
+    },
+    "C": {
+      "n": 506,
+      "v1_mae": 10.2431,
+      "cand_mae": 10.2323,
+      "delta_mae": -0.0108,
+      "boot_ci_95": [
+        -0.1089,
+        0.1347
+      ],
+      "seasons": {
+        "2021": {
+          "n": 254,
+          "v1_mae": 11.4064,
+          "cand_mae": 11.3716
+        },
+        "2022": {
+          "n": 252,
+          "v1_mae": 9.0705,
+          "cand_mae": 9.0839
+        }
+      }
+    },
+    "D": {
+      "n": 506,
+      "v1_mae": 10.2431,
+      "cand_mae": 10.2889,
+      "delta_mae": 0.0458,
+      "boot_ci_95": [
+        -0.2141,
+        0.1148
+      ],
+      "seasons": {
+        "2021": {
+          "n": 254,
+          "v1_mae": 11.4064,
+          "cand_mae": 11.3449
+        },
+        "2022": {
+          "n": 252,
+          "v1_mae": 9.0705,
+          "cand_mae": 9.2244
+        }
+      }
+    },
+    "E": {
+      "n": 506,
+      "v1_mae": 10.2431,
+      "cand_mae": 10.2716,
+      "delta_mae": 0.0285,
+      "boot_ci_95": [
+        -0.1694,
+        0.1103
+      ],
+      "seasons": {
+        "2021": {
+          "n": 254,
+          "v1_mae": 11.4064,
+          "cand_mae": 11.402
+        },
+        "2022": {
+          "n": 252,
+          "v1_mae": 9.0705,
+          "cand_mae": 9.1323
+        }
+      }
+    },
+    "E_variant": {
+      "n": 506,
+      "v1_mae": 10.2431,
+      "cand_mae": 10.2324,
+      "delta_mae": -0.0107,
+      "boot_ci_95": [
+        -0.0163,
+        0.0378
+      ],
+      "seasons": {
+        "2021": {
+          "n": 254,
+          "v1_mae": 11.4064,
+          "cand_mae": 11.3934
+        },
+        "2022": {
+          "n": 252,
+          "v1_mae": 9.0705,
+          "cand_mae": 9.0622
+        }
+      }
+    }
+  },
+  "dev_bar": {
+    "A": {
+      "checks": {
+        "pooled_delta_le_-0.15": false,
+        "ci_excludes_zero": false,
+        "no_season_regress_0.05": false,
+        "injury_subset_le_-0.10": false,
+        "noninjury_subset_ge_-0.05": true,
+        "ALL": false
+      },
+      "n_inj": 167,
+      "n_noninj": 339,
+      "delta": 0.5905,
+      "nondelta": 0.1005
+    },
+    "B": {
+      "checks": {
+        "pooled_delta_le_-0.15": false,
+        "ci_excludes_zero": false,
+        "no_season_regress_0.05": false,
+        "injury_subset_le_-0.10": false,
+        "noninjury_subset_ge_-0.05": true,
+        "ALL": false
+      },
+      "n_inj": 167,
+      "n_noninj": 339,
+      "delta": 0.0548,
+      "nondelta": 0.1418
+    },
+    "C": {
+      "checks": {
+        "pooled_delta_le_-0.15": false,
+        "ci_excludes_zero": false,
+        "no_season_regress_0.05": true,
+        "injury_subset_le_-0.10": true,
+        "noninjury_subset_ge_-0.05": true,
+        "ALL": false
+      },
+      "n_inj": 167,
+      "n_noninj": 339,
+      "delta": -0.1442,
+      "nondelta": 0.0549
+    },
+    "D": {
+      "checks": {
+        "pooled_delta_le_-0.15": false,
+        "ci_excludes_zero": false,
+        "no_season_regress_0.05": false,
+        "injury_subset_le_-0.10": false,
+        "noninjury_subset_ge_-0.05": true,
+        "ALL": false
+      },
+      "n_inj": 167,
+      "n_noninj": 339,
+      "delta": 0.0354,
+      "nondelta": 0.0509
+    },
+    "E": {
+      "checks": {
+        "pooled_delta_le_-0.15": false,
+        "ci_excludes_zero": false,
+        "no_season_regress_0.05": false,
+        "injury_subset_le_-0.10": false,
+        "noninjury_subset_ge_-0.05": true,
+        "ALL": false
+      },
+      "n_inj": 167,
+      "n_noninj": 339,
+      "delta": -0.0421,
+      "nondelta": 0.0633
+    }
+  },
+  "coef_stability": {
+    "A": {
+      "n_flips": 9,
+      "flipped": [
+        "QB_Out",
+        "OL_Out",
+        "OL_Questionable",
+        "SKILL_Out",
+        "SKILL_Doubtful",
+        "FRONT7_Questionable",
+        "DB_Questionable",
+        "ST_Out",
+        "ST_Questionable"
+      ]
+    },
+    "B": {
+      "n_flips": 3,
+      "flipped": [
+        "snap_off_Out",
+        "snap_off_Questionable",
+        "snap_def_Questionable"
+      ]
+    }
+  },
+  "secondary_diagnostics": {
+    "A": {
+      "rmse": 13.6182,
+      "calib_slope": 0.723,
+      "concentration_top5": 0.368,
+      "ats_edge3": {
+        "n": 38,
+        "win_rate": 0.526
+      }
+    },
+    "B": {
+      "rmse": 13.3556,
+      "calib_slope": 0.846,
+      "concentration_top5": 0.382,
+      "ats_edge3": {
+        "n": 40,
+        "win_rate": 0.575
+      }
+    },
+    "C": {
+      "rmse": 13.2233,
+      "calib_slope": 0.929,
+      "concentration_top5": 0.365,
+      "ats_edge3": {
+        "n": 32,
+        "win_rate": 0.594
+      }
+    },
+    "D": {
+      "rmse": 13.315,
+      "calib_slope": 0.851,
+      "concentration_top5": 0.362,
+      "ats_edge3": {
+        "n": 31,
+        "win_rate": 0.581
+      }
+    },
+    "E": {
+      "rmse": 13.2901,
+      "calib_slope": 0.887,
+      "concentration_top5": 0.347,
+      "ats_edge3": {
+        "n": 29,
+        "win_rate": 0.586
+      }
+    }
+  },
+  "note": "Locked test NOT run. Awaiting Cale's re-confirmation."
+}

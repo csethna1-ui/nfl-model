@@ -1,0 +1,93 @@
+{
+  "scope": "validation 2021-2022 only, n=569; no vault, no 2026, no fitting",
+  "prediction_correlations": {
+    "elo_epa": 0.7632,
+    "elo_gbm": 0.8317,
+    "epa_gbm": 0.8208
+  },
+  "error_correlations": {
+    "elo_epa": 0.9494,
+    "elo_gbm": 0.9548,
+    "epa_gbm": 0.9521
+  },
+  "component_mae": {
+    "elo": 10.2031,
+    "epa": 10.146,
+    "gbm": 10.4625,
+    "ensemble": 10.0425
+  },
+  "component_rmse": {
+    "elo": 13.1355,
+    "epa": 13.0557,
+    "gbm": 13.438,
+    "ensemble": 12.9374
+  },
+  "incremental": {
+    "ensemble_mae": 10.0425,
+    "best_single_component_mae": 10.146,
+    "ensemble_gain_over_best_single": 0.1035
+  },
+  "weight_surface": {
+    "saved_weights": [
+      0.4,
+      0.5,
+      0.1
+    ],
+    "saved_mae": 10.0425,
+    "grid_best_weights": [
+      0.4,
+      0.5,
+      0.1
+    ],
+    "grid_best_mae": 10.0425,
+    "top5_weights": [
+      [
+        [
+          0.4,
+          0.5,
+          0.1
+        ],
+        10.0425
+      ],
+      [
+        [
+          0.5,
+          0.5,
+          0.0
+        ],
+        10.0449
+      ],
+      [
+        [
+          0.4,
+          0.6,
+          -0.0
+        ],
+        10.046
+      ],
+      [
+        [
+          0.3,
+          0.6,
+          0.1
+        ],
+        10.0467
+      ],
+      [
+        [
+          0.5,
+          0.4,
+          0.1
+        ],
+        10.0469
+      ]
+    ],
+    "num_grid_points_within_0.05_of_best": 24,
+    "equal_weights_mae": 10.0832,
+    "epa_only_mae": 10.146,
+    "elo_only_mae": 10.2031,
+    "gbm_only_mae": 10.4625,
+    "elo_epa_no_gbm_best": 10.0449
+  },
+  "note": "error correlations are between SIGNED errors (pred - actual) of each component"
+}

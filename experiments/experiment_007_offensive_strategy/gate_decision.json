@@ -1,0 +1,67 @@
+{
+  "A_materially_beat_v1": {
+    "pass": false,
+    "detail": "cand 10.157 vs v1 10.042 (need <= v1-0.10)"
+  },
+  "B_beat_market_0.15": {
+    "pass": false,
+    "detail": "cand 10.157 vs market 9.727 (need <= market-0.15)"
+  },
+  "C_both_seasons": {
+    "pass": false,
+    "detail": {
+      "2021": {
+        "cand": 11.202764009835386,
+        "v1": 11.082258250318525,
+        "market": 10.666666666666666
+      },
+      "2022": {
+        "cand": 9.107529884183059,
+        "v1": 8.998981602589273,
+        "market": 8.783450704225352
+      }
+    }
+  },
+  "D_calibration": {
+    "pass": true,
+    "detail": "slope 0.857 in [0.8,1.2]"
+  },
+  "E_error_diversification": {
+    "pass": false,
+    "detail": "corr 0.995 < 0.95"
+  },
+  "F_coefficient_stability": {
+    "pass": false,
+    "detail": {
+      "signs_consistent": false,
+      "signs": {
+        "proe_diff": [
+          1.0,
+          -1.0
+        ],
+        "ed_diff": [
+          1.0,
+          -1.0
+        ],
+        "pace_diff": [
+          1.0,
+          -1.0
+        ]
+      },
+      "no_single_feature_drives": false,
+      "ablations": {
+        "drop_proe_diff": {
+          "mae": 10.148154648916947
+        },
+        "drop_ed_diff": {
+          "mae": 10.150535277600175
+        },
+        "drop_pace_diff": {
+          "mae": 10.087381272791985
+        }
+      }
+    }
+  },
+  "verdict": "GATE FAILED \u2014 vault remains untouched",
+  "vault_evaluations": 0
+}

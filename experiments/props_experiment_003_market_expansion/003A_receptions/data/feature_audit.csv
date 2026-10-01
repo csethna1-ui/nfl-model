@@ -1,0 +1,46 @@
+feature,rung_family,source,as_of_ok,missing_rate_train_dev_eval,zero_rate_train_dev_eval,notes
+trail_targets_ewma,M1-stage1,nflverse player_stats via 001 base,yes,0.0,0.0,core process input; from 001 pipeline
+trail_target_share_ewma,M1-stage1,nflverse player_stats via 001 base,yes,0.0,0.0,
+opp2_snap_pct,M1-stage1,nflverse snap_counts via 002,yes,0.0,0.0163,route proxy (frozen)
+opp2_snap_trend,M1-stage1,nflverse snap_counts via 002,yes,0.0,0.0167,route proxy (frozen)
+pace_neutral_pass_rate,M1-stage1/M3-E,pbp via 002,yes,0.0,0.0125,core M1 feature; also in M3 context union (deduped)
+pace_team_plays,M1-stage1/M3-E,pbp via 002,yes,0.0,0.0125,core M1 feature; also in M3 context union (deduped)
+pace_combined,M1-stage1/M3-E,pbp via 002,yes,0.0,0.0125,core M1 feature; also in M3 context union (deduped)
+oppd_def_pass_epa,M1-stage1/M3-C,pre-week ratings via 002,yes,0.0,0.011,core M1 feature; also in M3 context union (deduped)
+rq_adot,M1-stage2,pbp air yards/targets via 002,yes,0.0,0.0,trailing
+rq_yac_per_rec,M1-stage2,pbp via 002,yes,0.0,0.0007,separation/catch-point proxy (frozen; NGS separation is M2-only)
+rq_drop_pct,M1-stage2,PFR advstats via 002,yes,0.0,0.1375,trailing
+rq_broken_tackles,M1-stage2,PFR advstats via 002,yes,0.0,0.2233,trailing
+qb_epa_trail,M1-stage2,002 Family I expected-starter reconstruction,yes,0.0,0.4781,no post-game info
+qb_cpoe_trail,M1-stage2,002 Family I,yes,0.0,0.4942,no post-game info
+qb_adot_trail,M1-stage2,002 Family I,yes,0.0,0.4942,no post-game info
+qb_pressure_trail,M1-stage2,PFR advstats via 002,yes,0.0,0.015,trailing
+qb_changed,M1-stage2,002 Family I,yes,0.0,0.965,1 if expected starter differs from trailing-attempt leader
+ngs_avg_separation_trail,M2,import_ngs_data receiving avg_separation,trailing-only,0.0,0.3698,UNTESTED in 001/002; strictly prior NGS weeks
+ngs_avg_cushion_trail,M2,import_ngs_data receiving avg_cushion,trailing-only,0.0,0.3698,UNTESTED in 001/002; strictly prior NGS weeks
+ngs_avg_intended_air_yards_trail,M2,import_ngs_data receiving avg_intended_air_yards,trailing-only,0.0,0.3698,UNTESTED in 001/002; strictly prior NGS weeks
+ngs_pct_share_intended_air_yards_trail,M2,import_ngs_data receiving percent_share_of_intended_air_yards,trailing-only,0.0,0.3698,route proxy (frozen); strictly prior NGS weeks
+ngs_avg_expected_yac_trail,M2,import_ngs_data receiving avg_expected_yac,trailing-only,0.0,0.3699,UNTESTED in 001/002; strictly prior NGS weeks
+ngs_avg_yac_above_expectation_trail,M2,import_ngs_data receiving avg_yac_above_expectation,trailing-only,0.0,0.3699,UNTESTED in 001/002; strictly prior NGS weeks
+trail_receptions_ewma,M0,"pbp complete_pass sum per receiver, this experiment",yes,0.0,0.0015,frozen baseline; NaN->0; computed on receiving-market base rows
+tg_targets,label-stage1,pbp receiver_player_name count,,0.0,0.0,stage-1 training target (actual targets in game)
+g_receptions,target,pbp complete_pass sum per receiver,,0.0,0.017,experiment target (actual receptions)
+ctx_team_off_epa,M3-B,pre-week ratings via 002,yes,0.0,0.0123,off EPA rating
+ctx_team_off_pass_epa,M3-B,pre-week ratings via 002,yes,0.0,0.0123,off pass EPA
+ctx_team_off_rush_epa,M3-B,pre-week ratings via 002,yes,0.0,0.0123,off rush EPA
+ctx_team_off_sr,M3-B,pre-week ratings via 002,yes,0.0,0.0123,off success rate
+ctx_elo_adv,M3-B,pre-week ratings via 002,yes,0.0,0.0234,pre-week ELO diff (market proxy)
+oppd_def_epa,M3-C,pre-week ratings via 002,yes,0.0,0.011,opp def EPA
+oppd_def_rush_epa,M3-C,pre-week ratings via 002,yes,0.0,0.011,opp def rush EPA
+oppd_def_sr,M3-C,pre-week ratings via 002,yes,0.0,0.011,opp def success rate
+envs_dome,M3-D1,schedules via 002,yes,0.0,0.7181,pre-known game environment
+envs_team_pts_trail,M3-D1,schedules via 002,yes,0.0,0.0125,pre-known game environment
+envs_opp_pts_allowed_trail,M3-D1,schedules via 002,yes,0.0,0.0113,pre-known game environment
+envf_days_rest,M3-D2,schedules via 002,yes,0.0,0.0123,pre-known rest/scheduling
+envf_rest_diff,M3-D2,schedules via 002,yes,0.0,0.6247,pre-known rest/scheduling
+envf_short_week,M3-D2,schedules via 002,yes,0.0,0.996,pre-known rest/scheduling
+envf_long_rest,M3-D2,schedules via 002,yes,0.0,0.8196,pre-known rest/scheduling
+envf_div_game,M3-D2,schedules via 002,yes,0.0,0.636,pre-known rest/scheduling
+inj_player_status,M3-L,"injury reports via 002, date_modified<=cutoff",yes,0.0,0.947,feed-available injury info only
+inj_team_out_share,M3-L,"injury reports via 002, date_modified<=cutoff",yes,0.0,0.9858,feed-available injury info only
+inj_ol_out,M3-L,"injury reports via 002, date_modified<=cutoff",yes,0.0,0.7166,feed-available injury info only

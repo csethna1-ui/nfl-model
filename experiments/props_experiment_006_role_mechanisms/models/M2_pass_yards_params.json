@@ -1,0 +1,19 @@
+{
+ "q_share": 6.14421235332821e-06,
+ "q_eff": 7.960396630193813,
+ "r": 0.30037265483574255,
+ "prior_share": 0.9084769016770969,
+ "prior_eff": 6.828121356496842,
+ "V0_share": 1.0,
+ "V0_eff": 100.0,
+ "dev_loglik": -1622.8169003001879,
+ "market_def": {
+  "pos": [
+   "QB"
+  ],
+  "share": "pass_share_g",
+  "eff_num": "pass_yards",
+  "eff_den": "pass_att",
+  "n": "pass_att"
+ }
+}

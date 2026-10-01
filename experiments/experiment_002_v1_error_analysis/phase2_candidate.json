@@ -1,0 +1,74 @@
+{
+ "candidate": "opponent-adjusted EPA (one-step, pre-week opponent ratings, last 16 games, league-centered)",
+ "scope": "validation 2021-2022, n=569; linear refit 2018-2020 only; vault never loaded",
+ "overall": {
+  "candidate": {
+   "n": 569,
+   "mae": 10.019,
+   "rmse": 12.926,
+   "calib_slope": 0.93
+  },
+  "v1": {
+   "n": 569,
+   "mae": 10.042,
+   "rmse": 12.937,
+   "calib_slope": 0.941
+  },
+  "market": {
+   "n": 569,
+   "mae": 9.727,
+   "rmse": 12.562,
+   "calib_slope": 0.939
+  }
+ },
+ "by_season": {
+  "2021": {
+   "cand": {
+    "n": 285,
+    "mae": 11.063,
+    "rmse": 13.986,
+    "calib_slope": 1.043
+   },
+   "v1": {
+    "n": 285,
+    "mae": 11.082,
+    "rmse": 13.998,
+    "calib_slope": 1.06
+   },
+   "mkt": {
+    "n": 285,
+    "mae": 10.667,
+    "rmse": 13.549,
+    "calib_slope": 1.025
+   }
+  },
+  "2022": {
+   "cand": {
+    "n": 284,
+    "mae": 8.972,
+    "rmse": 11.765,
+    "calib_slope": 0.789
+   },
+   "v1": {
+    "n": 284,
+    "mae": 8.999,
+    "rmse": 11.778,
+    "calib_slope": 0.794
+   },
+   "mkt": {
+    "n": 284,
+    "mae": 8.783,
+    "rmse": 11.487,
+    "calib_slope": 0.818
+   }
+  }
+ },
+ "gate": {
+  "a_beats_market_by_0.15": false,
+  "b_beats_v1": true,
+  "c_holds_both_seasons": false,
+  "d_calibrated": true,
+  "pass": false
+ },
+ "vault": "untouched"
+}

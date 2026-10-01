@@ -1,0 +1,23 @@
+{
+ "label": "Current Ratings - Pre-Game Week 4 (refreshed)",
+ "season": 2026,
+ "week": 4,
+ "data_as_of": "2026-09-28 00:00:00",
+ "latest_game_included": "2026_03_TEN_NYG",
+ "season_games_included": {
+  "2026": {
+   "weeks": [
+    1,
+    2,
+    3
+   ],
+   "n_games": 48
+  }
+ },
+ "n_scored_games_total": 2275,
+ "ratings_as_of_note": "ELO and EPA recomputed from scratch (same code path as 07_update_weekly.py run_elo/run_epa_current); no cached ratings.",
+ "generated_at": "2026-09-30T18:39:34.438320+00:00",
+ "model_version": "v1",
+ "data_through": "Week 3 (all 16 games, incl. Sun/Mon)",
+ "snapshot_generated_at": "2026-09-30T18:39:34.438320+00:00"
+}

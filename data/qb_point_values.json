@@ -1,0 +1,176 @@
+{
+ "_meta": {
+  "cap": 7.0,
+  "default_unknown": 4.0,
+  "description": "Starter-minus-own-backup point values for QB injury adjustments (post-processing only).",
+  "floor": 1.0,
+  "method": "Market-implied: how many points the team's starting QB is worth over his own backup. Applied as adj = raw_model_spread -/+ value, NEVER stacked on close-scored predictions to manufacture edge \u2014 it only removes picks whose edge came from injury news the model didn't have.",
+  "sources": {
+   "estimate": "Tier estimate by starter quality. Refresh against each season's oddsmaker poll when available.",
+   "poll": "2026 preseason oddsmaker poll (11 books): Allen 7.23, Mahomes 6.32, Stafford 6.16, Burrow 4.89."
+  },
+  "updated": "2026-09-30"
+ },
+ "teams": {
+  "ARI": {
+   "qb1": "Jacoby Brissett",
+   "source": "estimate",
+   "value": 3.5
+  },
+  "ATL": {
+   "qb1": "Michael Penix Jr.",
+   "source": "estimate",
+   "value": 3.5
+  },
+  "BAL": {
+   "qb1": "Lamar Jackson",
+   "source": "estimate",
+   "value": 6.5
+  },
+  "BUF": {
+   "qb1": "Josh Allen",
+   "source": "poll",
+   "value": 7.2
+  },
+  "CAR": {
+   "qb1": "Bryce Young",
+   "source": "estimate",
+   "value": 3.5
+  },
+  "CHI": {
+   "qb1": "Caleb Williams",
+   "source": "market consensus (SI oddsmaker survey, 2026-09-30)",
+   "value": 6.0
+  },
+  "CIN": {
+   "qb1": "Joe Burrow",
+   "source": "poll",
+   "value": 4.9
+  },
+  "CLE": {
+   "qb1": "Deshaun Watson",
+   "source": "estimate",
+   "value": 2.5
+  },
+  "DAL": {
+   "qb1": "Dak Prescott",
+   "source": "estimate",
+   "value": 4.5
+  },
+  "DEN": {
+   "qb1": "Bo Nix",
+   "source": "estimate",
+   "value": 4.5
+  },
+  "DET": {
+   "qb1": "Jared Goff",
+   "source": "estimate",
+   "value": 5.0
+  },
+  "GB": {
+   "qb1": "Jordan Love",
+   "source": "estimate",
+   "value": 4.5
+  },
+  "HOU": {
+   "qb1": "C.J. Stroud",
+   "source": "estimate",
+   "value": 4.5
+  },
+  "IND": {
+   "qb1": "Daniel Jones",
+   "source": "estimate",
+   "value": 3.5
+  },
+  "JAX": {
+   "qb1": "Trevor Lawrence",
+   "source": "estimate",
+   "value": 4.0
+  },
+  "KC": {
+   "qb1": "Patrick Mahomes",
+   "source": "poll",
+   "value": 6.3
+  },
+  "LA": {
+   "qb1": "Matthew Stafford",
+   "source": "poll",
+   "value": 6.2
+  },
+  "LAC": {
+   "qb1": "Justin Herbert",
+   "source": "estimate",
+   "value": 4.5
+  },
+  "LV": {
+   "qb1": "Kirk Cousins",
+   "source": "estimate",
+   "value": 3.0
+  },
+  "MIA": {
+   "qb1": "Malik Willis",
+   "source": "estimate",
+   "value": 3.0
+  },
+  "MIN": {
+   "qb1": "Kyler Murray",
+   "source": "estimate",
+   "value": 3.5
+  },
+  "NE": {
+   "qb1": "Drake Maye",
+   "source": "estimate",
+   "value": 4.5
+  },
+  "NO": {
+   "qb1": "Tyler Shough",
+   "source": "estimate",
+   "value": 2.5
+  },
+  "NYG": {
+   "qb1": "Jameis Winston",
+   "source": "estimate",
+   "value": 2.5
+  },
+  "NYJ": {
+   "qb1": "Geno Smith",
+   "source": "estimate",
+   "value": 2.5
+  },
+  "PHI": {
+   "qb1": "Jalen Hurts",
+   "source": "estimate",
+   "value": 5.5
+  },
+  "PIT": {
+   "qb1": "Aaron Rodgers",
+   "source": "estimate",
+   "value": 4.0
+  },
+  "SEA": {
+   "qb1": "Sam Darnold",
+   "source": "estimate",
+   "value": 4.0
+  },
+  "SF": {
+   "qb1": "Brock Purdy",
+   "source": "estimate",
+   "value": 4.5
+  },
+  "TB": {
+   "qb1": "Baker Mayfield",
+   "source": "estimate",
+   "value": 4.5
+  },
+  "TEN": {
+   "qb1": "Cam Ward",
+   "source": "estimate",
+   "value": 3.0
+  },
+  "WAS": {
+   "qb1": "Jayden Daniels",
+   "source": "estimate",
+   "value": 5.5
+  }
+ }
+}

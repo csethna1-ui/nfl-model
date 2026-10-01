@@ -1,0 +1,106 @@
+{
+  "primary": {
+    "beta_frozen": 18.142,
+    "dev_n": 542,
+    "test_n": 815,
+    "games_excluded": 2,
+    "mae_v1": 10.1878,
+    "mae_adj": 10.119,
+    "dmae": 0.0689,
+    "ci95": [
+      -0.0618,
+      0.1995
+    ],
+    "bar": 0.15,
+    "verdict": "NULL",
+    "note": "single locked application 2026-10-01; reproducibility re-check passed"
+  },
+  "s1": {
+    "known_friday_out": {
+      "slope": 14.071352565835976,
+      "se": 6.82435653514164,
+      "ci95": [
+        0.6956137569583625,
+        27.44709137471359
+      ],
+      "corr": 0.07212673237703253,
+      "mean_abs": 0.04028053949615331
+    },
+    "new_after_friday": {
+      "slope": 12.517467518881302,
+      "se": 4.722596461893572,
+      "ci95": [
+        3.2611784535699027,
+        21.773756584192704
+      ],
+      "corr": 0.09255970940234305,
+      "mean_abs": 0.06804553305439938
+    },
+    "total": {
+      "slope": 14.656867589009378,
+      "se": 4.103422930201092,
+      "ci95": [
+        6.6141586458152375,
+        22.69957653220352
+      ],
+      "corr": 0.12429922851545583,
+      "mean_abs": 0.08328134703712252
+    }
+  },
+  "s1_frac_known_friday_out": 0.1486,
+  "s1_final_status_mix": {
+    "not_on_report": 0.752,
+    "Out": 0.1486,
+    "Questionable": 0.0728,
+    "Doubtful": 0.0266
+  },
+  "s2_frac_games_nonzero_new": 0.9951,
+  "s2_burden_dist_test": {
+    "mean": 0.0002,
+    "std": 0.1112,
+    "min": -0.5943,
+    "25%": -0.0692,
+    "50%": 0.0021,
+    "75%": 0.0624,
+    "max": 0.4891
+  },
+  "s3": {
+    "QB": {
+      "n_ina_rows": 803,
+      "total_share": 9.009962130964736,
+      "mean_share": 0.011220376252758077
+    },
+    "OL": {
+      "n_ina_rows": 2105,
+      "total_share": 41.482235280833066,
+      "mean_share": 0.019706525074029962
+    },
+    "SKILL": {
+      "n_ina_rows": 2533,
+      "total_share": 43.06858334460445,
+      "mean_share": 0.017002993819425365
+    },
+    "FRONT7": {
+      "n_ina_rows": 2848,
+      "total_share": 45.76389309031298,
+      "mean_share": 0.0160687826862054
+    },
+    "DB": {
+      "n_ina_rows": 1891,
+      "total_share": 46.15877070897222,
+      "mean_share": 0.02440971481172513
+    },
+    "ST": {
+      "n_ina_rows": 72,
+      "total_share": 0.0,
+      "mean_share": 0.0
+    }
+  },
+  "s4": {
+    "mae_market_undated": 9.7454,
+    "gap_v1": 0.4424,
+    "gap_adj": 0.3736,
+    "share_plausibly_explained": 0.156,
+    "caveat": "spread_line is an undated nflverse snapshot (Exp 004/009); suggestive only, never tradable edge"
+  }
+}

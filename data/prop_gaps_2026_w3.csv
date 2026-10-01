@@ -1,0 +1,13 @@
+player,matched_as,team,opp,market,line,projection,gap,lean,trailing_games,match_note
+Cam Ward,C.Ward,TEN,NYG,pass_yards,198.5,163.1,-35.4,under,16,
+Derrick Henry,D.Henry,BAL,DAL,rush_yards,85.5,117.7,32.2,over,16,
+James Cook,J.Cook,BUF,LAC,rush_yards,66.5,88.2,21.7,over,16,
+Justin Herbert,J.Herbert,LAC,BUF,pass_yards,219.5,200.1,-19.4,under,16,
+Saquon Barkley,S.Barkley,PHI,CHI,rush_yards,86.5,71.7,-14.8,under,16,
+Joe Burrow,J.Burrow,CIN,PIT,pass_yards,249.5,241.2,-8.3,under,16,
+George Pickens,G.Pickens,DAL,BAL,receiving_yards,49.5,57.7,8.2,over,16,
+De'Von Achane,D.Achane,MIA,KC,receiving_yards,29.5,24.7,-4.8,under,16,
+Lamar Jackson,L.Jackson,BAL,DAL,pass_yards,224.5,219.9,-4.6,under,16,
+DK Metcalf,D.Metcalf,PIT,CIN,receiving_yards,49.5,46.1,-3.4,under,16,ambiguous 2 -> picked D.Metcalf
+TreVeyon Henderson,T.Henderson,NE,JAX,rush_yards,41.5,42.5,1.0,over,16,
+CeeDee Lamb,C.Lamb,DAL,BAL,receiving_yards,79.5,79.9,0.4,over,16,

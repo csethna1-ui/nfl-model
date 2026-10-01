@@ -1,0 +1,9 @@
+003B PREREGISTRATION FROZEN — approved by Cale 2026-10-01 12:25 CDT.
+Target/population/ladder/win bar per PREREGISTRATION.md (frozen, nothing
+added or removed after freeze). Dev phase complete (hyperparameters
+selected on dev 2021-2022; test slice untouched). Single locked-test
+(2023-2024) evaluation authorized.
+Data-hygiene note (pre-test, 2026-10-01): NGS week==0 season-aggregate rows
+excluded from trailing inputs — they are not valid strictly-prior-week
+observations under the prereg's NGS trailing-only rule. Verified by
+hand-computed trailing EWMA match. Not a spec change.

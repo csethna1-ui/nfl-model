@@ -1,0 +1,5095 @@
+{
+ "season": 2026,
+ "week": 4,
+ "captured_at": "2026-10-01T14:15:45.991949-05:00",
+ "status": "ok",
+ "source": "bovada",
+ "source_note": "Bovada public unauthenticated JSON coupon API. Totals: main Over/Under line only (2W-OU), alternates excluded. Anytime TD: American price on Yes.",
+ "markets_offered": [
+  "completions",
+  "pass_attempts",
+  "pass_yards",
+  "receiving_yards",
+  "receptions",
+  "rush_yards"
+ ],
+ "markets_not_offered": [
+  "anytime_td",
+  "rush_attempts"
+ ],
+ "groups_seen": [
+  "Alternate Lines",
+  "Correct Score",
+  "Def & ST Props",
+  "First Drive Props",
+  "Game Lines",
+  "Game Props",
+  "Kicking Props",
+  "Passing Props",
+  "Passing Yards",
+  "Receiving Props",
+  "Receiving Yards",
+  "Rushing Props",
+  "Rushing Yards",
+  "Sack Props",
+  "Score Props",
+  "Specials",
+  "Squares",
+  "TD Scorer Props",
+  "Touchdown Props"
+ ],
+ "n_lines": 505,
+ "n_matched": 246,
+ "lines": [
+  {
+   "bovada_player": "Aaron Rodgers",
+   "team": "PIT",
+   "market": "pass_attempts",
+   "line": 34.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Deshaun Watson",
+   "team": "CLE",
+   "market": "pass_attempts",
+   "line": 28.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Aaron Rodgers",
+   "team": "PIT",
+   "market": "completions",
+   "line": 20.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Deshaun Watson",
+   "team": "CLE",
+   "market": "completions",
+   "line": 18.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Aaron Rodgers",
+   "team": "PIT",
+   "market": "pass_yards",
+   "line": 185.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Deshaun Watson",
+   "team": "CLE",
+   "market": "pass_yards",
+   "line": 156.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Aaron Rodgers",
+   "team": "PIT",
+   "market": "rush_yards",
+   "line": 220.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Deshaun Watson",
+   "team": "CLE",
+   "market": "rush_yards",
+   "line": 219.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Aaron Rodgers",
+   "team": "PIT",
+   "market": "rush_yards",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Deshaun Watson",
+   "team": "CLE",
+   "market": "rush_yards",
+   "line": 18.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jaylen Warren",
+   "team": "PIT",
+   "market": "rush_yards",
+   "line": 55.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "KC Concepcion",
+   "team": "CLE",
+   "market": "rush_yards",
+   "line": 0.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Quinshon Judkins",
+   "team": "CLE",
+   "market": "rush_yards",
+   "line": 45.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Raheim Sanders",
+   "team": "CLE",
+   "market": "rush_yards",
+   "line": 5.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Travis Homer",
+   "team": "PIT",
+   "market": "rush_yards",
+   "line": 6.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Darnell Washington",
+   "team": "PIT",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Denzel Boston",
+   "team": "CLE",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "DK Metcalf",
+   "team": "PIT",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Germie Bernard",
+   "team": "PIT",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Harold Fannin Jr.",
+   "team": "CLE",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jaylen Warren",
+   "team": "PIT",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jerry Jeudy",
+   "team": "CLE",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "KC Concepcion",
+   "team": "CLE",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Michael Pittman",
+   "team": "PIT",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Pat Freiermuth",
+   "team": "PIT",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Quinshon Judkins",
+   "team": "CLE",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Raheim Sanders",
+   "team": "CLE",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Roman Wilson",
+   "team": "PIT",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Blake Whiteheart",
+   "team": "CLE",
+   "market": "receiving_yards",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Darnell Washington",
+   "team": "PIT",
+   "market": "receiving_yards",
+   "line": 18.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Denzel Boston",
+   "team": "CLE",
+   "market": "receiving_yards",
+   "line": 27.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "DK Metcalf",
+   "team": "PIT",
+   "market": "receiving_yards",
+   "line": 35.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Germie Bernard",
+   "team": "PIT",
+   "market": "receiving_yards",
+   "line": 9.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Harold Fannin Jr.",
+   "team": "CLE",
+   "market": "receiving_yards",
+   "line": 30.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jaylen Warren",
+   "team": "PIT",
+   "market": "receiving_yards",
+   "line": 26.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jerry Jeudy",
+   "team": "CLE",
+   "market": "receiving_yards",
+   "line": 14.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "KC Concepcion",
+   "team": "CLE",
+   "market": "receiving_yards",
+   "line": 26.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Michael Pittman",
+   "team": "PIT",
+   "market": "receiving_yards",
+   "line": 23.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Pat Freiermuth",
+   "team": "PIT",
+   "market": "receiving_yards",
+   "line": 26.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Quinshon Judkins",
+   "team": "CLE",
+   "market": "receiving_yards",
+   "line": 11.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Raheim Sanders",
+   "team": "CLE",
+   "market": "receiving_yards",
+   "line": 11.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Roman Wilson",
+   "team": "PIT",
+   "market": "receiving_yards",
+   "line": 20.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Daniel Jones",
+   "team": "IND",
+   "market": "pass_attempts",
+   "line": 31.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Marcus Mariota",
+   "team": "WAS",
+   "market": "pass_attempts",
+   "line": 30.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Daniel Jones",
+   "team": "IND",
+   "market": "completions",
+   "line": 21.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Marcus Mariota",
+   "team": "WAS",
+   "market": "completions",
+   "line": 19.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Daniel Jones",
+   "team": "IND",
+   "market": "pass_yards",
+   "line": 226.5,
+   "line_type": "handicap",
+   "player": "D.Jones",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Marcus Mariota",
+   "team": "WAS",
+   "market": "pass_yards",
+   "line": 213.5,
+   "line_type": "handicap",
+   "player": "M.Mariota",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Daniel Jones",
+   "team": "IND",
+   "market": "rush_yards",
+   "line": 242.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Marcus Mariota",
+   "team": "WAS",
+   "market": "rush_yards",
+   "line": 243.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Daniel Jones",
+   "team": "IND",
+   "market": "rush_yards",
+   "line": 11.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jacory Croskey-Merritt",
+   "team": "WAS",
+   "market": "rush_yards",
+   "line": 61.5,
+   "line_type": "handicap",
+   "player": "J.Croskey-Merritt",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jonathan Taylor",
+   "team": "IND",
+   "market": "rush_yards",
+   "line": 88.5,
+   "line_type": "handicap",
+   "player": "J.Taylor",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Marcus Mariota",
+   "team": "WAS",
+   "market": "rush_yards",
+   "line": 26.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Seth McGowan",
+   "team": "IND",
+   "market": "rush_yards",
+   "line": 6.5,
+   "line_type": "handicap",
+   "player": "S.McGowan",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Antonio Williams",
+   "team": "WAS",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": "A.Williams",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jonathan Taylor",
+   "team": "IND",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Josh Downs",
+   "team": "IND",
+   "market": "receptions",
+   "line": 5.5,
+   "line_type": "handicap",
+   "player": "J.Downs",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Keenan Allen",
+   "team": "IND",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": "K.Allen",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Stefon Diggs",
+   "team": "WAS",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": "S.Diggs",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Terry McLaurin",
+   "team": "WAS",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": "T.McLaurin",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tyler Warren",
+   "team": "IND",
+   "market": "receptions",
+   "line": 5.5,
+   "line_type": "handicap",
+   "player": "T.Warren",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Antonio Williams",
+   "team": "WAS",
+   "market": "receiving_yards",
+   "line": 17.5,
+   "line_type": "handicap",
+   "player": "A.Williams",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jonathan Taylor",
+   "team": "IND",
+   "market": "receiving_yards",
+   "line": 19.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Josh Downs",
+   "team": "IND",
+   "market": "receiving_yards",
+   "line": 62.5,
+   "line_type": "handicap",
+   "player": "J.Downs",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Keenan Allen",
+   "team": "IND",
+   "market": "receiving_yards",
+   "line": 34.5,
+   "line_type": "handicap",
+   "player": "K.Allen",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Laquon Treadwell",
+   "team": "IND",
+   "market": "receiving_yards",
+   "line": 13.5,
+   "line_type": "handicap",
+   "player": "L.Treadwell",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Stefon Diggs",
+   "team": "WAS",
+   "market": "receiving_yards",
+   "line": 43.5,
+   "line_type": "handicap",
+   "player": "S.Diggs",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Terry McLaurin",
+   "team": "WAS",
+   "market": "receiving_yards",
+   "line": 51.5,
+   "line_type": "handicap",
+   "player": "T.McLaurin",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tyler Warren",
+   "team": "IND",
+   "market": "receiving_yards",
+   "line": 47.5,
+   "line_type": "handicap",
+   "player": "T.Warren",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jacoby Brissett",
+   "team": "ARI",
+   "market": "pass_attempts",
+   "line": 34.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jameis Winston",
+   "team": "NYG",
+   "market": "pass_attempts",
+   "line": 30.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jacoby Brissett",
+   "team": "ARI",
+   "market": "completions",
+   "line": 23.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jameis Winston",
+   "team": "NYG",
+   "market": "completions",
+   "line": 18.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jacoby Brissett",
+   "team": "ARI",
+   "market": "pass_yards",
+   "line": 231.5,
+   "line_type": "handicap",
+   "player": "J.Brissett",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jameis Winston",
+   "team": "NYG",
+   "market": "pass_yards",
+   "line": 211.5,
+   "line_type": "handicap",
+   "player": "J.Winston",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jacoby Brissett",
+   "team": "ARI",
+   "market": "rush_yards",
+   "line": 242.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jameis Winston",
+   "team": "NYG",
+   "market": "rush_yards",
+   "line": 221.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Cam Skattebo",
+   "team": "NYG",
+   "market": "rush_yards",
+   "line": 63.5,
+   "line_type": "handicap",
+   "player": "C.Skattebo",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jacoby Brissett",
+   "team": "ARI",
+   "market": "rush_yards",
+   "line": 7.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jameis Winston",
+   "team": "NYG",
+   "market": "rush_yards",
+   "line": 6.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jeremiyah Love",
+   "team": "ARI",
+   "market": "rush_yards",
+   "line": 67.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Najee Harris",
+   "team": "NYG",
+   "market": "rush_yards",
+   "line": 23.5,
+   "line_type": "handicap",
+   "player": "N.Harris",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tyler Allgeier",
+   "team": "ARI",
+   "market": "rush_yards",
+   "line": 18.5,
+   "line_type": "handicap",
+   "player": "T.Allgeier",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Cam Skattebo",
+   "team": "NYG",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Darnell Mooney",
+   "team": "NYG",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": "D.Mooney",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Isaiah Likely",
+   "team": "NYG",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": "I.Likely",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jeremiyah Love",
+   "team": "ARI",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kendrick Bourne",
+   "team": "ARI",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "K.Bourne",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Malachi Fields",
+   "team": "NYG",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": "M.Fields",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Malik Nabers",
+   "team": "NYG",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": "M.Nabers",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Marvin Harrison Jr.",
+   "team": "ARI",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Michael Wilson",
+   "team": "ARI",
+   "market": "receptions",
+   "line": 5.5,
+   "line_type": "handicap",
+   "player": "Mi.Wilson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Trey McBride",
+   "team": "ARI",
+   "market": "receptions",
+   "line": 7.5,
+   "line_type": "handicap",
+   "player": "T.McBride",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Cam Skattebo",
+   "team": "NYG",
+   "market": "receiving_yards",
+   "line": 17.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Darnell Mooney",
+   "team": "NYG",
+   "market": "receiving_yards",
+   "line": 20.5,
+   "line_type": "handicap",
+   "player": "D.Mooney",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Isaiah Likely",
+   "team": "NYG",
+   "market": "receiving_yards",
+   "line": 40.5,
+   "line_type": "handicap",
+   "player": "I.Likely",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jeremiyah Love",
+   "team": "ARI",
+   "market": "receiving_yards",
+   "line": 16.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kendrick Bourne",
+   "team": "ARI",
+   "market": "receiving_yards",
+   "line": 21.5,
+   "line_type": "handicap",
+   "player": "K.Bourne",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Malachi Fields",
+   "team": "NYG",
+   "market": "receiving_yards",
+   "line": 23.5,
+   "line_type": "handicap",
+   "player": "M.Fields",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Malik Nabers",
+   "team": "NYG",
+   "market": "receiving_yards",
+   "line": 53.5,
+   "line_type": "handicap",
+   "player": "M.Nabers",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Marvin Harrison Jr.",
+   "team": "ARI",
+   "market": "receiving_yards",
+   "line": 32.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Michael Wilson",
+   "team": "ARI",
+   "market": "receiving_yards",
+   "line": 57.5,
+   "line_type": "handicap",
+   "player": "Mi.Wilson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Trey McBride",
+   "team": "ARI",
+   "market": "receiving_yards",
+   "line": 66.5,
+   "line_type": "handicap",
+   "player": "T.McBride",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "C.J. Stroud",
+   "team": "HOU",
+   "market": "pass_attempts",
+   "line": 32.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Dak Prescott",
+   "team": "DAL",
+   "market": "pass_attempts",
+   "line": 35.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "C.J. Stroud",
+   "team": "HOU",
+   "market": "completions",
+   "line": 21.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Dak Prescott",
+   "team": "DAL",
+   "market": "completions",
+   "line": 24.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "C.J. Stroud",
+   "team": "HOU",
+   "market": "pass_yards",
+   "line": 245.5,
+   "line_type": "handicap",
+   "player": "C.Stroud",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Dak Prescott",
+   "team": "DAL",
+   "market": "pass_yards",
+   "line": 270.5,
+   "line_type": "handicap",
+   "player": "D.Prescott",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "C.J. Stroud",
+   "team": "HOU",
+   "market": "rush_yards",
+   "line": 260.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Dak Prescott",
+   "team": "DAL",
+   "market": "rush_yards",
+   "line": 285.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "C.J. Stroud",
+   "team": "HOU",
+   "market": "rush_yards",
+   "line": 11.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Dak Prescott",
+   "team": "DAL",
+   "market": "rush_yards",
+   "line": 11.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "David Montgomery",
+   "team": "HOU",
+   "market": "rush_yards",
+   "line": 46.5,
+   "line_type": "handicap",
+   "player": "D.Montgomery",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Javonte Williams",
+   "team": "DAL",
+   "market": "rush_yards",
+   "line": 60.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Woody Marks",
+   "team": "HOU",
+   "market": "rush_yards",
+   "line": 33.5,
+   "line_type": "handicap",
+   "player": "W.Marks",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "CeeDee Lamb",
+   "team": "DAL",
+   "market": "receptions",
+   "line": 5.5,
+   "line_type": "handicap",
+   "player": "C.Lamb",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Dalton Schultz",
+   "team": "HOU",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": "D.Schultz",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "David Montgomery",
+   "team": "HOU",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "George Pickens",
+   "team": "DAL",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": "G.Pickens",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jake Ferguson",
+   "team": "DAL",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": "J.Ferguson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Javonte Williams",
+   "team": "DAL",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jaylin Noel",
+   "team": "HOU",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": "J.Noel",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kayshon Boutte",
+   "team": "HOU",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": "K.Boutte",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Nico Collins",
+   "team": "HOU",
+   "market": "receptions",
+   "line": 5.5,
+   "line_type": "handicap",
+   "player": "N.Collins",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Ryan Flournoy",
+   "team": "DAL",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": "R.Flournoy",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Woody Marks",
+   "team": "HOU",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Xavier Hutchinson",
+   "team": "HOU",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "X.Hutchinson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "CeeDee Lamb",
+   "team": "DAL",
+   "market": "receiving_yards",
+   "line": 75.5,
+   "line_type": "handicap",
+   "player": "C.Lamb",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Dalton Schultz",
+   "team": "HOU",
+   "market": "receiving_yards",
+   "line": 43.5,
+   "line_type": "handicap",
+   "player": "D.Schultz",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "David Montgomery",
+   "team": "HOU",
+   "market": "receiving_yards",
+   "line": 10.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "George Pickens",
+   "team": "DAL",
+   "market": "receiving_yards",
+   "line": 67.5,
+   "line_type": "handicap",
+   "player": "G.Pickens",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jake Ferguson",
+   "team": "DAL",
+   "market": "receiving_yards",
+   "line": 24.5,
+   "line_type": "handicap",
+   "player": "J.Ferguson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Javonte Williams",
+   "team": "DAL",
+   "market": "receiving_yards",
+   "line": 13.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jaylin Noel",
+   "team": "HOU",
+   "market": "receiving_yards",
+   "line": 11.5,
+   "line_type": "handicap",
+   "player": "J.Noel",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kayshon Boutte",
+   "team": "HOU",
+   "market": "receiving_yards",
+   "line": 24.5,
+   "line_type": "handicap",
+   "player": "K.Boutte",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Nico Collins",
+   "team": "HOU",
+   "market": "receiving_yards",
+   "line": 75.5,
+   "line_type": "handicap",
+   "player": "N.Collins",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Ryan Flournoy",
+   "team": "DAL",
+   "market": "receiving_yards",
+   "line": 31.5,
+   "line_type": "handicap",
+   "player": "R.Flournoy",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Woody Marks",
+   "team": "HOU",
+   "market": "receiving_yards",
+   "line": 9.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Xavier Hutchinson",
+   "team": "HOU",
+   "market": "receiving_yards",
+   "line": 29.5,
+   "line_type": "handicap",
+   "player": "X.Hutchinson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jalon Daniels",
+   "team": "TB",
+   "market": "pass_attempts",
+   "line": 27.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jordan Love",
+   "team": "GB",
+   "market": "pass_attempts",
+   "line": 35.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jalon Daniels",
+   "team": "TB",
+   "market": "completions",
+   "line": 16.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jordan Love",
+   "team": "GB",
+   "market": "completions",
+   "line": 20.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jalon Daniels",
+   "team": "TB",
+   "market": "pass_yards",
+   "line": 170.5,
+   "line_type": "handicap",
+   "player": "J.Daniels",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jordan Love",
+   "team": "GB",
+   "market": "pass_yards",
+   "line": 241.5,
+   "line_type": "handicap",
+   "player": "J.Love",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jalon Daniels",
+   "team": "TB",
+   "market": "rush_yards",
+   "line": 211.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jordan Love",
+   "team": "GB",
+   "market": "rush_yards",
+   "line": 249.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bucky Irving",
+   "team": "TB",
+   "market": "rush_yards",
+   "line": 61.5,
+   "line_type": "handicap",
+   "player": "B.Irving",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jalon Daniels",
+   "team": "TB",
+   "market": "rush_yards",
+   "line": 37.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jordan Love",
+   "team": "GB",
+   "market": "rush_yards",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kaleb Johnson",
+   "team": "GB",
+   "market": "rush_yards",
+   "line": 31.5,
+   "line_type": "handicap",
+   "player": "K.Johnson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kenneth Gainwell",
+   "team": "TB",
+   "market": "rush_yards",
+   "line": 15.5,
+   "line_type": "handicap",
+   "player": "K.Gainwell",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Marshawn Lloyd",
+   "team": "GB",
+   "market": "rush_yards",
+   "line": 22.5,
+   "line_type": "handicap",
+   "player": "M.Lloyd",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bucky Irving",
+   "team": "TB",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Cade Otton",
+   "team": "TB",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "C.Otton",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Chris Godwin",
+   "team": "TB",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "C.Godwin",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Christian Watson",
+   "team": "GB",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": "C.Watson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Emeka Egbuka",
+   "team": "TB",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": "E.Egbuka",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jonnu Smith",
+   "team": "GB",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": "J.Smith",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Marshawn Lloyd",
+   "team": "GB",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Matthew Golden",
+   "team": "GB",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": "M.Golden",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Skyy Moore",
+   "team": "GB",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "S.Moore",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tucker Kraft",
+   "team": "GB",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": "T.Kraft",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bucky Irving",
+   "team": "TB",
+   "market": "receiving_yards",
+   "line": 13.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Cade Otton",
+   "team": "TB",
+   "market": "receiving_yards",
+   "line": 25.5,
+   "line_type": "handicap",
+   "player": "C.Otton",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Chris Godwin",
+   "team": "TB",
+   "market": "receiving_yards",
+   "line": 25.5,
+   "line_type": "handicap",
+   "player": "C.Godwin",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Christian Watson",
+   "team": "GB",
+   "market": "receiving_yards",
+   "line": 64.5,
+   "line_type": "handicap",
+   "player": "C.Watson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Emeka Egbuka",
+   "team": "TB",
+   "market": "receiving_yards",
+   "line": 38.5,
+   "line_type": "handicap",
+   "player": "E.Egbuka",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jonnu Smith",
+   "team": "GB",
+   "market": "receiving_yards",
+   "line": 7.5,
+   "line_type": "handicap",
+   "player": "J.Smith",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Marshawn Lloyd",
+   "team": "GB",
+   "market": "receiving_yards",
+   "line": 6.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Matthew Golden",
+   "team": "GB",
+   "market": "receiving_yards",
+   "line": 57.5,
+   "line_type": "handicap",
+   "player": "M.Golden",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Skyy Moore",
+   "team": "GB",
+   "market": "receiving_yards",
+   "line": 19.5,
+   "line_type": "handicap",
+   "player": "S.Moore",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tucker Kraft",
+   "team": "GB",
+   "market": "receiving_yards",
+   "line": 41.5,
+   "line_type": "handicap",
+   "player": "T.Kraft",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Joe Burrow",
+   "team": "CIN",
+   "market": "pass_attempts",
+   "line": 35.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Trevor Lawrence",
+   "team": "JAX",
+   "market": "pass_attempts",
+   "line": 34.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Joe Burrow",
+   "team": "CIN",
+   "market": "completions",
+   "line": 24.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Trevor Lawrence",
+   "team": "JAX",
+   "market": "completions",
+   "line": 21.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Joe Burrow",
+   "team": "CIN",
+   "market": "pass_yards",
+   "line": 267.5,
+   "line_type": "handicap",
+   "player": "J.Burrow",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Trevor Lawrence",
+   "team": "JAX",
+   "market": "pass_yards",
+   "line": 260.5,
+   "line_type": "handicap",
+   "player": "T.Lawrence",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Joe Burrow",
+   "team": "CIN",
+   "market": "rush_yards",
+   "line": 278.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Trevor Lawrence",
+   "team": "JAX",
+   "market": "rush_yards",
+   "line": 277.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bhayshul Tuten",
+   "team": "JAX",
+   "market": "rush_yards",
+   "line": 53.5,
+   "line_type": "handicap",
+   "player": "B.Tuten",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Chase Brown",
+   "team": "CIN",
+   "market": "rush_yards",
+   "line": 64.5,
+   "line_type": "handicap",
+   "player": "C.Brown",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Chris Rodriguez",
+   "team": "JAX",
+   "market": "rush_yards",
+   "line": 19.5,
+   "line_type": "handicap",
+   "player": "C.Rodriguez",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Joe Burrow",
+   "team": "CIN",
+   "market": "rush_yards",
+   "line": 8.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Samaje Perine",
+   "team": "CIN",
+   "market": "rush_yards",
+   "line": 13.5,
+   "line_type": "handicap",
+   "player": "S.Perine",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Trevor Lawrence",
+   "team": "JAX",
+   "market": "rush_yards",
+   "line": 13.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bhayshul Tuten",
+   "team": "JAX",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Brenton Strange",
+   "team": "JAX",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": "B.Strange",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Brian Thomas",
+   "team": "JAX",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "Bri.Thomas",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Chase Brown",
+   "team": "CIN",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Dohnte Meyers",
+   "team": "CIN",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "D.Meyers",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Drew Sample",
+   "team": "CIN",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": "D.Sample",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Ja'Marr Chase",
+   "team": "CIN",
+   "market": "receptions",
+   "line": 6.5,
+   "line_type": "handicap",
+   "player": "J.Chase",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jakobi Meyers",
+   "team": "JAX",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": "J.Meyers",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Mike Gesicki",
+   "team": "CIN",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "M.Gesicki",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Parker Washington",
+   "team": "JAX",
+   "market": "receptions",
+   "line": 5.5,
+   "line_type": "handicap",
+   "player": "P.Washington",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Samaje Perine",
+   "team": "CIN",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tee Higgins",
+   "team": "CIN",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": "T.Higgins",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bhayshul Tuten",
+   "team": "JAX",
+   "market": "receiving_yards",
+   "line": 10.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Brenton Strange",
+   "team": "JAX",
+   "market": "receiving_yards",
+   "line": 34.5,
+   "line_type": "handicap",
+   "player": "B.Strange",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Brian Thomas",
+   "team": "JAX",
+   "market": "receiving_yards",
+   "line": 29.5,
+   "line_type": "handicap",
+   "player": "Bri.Thomas",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Chase Brown",
+   "team": "CIN",
+   "market": "receiving_yards",
+   "line": 18.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Dohnte Meyers",
+   "team": "CIN",
+   "market": "receiving_yards",
+   "line": 18.5,
+   "line_type": "handicap",
+   "player": "D.Meyers",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Drew Sample",
+   "team": "CIN",
+   "market": "receiving_yards",
+   "line": 6.5,
+   "line_type": "handicap",
+   "player": "D.Sample",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Ja'Marr Chase",
+   "team": "CIN",
+   "market": "receiving_yards",
+   "line": 79.5,
+   "line_type": "handicap",
+   "player": "J.Chase",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jakobi Meyers",
+   "team": "JAX",
+   "market": "receiving_yards",
+   "line": 39.5,
+   "line_type": "handicap",
+   "player": "J.Meyers",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Mike Gesicki",
+   "team": "CIN",
+   "market": "receiving_yards",
+   "line": 27.5,
+   "line_type": "handicap",
+   "player": "M.Gesicki",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Parker Washington",
+   "team": "JAX",
+   "market": "receiving_yards",
+   "line": 74.5,
+   "line_type": "handicap",
+   "player": "P.Washington",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Samaje Perine",
+   "team": "CIN",
+   "market": "receiving_yards",
+   "line": 9.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tee Higgins",
+   "team": "CIN",
+   "market": "receiving_yards",
+   "line": 60.5,
+   "line_type": "handicap",
+   "player": "T.Higgins",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jalen Hurts",
+   "team": "PHI",
+   "market": "pass_attempts",
+   "line": 29.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Matthew Stafford",
+   "team": "LAR",
+   "market": "pass_attempts",
+   "line": 34.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jalen Hurts",
+   "team": "PHI",
+   "market": "completions",
+   "line": 19.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Matthew Stafford",
+   "team": "LAR",
+   "market": "completions",
+   "line": 21.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jalen Hurts",
+   "team": "PHI",
+   "market": "pass_yards",
+   "line": 202.5,
+   "line_type": "handicap",
+   "player": "J.Hurts",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Matthew Stafford",
+   "team": "LAR",
+   "market": "pass_yards",
+   "line": 251.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jalen Hurts",
+   "team": "PHI",
+   "market": "rush_yards",
+   "line": 231.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Blake Corum",
+   "team": "LAR",
+   "market": "rush_yards",
+   "line": 41.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jalen Hurts",
+   "team": "PHI",
+   "market": "rush_yards",
+   "line": 24.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kyren Williams",
+   "team": "LAR",
+   "market": "rush_yards",
+   "line": 57.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Matthew Stafford",
+   "team": "LAR",
+   "market": "rush_yards",
+   "line": 0.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Saquon Barkley",
+   "team": "PHI",
+   "market": "rush_yards",
+   "line": 76.5,
+   "line_type": "handicap",
+   "player": "S.Barkley",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tank Bigsby",
+   "team": "PHI",
+   "market": "rush_yards",
+   "line": 10.5,
+   "line_type": "handicap",
+   "player": "T.Bigsby",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Davante Adams",
+   "team": "LAR",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "DeVonta Smith",
+   "team": "PHI",
+   "market": "receptions",
+   "line": 6.5,
+   "line_type": "handicap",
+   "player": "D.Smith",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Dontayvion Wicks",
+   "team": "PHI",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "D.Wicks",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Johnny Mundt",
+   "team": "PHI",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": "J.Mundt",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kyren Williams",
+   "team": "LAR",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Makai Lemon",
+   "team": "PHI",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "M.Lemon",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Puka Nacua",
+   "team": "LAR",
+   "market": "receptions",
+   "line": 6.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Saquon Barkley",
+   "team": "PHI",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Zach Ertz",
+   "team": "PHI",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": "Z.Ertz",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Davante Adams",
+   "team": "LAR",
+   "market": "receiving_yards",
+   "line": 67.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "DeVonta Smith",
+   "team": "PHI",
+   "market": "receiving_yards",
+   "line": 66.5,
+   "line_type": "handicap",
+   "player": "D.Smith",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Dontayvion Wicks",
+   "team": "PHI",
+   "market": "receiving_yards",
+   "line": 40.5,
+   "line_type": "handicap",
+   "player": "D.Wicks",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Johnny Mundt",
+   "team": "PHI",
+   "market": "receiving_yards",
+   "line": 6.5,
+   "line_type": "handicap",
+   "player": "J.Mundt",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kyren Williams",
+   "team": "LAR",
+   "market": "receiving_yards",
+   "line": 14.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Makai Lemon",
+   "team": "PHI",
+   "market": "receiving_yards",
+   "line": 25.5,
+   "line_type": "handicap",
+   "player": "M.Lemon",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Puka Nacua",
+   "team": "LAR",
+   "market": "receiving_yards",
+   "line": 76.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Saquon Barkley",
+   "team": "PHI",
+   "market": "receiving_yards",
+   "line": 12.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Zach Ertz",
+   "team": "PHI",
+   "market": "receiving_yards",
+   "line": 10.5,
+   "line_type": "handicap",
+   "player": "Z.Ertz",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Drake Maye",
+   "team": "NE",
+   "market": "pass_attempts",
+   "line": 30.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Josh Allen",
+   "team": "BUF",
+   "market": "pass_attempts",
+   "line": 29.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Drake Maye",
+   "team": "NE",
+   "market": "completions",
+   "line": 19.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Josh Allen",
+   "team": "BUF",
+   "market": "completions",
+   "line": 19.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Drake Maye",
+   "team": "NE",
+   "market": "pass_yards",
+   "line": 230.5,
+   "line_type": "handicap",
+   "player": "D.Maye",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Josh Allen",
+   "team": "BUF",
+   "market": "pass_yards",
+   "line": 238.5,
+   "line_type": "handicap",
+   "player": "J.Allen",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Drake Maye",
+   "team": "NE",
+   "market": "rush_yards",
+   "line": 261.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Josh Allen",
+   "team": "BUF",
+   "market": "rush_yards",
+   "line": 275.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Drake Maye",
+   "team": "NE",
+   "market": "rush_yards",
+   "line": 27.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "James Cook",
+   "team": "BUF",
+   "market": "rush_yards",
+   "line": 88.5,
+   "line_type": "handicap",
+   "player": "J.Cook",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Josh Allen",
+   "team": "BUF",
+   "market": "rush_yards",
+   "line": 31.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Rhamondre Stevenson",
+   "team": "NE",
+   "market": "rush_yards",
+   "line": 31.5,
+   "line_type": "handicap",
+   "player": "R.Stevenson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "TreVeyon Henderson",
+   "team": "NE",
+   "market": "rush_yards",
+   "line": 41.5,
+   "line_type": "handicap",
+   "player": "T.Henderson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "DJ Moore",
+   "team": "BUF",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Dalton Kincaid",
+   "team": "BUF",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": "D.Kincaid",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Demario Douglas",
+   "team": "NE",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "D.Douglas",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Hunter Henry",
+   "team": "NE",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": "H.Henry",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "James Cook",
+   "team": "BUF",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Keon Coleman",
+   "team": "BUF",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Khalil Shakir",
+   "team": "BUF",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": "K.Shakir",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Mack Hollins",
+   "team": "NE",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": "M.Hollins",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Rhamondre Stevenson",
+   "team": "NE",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Romeo Doubs",
+   "team": "NE",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": "R.Doubs",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "TreVeyon Henderson",
+   "team": "NE",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Ty Johnson",
+   "team": "BUF",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "DJ Moore",
+   "team": "BUF",
+   "market": "receiving_yards",
+   "line": 48.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Dalton Kincaid",
+   "team": "BUF",
+   "market": "receiving_yards",
+   "line": 52.5,
+   "line_type": "handicap",
+   "player": "D.Kincaid",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Demario Douglas",
+   "team": "NE",
+   "market": "receiving_yards",
+   "line": 26.5,
+   "line_type": "handicap",
+   "player": "D.Douglas",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Hunter Henry",
+   "team": "NE",
+   "market": "receiving_yards",
+   "line": 30.5,
+   "line_type": "handicap",
+   "player": "H.Henry",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "James Cook",
+   "team": "BUF",
+   "market": "receiving_yards",
+   "line": 7.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Keon Coleman",
+   "team": "BUF",
+   "market": "receiving_yards",
+   "line": 12.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Khalil Shakir",
+   "team": "BUF",
+   "market": "receiving_yards",
+   "line": 38.5,
+   "line_type": "handicap",
+   "player": "K.Shakir",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Mack Hollins",
+   "team": "NE",
+   "market": "receiving_yards",
+   "line": 44.5,
+   "line_type": "handicap",
+   "player": "M.Hollins",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Rhamondre Stevenson",
+   "team": "NE",
+   "market": "receiving_yards",
+   "line": 18.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Romeo Doubs",
+   "team": "NE",
+   "market": "receiving_yards",
+   "line": 41.5,
+   "line_type": "handicap",
+   "player": "R.Doubs",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "TreVeyon Henderson",
+   "team": "NE",
+   "market": "receiving_yards",
+   "line": 7.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Ty Johnson",
+   "team": "BUF",
+   "market": "receiving_yards",
+   "line": 12.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Geno Smith",
+   "team": "NYJ",
+   "market": "pass_attempts",
+   "line": 33.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tyson Bagent",
+   "team": "CHI",
+   "market": "pass_attempts",
+   "line": 29.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Geno Smith",
+   "team": "NYJ",
+   "market": "completions",
+   "line": 21.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tyson Bagent",
+   "team": "CHI",
+   "market": "completions",
+   "line": 19.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Geno Smith",
+   "team": "NYJ",
+   "market": "pass_yards",
+   "line": 228.5,
+   "line_type": "handicap",
+   "player": "G.Smith",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tyson Bagent",
+   "team": "CHI",
+   "market": "pass_yards",
+   "line": 201.5,
+   "line_type": "handicap",
+   "player": "T.Bagent",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Geno Smith",
+   "team": "NYJ",
+   "market": "rush_yards",
+   "line": 244.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tyson Bagent",
+   "team": "CHI",
+   "market": "rush_yards",
+   "line": 219.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Braelon Allen",
+   "team": "NYJ",
+   "market": "rush_yards",
+   "line": 54.5,
+   "line_type": "handicap",
+   "player": "B.Allen",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "D'Andre Swift",
+   "team": "CHI",
+   "market": "rush_yards",
+   "line": 66.5,
+   "line_type": "handicap",
+   "player": "D.Swift",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Geno Smith",
+   "team": "NYJ",
+   "market": "rush_yards",
+   "line": 12.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Isaiah Davis",
+   "team": "NYJ",
+   "market": "rush_yards",
+   "line": 21.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kyle Monangai",
+   "team": "CHI",
+   "market": "rush_yards",
+   "line": 38.5,
+   "line_type": "handicap",
+   "player": "K.Monangai",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tyson Bagent",
+   "team": "CHI",
+   "market": "rush_yards",
+   "line": 14.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Braelon Allen",
+   "team": "NYJ",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "D'Andre Swift",
+   "team": "CHI",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Garrett Wilson",
+   "team": "NYJ",
+   "market": "receptions",
+   "line": 6.5,
+   "line_type": "handicap",
+   "player": "G.Wilson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Isaiah Williams",
+   "team": "NYJ",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "I.Williams",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kalif Raymond",
+   "team": "CHI",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": "K.Raymond",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kyle Monangai",
+   "team": "CHI",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Luther Burden III",
+   "team": "CHI",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Colston Loveland",
+   "team": "CHI",
+   "market": "receiving_yards",
+   "line": 33.5,
+   "line_type": "handicap",
+   "player": "C.Loveland",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "D'Andre Swift",
+   "team": "CHI",
+   "market": "receiving_yards",
+   "line": 13.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Garrett Wilson",
+   "team": "NYJ",
+   "market": "receiving_yards",
+   "line": 75.5,
+   "line_type": "handicap",
+   "player": "G.Wilson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Isaiah Davis",
+   "team": "NYJ",
+   "market": "receiving_yards",
+   "line": 9.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Cam Ward",
+   "team": "TEN",
+   "market": "pass_attempts",
+   "line": 33.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Lamar Jackson",
+   "team": "BAL",
+   "market": "pass_attempts",
+   "line": 28.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Cam Ward",
+   "team": "TEN",
+   "market": "completions",
+   "line": 19.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Lamar Jackson",
+   "team": "BAL",
+   "market": "completions",
+   "line": 18.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Cam Ward",
+   "team": "TEN",
+   "market": "pass_yards",
+   "line": 184.5,
+   "line_type": "handicap",
+   "player": "C.Ward",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Lamar Jackson",
+   "team": "BAL",
+   "market": "pass_yards",
+   "line": 217.5,
+   "line_type": "handicap",
+   "player": "L.Jackson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Cam Ward",
+   "team": "TEN",
+   "market": "rush_yards",
+   "line": 198.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Lamar Jackson",
+   "team": "BAL",
+   "market": "rush_yards",
+   "line": 252.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Cam Ward",
+   "team": "TEN",
+   "market": "rush_yards",
+   "line": 10.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Derrick Henry",
+   "team": "BAL",
+   "market": "rush_yards",
+   "line": 97.5,
+   "line_type": "handicap",
+   "player": "D.Henry",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Lamar Jackson",
+   "team": "BAL",
+   "market": "rush_yards",
+   "line": 30.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tony Pollard",
+   "team": "TEN",
+   "market": "rush_yards",
+   "line": 46.5,
+   "line_type": "handicap",
+   "player": "T.Pollard",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tyjae Spears",
+   "team": "TEN",
+   "market": "rush_yards",
+   "line": 15.5,
+   "line_type": "handicap",
+   "player": "T.Spears",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Carnell Tate",
+   "team": "TEN",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": "C.Tate",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Elic Ayomanor",
+   "team": "TEN",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": "E.Ayomanor",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Gunnar Helm",
+   "team": "TEN",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "G.Helm",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Mark Andrews",
+   "team": "BAL",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": "M.Andrews",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Rashod Bateman",
+   "team": "BAL",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "R.Bateman",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Wan'dale Robinson",
+   "team": "TEN",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": "W.Robinson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Zay Flowers",
+   "team": "BAL",
+   "market": "receptions",
+   "line": 5.5,
+   "line_type": "handicap",
+   "player": "Z.Flowers",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Calvin Ridley",
+   "team": "TEN",
+   "market": "receiving_yards",
+   "line": 6.5,
+   "line_type": "handicap",
+   "player": "C.Ridley",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Carnell Tate",
+   "team": "TEN",
+   "market": "receiving_yards",
+   "line": 43.5,
+   "line_type": "handicap",
+   "player": "C.Tate",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Derrick Henry",
+   "team": "BAL",
+   "market": "receiving_yards",
+   "line": 7.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Elic Ayomanor",
+   "team": "TEN",
+   "market": "receiving_yards",
+   "line": 20.5,
+   "line_type": "handicap",
+   "player": "E.Ayomanor",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Gunnar Helm",
+   "team": "TEN",
+   "market": "receiving_yards",
+   "line": 17.5,
+   "line_type": "handicap",
+   "player": "G.Helm",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Mark Andrews",
+   "team": "BAL",
+   "market": "receiving_yards",
+   "line": 36.5,
+   "line_type": "handicap",
+   "player": "M.Andrews",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Rashod Bateman",
+   "team": "BAL",
+   "market": "receiving_yards",
+   "line": 31.5,
+   "line_type": "handicap",
+   "player": "R.Bateman",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tony Pollard",
+   "team": "TEN",
+   "market": "receiving_yards",
+   "line": 8.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Wan'dale Robinson",
+   "team": "TEN",
+   "market": "receiving_yards",
+   "line": 37.5,
+   "line_type": "handicap",
+   "player": "W.Robinson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Zay Flowers",
+   "team": "BAL",
+   "market": "receiving_yards",
+   "line": 66.5,
+   "line_type": "handicap",
+   "player": "Z.Flowers",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kyler Murray",
+   "team": "MIN",
+   "market": "pass_attempts",
+   "line": 28.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Malik Willis",
+   "team": "MIA",
+   "market": "pass_attempts",
+   "line": 28.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kyler Murray",
+   "team": "MIN",
+   "market": "completions",
+   "line": 19.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Malik Willis",
+   "team": "MIA",
+   "market": "completions",
+   "line": 15.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kyler Murray",
+   "team": "MIN",
+   "market": "pass_yards",
+   "line": 205.5,
+   "line_type": "handicap",
+   "player": "K.Murray",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Malik Willis",
+   "team": "MIA",
+   "market": "pass_yards",
+   "line": 170.5,
+   "line_type": "handicap",
+   "player": "M.Willis",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kyler Murray",
+   "team": "MIN",
+   "market": "rush_yards",
+   "line": 230.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Malik Willis",
+   "team": "MIA",
+   "market": "rush_yards",
+   "line": 203.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Aaron Jones",
+   "team": "MIN",
+   "market": "rush_yards",
+   "line": 66.5,
+   "line_type": "handicap",
+   "player": "A.Jones",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jaylen Wright",
+   "team": "MIA",
+   "market": "rush_yards",
+   "line": 23.5,
+   "line_type": "handicap",
+   "player": "J.Wright",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kyler Murray",
+   "team": "MIN",
+   "market": "rush_yards",
+   "line": 21.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Malik Washington",
+   "team": "MIA",
+   "market": "rush_yards",
+   "line": 5.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Malik Willis",
+   "team": "MIA",
+   "market": "rush_yards",
+   "line": 29.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Ollie Gordon II",
+   "team": "MIA",
+   "market": "rush_yards",
+   "line": 30.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Aaron Jones",
+   "team": "MIN",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Chris Bell",
+   "team": "MIA",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "C.Bell",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Greg Dulcich",
+   "team": "MIA",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "G.Dulcich",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jaylen Wright",
+   "team": "MIA",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Malik Washington",
+   "team": "MIA",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": "M.Washington",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Aaron Jones",
+   "team": "MIN",
+   "market": "receiving_yards",
+   "line": 18.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Chris Bell",
+   "team": "MIA",
+   "market": "receiving_yards",
+   "line": 32.5,
+   "line_type": "handicap",
+   "player": "C.Bell",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Greg Dulcich",
+   "team": "MIA",
+   "market": "receiving_yards",
+   "line": 28.5,
+   "line_type": "handicap",
+   "player": "G.Dulcich",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jaylen Wright",
+   "team": "MIA",
+   "market": "receiving_yards",
+   "line": 5.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Malik Washington",
+   "team": "MIA",
+   "market": "receiving_yards",
+   "line": 37.5,
+   "line_type": "handicap",
+   "player": "M.Washington",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bo Nix",
+   "team": "DEN",
+   "market": "pass_attempts",
+   "line": 34.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Brock Purdy",
+   "team": "SF",
+   "market": "pass_attempts",
+   "line": 31.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bo Nix",
+   "team": "DEN",
+   "market": "completions",
+   "line": 21.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Brock Purdy",
+   "team": "SF",
+   "market": "completions",
+   "line": 20.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bo Nix",
+   "team": "DEN",
+   "market": "pass_yards",
+   "line": 224.5,
+   "line_type": "handicap",
+   "player": "B.Nix",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Brock Purdy",
+   "team": "SF",
+   "market": "pass_yards",
+   "line": 234.5,
+   "line_type": "handicap",
+   "player": "B.Purdy",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bo Nix",
+   "team": "DEN",
+   "market": "rush_yards",
+   "line": 246.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Brock Purdy",
+   "team": "SF",
+   "market": "rush_yards",
+   "line": 254.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bo Nix",
+   "team": "DEN",
+   "market": "rush_yards",
+   "line": 17.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Brock Purdy",
+   "team": "SF",
+   "market": "rush_yards",
+   "line": 17.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Christian McCaffrey",
+   "team": "SF",
+   "market": "rush_yards",
+   "line": 64.5,
+   "line_type": "handicap",
+   "player": "C.McCaffrey",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "J.K. Dobbins",
+   "team": "DEN",
+   "market": "rush_yards",
+   "line": 59.5,
+   "line_type": "handicap",
+   "player": "J.Dobbins",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kaelon Black",
+   "team": "SF",
+   "market": "rush_yards",
+   "line": 22.5,
+   "line_type": "handicap",
+   "player": "K.Black",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "RJ Harvey",
+   "team": "DEN",
+   "market": "rush_yards",
+   "line": 16.5,
+   "line_type": "handicap",
+   "player": "R.Harvey",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jaylen Waddle",
+   "team": "DEN",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": "J.Waddle",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "RJ Harvey",
+   "team": "DEN",
+   "market": "receiving_yards",
+   "line": 22.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kirk Cousins",
+   "team": "LV",
+   "market": "pass_attempts",
+   "line": 33.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Patrick Mahomes",
+   "team": "KC",
+   "market": "pass_attempts",
+   "line": 32.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kirk Cousins",
+   "team": "LV",
+   "market": "completions",
+   "line": 21.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Patrick Mahomes",
+   "team": "KC",
+   "market": "completions",
+   "line": 20.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kirk Cousins",
+   "team": "LV",
+   "market": "pass_yards",
+   "line": 220.5,
+   "line_type": "handicap",
+   "player": "K.Cousins",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Patrick Mahomes",
+   "team": "KC",
+   "market": "pass_yards",
+   "line": 239.5,
+   "line_type": "handicap",
+   "player": "P.Mahomes",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kirk Cousins",
+   "team": "LV",
+   "market": "rush_yards",
+   "line": 223.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Patrick Mahomes",
+   "team": "KC",
+   "market": "rush_yards",
+   "line": 259.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Ashton Jeanty",
+   "team": "LV",
+   "market": "rush_yards",
+   "line": 58.5,
+   "line_type": "handicap",
+   "player": "A.Jeanty",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Emmett Johnson",
+   "team": "KC",
+   "market": "rush_yards",
+   "line": 15.5,
+   "line_type": "handicap",
+   "player": "E.Johnson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kenneth Walker",
+   "team": "KC",
+   "market": "rush_yards",
+   "line": 85.5,
+   "line_type": "handicap",
+   "player": "K.Walker",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kirk Cousins",
+   "team": "LV",
+   "market": "rush_yards",
+   "line": 0.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Mike Washington Jr.",
+   "team": "LV",
+   "market": "rush_yards",
+   "line": 16.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Patrick Mahomes",
+   "team": "KC",
+   "market": "rush_yards",
+   "line": 15.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Ashton Jeanty",
+   "team": "LV",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Brock Bowers",
+   "team": "LV",
+   "market": "receptions",
+   "line": 7.5,
+   "line_type": "handicap",
+   "player": "B.Bowers",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Emmett Johnson",
+   "team": "KC",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jalen Nailor",
+   "team": "LV",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": "J.Nailor",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kenneth Walker",
+   "team": "KC",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Michael Mayer",
+   "team": "LV",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "M.Mayer",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Noah Gray",
+   "team": "KC",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": "N.Gray",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Rashee Rice",
+   "team": "KC",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": "R.Rice",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Travis Kelce",
+   "team": "KC",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": "T.Kelce",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tre Tucker",
+   "team": "LV",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": "T.Tucker",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tyquan Thornton",
+   "team": "KC",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": "T.Thornton",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Xavier Worthy",
+   "team": "KC",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": "X.Worthy",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Ashton Jeanty",
+   "team": "LV",
+   "market": "receiving_yards",
+   "line": 21.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Brock Bowers",
+   "team": "LV",
+   "market": "receiving_yards",
+   "line": 73.5,
+   "line_type": "handicap",
+   "player": "B.Bowers",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Emmett Johnson",
+   "team": "KC",
+   "market": "receiving_yards",
+   "line": 8.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jalen Nailor",
+   "team": "LV",
+   "market": "receiving_yards",
+   "line": 20.5,
+   "line_type": "handicap",
+   "player": "J.Nailor",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kenneth Walker",
+   "team": "KC",
+   "market": "receiving_yards",
+   "line": 21.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Michael Mayer",
+   "team": "LV",
+   "market": "receiving_yards",
+   "line": 21.5,
+   "line_type": "handicap",
+   "player": "M.Mayer",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Noah Gray",
+   "team": "KC",
+   "market": "receiving_yards",
+   "line": 8.5,
+   "line_type": "handicap",
+   "player": "N.Gray",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Rashee Rice",
+   "team": "KC",
+   "market": "receiving_yards",
+   "line": 54.5,
+   "line_type": "handicap",
+   "player": "R.Rice",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Travis Kelce",
+   "team": "KC",
+   "market": "receiving_yards",
+   "line": 47.5,
+   "line_type": "handicap",
+   "player": "T.Kelce",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tre Tucker",
+   "team": "LV",
+   "market": "receiving_yards",
+   "line": 37.5,
+   "line_type": "handicap",
+   "player": "T.Tucker",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tyquan Thornton",
+   "team": "KC",
+   "market": "receiving_yards",
+   "line": 20.5,
+   "line_type": "handicap",
+   "player": "T.Thornton",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Xavier Worthy",
+   "team": "KC",
+   "market": "receiving_yards",
+   "line": 33.5,
+   "line_type": "handicap",
+   "player": "X.Worthy",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Justin Herbert",
+   "team": "LAC",
+   "market": "pass_attempts",
+   "line": 30.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Sam Darnold",
+   "team": "SEA",
+   "market": "pass_attempts",
+   "line": 30.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Justin Herbert",
+   "team": "LAC",
+   "market": "completions",
+   "line": 18.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Sam Darnold",
+   "team": "SEA",
+   "market": "completions",
+   "line": 21.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Justin Herbert",
+   "team": "LAC",
+   "market": "pass_yards",
+   "line": 198.5,
+   "line_type": "handicap",
+   "player": "J.Herbert",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Sam Darnold",
+   "team": "SEA",
+   "market": "pass_yards",
+   "line": 232.5,
+   "line_type": "handicap",
+   "player": "S.Darnold",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Justin Herbert",
+   "team": "LAC",
+   "market": "rush_yards",
+   "line": 223.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Emanuel Wilson",
+   "team": "SEA",
+   "market": "rush_yards",
+   "line": 39.5,
+   "line_type": "handicap",
+   "player": "E.Wilson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jadarian Price",
+   "team": "SEA",
+   "market": "rush_yards",
+   "line": 41.5,
+   "line_type": "handicap",
+   "player": "J.Price",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Justin Herbert",
+   "team": "LAC",
+   "market": "rush_yards",
+   "line": 21.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Omarion Hampton",
+   "team": "LAC",
+   "market": "rush_yards",
+   "line": 45.5,
+   "line_type": "handicap",
+   "player": "O.Hampton",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "AJ Barner",
+   "team": "SEA",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "A.Barner",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Cooper Kupp",
+   "team": "SEA",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "C.Kupp",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jadarian Price",
+   "team": "SEA",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jaxon Smith-Njigba",
+   "team": "SEA",
+   "market": "receptions",
+   "line": 6.5,
+   "line_type": "handicap",
+   "player": "J.Smith-Njigba",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Ladd McConkey",
+   "team": "LAC",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": "L.McConkey",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Oronde Gadsden II",
+   "team": "LAC",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Quentin Johnston",
+   "team": "LAC",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "Q.Johnston",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Rashid Shaheed",
+   "team": "SEA",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": "R.Shaheed",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tre Harris",
+   "team": "LAC",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "T.Harris",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "AJ Barner",
+   "team": "SEA",
+   "market": "receiving_yards",
+   "line": 31.5,
+   "line_type": "handicap",
+   "player": "A.Barner",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Cooper Kupp",
+   "team": "SEA",
+   "market": "receiving_yards",
+   "line": 24.5,
+   "line_type": "handicap",
+   "player": "C.Kupp",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jadarian Price",
+   "team": "SEA",
+   "market": "receiving_yards",
+   "line": 10.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jaxon Smith-Njigba",
+   "team": "SEA",
+   "market": "receiving_yards",
+   "line": 91.5,
+   "line_type": "handicap",
+   "player": "J.Smith-Njigba",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Ladd McConkey",
+   "team": "LAC",
+   "market": "receiving_yards",
+   "line": 46.5,
+   "line_type": "handicap",
+   "player": "L.McConkey",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Oronde Gadsden II",
+   "team": "LAC",
+   "market": "receiving_yards",
+   "line": 24.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Quentin Johnston",
+   "team": "LAC",
+   "market": "receiving_yards",
+   "line": 34.5,
+   "line_type": "handicap",
+   "player": "Q.Johnston",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Rashid Shaheed",
+   "team": "SEA",
+   "market": "receiving_yards",
+   "line": 21.5,
+   "line_type": "handicap",
+   "player": "R.Shaheed",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tre Harris",
+   "team": "LAC",
+   "market": "receiving_yards",
+   "line": 33.5,
+   "line_type": "handicap",
+   "player": "T.Harris",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bryce Young",
+   "team": "CAR",
+   "market": "pass_attempts",
+   "line": 35.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jared Goff",
+   "team": "DET",
+   "market": "pass_attempts",
+   "line": 34.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bryce Young",
+   "team": "CAR",
+   "market": "completions",
+   "line": 21.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jared Goff",
+   "team": "DET",
+   "market": "completions",
+   "line": 23.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bryce Young",
+   "team": "CAR",
+   "market": "pass_yards",
+   "line": 249.5,
+   "line_type": "handicap",
+   "player": "B.Young",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jared Goff",
+   "team": "DET",
+   "market": "pass_yards",
+   "line": 263.5,
+   "line_type": "handicap",
+   "player": "J.Goff",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bryce Young",
+   "team": "CAR",
+   "market": "rush_yards",
+   "line": 264.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jared Goff",
+   "team": "DET",
+   "market": "rush_yards",
+   "line": 268.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "AJ Dillon",
+   "team": "CAR",
+   "market": "rush_yards",
+   "line": 13.5,
+   "line_type": "handicap",
+   "player": "A.Dillon",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bryce Young",
+   "team": "CAR",
+   "market": "rush_yards",
+   "line": 11.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Chuba Hubbard",
+   "team": "CAR",
+   "market": "rush_yards",
+   "line": 65.5,
+   "line_type": "handicap",
+   "player": "C.Hubbard",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jahmyr Gibbs",
+   "team": "DET",
+   "market": "rush_yards",
+   "line": 97.5,
+   "line_type": "handicap",
+   "player": "J.Gibbs",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jared Goff",
+   "team": "DET",
+   "market": "rush_yards",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Sione Vaki",
+   "team": "DET",
+   "market": "rush_yards",
+   "line": 9.5,
+   "line_type": "handicap",
+   "player": "S.Vaki",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Amon-Ra St. Brown",
+   "team": "DET",
+   "market": "receptions",
+   "line": 7.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Chuba Hubbard",
+   "team": "CAR",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Darren Waller",
+   "team": "CAR",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "D.Waller",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Isaac TeSlaa",
+   "team": "DET",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": "I.TeSlaa",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jahmyr Gibbs",
+   "team": "DET",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jameson Williams",
+   "team": "DET",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Sam LaPorta",
+   "team": "DET",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": "S.LaPorta",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tetairoa McMillan",
+   "team": "CAR",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": "T.McMillan",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Amon-Ra St. Brown",
+   "team": "DET",
+   "market": "receiving_yards",
+   "line": 76.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Chuba Hubbard",
+   "team": "CAR",
+   "market": "receiving_yards",
+   "line": 18.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Darren Waller",
+   "team": "CAR",
+   "market": "receiving_yards",
+   "line": 24.5,
+   "line_type": "handicap",
+   "player": "D.Waller",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Isaac TeSlaa",
+   "team": "DET",
+   "market": "receiving_yards",
+   "line": 17.5,
+   "line_type": "handicap",
+   "player": "I.TeSlaa",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jahmyr Gibbs",
+   "team": "DET",
+   "market": "receiving_yards",
+   "line": 35.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jameson Williams",
+   "team": "DET",
+   "market": "receiving_yards",
+   "line": 51.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Sam LaPorta",
+   "team": "DET",
+   "market": "receiving_yards",
+   "line": 47.5,
+   "line_type": "handicap",
+   "player": "S.LaPorta",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tetairoa McMillan",
+   "team": "CAR",
+   "market": "receiving_yards",
+   "line": 70.5,
+   "line_type": "handicap",
+   "player": "T.McMillan",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Michael Penix Jr.",
+   "team": "ATL",
+   "market": "pass_attempts",
+   "line": 30.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tyler Shough",
+   "team": "NOR",
+   "market": "pass_attempts",
+   "line": 34.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Michael Penix Jr.",
+   "team": "ATL",
+   "market": "completions",
+   "line": 20.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tyler Shough",
+   "team": "NOR",
+   "market": "completions",
+   "line": 23.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Michael Penix Jr.",
+   "team": "ATL",
+   "market": "pass_yards",
+   "line": 224.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tyler Shough",
+   "team": "NOR",
+   "market": "pass_yards",
+   "line": 256.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Alvin Kamara",
+   "team": "NOR",
+   "market": "rush_yards",
+   "line": 38.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bijan Robinson",
+   "team": "ATL",
+   "market": "rush_yards",
+   "line": 85.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Brian Robinson",
+   "team": "ATL",
+   "market": "rush_yards",
+   "line": 30.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kendre Miller",
+   "team": "NOR",
+   "market": "rush_yards",
+   "line": 24.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Michael Penix Jr.",
+   "team": "ATL",
+   "market": "rush_yards",
+   "line": 5.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Tyler Shough",
+   "team": "NOR",
+   "market": "rush_yards",
+   "line": 16.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Alvin Kamara",
+   "team": "NOR",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Austin Hooper",
+   "team": "ATL",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": "A.Hooper",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bijan Robinson",
+   "team": "ATL",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Chris Olave",
+   "team": "NOR",
+   "market": "receptions",
+   "line": 6.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Devaughn Vele",
+   "team": "NOR",
+   "market": "receptions",
+   "line": 4.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Drake London",
+   "team": "ATL",
+   "market": "receptions",
+   "line": 5.5,
+   "line_type": "handicap",
+   "player": "D.London",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jahan Dotson",
+   "team": "ATL",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": "J.Dotson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Juwan Johnson",
+   "team": "NOR",
+   "market": "receptions",
+   "line": 3.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kyle Pitts",
+   "team": "ATL",
+   "market": "receptions",
+   "line": 2.5,
+   "line_type": "handicap",
+   "player": "K.Pitts",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Noah Fant",
+   "team": "NOR",
+   "market": "receptions",
+   "line": 1.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Alvin Kamara",
+   "team": "NOR",
+   "market": "receiving_yards",
+   "line": 16.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Austin Hooper",
+   "team": "ATL",
+   "market": "receiving_yards",
+   "line": 10.5,
+   "line_type": "handicap",
+   "player": "A.Hooper",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Bijan Robinson",
+   "team": "ATL",
+   "market": "receiving_yards",
+   "line": 39.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Chris Olave",
+   "team": "NOR",
+   "market": "receiving_yards",
+   "line": 85.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Devaughn Vele",
+   "team": "NOR",
+   "market": "receiving_yards",
+   "line": 45.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Drake London",
+   "team": "ATL",
+   "market": "receiving_yards",
+   "line": 78.5,
+   "line_type": "handicap",
+   "player": "D.London",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Jahan Dotson",
+   "team": "ATL",
+   "market": "receiving_yards",
+   "line": 18.5,
+   "line_type": "handicap",
+   "player": "J.Dotson",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Juwan Johnson",
+   "team": "NOR",
+   "market": "receiving_yards",
+   "line": 40.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Kyle Pitts",
+   "team": "ATL",
+   "market": "receiving_yards",
+   "line": 28.5,
+   "line_type": "handicap",
+   "player": "K.Pitts",
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  },
+  {
+   "bovada_player": "Noah Fant",
+   "team": "NOR",
+   "market": "receiving_yards",
+   "line": 18.5,
+   "line_type": "handicap",
+   "player": null,
+   "source": "bovada",
+   "captured_at": "2026-10-01T14:15:45.991949-05:00"
+  }
+ ]
+}
