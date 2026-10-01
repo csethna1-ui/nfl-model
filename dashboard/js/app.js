@@ -69,9 +69,9 @@ const teamName=(a)=>TEAM_NAMES[a]||a;
 const TEAM_SHORT={ARI:'ARI Cardinals',ATL:'ATL Falcons',BAL:'BAL Ravens',BUF:'BUF Bills',CAR:'CAR Panthers',CHI:'CHI Bears',CIN:'CIN Bengals',CLE:'CLE Browns',DAL:'DAL Cowboys',DEN:'DEN Broncos',DET:'DET Lions',GB:'GB Packers',HOU:'HOU Texans',IND:'IND Colts',JAX:'JAX Jaguars',KC:'KC Chiefs',LA:'LA Rams',LAC:'LAC Chargers',LV:'LV Raiders',MIA:'MIA Dolphins',MIN:'MIN Vikings',NE:'NE Patriots',NO:'NO Saints',NYG:'NYG Giants',NYJ:'NYJ Jets',PHI:'PHI Eagles',PIT:'PIT Steelers',SEA:'SEA Seahawks',SF:'SF 49ers',TB:'TB Buccaneers',TEN:'TEN Titans',WAS:'WAS Commanders'};
 const TEAM_ACCENT={ARI:'#97233f',ATL:'#a7194b',BAL:'#9e7c0c',BUF:'#c60c30',CAR:'#0085ca',CHI:'#c83803',CIN:'#fb4f14',CLE:'#ff3c00',DAL:'#7d93b8',DEN:'#fb4f14',DET:'#0076b6',GB:'#ffb612',HOU:'#a7194b',IND:'#6ea8d6',JAX:'#006778',KC:'#e31837',LA:'#ffa300',LAC:'#ffc20e',LV:'#b8bcc0',MIA:'#008e97',MIN:'#6950a3',NE:'#c60c30',NO:'#d3bc8d',NYG:'#a7194b',NYJ:'#125740',PHI:'#199444',PIT:'#ffb612',SEA:'#69be28',SF:'#aa0000',TB:'#d50a0a',TEN:'#4b92db',WAS:'#7a2734'};
 /* Byte-owned team logos with an initials-badge fallback (never a broken image) */
-const logo=(abbr,cls)=>'<span class="tlogo '+(cls||'')+'" aria-hidden="true"><i>'+esc(abbr)+'</i><img src="assets/logos/'+encodeURIComponent(abbr)+'.png" alt="" loading="lazy" onerror="this.remove()"></span>';
+const logo=(abbr,cls)=>'<span class="tlogo '+(cls||'')+'" aria-hidden="true"><i>'+esc(abbr)+'</i></span>';
 const avatar=(pl,tm,heroCls,espnId)=>{
-  return '<span class="avatar'+(heroCls?' '+heroCls:'')+'" style="background:'+(TEAM_ACCENT[tm]||'#334')+'" aria-hidden="true">'+esc(String(pl||'--'))+'<span class="tm"><img src="assets/logos/'+encodeURIComponent(tm)+'.png" alt="" loading="lazy" onerror="this.remove()"></span></span>';
+  return '<span class="avatar'+(heroCls?' '+heroCls:'')+'" style="background:'+(TEAM_ACCENT[tm]||'#334')+'" aria-hidden="true">'+esc(String(pl||'--'))+'</span>';
 };
 
 /* ---------- shared game logic (data-only) ---------- */
