@@ -20,8 +20,9 @@ import os
 
 import pandas as pd
 
-DATA = "/home/hatch/workspace/nfl-model/data"
-REGISTRY = "/home/hatch/workspace/nfl-model/challengers/registry.json"
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA = os.path.join(REPO_ROOT, "data")
+REGISTRY = os.path.join(REPO_ROOT, "challengers", "registry.json")
 LEDGER = f"{DATA}/challenger_ledger.csv"
 
 

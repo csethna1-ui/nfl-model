@@ -22,7 +22,8 @@ import os
 
 import pandas as pd
 
-DATA = "/home/hatch/workspace/nfl-model/data"
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA = os.path.join(REPO_ROOT, "data")
 JOURNAL = f"{DATA}/miss_journal.csv"
 
 

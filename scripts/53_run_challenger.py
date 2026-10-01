@@ -43,8 +43,9 @@ ratings_mod = import_module("03_ratings")
 from model_lib import (add_features, add_wind, make_gbm, MARGIN_FEATS,
                        TOTAL_FEATS, EPA_M_FEATS, GBM_BACKEND)
 
-DATA = "/home/hatch/workspace/nfl-model/data"
-REGISTRY = "/home/hatch/workspace/nfl-model/challengers/registry.json"
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA = os.path.join(REPO_ROOT, "data")
+REGISTRY = os.path.join(REPO_ROOT, "challengers", "registry.json")
 
 
 def main():
