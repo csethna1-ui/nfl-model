@@ -115,7 +115,7 @@ and I'll create the repo, push, deploy to Pages, and QA the public URL.**
 ## Deployment record (2026-10-01)
 
 - Repository: https://github.com/csethna1-ui/nfl-model (public, owner csethna1-ui)
-- Pushed via one-time classic PAT (repo + workflow scopes), used transiently and discarded after push. PAT deleted by owner after.
+- Pushed via one-time classic PAT (repo + workflow scopes), used transiently and discarded after push. **PAT revocation is UNCONFIRMED — the owner still needs to delete/revoke it in GitHub Settings → Developer settings → Personal access tokens.** The local git remote was scrubbed of the token (origin is now the plain HTTPS URL); no token remains in the assistant's files. Never reproduce or reuse the old token.
 - Commits: c776c32b (full migration, 758 files) + d071b02c (removed binary-transfer test file)
 - GitHub Pages: enabled via API, build_type=workflow
 - Public URL: https://csethna1-ui.github.io/nfl-model/
