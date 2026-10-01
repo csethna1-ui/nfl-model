@@ -10,6 +10,7 @@
     return (LOGO_SLUG[abbr] || String(abbr).toLowerCase());
   };
   var PLAYER_IDS = {}; // "PLAYER|TEAM" -> espn_id
+  var IDS_LOADED = false;
 
   function imgTag(src, cls) {
     return '<img src="' + src + '"' + (cls ? ' class="' + cls + '"' : '') +
@@ -54,8 +55,9 @@
     var avs = (root || document).querySelectorAll('.avatar:not([data-imgen])');
     for (var i = 0; i < avs.length; i++) {
       (function (a) {
+        if (a.querySelector('img.hs')) { a.setAttribute('data-imgen','1'); return; }
+        if (!IDS_LOADED) return; /* IDs not ready yet — leave unstamped so the post-fetch pass picks this up */
         a.setAttribute('data-imgen', '1');
-        if (a.querySelector('img.hs')) return;
         var pt = playerTeamFor(a);
         if (!pt) return;
         var id = PLAYER_IDS[pt.name + '|' + pt.team] ||
@@ -86,6 +88,7 @@
             if (!PLAYER_IDS[r.player + '|']) PLAYER_IDS[r.player + '|'] = r.espn_id;
           }
         });
+        IDS_LOADED = true;
         enhance();
       })
       .catch(function () {});
