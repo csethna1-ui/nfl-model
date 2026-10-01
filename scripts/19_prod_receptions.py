@@ -62,7 +62,7 @@ from zoneinfo import ZoneInfo
 import numpy as np
 import pandas as pd
 
-REPO = os.path.expanduser("~/workspace/nfl-model")
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root, location-independent
 DATA = os.path.join(REPO, "data")
 EXP3A = os.path.join(REPO, "experiments/props_experiment_003_market_expansion",
                      "003A_receptions")
