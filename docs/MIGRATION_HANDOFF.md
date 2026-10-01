@@ -111,3 +111,16 @@ existing runbooks. License: MIT.
 
 The migration is complete and verified except the push itself: **say the word
 and I'll create the repo, push, deploy to Pages, and QA the public URL.**
+
+## Deployment record (2026-10-01)
+
+- Repository: https://github.com/csethna1-ui/nfl-model (public, owner csethna1-ui)
+- Pushed via one-time classic PAT (repo + workflow scopes), used transiently and discarded after push. PAT deleted by owner after.
+- Commits: c776c32b (full migration, 758 files) + d071b02c (removed binary-transfer test file)
+- GitHub Pages: enabled via API, build_type=workflow
+- Public URL: https://csethna1-ui.github.io/nfl-model/
+- Deploy workflow "Validate and Deploy Dashboard": completed success on first run
+- Data verification: all 11 dashboard JSON files byte-identical between live site and canonical exporter output
+- 006 experiment re-synced from live before push (clean NULL verdict 2026-10-01)
+- Live crons in ~/workspace/nfl-model/ UNCHANGED (still active; handoff pending QA pass)
+- Old Muse dashboard URL remains active until QA passes
