@@ -33,6 +33,17 @@
    "clv_n": 2,
    "clv_avg_pts": 0.25,
    "clv_hit_rate": 0.5
+  },
+  {
+   "season": 2026,
+   "week": 4,
+   "w": 0,
+   "l": 0,
+   "push": 0,
+   "pending": 3,
+   "clv_n": 0,
+   "clv_avg_pts": null,
+   "clv_hit_rate": null
   }
  ],
  "season": {
@@ -236,6 +247,84 @@
    "result": "void",
    "void": true,
    "void_reason": "VOID \u2014 QB out: Caleb Williams -> Case Keenum (edge +5.2 -> +1.2)",
+   "clv_pts": null
+  },
+  {
+   "season": 2026,
+   "week": 4,
+   "game": "ATL @ NO",
+   "pick": "ATL +3.5",
+   "market_spread": 3.5,
+   "edge": -4.4,
+   "final": null,
+   "result": "pending",
+   "void": false,
+   "void_reason": null,
+   "clv_pts": null
+  },
+  {
+   "season": 2026,
+   "week": 4,
+   "game": "GB @ TB",
+   "pick": "TB +1.5",
+   "market_spread": -3.5,
+   "edge": 0.6,
+   "final": null,
+   "result": "void",
+   "void": true,
+   "void_reason": "VETOED \u2014 market confirms QB-adjusted number (|-2.9 - (-3.5)| <= 1.0); raw edge +5.1 was stale QB news: TB Baker Mayfield -> Jalon Daniels",
+   "clv_pts": null
+  },
+  {
+   "season": 2026,
+   "week": 4,
+   "game": "IND @ WAS",
+   "pick": "WAS +4.5",
+   "market_spread": -4.5,
+   "edge": -0.1,
+   "final": null,
+   "result": "void",
+   "void": true,
+   "void_reason": "VETOED \u2014 market confirms QB-adjusted number (|-4.6 - (-4.5)| <= 1.0); raw edge +5.4 was stale QB news: WAS Jayden Daniels -> Marcus Mariota",
+   "clv_pts": null
+  },
+  {
+   "season": 2026,
+   "week": 4,
+   "game": "JAX @ CIN",
+   "pick": "JAX +2.5",
+   "market_spread": 2.5,
+   "edge": -4.5,
+   "final": null,
+   "result": "pending",
+   "void": false,
+   "void_reason": null,
+   "clv_pts": null
+  },
+  {
+   "season": 2026,
+   "week": 4,
+   "game": "LAC @ SEA",
+   "pick": "SEA -6.5",
+   "market_spread": 6.5,
+   "edge": 3.8,
+   "final": null,
+   "result": "pending",
+   "void": false,
+   "void_reason": null,
+   "clv_pts": null
+  },
+  {
+   "season": 2026,
+   "week": 4,
+   "game": "NYJ @ CHI",
+   "pick": "CHI -3.0",
+   "market_spread": 3.0,
+   "edge": -0.1,
+   "final": null,
+   "result": "void",
+   "void": true,
+   "void_reason": "VETOED \u2014 market confirms QB-adjusted number (|2.9 - (+3.0)| <= 1.0); raw edge +5.9 was stale QB news: CHI Caleb Williams -> Case Keenum",
    "clv_pts": null
   }
  ]

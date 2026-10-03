@@ -2,12 +2,12 @@
  "model_version": "V1",
  "season": 2026,
  "available": true,
- "as_of": "2026-10-01T13:20:05+00:00",
- "snapshot_rows": 950,
+ "as_of": "2026-10-02T13:20:06+00:00",
+ "snapshot_rows": 1025,
  "status_counts": {
   "doubtful": 19,
-  "out": 146,
-  "questionable": 122
+  "out": 151,
+  "questionable": 124
  },
  "starting_qb_flags": [
   {
@@ -165,7 +165,7 @@
    "triggers_void": true
   }
  ],
- "n_notable_injuries": 287,
+ "n_notable_injuries": 294,
  "notable_injuries": [
   {
    "player": "Garrett Williams",
@@ -619,16 +619,14 @@
   }
  ],
  "latest_diff": {
-  "event": "diff",
-  "from": null,
-  "to": "2026-10-01",
-  "new_out": 0,
-  "new_doubtful": 0,
-  "new_questionable": 0,
-  "status_change": 0,
-  "qb_flags": [],
-  "ts": "2026-10-01T13:20:11+00:00"
+  "event": "friday_freeze",
+  "season": 2026,
+  "week": 5,
+  "dest": "/home/hatch/workspace/nfl-model-github/data/injuries/availability_friday_2026_w5.json",
+  "ts": "2026-10-02T23:26:05+00:00"
  },
- "friday_frozen_files": [],
+ "friday_frozen_files": [
+  "availability_friday_2026_w5.json"
+ ],
  "note": "Statuses are the latest nflverse weekly snapshot; the feed has no per-row date_modified, so 'when the market learned it' is NOT in this data."
 }

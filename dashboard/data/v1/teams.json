@@ -1,12 +1,12 @@
 {
  "model_version": "V1",
- "label": "Current Ratings \u2014 Pre-Game Week 4",
+ "label": "Current Ratings \u2014 Pre-Game Week 5",
  "season": 2026,
- "week": 4,
- "data_through": "Week 3 (all 16 games, incl. Sun/Mon)",
- "data_as_of": "2026-09-28 00:00:00",
- "latest_game_included": "2026_03_TEN_NYG",
- "snapshot_generated_at": "2026-09-30T18:39:34.438320+00:00",
+ "week": 5,
+ "data_through": "Week 4 (all 16 games, incl. Sun/Mon)",
+ "data_as_of": "2026-10-01 00:00:00",
+ "latest_game_included": "2026_04_PIT_CLE",
+ "snapshot_generated_at": "2026-10-02T23:46:57.626245+00:00",
  "note": "What V1 actually used for this week's predictions. Ratings incorporate completed games through the prediction cutoff; Week 4 future games are excluded. Same rating snapshot that generated the Week 4 V1 predictions \u2014 verified by exact 16/16 reproduction (see predictions.json provenance).",
  "teams": [
   {
@@ -95,15 +95,15 @@
   },
   {
    "team": "CLE",
-   "elo": 1433.074,
-   "off_epa": -0.083,
-   "def_epa": -0.037,
-   "off_sr": 0.334,
-   "def_sr": 0.371,
-   "off_pass_epa": -0.06,
-   "off_rush_epa": -0.125,
-   "def_pass_epa": -0.054,
-   "def_rush_epa": 0.015
+   "elo": 1447.903,
+   "off_epa": -0.037,
+   "def_epa": -0.01,
+   "off_sr": 0.371,
+   "def_sr": 0.395,
+   "off_pass_epa": 0.02,
+   "off_rush_epa": -0.126,
+   "def_pass_epa": -0.028,
+   "def_rush_epa": 0.039
   },
   {
    "team": "DAL",
@@ -323,15 +323,15 @@
   },
   {
    "team": "PIT",
-   "elo": 1517.309,
-   "off_epa": -0.091,
-   "def_epa": 0.019,
-   "off_sr": 0.346,
-   "def_sr": 0.385,
-   "off_pass_epa": -0.117,
-   "off_rush_epa": -0.036,
-   "def_pass_epa": -0.009,
-   "def_rush_epa": 0.003
+   "elo": 1502.479,
+   "off_epa": -0.051,
+   "def_epa": 0.039,
+   "off_sr": 0.377,
+   "def_sr": 0.409,
+   "off_pass_epa": -0.075,
+   "off_rush_epa": 0.001,
+   "def_pass_epa": 0.059,
+   "def_rush_epa": -0.03
   },
   {
    "team": "SEA",

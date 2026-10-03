@@ -3,8 +3,8 @@
  "ensemble": "0.4 * ELO + 0.5 * EPA-linear + 0.1 * GBM",
  "threshold": 3.0,
  "season": 2026,
- "latest_week": 4,
- "generated_at": "2026-10-01 19:17 UTC",
+ "latest_week": 5,
+ "generated_at": "2026-10-02 23:47 UTC",
  "lines_note": "Weekly picks use Friday researched lines; CLV is measured vs the nflverse close proxy.",
  "disclaimer": "Experimental NFL analytics / paper-tracking system. No verified betting edge. Not betting advice; no real-money recommendations."
 }
