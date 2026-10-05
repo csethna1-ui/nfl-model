@@ -1,0 +1,64 @@
+{
+ "model_version": "V1",
+ "season": 2026,
+ "week": 4,
+ "status": "partial",
+ "games_graded": 15,
+ "note": "Through 15 of 16 games; remaining game(s) pending.",
+ "summary": {
+  "n_matched": 286,
+  "graded": 256,
+  "wins": 137,
+  "losses": 119,
+  "pushes": 0,
+  "dnps": 30,
+  "win_pct": 0.5352
+ },
+ "by_market": {
+  "pass_yards": {
+   "n": 26,
+   "wins": 9,
+   "losses": 17,
+   "pushes": 0,
+   "win_pct": 0.3462
+  },
+  "rush_yards": {
+   "n": 42,
+   "wins": 17,
+   "losses": 25,
+   "pushes": 0,
+   "win_pct": 0.4048
+  },
+  "receptions": {
+   "n": 93,
+   "wins": 53,
+   "losses": 40,
+   "pushes": 0,
+   "win_pct": 0.5699
+  },
+  "receiving_yards": {
+   "n": 95,
+   "wins": 58,
+   "losses": 37,
+   "pushes": 0,
+   "win_pct": 0.6105
+  }
+ },
+ "by_model": {
+  "Model D": {
+   "n": 163,
+   "wins": 84,
+   "losses": 79,
+   "pushes": 0,
+   "win_pct": 0.5153
+  },
+  "003A": {
+   "n": 93,
+   "wins": 53,
+   "losses": 40,
+   "pushes": 0,
+   "win_pct": 0.5699
+  }
+ },
+ "disclaimer": "Experimental paper-track. Frozen projections vs Friday 18:00 CT cutoff lines; DNPs excluded, never scored as zero. No verified betting edge. Not betting advice."
+}
