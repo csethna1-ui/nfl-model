@@ -2,12 +2,12 @@
  "model_version": "V1",
  "season": 2026,
  "available": true,
- "as_of": "2026-10-02T13:20:06+00:00",
- "snapshot_rows": 1025,
+ "as_of": "2026-10-09T13:20:08+00:00",
+ "snapshot_rows": 1398,
  "status_counts": {
-  "doubtful": 19,
-  "out": 151,
-  "questionable": 124
+  "doubtful": 21,
+  "out": 224,
+  "questionable": 187
  },
  "starting_qb_flags": [
   {
@@ -66,6 +66,17 @@
    "triggers_void": true
   },
   {
+   "player": "Caleb Williams",
+   "team": "CHI",
+   "position": "QB",
+   "week": 4,
+   "report_status": "Out",
+   "practice_status": "Did Not Participate In Practice",
+   "primary_injury": "Hamstring",
+   "is_expected_starter": true,
+   "triggers_void": true
+  },
+  {
    "player": "Tyson Bagent",
    "team": "CHI",
    "position": "QB",
@@ -110,6 +121,17 @@
    "triggers_void": false
   },
   {
+   "player": "Trey Lance",
+   "team": "LAC",
+   "position": "QB",
+   "week": 4,
+   "report_status": "Questionable",
+   "practice_status": "Limited Participation in Practice",
+   "primary_injury": "Groin",
+   "is_expected_starter": false,
+   "triggers_void": false
+  },
+  {
    "player": "Aidan O'Connell",
    "team": "LV",
    "position": "QB",
@@ -125,6 +147,17 @@
    "team": "LV",
    "position": "QB",
    "week": 3,
+   "report_status": "Questionable",
+   "practice_status": "Did Not Participate In Practice",
+   "primary_injury": "Not injury related - personal matter",
+   "is_expected_starter": false,
+   "triggers_void": false
+  },
+  {
+   "player": "Aidan O'Connell",
+   "team": "LV",
+   "position": "QB",
+   "week": 4,
    "report_status": "Questionable",
    "practice_status": "Did Not Participate In Practice",
    "primary_injury": "Not injury related - personal matter",
@@ -154,6 +187,28 @@
    "triggers_void": true
   },
   {
+   "player": "Baker Mayfield",
+   "team": "TB",
+   "position": "QB",
+   "week": 4,
+   "report_status": "Out",
+   "practice_status": "Did Not Participate In Practice",
+   "primary_injury": "Thumb",
+   "is_expected_starter": true,
+   "triggers_void": true
+  },
+  {
+   "player": "Baker Mayfield",
+   "team": "TB",
+   "position": "QB",
+   "week": 5,
+   "report_status": "Out",
+   "practice_status": "Did Not Participate In Practice",
+   "primary_injury": "Thumb",
+   "is_expected_starter": true,
+   "triggers_void": true
+  },
+  {
    "player": "Jayden Daniels",
    "team": "WAS",
    "position": "QB",
@@ -163,9 +218,20 @@
    "primary_injury": "Elbow",
    "is_expected_starter": true,
    "triggers_void": true
+  },
+  {
+   "player": "Jayden Daniels",
+   "team": "WAS",
+   "position": "QB",
+   "week": 4,
+   "report_status": "Out",
+   "practice_status": "Limited Participation in Practice",
+   "primary_injury": "Elbow",
+   "is_expected_starter": true,
+   "triggers_void": true
   }
  ],
- "n_notable_injuries": 294,
+ "n_notable_injuries": 432,
  "notable_injuries": [
   {
    "player": "Garrett Williams",
@@ -258,6 +324,15 @@
    "primary_injury": "Knee"
   },
   {
+   "player": "Josh Sweat",
+   "team": "ARI",
+   "position": "LB",
+   "week": 4,
+   "report_status": "Questionable",
+   "practice_status": "Limited Participation in Practice",
+   "primary_injury": "Not injury related - resting player"
+  },
+  {
    "player": "Jeremiyah Love",
    "team": "ARI",
    "position": "RB",
@@ -289,6 +364,15 @@
    "team": "ARI",
    "position": "S",
    "week": 3,
+   "report_status": "Out",
+   "practice_status": "Did Not Participate In Practice",
+   "primary_injury": "Back"
+  },
+  {
+   "player": "Dadrion Taylor-Demerson",
+   "team": "ARI",
+   "position": "S",
+   "week": 4,
    "report_status": "Out",
    "practice_status": "Did Not Participate In Practice",
    "primary_injury": "Back"
@@ -339,6 +423,15 @@
    "primary_injury": "Hamstring"
   },
   {
+   "player": "Samson Ebukam",
+   "team": "ATL",
+   "position": "DE",
+   "week": 4,
+   "report_status": "Questionable",
+   "practice_status": "Full Participation in Practice",
+   "primary_injury": "Hamstring"
+  },
+  {
    "player": "Za'Darius Smith",
    "team": "ATL",
    "position": "DE",
@@ -355,6 +448,24 @@
    "report_status": "Questionable",
    "practice_status": "Full Participation in Practice",
    "primary_injury": "Concussion"
+  },
+  {
+   "player": "Divine Deablo",
+   "team": "ATL",
+   "position": "LB",
+   "week": 4,
+   "report_status": "Questionable",
+   "practice_status": "Limited Participation in Practice",
+   "primary_injury": "Hamstring"
+  },
+  {
+   "player": "Yasir Abdullah",
+   "team": "ATL",
+   "position": "LB",
+   "week": 4,
+   "report_status": "Questionable",
+   "practice_status": "Full Participation in Practice",
+   "primary_injury": "Illness"
   },
   {
    "player": "Michael Penix Jr.",
@@ -397,6 +508,24 @@
    "team": "ATL",
    "position": "T",
    "week": 1,
+   "report_status": "Out",
+   "practice_status": "Did Not Participate In Practice",
+   "primary_injury": "Ankle"
+  },
+  {
+   "player": "Ethan Pocic",
+   "team": "BAL",
+   "position": "C",
+   "week": 4,
+   "report_status": "Out",
+   "practice_status": "Did Not Participate In Practice",
+   "primary_injury": "Knee"
+  },
+  {
+   "player": "Jovaughn Gwyn",
+   "team": "BAL",
+   "position": "C",
+   "week": 4,
    "report_status": "Out",
    "practice_status": "Did Not Participate In Practice",
    "primary_injury": "Ankle"
@@ -465,6 +594,15 @@
    "primary_injury": "Finger"
   },
   {
+   "player": "Trey Hendrickson",
+   "team": "BAL",
+   "position": "LB",
+   "week": 4,
+   "report_status": "Out",
+   "practice_status": "Did Not Participate In Practice",
+   "primary_injury": "Finger"
+  },
+  {
    "player": "Ronnie Stanley",
    "team": "BAL",
    "position": "T",
@@ -481,6 +619,24 @@
    "report_status": "Out",
    "practice_status": "Did Not Participate In Practice",
    "primary_injury": "Toe"
+  },
+  {
+   "player": "Ronnie Stanley",
+   "team": "BAL",
+   "position": "T",
+   "week": 4,
+   "report_status": "Questionable",
+   "practice_status": "Did Not Participate In Practice",
+   "primary_injury": "Toe"
+  },
+  {
+   "player": "Chris Moore",
+   "team": "BAL",
+   "position": "WR",
+   "week": 4,
+   "report_status": "Questionable",
+   "practice_status": "Limited Participation in Practice",
+   "primary_injury": "Ankle"
   },
   {
    "player": "Devontez Walker",
@@ -510,120 +666,34 @@
    "primary_injury": "Hamstring"
   },
   {
-   "player": "Jordan Hancock",
+   "player": "Zay Flowers",
+   "team": "BAL",
+   "position": "WR",
+   "week": 4,
+   "report_status": "Questionable",
+   "practice_status": "Limited Participation in Practice",
+   "primary_injury": "Hamstring"
+  },
+  {
+   "player": "Christian Benford",
    "team": "BUF",
    "position": "CB",
-   "week": 1,
+   "week": 4,
    "report_status": "Questionable",
-   "practice_status": "Full Participation in Practice",
-   "primary_injury": "Quadricep"
-  },
-  {
-   "player": "Jordan Hancock",
-   "team": "BUF",
-   "position": "CB",
-   "week": 3,
-   "report_status": "Out",
    "practice_status": "Did Not Participate In Practice",
-   "primary_injury": "Hamstring"
-  },
-  {
-   "player": "T.J. Sanders",
-   "team": "BUF",
-   "position": "DE",
-   "week": 1,
-   "report_status": "Questionable",
-   "practice_status": "Limited Participation in Practice",
-   "primary_injury": "Knee"
-  },
-  {
-   "player": "T.J. Sanders",
-   "team": "BUF",
-   "position": "DE",
-   "week": 2,
-   "report_status": "Questionable",
-   "practice_status": "Limited Participation in Practice",
-   "primary_injury": "Knee"
-  },
-  {
-   "player": "T.J. Sanders",
-   "team": "BUF",
-   "position": "DE",
-   "week": 3,
-   "report_status": "Out",
-   "practice_status": "Did Not Participate In Practice",
-   "primary_injury": "Illness"
-  },
-  {
-   "player": "Ed Oliver",
-   "team": "BUF",
-   "position": "DT",
-   "week": 3,
-   "report_status": "Questionable",
-   "practice_status": "Full Participation in Practice",
-   "primary_injury": "Hip"
-  },
-  {
-   "player": "Ar'maj Reed-Adams",
-   "team": "BUF",
-   "position": "G",
-   "week": 3,
-   "report_status": "Questionable",
-   "practice_status": "Limited Participation in Practice",
-   "primary_injury": "Elbow"
-  },
-  {
-   "player": "Ty Johnson",
-   "team": "BUF",
-   "position": "RB",
-   "week": 1,
-   "report_status": "Questionable",
-   "practice_status": "Limited Participation in Practice",
-   "primary_injury": "Hamstring"
-  },
-  {
-   "player": "Ty Johnson",
-   "team": "BUF",
-   "position": "RB",
-   "week": 2,
-   "report_status": "Questionable",
-   "practice_status": "Limited Participation in Practice",
-   "primary_injury": "Hamstring"
-  },
-  {
-   "player": "Cole Bishop",
-   "team": "BUF",
-   "position": "S",
-   "week": 2,
-   "report_status": "Questionable",
-   "practice_status": "Limited Participation in Practice",
-   "primary_injury": "Knee"
-  },
-  {
-   "player": "DJ Moore",
-   "team": "BUF",
-   "position": "WR",
-   "week": 3,
-   "report_status": "Questionable",
-   "practice_status": "Limited Participation in Practice",
-   "primary_injury": "Shoulder"
-  },
-  {
-   "player": "Keon Coleman",
-   "team": "BUF",
-   "position": "WR",
-   "week": 3,
-   "report_status": "Questionable",
-   "practice_status": "Limited Participation in Practice",
-   "primary_injury": "Ankle"
+   "primary_injury": "Toe"
   }
  ],
  "latest_diff": {
-  "event": "friday_freeze",
-  "season": 2026,
-  "week": 5,
-  "dest": "/home/hatch/workspace/nfl-model-github/data/injuries/availability_friday_2026_w5.json",
-  "ts": "2026-10-02T23:26:05+00:00"
+  "event": "diff",
+  "from": null,
+  "to": "2026-10-09",
+  "new_out": 0,
+  "new_doubtful": 0,
+  "new_questionable": 0,
+  "status_change": 0,
+  "qb_flags": [],
+  "ts": "2026-10-09T13:20:12+00:00"
  },
  "friday_frozen_files": [
   "availability_friday_2026_w5.json"

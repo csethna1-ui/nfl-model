@@ -8,60 +8,65 @@
    "away": "BAL",
    "home": "ATL",
    "kickoff": "Sun Oct 11, 8:20 PM ET",
-   "model_spread": -3.2,
-   "market_spread": -6.5,
-   "edge": 3.3,
-   "model_win_prob": 0.425,
+   "model_spread": -0.1,
+   "market_spread": 3.5,
+   "edge": -3.6,
+   "model_win_prob": 0.52,
    "components": {
     "elo_margin": -4.25,
     "epa_margin": -2.17,
-    "gbm_margin": -4.14
+    "gbm_margin": 26.86
    },
    "elo_diff": -108.38,
-   "spread_pick": "ATL +6.5",
-   "spread_pick_final": "ATL +6.5",
+   "spread_pick": "BAL +3.5",
+   "spread_pick_final": "BAL +3.5",
    "void_reason": "",
-   "qb_news": "",
+   "qb_news": "BAL away QB OUT: Lamar Jackson -> Tyler Huntley (shift 6.5 pts) [manual]",
    "is_pick": true,
    "qb_overlay": {
-    "expected_qb_away": "Lamar Jackson",
+    "expected_qb_away": "Tyler Huntley",
     "expected_qb_home": "Michael Penix Jr.",
-    "qb_change_side": null,
-    "qb_change_note": null,
-    "qb_shift_pts": null,
+    "qb_change_side": "away",
+    "qb_change_note": "BAL away QB OUT: Lamar Jackson -> Tyler Huntley (shift 6.5 pts) [manual]",
+    "qb_shift_pts": 6.5,
     "qb_double_count_risk": false,
-    "model_spread_adj": -3.2,
-    "edge_adj": 3.3,
-    "model_win_prob_adj": null,
+    "model_spread_adj": 6.4,
+    "edge_adj": 2.9,
+    "model_win_prob_adj": 0.706,
     "stale_qb_veto": false,
     "final_status": "PICK",
     "overlay_note": "Adjusted prediction is an experimental derived overlay, not a V1 rerun. When double-count risk is flagged, the backup already started games in V1's rating sample: treat raw as the aggressive bound and adjusted as the conservative bound."
    },
-   "market_spread_live": null,
-   "market_total_live": null,
-   "market_live_book": null,
-   "market_live_books": {}
+   "market_spread_live": -2.5,
+   "market_total_live": 48.5,
+   "market_live_book": "bovada",
+   "market_live_books": {
+    "bovada": {
+     "spread_home": -2.5,
+     "total": 48.5
+    }
+   }
   },
   {
    "game": "BUF @ LA",
    "away": "BUF",
    "home": "LA",
    "kickoff": "Mon Oct 12, 8:15 PM ET",
-   "model_spread": -1.9,
-   "market_spread": 2.5,
-   "edge": -4.4,
-   "model_win_prob": 0.465,
+   "model_spread": 1.1,
+   "market_spread": 3.0,
+   "edge": -1.9,
+   "model_win_prob": 0.556,
    "components": {
     "elo_margin": -2.94,
     "epa_margin": -0.92,
-    "gbm_margin": -2.64
+    "gbm_margin": 27.36
    },
    "elo_diff": -79.27,
-   "spread_pick": "BUF +2.5",
-   "spread_pick_final": "BUF +2.5",
+   "spread_pick": "no play",
+   "spread_pick_final": "no play",
    "void_reason": "",
    "qb_news": "",
-   "is_pick": true,
+   "is_pick": false,
    "qb_overlay": {
     "expected_qb_away": "Josh Allen",
     "expected_qb_home": "Matthew Stafford",
@@ -69,17 +74,22 @@
     "qb_change_note": null,
     "qb_shift_pts": null,
     "qb_double_count_risk": false,
-    "model_spread_adj": -1.9,
-    "edge_adj": -4.4,
+    "model_spread_adj": 1.1,
+    "edge_adj": -1.9,
     "model_win_prob_adj": null,
     "stale_qb_veto": false,
-    "final_status": "PICK",
+    "final_status": "NO PLAY",
     "overlay_note": "Adjusted prediction is an experimental derived overlay, not a V1 rerun. When double-count risk is flagged, the backup already started games in V1's rating sample: treat raw as the aggressive bound and adjusted as the conservative bound."
    },
-   "market_spread_live": null,
-   "market_total_live": null,
-   "market_live_book": null,
-   "market_live_books": {}
+   "market_spread_live": 3.0,
+   "market_total_live": 54.0,
+   "market_live_book": "bovada",
+   "market_live_books": {
+    "bovada": {
+     "spread_home": 3.0,
+     "total": 54.0
+    }
+   }
   },
   {
    "game": "CHI @ GB",
@@ -87,8 +97,8 @@
    "home": "GB",
    "kickoff": "Sun Oct 11, 1:00 PM ET",
    "model_spread": -5.0,
-   "market_spread": 2.5,
-   "edge": -7.5,
+   "market_spread": -1.5,
+   "edge": -3.5,
    "model_win_prob": 0.372,
    "components": {
     "elo_margin": -2.96,
@@ -96,43 +106,48 @@
     "gbm_margin": -0.24
    },
    "elo_diff": -79.66,
-   "spread_pick": "CHI +2.5",
-   "spread_pick_final": "CHI +2.5",
+   "spread_pick": "CHI -1.5",
+   "spread_pick_final": "CHI -1.5",
    "void_reason": "",
-   "qb_news": "CHI away QB DOUBTFUL: Caleb Williams -> Case Keenum (shift 6.0 pts) [manual] DOUBLE-COUNT RISK",
+   "qb_news": "CHI away QB DOUBTFUL: Caleb Williams -> Tyson Bagent (shift 6.0 pts) [manual] DOUBLE-COUNT RISK",
    "is_pick": true,
    "qb_overlay": {
-    "expected_qb_away": "Case Keenum",
+    "expected_qb_away": "Tyson Bagent",
     "expected_qb_home": "Jordan Love",
     "qb_change_side": "away",
-    "qb_change_note": "CHI away QB DOUBTFUL: Caleb Williams -> Case Keenum (shift 6.0 pts) [manual] DOUBLE-COUNT RISK",
+    "qb_change_note": "CHI away QB DOUBTFUL: Caleb Williams -> Tyson Bagent (shift 6.0 pts) [manual] DOUBLE-COUNT RISK",
     "qb_shift_pts": 6.0,
     "qb_double_count_risk": true,
     "model_spread_adj": 1.0,
-    "edge_adj": -1.5,
+    "edge_adj": 2.5,
     "model_win_prob_adj": 0.553,
     "stale_qb_veto": false,
     "final_status": "PICK",
     "overlay_note": "Adjusted prediction is an experimental derived overlay, not a V1 rerun. When double-count risk is flagged, the backup already started games in V1's rating sample: treat raw as the aggressive bound and adjusted as the conservative bound."
    },
-   "market_spread_live": null,
-   "market_total_live": null,
-   "market_live_book": null,
-   "market_live_books": {}
+   "market_spread_live": -3.0,
+   "market_total_live": 45.0,
+   "market_live_book": "bovada",
+   "market_live_books": {
+    "bovada": {
+     "spread_home": -3.0,
+     "total": 45.0
+    }
+   }
   },
   {
    "game": "CIN @ MIA",
    "away": "CIN",
    "home": "MIA",
    "kickoff": "Sun Oct 11, 1:00 PM ET",
-   "model_spread": -9.1,
-   "market_spread": -8.5,
-   "edge": -0.6,
-   "model_win_prob": 0.264,
+   "model_spread": -7.2,
+   "market_spread": -7.0,
+   "edge": -0.2,
+   "model_win_prob": 0.312,
    "components": {
     "elo_margin": -4.95,
     "epa_margin": -12.28,
-    "gbm_margin": -9.79
+    "gbm_margin": 9.21
    },
    "elo_diff": -124.0,
    "spread_pick": "no play",
@@ -147,31 +162,36 @@
     "qb_change_note": null,
     "qb_shift_pts": null,
     "qb_double_count_risk": false,
-    "model_spread_adj": -9.1,
-    "edge_adj": -0.6,
+    "model_spread_adj": -7.2,
+    "edge_adj": -0.2,
     "model_win_prob_adj": null,
     "stale_qb_veto": false,
     "final_status": "NO PLAY",
     "overlay_note": "Adjusted prediction is an experimental derived overlay, not a V1 rerun. When double-count risk is flagged, the backup already started games in V1's rating sample: treat raw as the aggressive bound and adjusted as the conservative bound."
    },
-   "market_spread_live": null,
-   "market_total_live": null,
-   "market_live_book": null,
-   "market_live_books": {}
+   "market_spread_live": -7.0,
+   "market_total_live": 42.0,
+   "market_live_book": "bovada",
+   "market_live_books": {
+    "bovada": {
+     "spread_home": -7.0,
+     "total": 42.0
+    }
+   }
   },
   {
    "game": "CLE @ NYJ",
    "away": "CLE",
    "home": "NYJ",
    "kickoff": "Sun Oct 11, 1:00 PM ET",
-   "model_spread": -2.2,
+   "model_spread": -2.7,
    "market_spread": 2.5,
-   "edge": -4.7,
-   "model_win_prob": 0.455,
+   "edge": -5.2,
+   "model_win_prob": 0.44,
    "components": {
     "elo_margin": -3.04,
     "epa_margin": -1.39,
-    "gbm_margin": -2.92
+    "gbm_margin": -7.92
    },
    "elo_diff": -81.49,
    "spread_pick": "CLE +2.5",
@@ -186,31 +206,36 @@
     "qb_change_note": null,
     "qb_shift_pts": null,
     "qb_double_count_risk": false,
-    "model_spread_adj": -2.2,
-    "edge_adj": -4.7,
+    "model_spread_adj": -2.7,
+    "edge_adj": -5.2,
     "model_win_prob_adj": null,
     "stale_qb_veto": false,
     "final_status": "PICK",
     "overlay_note": "Adjusted prediction is an experimental derived overlay, not a V1 rerun. When double-count risk is flagged, the backup already started games in V1's rating sample: treat raw as the aggressive bound and adjusted as the conservative bound."
    },
-   "market_spread_live": null,
-   "market_total_live": null,
-   "market_live_book": null,
-   "market_live_books": {}
+   "market_spread_live": 2.0,
+   "market_total_live": 39.5,
+   "market_live_book": "bovada",
+   "market_live_books": {
+    "bovada": {
+     "spread_home": 2.0,
+     "total": 39.5
+    }
+   }
   },
   {
    "game": "DEN @ LAC",
    "away": "DEN",
    "home": "LAC",
    "kickoff": "Sun Oct 11, 4:05 PM ET",
-   "model_spread": -3.6,
-   "market_spread": -2.5,
-   "edge": -1.1,
-   "model_win_prob": 0.413,
+   "model_spread": -3.0,
+   "market_spread": -3.5,
+   "edge": 0.5,
+   "model_win_prob": 0.431,
    "components": {
     "elo_margin": -6.34,
     "epa_margin": -1.55,
-    "gbm_margin": -2.89
+    "gbm_margin": 3.11
    },
    "elo_diff": -154.75,
    "spread_pick": "no play",
@@ -225,31 +250,36 @@
     "qb_change_note": null,
     "qb_shift_pts": null,
     "qb_double_count_risk": false,
-    "model_spread_adj": -3.6,
-    "edge_adj": -1.1,
+    "model_spread_adj": -3.0,
+    "edge_adj": 0.5,
     "model_win_prob_adj": null,
     "stale_qb_veto": false,
     "final_status": "NO PLAY",
     "overlay_note": "Adjusted prediction is an experimental derived overlay, not a V1 rerun. When double-count risk is flagged, the backup already started games in V1's rating sample: treat raw as the aggressive bound and adjusted as the conservative bound."
    },
-   "market_spread_live": null,
-   "market_total_live": null,
-   "market_live_book": null,
-   "market_live_books": {}
+   "market_spread_live": -3.5,
+   "market_total_live": 42.0,
+   "market_live_book": "bovada",
+   "market_live_books": {
+    "bovada": {
+     "spread_home": -3.5,
+     "total": 42.0
+    }
+   }
   },
   {
    "game": "DET @ ARI",
    "away": "DET",
    "home": "ARI",
    "kickoff": "Sun Oct 11, 4:25 PM ET",
-   "model_spread": -5.2,
+   "model_spread": -4.2,
    "market_spread": -5.5,
-   "edge": 0.3,
-   "model_win_prob": 0.367,
+   "edge": 1.3,
+   "model_win_prob": 0.395,
    "components": {
     "elo_margin": -6.21,
     "epa_margin": -4.96,
-    "gbm_margin": -2.38
+    "gbm_margin": 7.62
    },
    "elo_diff": -151.86,
    "spread_pick": "no play",
@@ -264,31 +294,36 @@
     "qb_change_note": null,
     "qb_shift_pts": null,
     "qb_double_count_risk": false,
-    "model_spread_adj": -5.2,
-    "edge_adj": 0.3,
+    "model_spread_adj": -4.2,
+    "edge_adj": 1.3,
     "model_win_prob_adj": null,
     "stale_qb_veto": false,
     "final_status": "NO PLAY",
     "overlay_note": "Adjusted prediction is an experimental derived overlay, not a V1 rerun. When double-count risk is flagged, the backup already started games in V1's rating sample: treat raw as the aggressive bound and adjusted as the conservative bound."
    },
-   "market_spread_live": null,
-   "market_total_live": null,
-   "market_live_book": null,
-   "market_live_books": {}
+   "market_spread_live": -4.5,
+   "market_total_live": 54.5,
+   "market_live_book": "bovada",
+   "market_live_books": {
+    "bovada": {
+     "spread_home": -4.5,
+     "total": 54.5
+    }
+   }
   },
   {
    "game": "HOU @ TEN",
    "away": "HOU",
    "home": "TEN",
    "kickoff": "Sun Oct 11, 1:00 PM ET",
-   "model_spread": -5.6,
-   "market_spread": -6.5,
-   "edge": 0.9,
-   "model_win_prob": 0.355,
+   "model_spread": -6.5,
+   "market_spread": -7.0,
+   "edge": 0.5,
+   "model_win_prob": 0.33,
    "components": {
     "elo_margin": -9.93,
     "epa_margin": -1.35,
-    "gbm_margin": -9.56
+    "gbm_margin": -18.56
    },
    "elo_diff": -234.35,
    "spread_pick": "no play",
@@ -303,31 +338,36 @@
     "qb_change_note": null,
     "qb_shift_pts": null,
     "qb_double_count_risk": false,
-    "model_spread_adj": -5.6,
-    "edge_adj": 0.9,
+    "model_spread_adj": -6.5,
+    "edge_adj": 0.5,
     "model_win_prob_adj": null,
     "stale_qb_veto": false,
     "final_status": "NO PLAY",
     "overlay_note": "Adjusted prediction is an experimental derived overlay, not a V1 rerun. When double-count risk is flagged, the backup already started games in V1's rating sample: treat raw as the aggressive bound and adjusted as the conservative bound."
    },
-   "market_spread_live": null,
-   "market_total_live": null,
-   "market_live_book": null,
-   "market_live_books": {}
+   "market_spread_live": -7.0,
+   "market_total_live": 39.5,
+   "market_live_book": "bovada",
+   "market_live_books": {
+    "bovada": {
+     "spread_home": -7.0,
+     "total": 39.5
+    }
+   }
   },
   {
    "game": "IND @ PIT",
    "away": "IND",
    "home": "PIT",
    "kickoff": "Sun Oct 11, 1:00 PM ET",
-   "model_spread": 2.7,
-   "market_spread": 2.5,
-   "edge": 0.2,
-   "model_win_prob": 0.604,
+   "model_spread": 0.1,
+   "market_spread": 3.0,
+   "edge": -2.9,
+   "model_win_prob": 0.526,
    "components": {
     "elo_margin": 3.37,
     "epa_margin": 2.12,
-    "gbm_margin": 2.92
+    "gbm_margin": -23.08
    },
    "elo_diff": 60.77,
    "spread_pick": "no play",
@@ -342,31 +382,36 @@
     "qb_change_note": null,
     "qb_shift_pts": null,
     "qb_double_count_risk": false,
-    "model_spread_adj": 2.7,
-    "edge_adj": 0.2,
+    "model_spread_adj": 0.1,
+    "edge_adj": -2.9,
     "model_win_prob_adj": null,
     "stale_qb_veto": false,
     "final_status": "NO PLAY",
     "overlay_note": "Adjusted prediction is an experimental derived overlay, not a V1 rerun. When double-count risk is flagged, the backup already started games in V1's rating sample: treat raw as the aggressive bound and adjusted as the conservative bound."
    },
-   "market_spread_live": null,
-   "market_total_live": null,
-   "market_live_book": null,
-   "market_live_books": {}
+   "market_spread_live": 2.5,
+   "market_total_live": 44.5,
+   "market_live_book": "bovada",
+   "market_live_books": {
+    "bovada": {
+     "spread_home": 2.5,
+     "total": 44.5
+    }
+   }
   },
   {
    "game": "LV @ NE",
    "away": "LV",
    "home": "NE",
    "kickoff": "Sun Oct 11, 1:00 PM ET",
-   "model_spread": 4.0,
+   "model_spread": 5.3,
    "market_spread": 3.5,
-   "edge": 0.5,
-   "model_win_prob": 0.642,
+   "edge": 1.8,
+   "model_win_prob": 0.677,
    "components": {
     "elo_margin": 6.3,
     "epa_margin": 1.74,
-    "gbm_margin": 6.12
+    "gbm_margin": 19.12
    },
    "elo_diff": 125.76,
    "spread_pick": "no play",
@@ -381,38 +426,43 @@
     "qb_change_note": null,
     "qb_shift_pts": null,
     "qb_double_count_risk": false,
-    "model_spread_adj": 4.0,
-    "edge_adj": 0.5,
+    "model_spread_adj": 5.3,
+    "edge_adj": 1.8,
     "model_win_prob_adj": null,
     "stale_qb_veto": false,
     "final_status": "NO PLAY",
     "overlay_note": "Adjusted prediction is an experimental derived overlay, not a V1 rerun. When double-count risk is flagged, the backup already started games in V1's rating sample: treat raw as the aggressive bound and adjusted as the conservative bound."
    },
-   "market_spread_live": null,
-   "market_total_live": null,
-   "market_live_book": null,
-   "market_live_books": {}
+   "market_spread_live": 3.5,
+   "market_total_live": 45.0,
+   "market_live_book": "bovada",
+   "market_live_books": {
+    "bovada": {
+     "spread_home": 3.5,
+     "total": 45.0
+    }
+   }
   },
   {
    "game": "MIN @ NO",
    "away": "MIN",
    "home": "NO",
    "kickoff": "Sun Oct 11, 1:00 PM ET",
-   "model_spread": -2.1,
+   "model_spread": -5.7,
    "market_spread": -2.5,
-   "edge": 0.4,
-   "model_win_prob": 0.458,
+   "edge": -3.2,
+   "model_win_prob": 0.352,
    "components": {
     "elo_margin": -7.52,
     "epa_margin": 2.28,
-    "gbm_margin": -2.3
+    "gbm_margin": -38.3
    },
    "elo_diff": -181.05,
-   "spread_pick": "no play",
-   "spread_pick_final": "no play",
+   "spread_pick": "MIN -2.5",
+   "spread_pick_final": "MIN -2.5",
    "void_reason": "",
    "qb_news": "",
-   "is_pick": false,
+   "is_pick": true,
    "qb_overlay": {
     "expected_qb_away": "Kyler Murray",
     "expected_qb_home": "Tyler Shough",
@@ -420,38 +470,43 @@
     "qb_change_note": null,
     "qb_shift_pts": null,
     "qb_double_count_risk": false,
-    "model_spread_adj": -2.1,
-    "edge_adj": 0.4,
+    "model_spread_adj": -5.7,
+    "edge_adj": -3.2,
     "model_win_prob_adj": null,
     "stale_qb_veto": false,
-    "final_status": "NO PLAY",
+    "final_status": "PICK",
     "overlay_note": "Adjusted prediction is an experimental derived overlay, not a V1 rerun. When double-count risk is flagged, the backup already started games in V1's rating sample: treat raw as the aggressive bound and adjusted as the conservative bound."
    },
-   "market_spread_live": null,
-   "market_total_live": null,
-   "market_live_book": null,
-   "market_live_books": {}
+   "market_spread_live": -1.5,
+   "market_total_live": 44.5,
+   "market_live_book": "bovada",
+   "market_live_books": {
+    "bovada": {
+     "spread_home": -1.5,
+     "total": 44.5
+    }
+   }
   },
   {
    "game": "NYG @ WAS",
    "away": "NYG",
    "home": "WAS",
    "kickoff": "Sun Oct 11, 1:00 PM ET",
-   "model_spread": 1.0,
-   "market_spread": 2.5,
-   "edge": -1.5,
-   "model_win_prob": 0.553,
+   "model_spread": -0.9,
+   "market_spread": 3.5,
+   "edge": -4.4,
+   "model_win_prob": 0.495,
    "components": {
     "elo_margin": 1.05,
     "epa_margin": 1.02,
-    "gbm_margin": 0.67
+    "gbm_margin": -18.33
    },
    "elo_diff": 9.27,
-   "spread_pick": "no play",
-   "spread_pick_final": "no play",
+   "spread_pick": "NYG +3.5",
+   "spread_pick_final": "NYG +3.5",
    "void_reason": "",
    "qb_news": "NYG away QB OUT: Jaxson Dart -> Jameis Winston (shift 2.5 pts) [manual] DOUBLE-COUNT RISK",
-   "is_pick": false,
+   "is_pick": true,
    "qb_overlay": {
     "expected_qb_away": "Jameis Winston",
     "expected_qb_home": "Jayden Daniels",
@@ -459,38 +514,43 @@
     "qb_change_note": "NYG away QB OUT: Jaxson Dart -> Jameis Winston (shift 2.5 pts) [manual] DOUBLE-COUNT RISK",
     "qb_shift_pts": 2.5,
     "qb_double_count_risk": true,
-    "model_spread_adj": 3.5,
-    "edge_adj": 1.0,
-    "model_win_prob_adj": 0.627,
+    "model_spread_adj": 1.6,
+    "edge_adj": -1.9,
+    "model_win_prob_adj": 0.571,
     "stale_qb_veto": false,
-    "final_status": "NO PLAY",
+    "final_status": "PICK",
     "overlay_note": "Adjusted prediction is an experimental derived overlay, not a V1 rerun. When double-count risk is flagged, the backup already started games in V1's rating sample: treat raw as the aggressive bound and adjusted as the conservative bound."
    },
-   "market_spread_live": null,
-   "market_total_live": null,
-   "market_live_book": null,
-   "market_live_books": {}
+   "market_spread_live": 3.5,
+   "market_total_live": 43.5,
+   "market_live_book": "bovada",
+   "market_live_books": {
+    "bovada": {
+     "spread_home": 3.5,
+     "total": 43.5
+    }
+   }
   },
   {
    "game": "PHI @ JAX",
    "away": "PHI",
    "home": "JAX",
    "kickoff": "Sun Oct 11, 9:30 AM ET",
-   "model_spread": 5.9,
-   "market_spread": 2.5,
-   "edge": 3.4,
-   "model_win_prob": 0.693,
+   "model_spread": 8.1,
+   "market_spread": 7.5,
+   "edge": 0.6,
+   "model_win_prob": 0.747,
    "components": {
     "elo_margin": 2.03,
     "epa_margin": 9.51,
-    "gbm_margin": 3.35
+    "gbm_margin": 25.35
    },
    "elo_diff": 30.96,
-   "spread_pick": "JAX -2.5",
-   "spread_pick_final": "JAX -2.5",
+   "spread_pick": "no play",
+   "spread_pick_final": "no play",
    "void_reason": "",
    "qb_news": "",
-   "is_pick": true,
+   "is_pick": false,
    "qb_overlay": {
     "expected_qb_away": "Jalen Hurts",
     "expected_qb_home": "Trevor Lawrence",
@@ -498,31 +558,36 @@
     "qb_change_note": null,
     "qb_shift_pts": null,
     "qb_double_count_risk": false,
-    "model_spread_adj": 5.9,
-    "edge_adj": 3.4,
+    "model_spread_adj": 8.1,
+    "edge_adj": 0.6,
     "model_win_prob_adj": null,
     "stale_qb_veto": false,
-    "final_status": "PICK",
+    "final_status": "NO PLAY",
     "overlay_note": "Adjusted prediction is an experimental derived overlay, not a V1 rerun. When double-count risk is flagged, the backup already started games in V1's rating sample: treat raw as the aggressive bound and adjusted as the conservative bound."
    },
-   "market_spread_live": null,
-   "market_total_live": null,
-   "market_live_book": null,
-   "market_live_books": {}
+   "market_spread_live": 7.0,
+   "market_total_live": 43.0,
+   "market_live_book": "bovada",
+   "market_live_books": {
+    "bovada": {
+     "spread_home": 7.0,
+     "total": 43.0
+    }
+   }
   },
   {
    "game": "SF @ SEA",
    "away": "SF",
    "home": "SEA",
    "kickoff": "Sun Oct 11, 4:25 PM ET",
-   "model_spread": 1.1,
-   "market_spread": 3.5,
-   "edge": -2.4,
-   "model_win_prob": 0.556,
+   "model_spread": 0.4,
+   "market_spread": 3.0,
+   "edge": -2.6,
+   "model_win_prob": 0.535,
    "components": {
     "elo_margin": 3.67,
     "epa_margin": -0.65,
-    "gbm_margin": -0.41
+    "gbm_margin": -7.41
    },
    "elo_diff": 67.28,
    "spread_pick": "no play",
@@ -537,67 +602,33 @@
     "qb_change_note": null,
     "qb_shift_pts": null,
     "qb_double_count_risk": false,
-    "model_spread_adj": 1.1,
-    "edge_adj": -2.4,
+    "model_spread_adj": 0.4,
+    "edge_adj": -2.6,
     "model_win_prob_adj": null,
     "stale_qb_veto": false,
     "final_status": "NO PLAY",
     "overlay_note": "Adjusted prediction is an experimental derived overlay, not a V1 rerun. When double-count risk is flagged, the backup already started games in V1's rating sample: treat raw as the aggressive bound and adjusted as the conservative bound."
    },
-   "market_spread_live": null,
-   "market_total_live": null,
-   "market_live_book": null,
-   "market_live_books": {}
-  },
-  {
-   "game": "TB @ DAL",
-   "away": "TB",
-   "home": "DAL",
-   "kickoff": "Thu Oct 8, 8:15 PM ET",
-   "model_spread": 2.2,
-   "market_spread": 9.5,
-   "edge": -7.3,
-   "model_win_prob": 0.589,
-   "components": {
-    "elo_margin": 1.31,
-    "epa_margin": 1.86,
-    "gbm_margin": 7.45
-   },
-   "elo_diff": 14.95,
-   "spread_pick": "TB +9.5",
-   "spread_pick_final": "TB +9.5",
-   "void_reason": "",
-   "qb_news": "TB away QB OUT: Baker Mayfield -> Jalon Daniels (shift 4.5 pts) [manual]",
-   "is_pick": true,
-   "qb_overlay": {
-    "expected_qb_away": "Jalon Daniels",
-    "expected_qb_home": "Dak Prescott",
-    "qb_change_side": "away",
-    "qb_change_note": "TB away QB OUT: Baker Mayfield -> Jalon Daniels (shift 4.5 pts) [manual]",
-    "qb_shift_pts": 4.5,
-    "qb_double_count_risk": false,
-    "model_spread_adj": 6.7,
-    "edge_adj": -2.8,
-    "model_win_prob_adj": 0.714,
-    "stale_qb_veto": false,
-    "final_status": "PICK",
-    "overlay_note": "Adjusted prediction is an experimental derived overlay, not a V1 rerun. When double-count risk is flagged, the backup already started games in V1's rating sample: treat raw as the aggressive bound and adjusted as the conservative bound."
-   },
-   "market_spread_live": null,
-   "market_total_live": null,
-   "market_live_book": null,
-   "market_live_books": {}
+   "market_spread_live": 3.0,
+   "market_total_live": 47.0,
+   "market_live_book": "bovada",
+   "market_live_books": {
+    "bovada": {
+     "spread_home": 3.0,
+     "total": 47.0
+    }
+   }
   }
  ],
  "provenance": {
   "model_version": "v1",
   "season": 2026,
   "week": 5,
-  "generated_at": "2026-10-02T23:40:13.218215+00:00",
-  "data_as_of": "2026-10-01 00:00:00",
-  "ratings_as_of": "2026-10-01 00:00:00",
+  "generated_at": "2026-10-09T23:32:54.326649+00:00",
+  "data_as_of": "2026-10-05 00:00:00",
+  "ratings_as_of": "2026-10-05 00:00:00",
   "ratings_as_of_note": "ELO and EPA ratings are recomputed from scratch by 07 on every run from the scored games above; there is no cached ratings file, so ratings_as_of == data_as_of by construction.",
-  "latest_game_included": "2026_04_PIT_CLE",
+  "latest_game_included": "2026_04_TEN_BAL",
   "season_games_included": {
    "2026": {
     "weeks": [
@@ -606,14 +637,14 @@
      3,
      4
     ],
-    "n_games": 49
+    "n_games": 64
    }
   },
-  "ratings_window": "2018 through 2026 week 4 (2276 scored games)",
+  "ratings_window": "2018 through 2026 week 4 (2291 scored games)",
   "elo_source": "03_ratings.run_elo recomputed from scratch on all scored games with week < W (no cached/stale ratings)",
   "epa_source": "run_epa_current recomputed from scratch on pbp for all scored games with week < W (no cached ratings)",
-  "gbm_train_through": "2026_04_PIT_CLE",
-  "gbm_n_train": 2276,
+  "gbm_train_through": "2026_04_TEN_BAL",
+  "gbm_n_train": 2291,
   "gbm_backend": "sklearn-hgbr",
   "weights": {
    "elo": 0.4,
@@ -621,7 +652,7 @@
    "gbm": 0.1
   }
  },
- "market_lines_captured_at": "2026-10-02T23:22:53.362468+00:00",
+ "market_lines_captured_at": "2026-10-06T04:54:00.767515+00:00",
  "market_lines_note": "Latest successfully captured game lines (display only). Picks/edges remain pinned to the Friday researched line.",
  "model_math": {
   "note": "Frozen V1 component math, copied from saved model files. Per-game components in games[].components are display-only; predictions always come from the canonical CSV.",

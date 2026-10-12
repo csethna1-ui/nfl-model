@@ -1,8 +1,8 @@
 {
  "model_version": "V1",
  "aggregate": {
-  "n": 14,
-  "avg_clv_pts": 0.32,
+  "n": 18,
+  "avg_clv_pts": 0.39,
   "hit_rate": 0.5
  },
  "picks": [
@@ -117,6 +117,38 @@
    "pick": "BUF -7.0",
    "result": "win",
    "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 5,
+   "game": "TB @ DAL",
+   "pick": "TB +9.5",
+   "result": "win",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 4,
+   "game": "ATL @ NO",
+   "pick": "ATL +3.5",
+   "result": "win",
+   "clv_pts": 2.0
+  },
+  {
+   "season": 2026,
+   "week": 4,
+   "game": "JAX @ CIN",
+   "pick": "JAX +2.5",
+   "result": "win",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 4,
+   "game": "LAC @ SEA",
+   "pick": "SEA -6.5",
+   "result": "win",
+   "clv_pts": 0.5
   }
  ]
 }
