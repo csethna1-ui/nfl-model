@@ -1,0 +1,4 @@
+season,week,model,n,su_w,su_l,ats_w,ats_l,ats_push,mae
+2026,4,champion_v1,16,10,6,10,6,0,6.919
+2026,5,champion_v1,14,9,5,6,7,1,9.75
+2026,5,c1_fast_elo,14,8,6,6,7,1,10.257

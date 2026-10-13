@@ -1,0 +1,35 @@
+{
+ "season": 2026,
+ "week": 5,
+ "captured_at": "2026-10-12T22:54:02.624131+00:00",
+ "status": "ok",
+ "sources": {
+  "espn_draftkings": {
+   "status": "ok",
+   "n_games": 1,
+   "error": null,
+   "notes": []
+  },
+  "bovada": {
+   "status": "throttled",
+   "n_games": 0,
+   "error": "bovada fetch failed after 3 tries: empty events (throttled?)",
+   "notes": []
+  }
+ },
+ "convention": "spread_home: + means home team favored (matches market_2026_wN.json)",
+ "n_games": 1,
+ "games": [
+  {
+   "away": "BUF",
+   "home": "LA",
+   "game_key": "BUF_LA",
+   "books": {
+    "draftkings": {
+     "spread_home": 3.5,
+     "total": 55.5
+    }
+   }
+  }
+ ]
+}

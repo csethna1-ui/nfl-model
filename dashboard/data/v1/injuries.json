@@ -2,12 +2,12 @@
  "model_version": "V1",
  "season": 2026,
  "available": true,
- "as_of": "2026-10-09T13:20:08+00:00",
- "snapshot_rows": 1398,
+ "as_of": "2026-10-13T13:20:15+00:00",
+ "snapshot_rows": 1413,
  "status_counts": {
-  "doubtful": 21,
-  "out": 224,
-  "questionable": 187
+  "doubtful": 25,
+  "out": 309,
+  "questionable": 267
  },
  "starting_qb_flags": [
   {
@@ -55,6 +55,17 @@
    "triggers_void": false
   },
   {
+   "player": "Lamar Jackson",
+   "team": "BAL",
+   "position": "QB",
+   "week": 5,
+   "report_status": "Out",
+   "practice_status": "Did Not Participate In Practice",
+   "primary_injury": "Ankle",
+   "is_expected_starter": true,
+   "triggers_void": true
+  },
+  {
    "player": "Caleb Williams",
    "team": "CHI",
    "position": "QB",
@@ -75,6 +86,17 @@
    "primary_injury": "Hamstring",
    "is_expected_starter": true,
    "triggers_void": true
+  },
+  {
+   "player": "Caleb Williams",
+   "team": "CHI",
+   "position": "QB",
+   "week": 5,
+   "report_status": "Questionable",
+   "practice_status": "Limited Participation in Practice",
+   "primary_injury": "Hamstring",
+   "is_expected_starter": true,
+   "triggers_void": false
   },
   {
    "player": "Tyson Bagent",
@@ -110,6 +132,17 @@
    "triggers_void": false
   },
   {
+   "player": "Dillon Gabriel",
+   "team": "CLE",
+   "position": "QB",
+   "week": 5,
+   "report_status": "Out",
+   "practice_status": "Full Participation in Practice",
+   "primary_injury": "Back",
+   "is_expected_starter": false,
+   "triggers_void": false
+  },
+  {
    "player": "Trey Lance",
    "team": "LAC",
    "position": "QB",
@@ -126,6 +159,17 @@
    "position": "QB",
    "week": 4,
    "report_status": "Questionable",
+   "practice_status": "Limited Participation in Practice",
+   "primary_injury": "Groin",
+   "is_expected_starter": false,
+   "triggers_void": false
+  },
+  {
+   "player": "Trey Lance",
+   "team": "LAC",
+   "position": "QB",
+   "week": 5,
+   "report_status": "Doubtful",
    "practice_status": "Limited Participation in Practice",
    "primary_injury": "Groin",
    "is_expected_starter": false,
@@ -229,9 +273,20 @@
    "primary_injury": "Elbow",
    "is_expected_starter": true,
    "triggers_void": true
+  },
+  {
+   "player": "Marcus Mariota",
+   "team": "WAS",
+   "position": "QB",
+   "week": 5,
+   "report_status": "Out",
+   "practice_status": "Did Not Participate In Practice",
+   "primary_injury": "Knee",
+   "is_expected_starter": false,
+   "triggers_void": false
   }
  ],
- "n_notable_injuries": 432,
+ "n_notable_injuries": 601,
  "notable_injuries": [
   {
    "player": "Garrett Williams",
@@ -297,6 +352,15 @@
    "primary_injury": "Groin"
   },
   {
+   "player": "Walter Nolen",
+   "team": "ARI",
+   "position": "DT",
+   "week": 5,
+   "report_status": "Questionable",
+   "practice_status": "Limited Participation in Practice",
+   "primary_injury": "Calf"
+  },
+  {
    "player": "Isaac Seumalo",
    "team": "ARI",
    "position": "G",
@@ -324,6 +388,15 @@
    "primary_injury": "Knee"
   },
   {
+   "player": "Isaiah Adams",
+   "team": "ARI",
+   "position": "G",
+   "week": 5,
+   "report_status": "Out",
+   "practice_status": "Did Not Participate In Practice",
+   "primary_injury": "Ankle"
+  },
+  {
    "player": "Josh Sweat",
    "team": "ARI",
    "position": "LB",
@@ -333,6 +406,15 @@
    "primary_injury": "Not injury related - resting player"
   },
   {
+   "player": "Karson Sharar",
+   "team": "ARI",
+   "position": "LB",
+   "week": 5,
+   "report_status": "Questionable",
+   "practice_status": "Limited Participation in Practice",
+   "primary_injury": "Hamstring"
+  },
+  {
    "player": "Jeremiyah Love",
    "team": "ARI",
    "position": "RB",
@@ -340,6 +422,15 @@
    "report_status": "Questionable",
    "practice_status": "Limited Participation in Practice",
    "primary_injury": "Ankle"
+  },
+  {
+   "player": "Andrew Wingard",
+   "team": "ARI",
+   "position": "S",
+   "week": 5,
+   "report_status": "Out",
+   "practice_status": "Did Not Participate In Practice",
+   "primary_injury": "Knee"
   },
   {
    "player": "Dadrion Taylor-Demerson",
@@ -432,6 +523,15 @@
    "primary_injury": "Hamstring"
   },
   {
+   "player": "Samson Ebukam",
+   "team": "ATL",
+   "position": "DE",
+   "week": 5,
+   "report_status": "Questionable",
+   "practice_status": "Limited Participation in Practice",
+   "primary_injury": "Hamstring"
+  },
+  {
    "player": "Za'Darius Smith",
    "team": "ATL",
    "position": "DE",
@@ -439,6 +539,15 @@
    "report_status": "Questionable",
    "practice_status": "Full Participation in Practice",
    "primary_injury": "Shoulder"
+  },
+  {
+   "player": "Za'Darius Smith",
+   "team": "ATL",
+   "position": "DE",
+   "week": 5,
+   "report_status": "Questionable",
+   "practice_status": "Limited Participation in Practice",
+   "primary_injury": "Concussion"
   },
   {
    "player": "Chris Lindstrom",
@@ -459,6 +568,15 @@
    "primary_injury": "Hamstring"
   },
   {
+   "player": "Divine Deablo",
+   "team": "ATL",
+   "position": "LB",
+   "week": 5,
+   "report_status": "Questionable",
+   "practice_status": "Limited Participation in Practice",
+   "primary_injury": "Hamstring"
+  },
+  {
    "player": "Yasir Abdullah",
    "team": "ATL",
    "position": "LB",
@@ -466,6 +584,15 @@
    "report_status": "Questionable",
    "practice_status": "Full Participation in Practice",
    "primary_injury": "Illness"
+  },
+  {
+   "player": "Yasir Abdullah",
+   "team": "ATL",
+   "position": "LB",
+   "week": 5,
+   "report_status": "Out",
+   "practice_status": "Did Not Participate In Practice",
+   "primary_injury": "Hamstring"
   },
   {
    "player": "Michael Penix Jr.",
@@ -513,6 +640,24 @@
    "primary_injury": "Ankle"
   },
   {
+   "player": "Jake Matthews",
+   "team": "ATL",
+   "position": "T",
+   "week": 5,
+   "report_status": "Questionable",
+   "practice_status": "Full Participation in Practice",
+   "primary_injury": "Groin"
+  },
+  {
+   "player": "Cam Jurgens",
+   "team": "BAL",
+   "position": "C",
+   "week": 5,
+   "report_status": "Out",
+   "practice_status": "Did Not Participate In Practice",
+   "primary_injury": "Concussion"
+  },
+  {
    "player": "Ethan Pocic",
    "team": "BAL",
    "position": "C",
@@ -529,6 +674,15 @@
    "report_status": "Out",
    "practice_status": "Did Not Participate In Practice",
    "primary_injury": "Ankle"
+  },
+  {
+   "player": "Marlon Humphrey",
+   "team": "BAL",
+   "position": "CB",
+   "week": 5,
+   "report_status": "Questionable",
+   "practice_status": "Limited Participation in Practice",
+   "primary_injury": "Hamstring"
   },
   {
    "player": "T.J. Tampa",
@@ -558,6 +712,15 @@
    "primary_injury": "Neck"
   },
   {
+   "player": "Andrew Vorhees",
+   "team": "BAL",
+   "position": "G",
+   "week": 5,
+   "report_status": "Questionable",
+   "practice_status": "Limited Participation in Practice",
+   "primary_injury": "Foot"
+  },
+  {
    "player": "John Simpson",
    "team": "BAL",
    "position": "G",
@@ -574,126 +737,18 @@
    "report_status": "Out",
    "practice_status": "Limited Participation in Practice",
    "primary_injury": "Knee"
-  },
-  {
-   "player": "Teddye Buchanan",
-   "team": "BAL",
-   "position": "LB",
-   "week": 2,
-   "report_status": "Out",
-   "practice_status": "Limited Participation in Practice",
-   "primary_injury": "Knee"
-  },
-  {
-   "player": "Trey Hendrickson",
-   "team": "BAL",
-   "position": "LB",
-   "week": 2,
-   "report_status": "Questionable",
-   "practice_status": "Limited Participation in Practice",
-   "primary_injury": "Finger"
-  },
-  {
-   "player": "Trey Hendrickson",
-   "team": "BAL",
-   "position": "LB",
-   "week": 4,
-   "report_status": "Out",
-   "practice_status": "Did Not Participate In Practice",
-   "primary_injury": "Finger"
-  },
-  {
-   "player": "Ronnie Stanley",
-   "team": "BAL",
-   "position": "T",
-   "week": 2,
-   "report_status": "Questionable",
-   "practice_status": "Limited Participation in Practice",
-   "primary_injury": "Toe"
-  },
-  {
-   "player": "Ronnie Stanley",
-   "team": "BAL",
-   "position": "T",
-   "week": 3,
-   "report_status": "Out",
-   "practice_status": "Did Not Participate In Practice",
-   "primary_injury": "Toe"
-  },
-  {
-   "player": "Ronnie Stanley",
-   "team": "BAL",
-   "position": "T",
-   "week": 4,
-   "report_status": "Questionable",
-   "practice_status": "Did Not Participate In Practice",
-   "primary_injury": "Toe"
-  },
-  {
-   "player": "Chris Moore",
-   "team": "BAL",
-   "position": "WR",
-   "week": 4,
-   "report_status": "Questionable",
-   "practice_status": "Limited Participation in Practice",
-   "primary_injury": "Ankle"
-  },
-  {
-   "player": "Devontez Walker",
-   "team": "BAL",
-   "position": "WR",
-   "week": 1,
-   "report_status": "Questionable",
-   "practice_status": "Limited Participation in Practice",
-   "primary_injury": "Groin"
-  },
-  {
-   "player": "Zay Flowers",
-   "team": "BAL",
-   "position": "WR",
-   "week": 2,
-   "report_status": "Doubtful",
-   "practice_status": "Limited Participation in Practice",
-   "primary_injury": "Hamstring"
-  },
-  {
-   "player": "Zay Flowers",
-   "team": "BAL",
-   "position": "WR",
-   "week": 3,
-   "report_status": "Questionable",
-   "practice_status": "Limited Participation in Practice",
-   "primary_injury": "Hamstring"
-  },
-  {
-   "player": "Zay Flowers",
-   "team": "BAL",
-   "position": "WR",
-   "week": 4,
-   "report_status": "Questionable",
-   "practice_status": "Limited Participation in Practice",
-   "primary_injury": "Hamstring"
-  },
-  {
-   "player": "Christian Benford",
-   "team": "BUF",
-   "position": "CB",
-   "week": 4,
-   "report_status": "Questionable",
-   "practice_status": "Did Not Participate In Practice",
-   "primary_injury": "Toe"
   }
  ],
  "latest_diff": {
   "event": "diff",
   "from": null,
-  "to": "2026-10-09",
+  "to": "2026-10-13",
   "new_out": 0,
   "new_doubtful": 0,
   "new_questionable": 0,
   "status_change": 0,
   "qb_flags": [],
-  "ts": "2026-10-09T13:20:12+00:00"
+  "ts": "2026-10-13T13:20:21+00:00"
  },
  "friday_frozen_files": [
   "availability_friday_2026_w5.json"

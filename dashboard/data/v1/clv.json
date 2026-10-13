@@ -1,9 +1,9 @@
 {
  "model_version": "V1",
  "aggregate": {
-  "n": 18,
-  "avg_clv_pts": 0.39,
-  "hit_rate": 0.5
+  "n": 22,
+  "avg_clv_pts": 0.32,
+  "hit_rate": 0.409
  },
  "picks": [
   {
@@ -120,14 +120,6 @@
   },
   {
    "season": 2026,
-   "week": 5,
-   "game": "TB @ DAL",
-   "pick": "TB +9.5",
-   "result": "win",
-   "clv_pts": 0.0
-  },
-  {
-   "season": 2026,
    "week": 4,
    "game": "ATL @ NO",
    "pick": "ATL +3.5",
@@ -149,6 +141,46 @@
    "pick": "SEA -6.5",
    "result": "win",
    "clv_pts": 0.5
+  },
+  {
+   "season": 2026,
+   "week": 5,
+   "game": "BAL @ ATL",
+   "pick": "BAL +3.5",
+   "result": "win",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 5,
+   "game": "CHI @ GB",
+   "pick": "CHI -1.5",
+   "result": "loss",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 5,
+   "game": "CLE @ NYJ",
+   "pick": "CLE +2.5",
+   "result": "loss",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 5,
+   "game": "MIN @ NO",
+   "pick": "MIN -2.5",
+   "result": "win",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 5,
+   "game": "NYG @ WAS",
+   "pick": "NYG +3.5",
+   "result": "win",
+   "clv_pts": 0.0
   }
  ]
 }

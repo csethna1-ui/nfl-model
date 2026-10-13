@@ -1,0 +1,218 @@
+{
+ "season": 2026,
+ "week": 6,
+ "captured_at": "2026-10-13T17:54:00.782807+00:00",
+ "status": "ok",
+ "sources": {
+  "espn_draftkings": {
+   "status": "ok",
+   "n_games": 14,
+   "error": null,
+   "notes": []
+  },
+  "bovada": {
+   "status": "ok",
+   "n_games": 10,
+   "error": null,
+   "notes": []
+  }
+ },
+ "convention": "spread_home: + means home team favored (matches market_2026_wN.json)",
+ "n_games": 14,
+ "games": [
+  {
+   "away": "ARI",
+   "home": "LA",
+   "game_key": "ARI_LA",
+   "books": {
+    "draftkings": {
+     "spread_home": 12.5,
+     "total": 52.5
+    }
+   }
+  },
+  {
+   "away": "BAL",
+   "home": "CLE",
+   "game_key": "BAL_CLE",
+   "books": {
+    "draftkings": {
+     "spread_home": -4.5,
+     "total": 41.5
+    }
+   }
+  },
+  {
+   "away": "BUF",
+   "home": "LV",
+   "game_key": "BUF_LV",
+   "books": {
+    "draftkings": {
+     "spread_home": -4.5,
+     "total": 53.5
+    }
+   }
+  },
+  {
+   "away": "CAR",
+   "home": "PHI",
+   "game_key": "CAR_PHI",
+   "books": {
+    "draftkings": {
+     "spread_home": 1.5,
+     "total": 41.5
+    },
+    "bovada": {
+     "spread_home": 1.0,
+     "total": 41.5
+    }
+   }
+  },
+  {
+   "away": "CHI",
+   "home": "ATL",
+   "game_key": "CHI_ATL",
+   "books": {
+    "draftkings": {
+     "spread_home": -3.0,
+     "total": 49.5
+    }
+   }
+  },
+  {
+   "away": "DAL",
+   "home": "GB",
+   "game_key": "DAL_GB",
+   "books": {
+    "draftkings": {
+     "spread_home": 1.5,
+     "total": 52.5
+    },
+    "bovada": {
+     "spread_home": 1.5,
+     "total": 53.0
+    }
+   }
+  },
+  {
+   "away": "HOU",
+   "home": "JAX",
+   "game_key": "HOU_JAX",
+   "books": {
+    "draftkings": {
+     "spread_home": 3.0,
+     "total": 42.5
+    },
+    "bovada": {
+     "spread_home": 2.5,
+     "total": 42.5
+    }
+   }
+  },
+  {
+   "away": "LAC",
+   "home": "KC",
+   "game_key": "LAC_KC",
+   "books": {
+    "draftkings": {
+     "spread_home": 8.5,
+     "total": 42.5
+    },
+    "bovada": {
+     "spread_home": 8.5,
+     "total": 42.5
+    }
+   }
+  },
+  {
+   "away": "NO",
+   "home": "NYG",
+   "game_key": "NO_NYG",
+   "books": {
+    "draftkings": {
+     "spread_home": -1.5,
+     "total": 45.5
+    },
+    "bovada": {
+     "spread_home": -1.0,
+     "total": 45.0
+    }
+   }
+  },
+  {
+   "away": "NYJ",
+   "home": "NE",
+   "game_key": "NYJ_NE",
+   "books": {
+    "draftkings": {
+     "spread_home": 7.5,
+     "total": 43.5
+    },
+    "bovada": {
+     "spread_home": 7.0,
+     "total": 44.0
+    }
+   }
+  },
+  {
+   "away": "PIT",
+   "home": "TB",
+   "game_key": "PIT_TB",
+   "books": {
+    "draftkings": {
+     "spread_home": -2.5,
+     "total": 40.5
+    },
+    "bovada": {
+     "spread_home": -2.5,
+     "total": 40.5
+    }
+   }
+  },
+  {
+   "away": "SEA",
+   "home": "DEN",
+   "game_key": "SEA_DEN",
+   "books": {
+    "draftkings": {
+     "spread_home": -3.0,
+     "total": 40.5
+    },
+    "bovada": {
+     "spread_home": -3.0,
+     "total": 40.5
+    }
+   }
+  },
+  {
+   "away": "TEN",
+   "home": "IND",
+   "game_key": "TEN_IND",
+   "books": {
+    "draftkings": {
+     "spread_home": 7.0,
+     "total": 44.5
+    },
+    "bovada": {
+     "spread_home": 7.0,
+     "total": 44.0
+    }
+   }
+  },
+  {
+   "away": "WAS",
+   "home": "SF",
+   "game_key": "WAS_SF",
+   "books": {
+    "draftkings": {
+     "spread_home": 7.5,
+     "total": 50.5
+    },
+    "bovada": {
+     "spread_home": 7.5,
+     "total": 50.5
+    }
+   }
+  }
+ ]
+}
