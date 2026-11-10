@@ -1,9 +1,9 @@
 {
  "model_version": "V1",
  "aggregate": {
-  "n": 22,
-  "avg_clv_pts": 0.32,
-  "hit_rate": 0.409
+  "n": 38,
+  "avg_clv_pts": 0.21,
+  "hit_rate": 0.316
  },
  "picks": [
   {
@@ -180,6 +180,134 @@
    "game": "NYG @ WAS",
    "pick": "NYG +3.5",
    "result": "win",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 6,
+   "game": "ARI @ LA",
+   "pick": "ARI +12.5",
+   "result": "win",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 6,
+   "game": "BUF @ LV",
+   "pick": "BUF -4.5",
+   "result": "loss",
+   "clv_pts": 1.0
+  },
+  {
+   "season": 2026,
+   "week": 6,
+   "game": "NO @ NYG",
+   "pick": "NYG +1.5",
+   "result": "loss",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 6,
+   "game": "WAS @ SF",
+   "pick": "SF -7.5",
+   "result": "loss",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 7,
+   "game": "DAL @ PHI",
+   "pick": "PHI +4.5",
+   "result": "loss",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 7,
+   "game": "KC @ SEA",
+   "pick": "KC +3.0",
+   "result": "loss",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 7,
+   "game": "LA @ LV",
+   "pick": "LA -3.0",
+   "result": "win",
+   "clv_pts": 0.5
+  },
+  {
+   "season": 2026,
+   "week": 7,
+   "game": "NYG @ HOU",
+   "pick": "NYG +10.5",
+   "result": "win",
+   "clv_pts": 0.5
+  },
+  {
+   "season": 2026,
+   "week": 7,
+   "game": "SF @ ATL",
+   "pick": "SF -2.5",
+   "result": "loss",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 8,
+   "game": "BAL @ BUF",
+   "pick": "BUF -3.0",
+   "result": "win",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 8,
+   "game": "LAC @ LA",
+   "pick": "LA -6.5",
+   "result": "win",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 8,
+   "game": "PHI @ WAS",
+   "pick": "PHI +6.0",
+   "result": "loss",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 9,
+   "game": "ARI @ SEA",
+   "pick": "ARI +8.5",
+   "result": "loss",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 9,
+   "game": "CLE @ NO",
+   "pick": "CLE +3.5",
+   "result": "win",
+   "clv_pts": -1.0
+  },
+  {
+   "season": 2026,
+   "week": 9,
+   "game": "LA @ WAS",
+   "pick": "LA -4.5",
+   "result": "win",
+   "clv_pts": 0.0
+  },
+  {
+   "season": 2026,
+   "week": 9,
+   "game": "NYJ @ KC",
+   "pick": "NYJ +9.5",
+   "result": "loss",
    "clv_pts": 0.0
   }
  ]
